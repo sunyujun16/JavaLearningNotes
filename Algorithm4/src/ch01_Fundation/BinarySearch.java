@@ -1,3 +1,5 @@
+package ch01_Fundation;
+
 import java.util.Arrays;
 import edu.princeton.cs.algs4.*;
 
