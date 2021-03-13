@@ -7,6 +7,7 @@ public class BinarySearch
 {
     public static void main(String[] args)
     {
+        //noinspection deprecation
         int[] whitelist = In.readInts(args[0]);
 
         Arrays.sort(whitelist);
