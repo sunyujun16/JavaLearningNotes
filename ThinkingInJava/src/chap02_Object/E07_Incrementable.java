@@ -15,7 +15,7 @@ public class E07_Incrementable {
         E07_Incrementable.increase();
         increase();
         //noinspection AccessStaticViaInstance
-        inc.increase(); // unusual usage, static methods are usually accessed by class itself.
+        inc.increase();// unusual usage, static methods are usually accessed by classes directly.
 
         System.out.println("So, there're " + StaticTest.i+" ways to access static methods.");
     }
