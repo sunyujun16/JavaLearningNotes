@@ -1,0 +1,3 @@
+# JavaLearningNotes
+- Basically exercises and demos I wrote while learning 《On Java 8》 and 《Algorithm 4th edition》.
+- The original steps in a long journey of becoming a master programmer...
