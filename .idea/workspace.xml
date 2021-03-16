@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ad74665-bec8-49cd-a749-d0754b62935a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Algorithm4/src/ch01_Fundation_03_bag_queue_stack/MyTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm4/src/ch01_Fundation_03_bag_queue_stack/ResizingArrayQueueOfStrings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm4/src/ch01_Fundation_03_bag_queue_stack/MyTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm4/src/ch01_Fundation_03_bag_queue_stack/MyTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,11 +34,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap03_Operators/E14_CompareStrings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Algorithm4/src/ch01_Fundation_03_bag_queue_stack/MyTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="1281">
+              <caret line="123" column="2" lean-forward="true" selection-start-line="123" selection-start-column="2" selection-end-line="123" selection-end-column="2" />
+              <folding>
+                <element signature="n#!!doc;n#ItemInterface#0" />
+                <element signature="n#!!doc;n#MyItem#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -130,6 +142,13 @@
             </path>
             <path>
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ch01_Fundation_03_bag_queue_stack" type="462c0819:PsiDirectoryNode" />
+              <item name="MyTree.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -182,7 +201,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.VCS" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -347,7 +366,7 @@
       <workItem from="1615600743398" duration="20494000" />
       <workItem from="1615678976074" duration="14256000" />
       <workItem from="1615789501059" duration="1340000" />
-      <workItem from="1615867930642" duration="3771000" />
+      <workItem from="1615867930642" duration="14667000" />
     </task>
     <task id="LOCAL-00001" summary="📅📅2021/3/12 first commit by sunyujun.">
       <created>1615555524843</created>
@@ -398,11 +417,25 @@
       <option name="project" value="LOCAL" />
       <updated>1615692515569</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2021/3/16 by sunyujun.">
+      <created>1615890205290</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1615890205290</updated>
+    </task>
+    <task id="LOCAL-00009" summary="2021/3/16 by sunyujun.">
+      <created>1615903677563</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1615903677563</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60919000" />
+    <option name="totallyTimeSpent" value="71815000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -415,13 +448,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1080" height="1844" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" weight="0.32945737" />
-      <window_info active="true" auto_hide="true" content_ui="combo" x="55" y="153" width="366" height="945" id="Project" order="5" sideWeight="0.49736688" visible="true" weight="0.28972867" />
+      <window_info auto_hide="true" content_ui="combo" x="55" y="153" width="366" height="945" id="Project" order="5" sideWeight="0.49736688" weight="0.28875968" />
       <window_info auto_hide="true" id="Structure" order="6" sideWeight="0.5026331" weight="0.17538759" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298184" />
@@ -494,7 +528,8 @@
     <MESSAGE value="2021/3/12 first commit by sunyujun." />
     <MESSAGE value="2021/3/13 by sunyujun." />
     <MESSAGE value="2021/3/14 by sunyujun." />
-    <option name="LAST_COMMIT_MESSAGE" value="2021/3/14 by sunyujun." />
+    <MESSAGE value="2021/3/16 by sunyujun." />
+    <option name="LAST_COMMIT_MESSAGE" value="2021/3/16 by sunyujun." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/HelloWorld.java" />
@@ -728,17 +763,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="63">
+            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap03_Operators/E14_CompareStrings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        <state relative-caret-position="231">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm4/src/ch01_Fundation_03_bag_queue_stack/MyTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="1281">
+          <caret line="123" column="2" lean-forward="true" selection-start-line="123" selection-start-column="2" selection-end-line="123" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc;n#ItemInterface#0" />
+            <element signature="n#!!doc;n#MyItem#0" />
+          </folding>
         </state>
       </provider>
     </entry>

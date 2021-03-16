@@ -57,12 +57,16 @@ class MyItem implements ItemInterface {
         itemB = (MyItem) item2;
 
         // item1 = (MyItem) item1. 不可行, 因为这是在用Object类型对象去接受MyItem类型对象, 一厢情愿.
+        int cm_name = itemA.name.compareTo(itemB.name);
+        int cm_age = itemA.age - itemB.age;
+        int cm_gender = itemA.gender.compareTo(itemB.gender);
 
-        if (itemA.name.compareTo(itemB.name) > 0) return 1;
-        else if (itemA.age > itemB.age) return 1;
-        else if (itemA.gender.compareTo(itemB.gender) > 0) return 1;
+        // 短路比较, name优先.
+        if ((cm_name > 0) || (cm_age > 0) || (cm_gender > 0)) return 1;
 
-        return 0;
+        if ((0 == cm_name) && (cm_age == cm_name) && (cm_gender == 0)) return 0;
+
+        return -1;
     }
 
     @Override
@@ -84,24 +88,23 @@ public class MyTree<Item> {
         Item item;
         Node leftNode;
         Node rightNode;
-
-        Node() {
-        }
     }
 
     /* 确定接口包含哪些方法
         1 添加, 删除 add(tree, item), delete
-        2 查找, 修改 search(item), modify(item, )
+        2 查找, 修改 search(item), modify(item_target, item_new)
         3 判断是否为空 isEmpty
         4 获取节点数量(保存在树对象中), getSize
         5 显示节点信息, showInfo
-        6 重写toString
+        6 重写toString.
         7 构造方法
      */
 
-    private boolean isEmpty() {
-        return this.N == 0;
-    }
+    private boolean isEmpty() { return this.N == 0; }
+
+    private int getSize() { return N; }
+
+    private void showInfo(Item item) {  }
 
     // 实现方法
     private void add(MyTree tree, Item item, Method md) {
@@ -111,16 +114,19 @@ public class MyTree<Item> {
         // 操蛋了, 实现里不能调用Item的方法... 妈的泛型的方法不该在底层调用. 咋办呢...fuck
         // 现在面临的情况是: 我要在底层实现中对"泛型"进行比较, 那么连类型都不知道又咋能比较呢.
         // 我想到的是通过用户定义的方法, 可是用户自定义的方法怎么应用到...哈,函数式编程!!! 把函数作为实现的参数
-        // 函数的内容还是由用户来定义. 可是我他妈还没学到函数式编程呢...完了, 玩脱了.
-        if (tree.isEmpty()){
-            tree.root = node;
-        }
-        else {
-            while (item != null){
-
-
-            }
-        };
+        // 函数的内容还是由用户来定义. 可是我他妈还没学到函数式编程呢...完了, 玩脱了.搁置吧,草.精力还是放在Java上.
+//        if (tree.isEmpty()) {
+//            tree.root = node;
+//        } else {
+//            Node tree_node = tree.root;
+//            while (item != null) {
+//                if (md(item, tree_node) == 1) {
+//
+//                }
+//
+//            }
+//        }
+//        ;
 
 
         this.N++;
