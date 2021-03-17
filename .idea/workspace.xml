@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ad74665-bec8-49cd-a749-d0754b62935a" name="Default Changelist" comment="2021/3/16 by sunyujun.">
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap04_ControlFlow/E02_25Ints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap04_ControlFlow/E04_PrimeNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap04_ControlFlow/E05_BitwiseOperation2.java" afterDir="false" />
+    <list default="true" id="7ad74665-bec8-49cd-a749-d0754b62935a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/sun.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap04_ControlFlow/E10_VampireNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap03_Operators/E10_BitwiseOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap03_Operators/E10_BitwiseOperation.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,32 +35,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap04_ControlFlow/E02_25Ints.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap04_ControlFlow/E04_PrimeNumber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap04_ControlFlow/E05_BitwiseOperation2.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap04_ControlFlow/E10_VampireNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+            <state relative-caret-position="273">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               <folding>
-                <element signature="e#953#954#0" expanded="true" />
-                <element signature="e#976#977#0" expanded="true" />
+                <element signature="e#1715#1716#0" expanded="true" />
+                <element signature="e#1740#1741#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,6 +94,7 @@
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap04_ControlFlow/E04_PrimeNumber.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap03_Operators/E10_BitwiseOperation.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap04_ControlFlow/E05_BitwiseOperation2.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap04_ControlFlow/E10_VampireNumbers.java" />
       </list>
     </option>
   </component>
@@ -145,17 +126,47 @@
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap03_Operators" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="chap04_ControlFlow" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="algs4" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="algs4" type="70bed36:NamedLibraryElementNode" />
+              <item name="algs4.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="algs4" type="70bed36:NamedLibraryElementNode" />
+              <item name="algs4.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="mindview" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="mindview" type="70bed36:NamedLibraryElementNode" />
+              <item name="mindview.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="mindview" type="70bed36:NamedLibraryElementNode" />
+              <item name="mindview.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -189,7 +200,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.E05_BitwiseOperation2">
+  <component name="RunManager" selected="Application.E10_VampireNumbers">
     <configuration name="E02_25Ints" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap04_ControlFlow.E02_25Ints" />
       <module name="ThinkingInJava" />
@@ -242,12 +253,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E14_CompareStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap03_Operators.E14_CompareStrings" />
+    <configuration name="E10_VampireNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap04_ControlFlow.E10_VampireNumbers" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap03_Operators.*" />
+          <option name="PATTERN" value="chap04_ControlFlow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -304,18 +315,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.E10_BitwiseOperation" />
-      <item itemvalue="Application.E14_CompareStrings" />
       <item itemvalue="Application.E02_25Ints" />
       <item itemvalue="Application.E04_PrimeNumber" />
       <item itemvalue="Application.E05_BitwiseOperation2" />
+      <item itemvalue="Application.E10_VampireNumbers" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.E10_VampireNumbers" />
         <item itemvalue="Application.E05_BitwiseOperation2" />
         <item itemvalue="Application.E10_BitwiseOperation" />
         <item itemvalue="Application.E04_PrimeNumber" />
         <item itemvalue="Application.E02_25Ints" />
-        <item itemvalue="Application.E14_CompareStrings" />
       </list>
     </recent_temporary>
   </component>
@@ -342,7 +353,7 @@
       <workItem from="1615789501059" duration="1340000" />
       <workItem from="1615867930642" duration="14687000" />
       <workItem from="1615905479188" duration="52000" />
-      <workItem from="1615941985265" duration="5407000" />
+      <workItem from="1615941985265" duration="13860000" />
     </task>
     <task id="LOCAL-00001" summary="📅📅2021/3/12 first commit by sunyujun.">
       <created>1615555524843</created>
@@ -414,11 +425,18 @@
       <option name="project" value="LOCAL" />
       <updated>1615905448201</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="2021/3/17 by sunyujun.">
+      <created>1615947892097</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1615947892097</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77294000" />
+    <option name="totallyTimeSpent" value="85747000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -443,7 +461,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298184" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.40538958" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.27533686" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298184" />
@@ -512,7 +530,8 @@
     <MESSAGE value="2021/3/13 by sunyujun." />
     <MESSAGE value="2021/3/14 by sunyujun." />
     <MESSAGE value="2021/3/16 by sunyujun." />
-    <option name="LAST_COMMIT_MESSAGE" value="2021/3/16 by sunyujun." />
+    <MESSAGE value="2021/3/17 by sunyujun." />
+    <option name="LAST_COMMIT_MESSAGE" value="2021/3/17 by sunyujun." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/HelloWorld.java" />
@@ -529,9 +548,6 @@
           <caret line="477" column="19" selection-start-line="477" selection-start-column="19" selection-end-line="477" selection-end-column="19" />
         </state>
       </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/algs4.jar!/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/algs4.jar!/TestAlgs4.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -761,10 +777,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap04_ControlFlow/E02_25Ints.java">
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap03_Operators/E10_BitwiseOperation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="63">
+          <caret line="3" column="41" lean-forward="true" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/algs4.jar!/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/algs4.jar!/COPYING">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="9" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap04_ControlFlow/E05_BitwiseOperation2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <folding>
+            <element signature="e#953#954#0" expanded="true" />
+            <element signature="e#976#977#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -775,20 +812,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap03_Operators/E10_BitwiseOperation.java">
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap04_ControlFlow/E02_25Ints.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="41" lean-forward="true" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+        <state relative-caret-position="294">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap04_ControlFlow/E05_BitwiseOperation2.java">
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap04_ControlFlow/E10_VampireNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        <state relative-caret-position="273">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
-            <element signature="e#953#954#0" expanded="true" />
-            <element signature="e#976#977#0" expanded="true" />
+            <element signature="e#1715#1716#0" expanded="true" />
+            <element signature="e#1740#1741#0" expanded="true" />
           </folding>
         </state>
       </provider>
