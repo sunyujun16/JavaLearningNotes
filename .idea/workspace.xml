@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ad74665-bec8-49cd-a749-d0754b62935a" name="Default Changelist" comment="">
+    <list default="true" id="7ad74665-bec8-49cd-a749-d0754b62935a" name="Default Changelist" comment="2021/3/16 by sunyujun.">
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap04_ControlFlow/E02_25Ints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap04_ControlFlow/E04_PrimeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap04_ControlFlow/E05_BitwiseOperation2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm4/src/ch01_Fundation_03_bag_queue_stack/MyTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm4/src/ch01_Fundation_03_bag_queue_stack/MyTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap03_Operators/E10_BitwiseOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap03_Operators/E10_BitwiseOperation.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,24 +36,33 @@
     <favorites_list name="JavaLearningNotes" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap03_Operators/E14_CompareStrings.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap04_ControlFlow/E02_25Ints.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="294">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap04_ControlFlow/E04_PrimeNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Algorithm4/src/ch01_Fundation_03_bag_queue_stack/MyTree.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap04_ControlFlow/E05_BitwiseOperation2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1281">
-              <caret line="123" column="2" lean-forward="true" selection-start-line="123" selection-start-column="2" selection-end-line="123" selection-end-column="2" />
+            <state relative-caret-position="336">
+              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
               <folding>
-                <element signature="n#!!doc;n#ItemInterface#0" />
-                <element signature="n#!!doc;n#MyItem#0" />
+                <element signature="e#953#954#0" expanded="true" />
+                <element signature="e#976#977#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,10 +107,13 @@
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap03_Operators/E07_FlipCoin.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap03_Operators/E08_hex_octal_long.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap03_Operators/E08_HexOctalLong.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap03_Operators/E10_BitwiseOperation.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap03_Operators/E14_CompareStrings.java" />
         <option value="$PROJECT_DIR$/Algorithm4/src/ch01_Fundation_03_bag_queue_stack/ResizingArrayQueueOfStrings.java" />
         <option value="$PROJECT_DIR$/Algorithm4/src/ch01_Fundation_03_bag_queue_stack/MyTree.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap04_ControlFlow/E02_25Ints.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap04_ControlFlow/E04_PrimeNumber.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap03_Operators/E10_BitwiseOperation.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap04_ControlFlow/E05_BitwiseOperation2.java" />
       </list>
     </option>
   </component>
@@ -114,66 +129,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch01_Fundation_01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch01_Fundation_03_bag_queue_stack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch01_Fundation_03_bag_queue_stack" type="462c0819:PsiDirectoryNode" />
-              <item name="MyTree.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap02_Object" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap02_Object" type="462c0819:PsiDirectoryNode" />
-              <item name="E07_Incrementable.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
@@ -183,12 +149,20 @@
             </path>
             <path>
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chap04_ControlFlow" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -215,13 +189,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.E14_CompareStrings">
-    <configuration name="E05_Dogs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap03_Operators.E05_Dogs" />
+  <component name="RunManager" selected="Application.E05_BitwiseOperation2">
+    <configuration name="E02_25Ints" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap04_ControlFlow.E02_25Ints" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap03_Operators.*" />
+          <option name="PATTERN" value="chap04_ControlFlow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -229,12 +203,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E07_FlipCoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap03_Operators.E07_FlipCoin" />
+    <configuration name="E04_PrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap04_ControlFlow.E04_PrimeNumber" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap03_Operators.*" />
+          <option name="PATTERN" value="chap04_ControlFlow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -242,12 +216,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E08_HexOctalLong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap03_Operators.E08_HexOctalLong" />
+    <configuration name="E05_BitwiseOperation2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap04_ControlFlow.E05_BitwiseOperation2" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap03_Operators.*" />
+          <option name="PATTERN" value="chap04_ControlFlow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -329,19 +303,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.E05_Dogs" />
-      <item itemvalue="Application.E07_FlipCoin" />
-      <item itemvalue="Application.E08_HexOctalLong" />
       <item itemvalue="Application.E10_BitwiseOperation" />
       <item itemvalue="Application.E14_CompareStrings" />
+      <item itemvalue="Application.E02_25Ints" />
+      <item itemvalue="Application.E04_PrimeNumber" />
+      <item itemvalue="Application.E05_BitwiseOperation2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.E14_CompareStrings" />
+        <item itemvalue="Application.E05_BitwiseOperation2" />
         <item itemvalue="Application.E10_BitwiseOperation" />
-        <item itemvalue="Application.E08_HexOctalLong" />
-        <item itemvalue="Application.E07_FlipCoin" />
-        <item itemvalue="Application.E05_Dogs" />
+        <item itemvalue="Application.E04_PrimeNumber" />
+        <item itemvalue="Application.E02_25Ints" />
+        <item itemvalue="Application.E14_CompareStrings" />
       </list>
     </recent_temporary>
   </component>
@@ -366,7 +340,9 @@
       <workItem from="1615600743398" duration="20494000" />
       <workItem from="1615678976074" duration="14256000" />
       <workItem from="1615789501059" duration="1340000" />
-      <workItem from="1615867930642" duration="14667000" />
+      <workItem from="1615867930642" duration="14687000" />
+      <workItem from="1615905479188" duration="52000" />
+      <workItem from="1615941985265" duration="5407000" />
     </task>
     <task id="LOCAL-00001" summary="📅📅2021/3/12 first commit by sunyujun.">
       <created>1615555524843</created>
@@ -431,11 +407,18 @@
       <option name="project" value="LOCAL" />
       <updated>1615903677563</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="2021/3/16 by sunyujun.">
+      <created>1615905448201</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1615905448201</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71815000" />
+    <option name="totallyTimeSpent" value="77294000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -460,7 +443,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298184" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.23198594" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.40538958" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298184" />
@@ -749,20 +732,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap03_Operators/E10_BitwiseOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm4/src/ch01_Fundation_03_bag_queue_stack/ResizingArrayQueueOfStrings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm4/src/ch01_Fundation_03_bag_queue_stack/ResizingArrayQueueOfStrings.java" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -773,13 +743,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap03_Operators/E14_CompareStrings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm4/src/ch01_Fundation_03_bag_queue_stack/MyTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1281">
@@ -787,6 +750,45 @@
           <folding>
             <element signature="n#!!doc;n#ItemInterface#0" />
             <element signature="n#!!doc;n#MyItem#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap03_Operators/E14_CompareStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap04_ControlFlow/E02_25Ints.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap04_ControlFlow/E04_PrimeNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap03_Operators/E10_BitwiseOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="41" lean-forward="true" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap04_ControlFlow/E05_BitwiseOperation2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="e#953#954#0" expanded="true" />
+            <element signature="e#976#977#0" expanded="true" />
           </folding>
         </state>
       </provider>
