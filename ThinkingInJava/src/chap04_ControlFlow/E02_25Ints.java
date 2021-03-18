@@ -26,7 +26,7 @@ public class E02_25Ints {
         else System.out.println("Equal");
     }
 
-    public static void main(String[] args) {
+    public static void main(Object... args) {
 //        mine();
         for (int i = 0; i < 25; i++) {
             comp();
@@ -34,3 +34,4 @@ public class E02_25Ints {
 
     }
 }
+
