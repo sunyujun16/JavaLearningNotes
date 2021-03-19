@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ad74665-bec8-49cd-a749-d0754b62935a" name="Default Changelist" comment="2021/3/19 by sunyujun">
+    <list default="true" id="7ad74665-bec8-49cd-a749-d0754b62935a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap06_ImplementationHiding/E08_ConnectionManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,11 +34,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap06_ImplementationHiding/E01_OutOfPackage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="273">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap05_Housekepping/E19_Varargs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap06_ImplementationHiding/E08_ConnectionManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="961">
+              <caret line="62" column="31" lean-forward="true" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
+              <folding>
+                <element signature="e#273#274#0" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
+                <element signature="e#304#305#0" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
+                <element signature="e#604#605#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,6 +121,7 @@
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap04_ControlFlow/E02_25Ints.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap06_ImplementationHiding/E02_Collision.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap06_ImplementationHiding/E01_OutOfPackage.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap06_ImplementationHiding/E08_ConnectionManager.java" />
       </list>
     </option>
   </component>
@@ -125,6 +152,25 @@
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chap05_Housekepping" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chap05_Housekepping" type="462c0819:PsiDirectoryNode" />
+              <item name="E19_Varargs.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chap06_ImplementationHiding" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
@@ -162,7 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.E02_Collision">
+  <component name="RunManager" selected="Application.E08_ConnectionManager">
     <configuration name="E02_Collision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap06_ImplementationHiding.E02_Collision" />
       <module name="ThinkingInJava" />
@@ -176,12 +222,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E12_Tank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap05_Housekepping.E12_Tank" />
+    <configuration name="E08_ConnectionManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap06_ImplementationHiding.E08_ConnectionManager" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap05_Housekepping.*" />
+          <option name="PATTERN" value="chap06_ImplementationHiding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -276,19 +322,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.E12_Tank" />
       <item itemvalue="Application.E14_ScopeTest" />
       <item itemvalue="Application.E18_InitializeArray" />
       <item itemvalue="Application.E19_Varargs" />
       <item itemvalue="Application.E02_Collision" />
+      <item itemvalue="Application.E08_ConnectionManager" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.E08_ConnectionManager" />
         <item itemvalue="Application.E02_Collision" />
         <item itemvalue="Application.E19_Varargs" />
         <item itemvalue="Application.E18_InitializeArray" />
         <item itemvalue="Application.E14_ScopeTest" />
-        <item itemvalue="Application.E12_Tank" />
       </list>
     </recent_temporary>
   </component>
@@ -322,7 +368,7 @@
       <workItem from="1616069703657" duration="296000" />
       <workItem from="1616070028870" duration="378000" />
       <workItem from="1616070490742" duration="4713000" />
-      <workItem from="1616113868456" duration="3042000" />
+      <workItem from="1616113868456" duration="7424000" />
     </task>
     <task id="LOCAL-00001" summary="📅📅2021/3/12 first commit by sunyujun.">
       <created>1615555524843</created>
@@ -422,11 +468,18 @@
       <option name="project" value="LOCAL" />
       <updated>1616076701616</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="commit code daily, sunyujun">
+      <created>1616158001059</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1616158001060</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108220000" />
+    <option name="totallyTimeSpent" value="112602000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -451,7 +504,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298184" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.26947862" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.26947862" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298184" />
@@ -553,7 +606,8 @@
     <MESSAGE value="2021/3/16 by sunyujun." />
     <MESSAGE value="2021/3/17 by sunyujun." />
     <MESSAGE value="2021/3/18 by sunyujun." />
-    <option name="LAST_COMMIT_MESSAGE" value="2021/3/18 by sunyujun." />
+    <MESSAGE value="commit code daily, sunyujun" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit code daily, sunyujun" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/HelloWorld.java" />
@@ -868,13 +922,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap05_Housekepping/E19_Varargs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="42" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap04_ControlFlow/E02_25Ints.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="777">
@@ -904,8 +951,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap06_ImplementationHiding/E01_OutOfPackage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="273">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap05_Housekepping/E19_Varargs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap06_ImplementationHiding/E08_ConnectionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="961">
+          <caret line="62" column="31" lean-forward="true" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
+          <folding>
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
