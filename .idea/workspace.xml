@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ad74665-bec8-49cd-a749-d0754b62935a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap07_ReusingClasses/E14_Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap07_ReusingClasses/E17_UpcastingWithOveride.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -94,17 +94,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap07_ReusingClasses/E14_Car.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+            <state relative-caret-position="403">
+              <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
               <folding>
                 <element signature="e#202#203#0" expanded="true" />
                 <element signature="e#306#307#0" expanded="true" />
                 <element signature="e#351#352#0" expanded="true" />
                 <element signature="e#387#388#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap07_ReusingClasses/E17_UpcastingWithOveride.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -171,6 +180,7 @@
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap07_ReusingClasses/E01_LazyInitialize.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap07_ReusingClasses/E02_Inheritance01.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap07_ReusingClasses/E14_Car.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap07_ReusingClasses/E17_UpcastingWithOveride.java" />
       </list>
     </option>
   </component>
@@ -407,7 +417,7 @@
       <workItem from="1616070490742" duration="4713000" />
       <workItem from="1616113868456" duration="8121000" />
       <workItem from="1616211832683" duration="11287000" />
-      <workItem from="1616315140543" duration="1489000" />
+      <workItem from="1616315140543" duration="4320000" />
     </task>
     <task id="LOCAL-00001" summary="📅📅2021/3/12 first commit by sunyujun.">
       <created>1615555524843</created>
@@ -535,11 +545,18 @@
       <option name="project" value="LOCAL" />
       <updated>1616236661858</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="code everyday, job on its way!">
+      <created>1616317302034</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1616317302034</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126075000" />
+    <option name="totallyTimeSpent" value="128906000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -559,12 +576,12 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" weight="0.32945737" />
-      <window_info auto_hide="true" content_ui="combo" x="55" y="153" width="366" height="945" id="Project" order="5" sideWeight="0.49736688" weight="0.27325583" />
+      <window_info auto_hide="true" content_ui="combo" x="55" y="153" width="366" height="945" id="Project" order="5" sideWeight="0.49736688" weight="0.25484496" />
       <window_info id="Structure" order="6" sideWeight="0.5026331" weight="0.25484496" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298184" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.25190392" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.25190392" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298184" />
@@ -1063,14 +1080,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap07_ReusingClasses/E14_Car.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        <state relative-caret-position="403">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
           <folding>
             <element signature="e#202#203#0" expanded="true" />
             <element signature="e#306#307#0" expanded="true" />
             <element signature="e#351#352#0" expanded="true" />
             <element signature="e#387#388#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap07_ReusingClasses/E17_UpcastingWithOveride.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
