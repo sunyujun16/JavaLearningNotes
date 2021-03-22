@@ -23,6 +23,10 @@ class Beetle extends Insect {
     }
     private static int x2 =
             printInit("static Beetle.x2 initialized");
+
+    public static void fuck(){
+        System.out.println("fuck.........");
+    }
 //    public static void main(String[] args) {
 //        System.out.println("Beetle constructor");
 //        Beetle b = new Beetle();
@@ -41,5 +45,6 @@ public class E25_InitializeOrder {
     public static void main(String[] args) {
         System.out.println("Beetle constructor");
         Beetle b = new Beetle();
+        b.fuck(); // 不鼓励用实例来调用静态方法.
     }
 }
