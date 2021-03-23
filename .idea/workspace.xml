@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ad74665-bec8-49cd-a749-d0754b62935a" name="Default Changelist" comment="" />
+    <list default="true" id="7ad74665-bec8-49cd-a749-d0754b62935a" name="Default Changelist" comment="code everyday, job on its way!">
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap09_Interface/E10_Music.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap09_Interface/E10_Miusic.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +134,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap08_Polymorphism/PolyConstructors.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
@@ -138,6 +142,31 @@
               <folding>
                 <element signature="e#647#648#0" expanded="true" />
                 <element signature="e#680#681#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap09_Interface/E10_Music.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1075">
+              <caret line="80" column="1" lean-forward="true" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
+              <folding>
+                <element signature="e#179#180#0" expanded="true" />
+                <element signature="e#260#261#0" expanded="true" />
+                <element signature="e#339#340#0" expanded="true" />
+                <element signature="e#407#408#0" expanded="true" />
+                <element signature="e#444#445#0" expanded="true" />
+                <element signature="e#473#474#0" expanded="true" />
+                <element signature="e#562#563#0" expanded="true" />
+                <element signature="e#597#598#0" expanded="true" />
+                <element signature="e#684#685#0" expanded="true" />
+                <element signature="e#717#718#0" expanded="true" />
+                <element signature="e#792#793#0" expanded="true" />
+                <element signature="e#822#823#0" expanded="true" />
+                <element signature="e#900#901#0" expanded="true" />
+                <element signature="e#933#934#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -208,6 +237,8 @@
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap07_ReusingClasses/E17_UpcastingWithOveride.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap07_ReusingClasses/E25_InitializeOrder.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap08_Polymorphism/PolyConstructors.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap09_Interface/E10_Miusic.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap09_Interface/E10_Music.java" />
       </list>
     </option>
   </component>
@@ -248,6 +279,12 @@
             </path>
             <path>
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chap09_Interface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -282,13 +319,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PolyConstructors">
-    <configuration name="E02_Inheritance01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap07_ReusingClasses.E02_Inheritance01" />
+  <component name="RunManager" selected="Application.E10_Music">
+    <configuration name="E10_Music" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap09_Interface.E10_Music" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap07_ReusingClasses.*" />
+          <option name="PATTERN" value="chap09_Interface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -396,19 +433,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.E02_Inheritance01" />
       <item itemvalue="Application.E14_Car" />
       <item itemvalue="Application.E17_UpcastingWithOveride" />
       <item itemvalue="Application.E25_InitializeOrder" />
       <item itemvalue="Application.PolyConstructors" />
+      <item itemvalue="Application.E10_Music" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.E10_Music" />
         <item itemvalue="Application.PolyConstructors" />
         <item itemvalue="Application.E25_InitializeOrder" />
         <item itemvalue="Application.E17_UpcastingWithOveride" />
         <item itemvalue="Application.E14_Car" />
-        <item itemvalue="Application.E02_Inheritance01" />
       </list>
     </recent_temporary>
   </component>
@@ -446,7 +483,7 @@
       <workItem from="1616211832683" duration="11287000" />
       <workItem from="1616315140543" duration="4440000" />
       <workItem from="1616377526223" duration="5212000" />
-      <workItem from="1616452771771" duration="3971000" />
+      <workItem from="1616452771771" duration="4876000" />
     </task>
     <task id="LOCAL-00001" summary="📅📅2021/3/12 first commit by sunyujun.">
       <created>1615555524843</created>
@@ -616,11 +653,18 @@
       <option name="project" value="LOCAL" />
       <updated>1616468718820</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="code everyday, job on its way!">
+      <created>1616483276049</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1616483276049</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138209000" />
+    <option name="totallyTimeSpent" value="139114000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -633,18 +677,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1080" height="1844" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" weight="0.32945737" />
-      <window_info active="true" auto_hide="true" content_ui="combo" x="55" y="153" width="366" height="945" id="Project" order="5" sideWeight="0.49736688" visible="true" weight="0.27034885" />
+      <window_info auto_hide="true" content_ui="combo" x="55" y="153" width="366" height="945" id="Project" order="5" sideWeight="0.49736688" weight="0.27034885" />
       <window_info id="Structure" order="6" sideWeight="0.5026331" weight="0.25484496" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298184" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.25190392" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.25190392" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298184" />
@@ -1181,6 +1226,29 @@
           <folding>
             <element signature="e#647#648#0" expanded="true" />
             <element signature="e#680#681#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap09_Interface/E10_Music.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="80" column="1" lean-forward="true" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
+          <folding>
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
           </folding>
         </state>
       </provider>
