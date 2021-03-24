@@ -13,11 +13,11 @@ public class A03_Sequence {
     private Object[] items;
     private int next = 0;
 
-    public A03_Sequence(int size) {
+    private A03_Sequence(int size) {
         items = new Object[size];
     }
 
-    public void add(Object x) {
+    private void add(Object x) {
         if (next < items.length)
             items[next++] = x;
     }
@@ -41,7 +41,7 @@ public class A03_Sequence {
         }
     }
 
-    public Selector selector() {
+    private Selector selector() {
         return new SequenceSelector();
     }
 
