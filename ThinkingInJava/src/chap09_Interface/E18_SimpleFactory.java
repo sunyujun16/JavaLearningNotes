@@ -12,7 +12,7 @@ interface Cycle{
 
 interface CycleFactory{
     Cycle getCycle();
-    void disposeCycle();
+    void disposeCycle(); // 不该在工厂接口中, 应该放在类接口中.
 }
 
 class Unicycle implements Cycle{
