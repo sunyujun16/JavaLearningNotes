@@ -46,9 +46,10 @@ class ChessFactory implements GameFactory {
 }
 
 public class A03_Games {
-    public static void playGame(GameFactory factory) {
+    private static void playGame(GameFactory factory) {
         Game s = factory.getGame();
-        while (s.move())
+        //noinspection StatementWithEmptyBody
+        while ( s.move() )
             ;
     }
 
