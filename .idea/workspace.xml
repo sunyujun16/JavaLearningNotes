@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ad74665-bec8-49cd-a749-d0754b62935a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap09_Interface/E16_Adapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap09_Interface/E16_Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap09_Interface/E16_Adapter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -119,7 +119,7 @@
         <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap07_ReusingClasses/E25_InitializeOrder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="462">
-              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -140,23 +140,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap09_Interface/E10_Music.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="294">
               <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
               <folding>
-                <element signature="e#179#180#0" expanded="true" />
-                <element signature="e#260#261#0" expanded="true" />
                 <element signature="e#339#340#0" expanded="true" />
-                <element signature="e#407#408#0" expanded="true" />
-                <element signature="e#444#445#0" expanded="true" />
-                <element signature="e#473#474#0" expanded="true" />
-                <element signature="e#562#563#0" expanded="true" />
-                <element signature="e#597#598#0" expanded="true" />
+                <element signature="e#425#426#0" expanded="true" />
+                <element signature="e#649#650#0" expanded="true" />
                 <element signature="e#684#685#0" expanded="true" />
-                <element signature="e#717#718#0" expanded="true" />
-                <element signature="e#792#793#0" expanded="true" />
-                <element signature="e#822#823#0" expanded="true" />
-                <element signature="e#900#901#0" expanded="true" />
-                <element signature="e#933#934#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -165,12 +155,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap09_Interface/E16_Adapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="777">
-              <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+            <state relative-caret-position="651">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#614#615#0" expanded="true" />
-                <element signature="e#648#649#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -324,7 +312,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.E10_Music">
+  <component name="RunManager" selected="Application.E16_Adapter">
     <configuration name="E10_Music" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap09_Interface.E10_Music" />
       <module name="ThinkingInJava" />
@@ -338,12 +326,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E14_Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap07_ReusingClasses.E14_Car" />
+    <configuration name="E16_Adapter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap09_Interface.E16_Adapter" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap07_ReusingClasses.*" />
+          <option name="PATTERN" value="chap09_Interface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -438,19 +426,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.E14_Car" />
       <item itemvalue="Application.E17_UpcastingWithOveride" />
       <item itemvalue="Application.E25_InitializeOrder" />
       <item itemvalue="Application.PolyConstructors" />
       <item itemvalue="Application.E10_Music" />
+      <item itemvalue="Application.E16_Adapter" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.E16_Adapter" />
         <item itemvalue="Application.E10_Music" />
         <item itemvalue="Application.PolyConstructors" />
         <item itemvalue="Application.E25_InitializeOrder" />
         <item itemvalue="Application.E17_UpcastingWithOveride" />
-        <item itemvalue="Application.E14_Car" />
       </list>
     </recent_temporary>
   </component>
@@ -488,7 +476,9 @@
       <workItem from="1616211832683" duration="11287000" />
       <workItem from="1616315140543" duration="4440000" />
       <workItem from="1616377526223" duration="5212000" />
-      <workItem from="1616452771771" duration="8093000" />
+      <workItem from="1616452771771" duration="8708000" />
+      <workItem from="1616512734091" duration="51000" />
+      <workItem from="1616550507953" duration="747000" />
     </task>
     <task id="LOCAL-00001" summary="📅📅2021/3/12 first commit by sunyujun.">
       <created>1615555524843</created>
@@ -672,11 +662,18 @@
       <option name="project" value="LOCAL" />
       <updated>1616484310226</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="code everyday, job on its way!">
+      <created>1616512095353</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1616512095353</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142331000" />
+    <option name="totallyTimeSpent" value="143744000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -701,7 +698,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298184" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.25190392" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.25190392" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298184" />
@@ -1226,7 +1223,7 @@
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap07_ReusingClasses/E25_InitializeOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1243,35 +1240,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap09_Interface/E10_Music.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="294">
           <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
           <folding>
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
             <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
-            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
             <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#822#823#0" expanded="true" />
-            <element signature="e#900#901#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap09_Interface/E16_Adapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+        <state relative-caret-position="651">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
           </folding>
         </state>
       </provider>
