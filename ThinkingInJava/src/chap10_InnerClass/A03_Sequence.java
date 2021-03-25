@@ -47,9 +47,12 @@ public class A03_Sequence {
 
     public static void main(String[] args) {
         A03_Sequence a03Sequence = new A03_Sequence(10);
+
         for (int i = 0; i < 10; i++)
             a03Sequence.add(Integer.toString(i));
+
         Selector selector = a03Sequence.selector();
+
         while (!selector.end()) {
             System.out.print(selector.current() + " ");
             selector.next();
