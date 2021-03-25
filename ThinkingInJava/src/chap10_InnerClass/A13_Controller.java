@@ -8,12 +8,13 @@ import java.time.*;
 
 public class A13_Controller {
     // A class from java.util to hold A12_Event objects:
-    private static final Instant ins = Instant.now();
-    String sThen = (ins.toString().split(":")[2].substring(0, 5));
+    private final Instant ins = Instant.now();
+    private final String sThen = (ins.toString().split(":")[2].substring(0, 5));
     private List<A12_Event> eventList = new ArrayList<>();
 
     public void addA12_Event(A12_Event c) {
         eventList.add(c);
+//        A12_Event.increaseI();
     }
 
     public void run() {
@@ -23,11 +24,18 @@ public class A13_Controller {
             for (A12_Event e : new ArrayList<>(eventList))
                 if (e.ready()) {
 //                    System.out.println(e);
-                    String sNow = (Instant.now().toString().split(":")[2].substring(0, 5));
+
+                    //               获取瞬时时间.转换为字符串 .分割为字符数组 [按下标选取]. 取前5位截断
+                    String sNow = Instant.now().toString().split(":")[2].substring(0, 5);
+                    // 字符串转换为 double, 相减, 得到小数
                     double timeMinus = Double.parseDouble(sNow) - Double.parseDouble(sThen);
-//                    double f1 = timeMinus.setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue();
+                    // 获取保留两位小数的字符串
                     String res = String.format("%.2f", timeMinus);
-                    System.out.println(res + " --- " + e);
+
+                    A12_Event.increaseI();
+                    System.out.println(
+                            (Integer.toString(e.getI()).length() == 2 ? e.getI() : "0" + e.getI())
+                                    + ": " + res + " --- " + e);
                     e.action();
                     eventList.remove(e);
                 }

@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ad74665-bec8-49cd-a749-d0754b62935a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A11_Callbacks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A12_Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A13_Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A14_GreenhouseControls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A15_GreenhouseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A16_BigEgg2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/E25_NewGC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A03_Sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A03_Sequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A12_Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A12_Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A13_Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A13_Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A14_GreenhouseControls.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A14_GreenhouseControls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A15_GreenhouseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A15_GreenhouseController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,129 +38,7 @@
     <favorites_list name="JavaLearningNotes" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A03_Sequence.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A11_Callbacks.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
-              <folding>
-                <element signature="e#426#427#0" expanded="true" />
-                <element signature="e#479#480#0" expanded="true" />
-                <element signature="e#1220#1221#0" expanded="true" />
-                <element signature="e#1259#1260#0" expanded="true" />
-                <element signature="e#1280#1281#0" expanded="true" />
-                <element signature="e#1325#1326#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A12_Event.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" selection-end-column="19" />
-              <folding>
-                <element signature="e#395#396#0" expanded="true" />
-                <element signature="e#473#474#0" expanded="true" />
-                <element signature="e#502#503#0" expanded="true" />
-                <element signature="e#557#558#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A13_Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" column="65" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="65" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#284#285#0" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A14_GreenhouseControls.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="142" column="32" lean-forward="true" selection-start-line="142" selection-start-column="32" selection-end-line="142" selection-end-column="32" />
-              <folding>
-                <element signature="n#!!doc;n#A14_GreenhouseControls#0" />
-                <element signature="class#LightOn#0;class#GreenhouseControls#0" />
-                <element signature="e#391#392#0" expanded="true" />
-                <element signature="e#431#432#0" expanded="true" />
-                <element signature="e#641#642#0" expanded="true" />
-                <element signature="e#685#686#0" expanded="true" />
-                <element signature="class#LightOff#0;class#GreenhouseControls#0" />
-                <element signature="e#780#781#0" expanded="true" />
-                <element signature="e#820#821#0" expanded="true" />
-                <element signature="e#1056#1057#0" expanded="true" />
-                <element signature="e#1101#1102#0" expanded="true" />
-                <element signature="class#WaterOn#0;class#GreenhouseControls#0" />
-                <element signature="e#1230#1231#0" expanded="true" />
-                <element signature="e#1270#1271#0" expanded="true" />
-                <element signature="e#1445#1446#0" expanded="true" />
-                <element signature="e#1500#1501#0" expanded="true" />
-                <element signature="class#WaterOff#0;class#GreenhouseControls#0" />
-                <element signature="e#1595#1596#0" expanded="true" />
-                <element signature="e#1635#1636#0" expanded="true" />
-                <element signature="e#1811#1812#0" expanded="true" />
-                <element signature="e#1867#1868#0" expanded="true" />
-                <element signature="class#ThermostatNight#0;class#GreenhouseControls#0" />
-                <element signature="e#2016#2017#0" expanded="true" />
-                <element signature="e#2056#2057#0" expanded="true" />
-                <element signature="e#2239#2240#0" expanded="true" />
-                <element signature="e#2299#2300#0" expanded="true" />
-                <element signature="class#ThermostatDay#0;class#GreenhouseControls#0" />
-                <element signature="e#2404#2405#0" expanded="true" />
-                <element signature="e#2444#2445#0" expanded="true" />
-                <element signature="e#2625#2626#0" expanded="true" />
-                <element signature="e#2683#2684#0" expanded="true" />
-                <element signature="n#!!doc;n#Bell#0;n#A14_GreenhouseControls#0" />
-                <element signature="class#Bell#0;class#GreenhouseControls#0" />
-                <element signature="e#2864#2865#0" expanded="true" />
-                <element signature="e#2904#2905#0" expanded="true" />
-                <element signature="e#3076#3077#0" expanded="true" />
-                <element signature="e#3114#3115#0" expanded="true" />
-                <element signature="e#3750#3751#0" expanded="true" />
-                <element signature="e#3800#3801#0" expanded="true" />
-                <element signature="class#Terminate#0;class#GreenhouseControls#0" />
-                <element signature="e#3904#3905#0" expanded="true" />
-                <element signature="e#3944#3945#0" expanded="true" />
-                <element signature="e#3994#3995#0" expanded="true" />
-                <element signature="e#4032#4033#0" expanded="true" />
-                <element signature="e#4086#4087#0" expanded="true" />
-                <element signature="e#4130#4131#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A15_GreenhouseController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -188,8 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap04_ControlFlow/E05_BitwiseOperation2.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap04_ControlFlow/E10_VampireNumbers.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap05_Housekepping/E12_Tank.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap05_Housekepping/E14_ScopeTest.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap05_Housekepping/E18_InitializeArray.java" />
@@ -234,11 +110,13 @@
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A03_Sequence.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A11_CallBacks.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A11_Callbacks.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A12_Event.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A12_Controller.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A14_GreenhouseControls.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A15_GreenhouseController.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A14_GreenhouseControls.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/E25_NewGC.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A12_Event.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A13_Controller.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A16_BigEgg2.java" />
       </list>
     </option>
   </component>
@@ -265,6 +143,19 @@
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chap05_Housekepping" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chap05_Housekepping" type="462c0819:PsiDirectoryNode" />
+              <item name="E19_Varargs.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
@@ -305,35 +196,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.A15_GreenhouseController">
+  <component name="RunManager" selected="Application.A16_BigEgg2">
     <configuration name="A09_AnonymousConstructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap10_InnerClass.A09_AnonymousConstructor" />
-      <module name="ThinkingInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap10_InnerClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="A09_Parcel8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap10_InnerClass.A09_Parcel8" />
-      <module name="ThinkingInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap10_InnerClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="A09_Parcel9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap10_InnerClass.A09_Parcel9" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
@@ -360,6 +225,32 @@
     </configuration>
     <configuration name="A15_GreenhouseController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap10_InnerClass.A15_GreenhouseController" />
+      <module name="ThinkingInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap10_InnerClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="A16_BigEgg2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap10_InnerClass.A16_BigEgg2" />
+      <module name="ThinkingInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap10_InnerClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E25_NewGC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap10_InnerClass.E25_NewGC" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
@@ -419,19 +310,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.A09_Parcel8" />
-      <item itemvalue="Application.A09_Parcel9" />
       <item itemvalue="Application.A09_AnonymousConstructor" />
       <item itemvalue="Application.A11_Callbacks" />
       <item itemvalue="Application.A15_GreenhouseController" />
+      <item itemvalue="Application.E25_NewGC" />
+      <item itemvalue="Application.A16_BigEgg2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.A16_BigEgg2" />
+        <item itemvalue="Application.E25_NewGC" />
         <item itemvalue="Application.A15_GreenhouseController" />
         <item itemvalue="Application.A11_Callbacks" />
         <item itemvalue="Application.A09_AnonymousConstructor" />
-        <item itemvalue="Application.A09_Parcel9" />
-        <item itemvalue="Application.A09_Parcel8" />
       </list>
     </recent_temporary>
   </component>
@@ -472,7 +363,7 @@
       <workItem from="1616452771771" duration="8708000" />
       <workItem from="1616512734091" duration="51000" />
       <workItem from="1616550507953" duration="23749000" />
-      <workItem from="1616633653179" duration="19585000" />
+      <workItem from="1616633653179" duration="26862000" />
     </task>
     <task id="LOCAL-00001" summary="📅📅2021/3/12 first commit by sunyujun.">
       <created>1615555524843</created>
@@ -705,11 +596,25 @@
       <option name="project" value="LOCAL" />
       <updated>1616650844737</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="code everyday, job on its way!">
+      <created>1616675215643</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1616675215643</updated>
+    </task>
+    <task id="LOCAL-00035" summary="code everyday, job on its way!">
+      <created>1616677363469</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1616677363469</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186331000" />
+    <option name="totallyTimeSpent" value="193608000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -722,19 +627,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1080" height="1844" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" weight="0.32945737" />
-      <window_info auto_hide="true" content_ui="combo" x="55" y="153" width="366" height="945" id="Project" order="5" sideWeight="0.49736688" weight="0.24806201" />
+      <window_info active="true" auto_hide="true" content_ui="combo" x="55" y="153" width="366" height="945" id="Project" order="5" sideWeight="0.49736688" visible="true" weight="0.24806201" />
       <window_info id="Structure" order="6" sideWeight="0.5026331" weight="0.25484496" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.22905682" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3298184" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.25190392" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.31517282" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298184" />
@@ -760,12 +664,12 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" weight="0.32945737" />
-      <window_info auto_hide="true" content_ui="combo" x="55" y="153" width="366" height="945" id="Project" order="5" sideWeight="0.49736688" weight="0.27325583" />
+      <window_info auto_hide="true" content_ui="combo" x="55" y="153" width="366" height="945" id="Project" order="5" sideWeight="0.49736688" weight="0.24806201" />
       <window_info id="Structure" order="6" sideWeight="0.5026331" weight="0.25484496" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3298184" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.26947862" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.22905682" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3298184" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.43468073" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298184" />
@@ -841,31 +745,21 @@
     <MESSAGE value="code everyday, job on its way!" />
     <option name="LAST_COMMIT_MESSAGE" value="code everyday, job on its way!" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A16_BigEgg2.java</url>
+          <line>28</line>
+          <properties class="chap10_InnerClass.A16_BigEgg2" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap03_Operators/E14_CompareStrings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap03_Operators/E10_BitwiseOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="41" lean-forward="true" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/algs4.jar!/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/algs4.jar!/COPYING">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="9" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap04_ControlFlow/E05_BitwiseOperation2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
@@ -881,17 +775,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap05_Housekepping/E18_InitializeArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="e#98#99#0" expanded="true" />
-            <element signature="e#134#135#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -949,13 +832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap05_Housekepping/E19_Varargs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -1291,9 +1167,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/time/Clock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="442" column="7" lean-forward="true" selection-start-line="442" selection-start-column="7" selection-end-line="442" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/time/Instant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="273" column="43" lean-forward="true" selection-start-line="273" selection-start-column="43" selection-end-line="273" selection-end-column="43" />
+          <folding>
+            <element signature="e#11895#11896#0" expanded="true" />
+            <element signature="e#11945#11946#0" expanded="true" />
+            <element signature="e#60316#60317#0" expanded="true" />
+            <element signature="e#60381#60382#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap05_Housekepping/E18_InitializeArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap05_Housekepping/E19_Varargs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A15_GreenhouseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A11_Callbacks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
+        <state relative-caret-position="1113">
           <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
           <folding>
             <element signature="e#426#427#0" expanded="true" />
@@ -1306,10 +1223,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A12_Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A16_BigEgg2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding>
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/E25_NewGC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A14_GreenhouseControls.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="142" column="32" lean-forward="true" selection-start-line="142" selection-start-column="32" selection-end-line="142" selection-end-column="32" />
+        <state relative-caret-position="324">
+          <caret line="142" selection-start-line="142" selection-end-line="142" />
           <folding>
             <element signature="n#!!doc;n#A14_GreenhouseControls#0" />
             <element signature="class#LightOn#0;class#GreenhouseControls#0" />
@@ -1332,7 +1287,6 @@
             <element signature="e#1635#1636#0" expanded="true" />
             <element signature="e#1811#1812#0" expanded="true" />
             <element signature="e#1867#1868#0" expanded="true" />
-            <element signature="class#ThermostatNight#0;class#GreenhouseControls#0" />
             <element signature="e#2016#2017#0" expanded="true" />
             <element signature="e#2056#2057#0" expanded="true" />
             <element signature="e#2239#2240#0" expanded="true" />
@@ -1357,38 +1311,28 @@
             <element signature="e#4032#4033#0" expanded="true" />
             <element signature="e#4086#4087#0" expanded="true" />
             <element signature="e#4130#4131#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A15_GreenhouseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A12_Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" selection-end-column="19" />
-          <folding>
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#4437#4438#0" expanded="true" />
+            <element signature="e#4484#4485#0" expanded="true" />
+            <element signature="e#4538#4539#0" expanded="true" />
+            <element signature="e#4571#4572#0" expanded="true" />
+            <element signature="e#4615#4616#0" expanded="true" />
+            <element signature="e#4662#4663#0" expanded="true" />
+            <element signature="e#4783#4784#0" expanded="true" />
+            <element signature="e#4830#4831#0" expanded="true" />
+            <element signature="e#4880#4881#0" expanded="true" />
+            <element signature="e#4914#4915#0" expanded="true" />
+            <element signature="e#4968#4969#0" expanded="true" />
+            <element signature="e#5016#5017#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A13_Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="65" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="65" />
+        <state relative-caret-position="777">
+          <caret line="37" column="64" lean-forward="true" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
           </folding>
         </state>
       </provider>

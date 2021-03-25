@@ -175,3 +175,41 @@ public class A14_GreenhouseControls extends A13_Controller {
         }
     }
 }
+
+class NewGreenControls extends A14_GreenhouseControls{
+    private boolean jet = false;
+
+    public class WaterJetOn extends A12_Event{
+        public WaterJetOn(long millisecondDelay) {
+            super(millisecondDelay);
+        }
+
+        @Override
+        public void action() {
+            jet = true;
+        }
+
+        @Override
+        public String toString() {
+            return "Water jet is on";
+        }
+    }
+
+    public class WaterJetOff extends A12_Event{
+        public WaterJetOff(long millisecondDelay) {
+            super(millisecondDelay);
+        }
+
+        @Override
+        public void action() {
+            jet = true;
+        }
+
+        @Override
+        public String toString() {
+            return "Water jet is off";
+        }
+    }
+
+
+}
