@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ad74665-bec8-49cd-a749-d0754b62935a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A02_AddingGroups.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A02_AsListInference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A03_PrintingCollections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E04_Generator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -35,72 +33,21 @@
     <favorites_list name="JavaLearningNotes" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/E25_NewGC.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A03_PrintingCollections.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A17_Local_InnerClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1218">
-              <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A01_ApplesAndOrangesWithoutGenerics.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-              <folding>
-                <element signature="e#318#348#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A01_ApplesAndOrangesWithGenerics.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A02_AddingGroups.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="82" selection-start-line="16" selection-start-column="82" selection-end-line="16" selection-end-column="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A02_AsListInference.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="24" column="49" lean-forward="true" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
-              <folding>
-                <element signature="e#807#813#0" expanded="true" />
-              </folding>
+            <state>
+              <caret selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A03_PrintingCollections.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E04_Generator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="31" column="50" lean-forward="true" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+            <state relative-caret-position="1010">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
             </state>
           </provider>
         </entry>
@@ -133,7 +80,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap06_ImplementationHiding/E08_ConnectionManager.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap07_ReusingClasses/E01_LazyInitialize.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap07_ReusingClasses/E02_Inheritance01.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap07_ReusingClasses/E14_Car.java" />
@@ -184,6 +130,7 @@
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A02_AsListInterface.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A02_AsListInference.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A03_PrintingCollections.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E04_Generator.java" />
       </list>
     </option>
   </component>
@@ -199,8 +146,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -250,7 +197,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.A03_PrintingCollections">
+  <component name="RunManager" selected="Application.E04_Generator">
     <configuration name="A01_ApplesAndOrangesWithoutGenerics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap11_Collections.A01_ApplesAndOrangesWithoutGenerics" />
       <module name="ThinkingInJava" />
@@ -290,8 +237,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="A16_BigEgg2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap10_InnerClass.A16_BigEgg2" />
+    <configuration name="A17_Local_InnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap10_InnerClass.A17_Local_InnerClass" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
@@ -303,12 +250,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="A17_Local_InnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap10_InnerClass.A17_Local_InnerClass" />
+    <configuration name="E04_Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap11_Collections.E04_Generator" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap10_InnerClass.*" />
+          <option name="PATTERN" value="chap11_Collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -364,19 +311,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.A16_BigEgg2" />
       <item itemvalue="Application.A17_Local_InnerClass" />
       <item itemvalue="Application.A01_ApplesAndOrangesWithoutGenerics" />
       <item itemvalue="Application.A02_AddingGroups" />
       <item itemvalue="Application.A03_PrintingCollections" />
+      <item itemvalue="Application.E04_Generator" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.E04_Generator" />
         <item itemvalue="Application.A03_PrintingCollections" />
         <item itemvalue="Application.A02_AddingGroups" />
         <item itemvalue="Application.A01_ApplesAndOrangesWithoutGenerics" />
         <item itemvalue="Application.A17_Local_InnerClass" />
-        <item itemvalue="Application.A16_BigEgg2" />
       </list>
     </recent_temporary>
   </component>
@@ -418,7 +365,8 @@
       <workItem from="1616512734091" duration="51000" />
       <workItem from="1616550507953" duration="23749000" />
       <workItem from="1616633653179" duration="27261000" />
-      <workItem from="1616715145486" duration="11462000" />
+      <workItem from="1616715145486" duration="11610000" />
+      <workItem from="1617154148479" duration="3064000" />
     </task>
     <task id="LOCAL-00001" summary="📅📅2021/3/12 first commit by sunyujun.">
       <created>1615555524843</created>
@@ -679,11 +627,18 @@
       <option name="project" value="LOCAL" />
       <updated>1616725880063</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="code everyday, job on its way!">
+      <created>1616746528339</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1616746528339</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205469000" />
+    <option name="totallyTimeSpent" value="208681000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -708,7 +663,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.22905682" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3298184" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.27826595" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.27768013" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298184" />
@@ -830,13 +785,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap06_ImplementationHiding/E01_OutOfPackage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap07_ReusingClasses/E01_LazyInitialize.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -1332,17 +1280,11 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections.java" />
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/E25_NewGC.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="31" selection-start-column="13" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1380,17 +1322,21 @@
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A02_AsListInference.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
-          <caret line="24" column="49" lean-forward="true" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
-          <folding>
-            <element signature="e#807#813#0" expanded="true" />
-          </folding>
+          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A03_PrintingCollections.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="31" column="50" lean-forward="true" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E04_Generator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1010">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
     </entry>
