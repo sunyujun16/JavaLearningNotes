@@ -8,5 +8,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="mindview" level="project" />
+    <orderEntry type="library" name="reflection" level="project" />
   </component>
 </module>

@@ -2,6 +2,7 @@ package chap11_Collections;
 
 import java.util.*;
 
+/** @noinspection WeakerAccess*/
 public class E04_Generator {
     private int index = 0;
     private String[] sa = {
@@ -12,9 +13,10 @@ public class E04_Generator {
             "The Legend of 1900",
     };
 
-    public E04_Generator() {}
+    public E04_Generator() {
+    }
 
-    protected String next(){
+    protected String next() {
         if (index == sa.length) index = 0;
         return sa[index++];
     }
@@ -42,11 +44,11 @@ public class E04_Generator {
             ts.add(ne);
         }
 
-        System.out.println(al+"\n");
-        System.out.println(ll+"\n");
-        System.out.println(hs+"\n");
-        System.out.println(lhs+"\n");
-        System.out.println(ts+"\n");
+        System.out.println(al + "\n");
+        System.out.println(ll + "\n");
+        System.out.println(hs + "\n");
+        System.out.println(lhs + "\n");
+        System.out.println(ts + "\n");
 
     }
 

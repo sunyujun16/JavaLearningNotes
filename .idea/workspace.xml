@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ad74665-bec8-49cd-a749-d0754b62935a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E04_Generator.java" afterDir="false" />
+    <list default="true" id="7ad74665-bec8-49cd-a749-d0754b62935a" name="Default Changelist" comment="code everyday, job on its way!">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/reflection.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A08_SetOfString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A08_SetOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A08_SortedSetOfString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A08_UniqueWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A10_Statistics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A11_PriorityQueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A11_QueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A12_InterfaceVsIterator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/ThinkingInJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/ThinkingInJava.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A03_PrintingCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A03_PrintingCollections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E04_Generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E04_Generator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,19 +46,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A03_PrintingCollections.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A11_PriorityQueueDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="1" />
+            <state relative-caret-position="63">
+              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E04_Generator.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A12_InterfaceVsIterator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1010">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="609">
+              <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,16 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap07_ReusingClasses/E01_LazyInitialize.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap07_ReusingClasses/E02_Inheritance01.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap07_ReusingClasses/E14_Car.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap07_ReusingClasses/E17_UpcastingWithOveride.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap07_ReusingClasses/E25_InitializeOrder.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap09_Interface/E10_Miusic.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap09_Interface/E10_Music.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap09_Interface/E16_Adapter.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap09_Interface/E17_5_Nested_Interfaces.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap09_Interface/A02_Factories.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap09_Interface/A03_Games.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap09_Interface/E18_SimpleFactory.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A01_Parcel1.java" />
@@ -129,8 +133,18 @@
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A02_AddingGroups.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A02_AsListInterface.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A02_AsListInference.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A03_PrintingCollections.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A08_SetOfString.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A08_SortedSetOfString.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E04_Generator.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A03_PrintingCollections.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A08_SetOperations.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A08_UniqueWords.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A10_Statistics.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A10_PetMap.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A11_QueueDemo.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A12_InterfacesVSIterator.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A11_PriorityQueueDemo.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A12_InterfaceVsIterator.java" />
       </list>
     </option>
   </component>
@@ -166,6 +180,36 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="chap11_Collections" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="reflection" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="reflection" type="70bed36:NamedLibraryElementNode" />
+              <item name="reflection.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="reflection" type="70bed36:NamedLibraryElementNode" />
+              <item name="reflection.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="reflection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="reflection" type="70bed36:NamedLibraryElementNode" />
+              <item name="reflection.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="reflection" type="462c0819:PsiDirectoryNode" />
+              <item name="pets" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -177,13 +221,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/java_work/mylibs" />
+    <property name="last_opened_file_path" value="$USER_HOME$/java_work/mylibs/reflection.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -197,9 +241,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.E04_Generator">
-    <configuration name="A01_ApplesAndOrangesWithoutGenerics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap11_Collections.A01_ApplesAndOrangesWithoutGenerics" />
+  <component name="RunManager" selected="Application.A12_InterfaceVsIterator">
+    <configuration name="A08_UniqueWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap11_Collections.A08_UniqueWords" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
@@ -211,8 +255,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="A02_AddingGroups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap11_Collections.A02_AddingGroups" />
+    <configuration name="A10_Statistics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap11_Collections.A10_Statistics" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
@@ -224,8 +268,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="A03_PrintingCollections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap11_Collections.A03_PrintingCollections" />
+    <configuration name="A11_PriorityQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap11_Collections.A11_PriorityQueueDemo" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
@@ -237,12 +281,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="A17_Local_InnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap10_InnerClass.A17_Local_InnerClass" />
+    <configuration name="A11_QueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap11_Collections.A11_QueueDemo" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap10_InnerClass.*" />
+          <option name="PATTERN" value="chap11_Collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -250,8 +294,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E04_Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap11_Collections.E04_Generator" />
+    <configuration name="A12_InterfaceVsIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap11_Collections.A12_InterfaceVsIterator" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
@@ -311,19 +355,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.A17_Local_InnerClass" />
-      <item itemvalue="Application.A01_ApplesAndOrangesWithoutGenerics" />
-      <item itemvalue="Application.A02_AddingGroups" />
-      <item itemvalue="Application.A03_PrintingCollections" />
-      <item itemvalue="Application.E04_Generator" />
+      <item itemvalue="Application.A08_UniqueWords" />
+      <item itemvalue="Application.A10_Statistics" />
+      <item itemvalue="Application.A11_QueueDemo" />
+      <item itemvalue="Application.A11_PriorityQueueDemo" />
+      <item itemvalue="Application.A12_InterfaceVsIterator" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.E04_Generator" />
-        <item itemvalue="Application.A03_PrintingCollections" />
-        <item itemvalue="Application.A02_AddingGroups" />
-        <item itemvalue="Application.A01_ApplesAndOrangesWithoutGenerics" />
-        <item itemvalue="Application.A17_Local_InnerClass" />
+        <item itemvalue="Application.A12_InterfaceVsIterator" />
+        <item itemvalue="Application.A11_PriorityQueueDemo" />
+        <item itemvalue="Application.A11_QueueDemo" />
+        <item itemvalue="Application.A10_Statistics" />
+        <item itemvalue="Application.A08_UniqueWords" />
       </list>
     </recent_temporary>
   </component>
@@ -366,7 +410,7 @@
       <workItem from="1616550507953" duration="23749000" />
       <workItem from="1616633653179" duration="27261000" />
       <workItem from="1616715145486" duration="11610000" />
-      <workItem from="1617154148479" duration="3064000" />
+      <workItem from="1617154148479" duration="17722000" />
     </task>
     <task id="LOCAL-00001" summary="📅📅2021/3/12 first commit by sunyujun.">
       <created>1615555524843</created>
@@ -634,11 +678,18 @@
       <option name="project" value="LOCAL" />
       <updated>1616746528339</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="code everyday, job on its way!">
+      <created>1617157535828</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1617157535828</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="208681000" />
+    <option name="totallyTimeSpent" value="223339000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -658,12 +709,12 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" weight="0.32945737" />
-      <window_info auto_hide="true" content_ui="combo" x="55" y="153" width="366" height="945" id="Project" order="5" sideWeight="0.49736688" weight="0.24612403" />
+      <window_info auto_hide="true" content_ui="combo" x="55" y="153" width="366" height="945" id="Project" order="5" sideWeight="0.49736688" weight="0.25387597" />
       <window_info id="Structure" order="6" sideWeight="0.5026331" weight="0.25484496" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.22905682" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3298184" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.27768013" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.35910955" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298184" />
@@ -785,179 +836,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap07_ReusingClasses/E01_LazyInitialize.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-          <folding>
-            <element signature="e#55#56#0" expanded="true" />
-            <element signature="e#111#112#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap07_ReusingClasses/E14_Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-          <folding>
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap07_ReusingClasses/E17_UpcastingWithOveride.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
-          <folding>
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap07_ReusingClasses/E02_Inheritance01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          <folding>
-            <element signature="method#main#0;class#Father#0" />
-            <element signature="e#1495#1496#0" expanded="true" />
-            <element signature="e#1548#1549#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap06_ImplementationHiding/E08_ConnectionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="32" />
-          <folding>
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#604#605#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap07_ReusingClasses/E25_InitializeOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap09_Interface/E10_Music.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
-          <folding>
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap09_Interface/A01_Nested_Interfaces.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="81" column="16" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="16" />
-          <folding>
-            <element signature="e#630#631#0" expanded="true" />
-            <element signature="e#818#819#0" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
-            <element signature="e#822#823#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap09_Interface/A03_Games.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="50" column="14" lean-forward="true" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
-          <folding>
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-            <element signature="e#875#876#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="42">
-            <caret line="2" column="73" lean-forward="true" selection-start-line="2" selection-start-column="73" selection-end-line="2" selection-end-column="73" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap09_Interface/E18_SimpleFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#130#131#0" expanded="true" />
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#1102#1103#0" expanded="true" />
-            <element signature="e#1137#1138#0" expanded="true" />
-            <element signature="e#1170#1171#0" expanded="true" />
-            <element signature="e#1163#1164#0" expanded="true" />
-            <element signature="e#1205#1206#0" expanded="true" />
-            <element signature="e#1228#1229#0" expanded="true" />
-            <element signature="e#1314#1315#0" expanded="true" />
-            <element signature="e#1898#1899#0" expanded="true" />
-            <element signature="e#1920#1921#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap09_Interface/E19_FactoryFrame.java" />
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap09_Interface/E16_Adapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A06_Parcel3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-          <folding>
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A07_Contents.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1326,17 +1204,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A03_PrintingCollections.java">
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A08_SortedSetOfString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
+        <state relative-caret-position="63">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A08_SetOfString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E04_Generator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1010">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="399">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A03_PrintingCollections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A08_SetOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A08_UniqueWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="34" selection-start-line="8" selection-start-column="8" selection-end-line="20" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A10_PetMap.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap02_Object/HelloDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A10_Statistics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A11_QueueDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A12_InterfacesVSIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A11_PriorityQueueDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/java_work/mylibs/suntemp/pets/Individual.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/java_work/mylibs/suntemp/pets/Pet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/java_work/mylibs/suntemp/pets/Pet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A12_InterfaceVsIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1404,7 +1385,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>algs4</last-edited>
+          <last-edited>reflection</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

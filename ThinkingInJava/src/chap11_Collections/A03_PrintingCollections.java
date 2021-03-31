@@ -4,6 +4,7 @@ package chap11_Collections;
 
 import java.util.*;
 
+/** @noinspection WeakerAccess*/
 public class A03_PrintingCollections {
     static Collection fill(Collection<String> collection) {
         collection.add("rat");
