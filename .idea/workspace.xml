@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ad74665-bec8-49cd-a749-d0754b62935a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A13_AdapterMethodIdiom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A13_EnvironmentVariables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A13_IterableClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A13_MultiIterableClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E01_Gerbil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E02_SimpleCollections.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,7 +34,37 @@
     <favorites_list name="JavaLearningNotes" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E01_Gerbil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="819">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+              <folding>
+                <element signature="e#126#127#0" expanded="true" />
+                <element signature="e#174#175#0" expanded="true" />
+                <element signature="e#202#203#0" expanded="true" />
+                <element signature="e#238#239#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E02_SimpleCollections.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -64,8 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A04_ThisAndNew.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A04_ThisAndNew1.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A05_DotNew.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A04_DotThis.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A06_Parcel3.java" />
@@ -115,6 +141,8 @@
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A13_EnvironmentVariables.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A13_AdapterMethodIdiom.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A13_MultiIterableClass.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E01_Gerbil.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E02_SimpleCollections.java" />
       </list>
     </option>
   </component>
@@ -185,33 +213,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.A13_MultiIterableClass">
-    <configuration name="A11_PriorityQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap11_Collections.A11_PriorityQueueDemo" />
-      <module name="ThinkingInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap11_Collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="A12_InterfaceVsIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap11_Collections.A12_InterfaceVsIterator" />
-      <module name="ThinkingInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap11_Collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.E02_SimpleCollections">
     <configuration name="A13_AdapterMethodIdiom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap11_Collections.A13_AdapterMethodIdiom" />
       <module name="ThinkingInJava" />
@@ -240,6 +242,32 @@
     </configuration>
     <configuration name="A13_MultiIterableClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap11_Collections.A13_MultiIterableClass" />
+      <module name="ThinkingInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap11_Collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E01_Gerbil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap11_Collections.E01_Gerbil" />
+      <module name="ThinkingInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap11_Collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E02_SimpleCollections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap11_Collections.E02_SimpleCollections" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
@@ -299,19 +327,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.A11_PriorityQueueDemo" />
-      <item itemvalue="Application.A12_InterfaceVsIterator" />
       <item itemvalue="Application.A13_EnvironmentVariables" />
       <item itemvalue="Application.A13_AdapterMethodIdiom" />
       <item itemvalue="Application.A13_MultiIterableClass" />
+      <item itemvalue="Application.E01_Gerbil" />
+      <item itemvalue="Application.E02_SimpleCollections" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.E02_SimpleCollections" />
+        <item itemvalue="Application.E01_Gerbil" />
         <item itemvalue="Application.A13_MultiIterableClass" />
         <item itemvalue="Application.A13_AdapterMethodIdiom" />
         <item itemvalue="Application.A13_EnvironmentVariables" />
-        <item itemvalue="Application.A12_InterfaceVsIterator" />
-        <item itemvalue="Application.A11_PriorityQueueDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -355,7 +383,7 @@
       <workItem from="1616633653179" duration="27261000" />
       <workItem from="1616715145486" duration="11610000" />
       <workItem from="1617154148479" duration="19352000" />
-      <workItem from="1617237448592" duration="9578000" />
+      <workItem from="1617237448592" duration="11887000" />
     </task>
     <task id="LOCAL-00001" summary="📅📅2021/3/12 first commit by sunyujun.">
       <created>1615555524843</created>
@@ -637,11 +665,18 @@
       <option name="project" value="LOCAL" />
       <updated>1617200946645</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="code everyday, job on its way!">
+      <created>1617268092303</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1617268092303</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="234547000" />
+    <option name="totallyTimeSpent" value="236856000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -654,6 +689,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1080" height="1844" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
@@ -665,7 +701,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.22905682" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3298184" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.31400117" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.31400117" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298184" />
@@ -787,20 +823,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A09_Parcel8.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A09_Parcel9.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A09_AnonymousConstructor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -1256,6 +1278,31 @@
             <element signature="e#638#639#0" expanded="true" />
             <element signature="e#746#747#0" expanded="true" />
             <element signature="e#1021#1029#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E01_Gerbil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#126#127#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E02_SimpleCollections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
