@@ -21,7 +21,7 @@ public class E04_Generator {
         return sa[index++];
     }
 
-
+    // 答案直接给E04写一个方法, 统一接受Collection来循环add. 但循环写在底层, 复用性稍差.
     public static void main(String[] args) {
         E04_Generator ge = new E04_Generator();
 //        for (int i = 0; i < 10; i++) {
