@@ -5,11 +5,11 @@ import java.util.ArrayList;
 public class E01_Gerbil {
     private int gerbilNumber;
 
-    private E01_Gerbil(int gerbilNumber) {
+    E01_Gerbil(int gerbilNumber) {
         this.gerbilNumber = gerbilNumber;
     }
 
-    private void hop(){
+    void hop(){
         System.out.println(gerbilNumber + " is hopping.");
     }
 
