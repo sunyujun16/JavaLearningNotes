@@ -21,6 +21,9 @@ public class E17_GerbilsMap {
             System.out.println(gers.get(name).hop() + "\n");
         }
 
+        // 另一种方法: 用.entrySet()获取键值对的集合.
+        // 用.iterator()获取该集合的生成器, 然后遍历, 并用getKey()和getValue()获取键值
+
     }
 
 }
