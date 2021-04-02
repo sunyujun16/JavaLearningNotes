@@ -14,10 +14,27 @@ public class A08_UniqueWords {
 //        Set<String> words = new TreeSet<>();
         Set<String> words = new TreeSet<>(String.CASE_INSENSITIVE_ORDER);
 
-        for (String line : lines)
-            for (String word : line.split("\\W+"))
-                if (word.trim().length() > 0) words.add(word);
+        Set<Character> vowels = new HashSet<Character>(Arrays.asList('a', 'e', 'i', 'o', 'u'));
+        int sum = 0;
+        int num = 0;
 
+        for (String line : lines)
+            for (String word : line.split("\\W+")) {
+
+                List<Character> chars = new ArrayList<>();
+                for (Character c : vowels) {
+                    for (Character w : word.toCharArray()) {
+                        if (c == w) num++;
+                    }
+                }
+                sum += num;
+                System.out.println("word: " + word + " with " + num + " vowels");
+                num = 0;
+
+                if (word.trim().length() > 0) words.add(word);
+            }
+
+        System.out.println("Total vowels: " + sum);
         System.out.println(words);
 
     }

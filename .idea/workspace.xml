@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ad74665-bec8-49cd-a749-d0754b62935a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E09_Sequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E12_ListIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E14_LinkedListInsert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E16_Vowels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E17_GerbilsMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A15_GreenhouseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A15_GreenhouseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A08_UniqueWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A08_UniqueWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E01_Gerbil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E01_Gerbil.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,22 +38,32 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E12_ListIterator.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E01_Gerbil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+              <folding>
+                <element signature="e#401#402#0" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E08_Gerbil_Iterator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+              <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E14_LinkedListInsert.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E17_GerbilsMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="399">
+              <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -86,8 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A08_Pacel7.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A08_Parcel7.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A09_Parcel7.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap08_Polymorphism/PolyConstructors.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A09_Parcel8.java" />
@@ -114,7 +122,6 @@
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A08_SortedSetOfString.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A03_PrintingCollections.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A08_SetOperations.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A08_UniqueWords.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A10_Statistics.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A10_PetMap.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A11_QueueDemo.java" />
@@ -130,13 +137,16 @@
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E05_ListFeatures.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E07_RemoveSubList.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E08_Gerbil_Iterrator.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E01_Gerbil.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E08_Gerbil_Iterator.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E03_Sequence.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E09_Sequence.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E12_ListIterator.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A15_GreenhouseController.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E14_LinkedListInsert.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A08_UniqueWords.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E16_Vowels.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E01_Gerbil.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E17_GerbilsMap.java" />
       </list>
     </option>
   </component>
@@ -220,22 +230,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.E14_LinkedListInsert">
-    <configuration name="A15_GreenhouseController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap10_InnerClass.A15_GreenhouseController" />
-      <module name="ThinkingInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap10_InnerClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="E08_Gerbil_Iterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap11_Collections.E08_Gerbil_Iterator" />
+  <component name="RunManager" selected="Application.E17_GerbilsMap">
+    <configuration name="A08_UniqueWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap11_Collections.A08_UniqueWords" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
@@ -247,21 +244,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E09_Sequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap11_Collections.E09_Sequence" />
-      <module name="ThinkingInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap11_Collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="E12_ListIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap11_Collections.E12_ListIterator" />
+    <configuration name="E01_Gerbil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap11_Collections.E01_Gerbil" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
@@ -275,6 +259,32 @@
     </configuration>
     <configuration name="E14_LinkedListInsert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap11_Collections.E14_LinkedListInsert" />
+      <module name="ThinkingInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap11_Collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E16_Vowels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap11_Collections.E16_Vowels" />
+      <module name="ThinkingInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap11_Collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E17_GerbilsMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap11_Collections.E17_GerbilsMap" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
@@ -334,19 +344,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.E08_Gerbil_Iterator" />
-      <item itemvalue="Application.E09_Sequence" />
-      <item itemvalue="Application.E12_ListIterator" />
-      <item itemvalue="Application.A15_GreenhouseController" />
       <item itemvalue="Application.E14_LinkedListInsert" />
+      <item itemvalue="Application.A08_UniqueWords" />
+      <item itemvalue="Application.E16_Vowels" />
+      <item itemvalue="Application.E01_Gerbil" />
+      <item itemvalue="Application.E17_GerbilsMap" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.E17_GerbilsMap" />
+        <item itemvalue="Application.E01_Gerbil" />
+        <item itemvalue="Application.E16_Vowels" />
+        <item itemvalue="Application.A08_UniqueWords" />
         <item itemvalue="Application.E14_LinkedListInsert" />
-        <item itemvalue="Application.A15_GreenhouseController" />
-        <item itemvalue="Application.E12_ListIterator" />
-        <item itemvalue="Application.E09_Sequence" />
-        <item itemvalue="Application.E08_Gerbil_Iterator" />
       </list>
     </recent_temporary>
   </component>
@@ -391,7 +401,7 @@
       <workItem from="1616715145486" duration="11610000" />
       <workItem from="1617154148479" duration="19352000" />
       <workItem from="1617237448592" duration="19415000" />
-      <workItem from="1617319067423" duration="12496000" />
+      <workItem from="1617319067423" duration="17110000" />
     </task>
     <task id="LOCAL-00001" summary="📅📅2021/3/12 first commit by sunyujun.">
       <created>1615555524843</created>
@@ -701,11 +711,18 @@
       <option name="project" value="LOCAL" />
       <updated>1617289547469</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="code everyday, job on its way!">
+      <created>1617342559048</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1617342559048</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="256880000" />
+    <option name="totallyTimeSpent" value="261494000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -730,7 +747,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.22905682" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.17223199" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.43819568" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.43819568" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298184" />
@@ -852,50 +869,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap05_Housekepping/E18_InitializeArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap05_Housekepping/E19_Varargs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A11_Callbacks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1113">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#1220#1221#0" expanded="true" />
-            <element signature="e#1259#1260#0" expanded="true" />
-            <element signature="e#1280#1281#0" expanded="true" />
-            <element signature="e#1325#1326#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A16_BigEgg2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections.java" />
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/E25_NewGC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap10_InnerClass/A17_Local_InnerClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1218">
@@ -959,16 +932,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A08_UniqueWords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="34" selection-start-line="8" selection-start-column="8" selection-end-line="20" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1094,13 +1057,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E01_Gerbil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E07_RemoveSubList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -1108,13 +1064,6 @@
           <folding>
             <element signature="e#236#237#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E08_Gerbil_Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -1237,11 +1186,86 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E14_LinkedListInsert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        <state relative-caret-position="609">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/lang/StringLatin1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="591" column="50" lean-forward="true" selection-start-line="591" selection-start-column="50" selection-end-line="591" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/lang/StringUTF16.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="70" column="35" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="3250" column="43" lean-forward="true" selection-start-line="3250" selection-start-column="43" selection-end-line="3250" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A08_UniqueWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#562#573#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="4112" column="51" selection-start-line="4112" selection-start-column="51" selection-end-line="4112" selection-end-column="51" />
+          <folding>
+            <element signature="e#188952#188953#0" expanded="true" />
+            <element signature="e#188993#188994#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E16_Vowels.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E08_Gerbil_Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E01_Gerbil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding>
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/E17_GerbilsMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
         </state>
       </provider>
     </entry>

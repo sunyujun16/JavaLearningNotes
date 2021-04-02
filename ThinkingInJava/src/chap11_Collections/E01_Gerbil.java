@@ -9,11 +9,17 @@ public class E01_Gerbil {
         this.gerbilNumber = gerbilNumber;
     }
 
-    void hop(){
+    E01_Gerbil hop(){
         System.out.println(gerbilNumber + " is hopping.");
+        return this;
     }
 
     private String get(){
+        return "Gerbil No." + gerbilNumber;
+    }
+
+    @Override
+    public String toString() {
         return "Gerbil No." + gerbilNumber;
     }
 
