@@ -1,7 +1,7 @@
 package chap13_FunctionalProgramming;
 
 public class A02_RecursiveFactorial {
-    private static IntCall fact;
+    private static A03_IntCall fact;
 
     public static void main(String[] args) {
         fact = n -> n == 0 ? 1 : n * fact.call(n - 1);

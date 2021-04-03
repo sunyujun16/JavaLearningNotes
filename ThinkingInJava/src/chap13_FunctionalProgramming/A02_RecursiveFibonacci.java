@@ -1,7 +1,7 @@
 package chap13_FunctionalProgramming;
 
 public class A02_RecursiveFibonacci {
-    IntCall fib;
+    A03_IntCall fib;
 
     // 我的做法
 //    public static void main(String[] args) {

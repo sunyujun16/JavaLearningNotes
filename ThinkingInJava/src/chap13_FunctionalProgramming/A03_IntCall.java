@@ -1,5 +1,5 @@
 package chap13_FunctionalProgramming;
 
-interface IntCall {
+interface A03_IntCall {
     int call(int arg);
 }
