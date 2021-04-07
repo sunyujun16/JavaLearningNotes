@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ad74665-bec8-49cd-a749-d0754b62935a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A03_CtorReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A04_FunctionalAnnotation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A03_RunnableMethodReference.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A03_RunnableMethodReference.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,21 +34,91 @@
     <favorites_list name="JavaLearningNotes" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A03_UnboundMethodReference.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <folding>
+                <element signature="e#64#65#0" expanded="true" />
+                <element signature="e#95#96#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A03_MultiUnbound.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="609">
+              <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A03_CtorReference.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="44" column="53" lean-forward="true" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A03_CtorReference.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A04_FunctionalAnnotation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+            <state relative-caret-position="819">
+              <caret line="39" column="49" lean-forward="true" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
+              <folding>
+                <element signature="e#497#498#0" expanded="true" />
+                <element signature="e#537#538#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A01_Strategize.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="40" column="21" lean-forward="true" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A02_RecursiveFibonacci.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A03_MethodReferences.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="756">
+              <caret line="44" column="30" lean-forward="true" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
+              <folding>
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#445#446#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A03_RunnableMethodReference.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+              <folding>
+                <element signature="e#71#72#0" expanded="true" />
+                <element signature="e#117#118#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,9 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A10_Statistics.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A10_PetMap.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A11_QueueDemo.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A12_InterfacesVSIterator.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A11_PriorityQueueDemo.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap11_Collections/A12_InterfaceVsIterator.java" />
@@ -127,10 +195,13 @@
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A02_RecursiveFibonacci.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A03_MethodReferences.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A04_RunnableMethodReference.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A03_RunnableMethodReference.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A03_UnboundMethodReference.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A03_MultiUnbound.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A03_CtorReference.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A03_RunnableMethodReference.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A03_ConstructorRefrence.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/FunctionalAnnotation.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A04_FunctionalAnnotation.java" />
       </list>
     </option>
   </component>
@@ -146,7 +217,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -174,6 +244,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -201,9 +272,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.A03_CtorReference">
-    <configuration name="A02_RecursiveFibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap13_FunctionalProgramming.A02_RecursiveFibonacci" />
+  <component name="RunManager" selected="Application.A04_FunctionalAnnotation">
+    <configuration name="A01_Strategize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap13_FunctionalProgramming.A01_Strategize" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
@@ -228,8 +299,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="A03_MethodReferences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap13_FunctionalProgramming.A03_MethodReferences" />
+    <configuration name="A03_UnboundMethodReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap13_FunctionalProgramming.A03_UnboundMethodReference" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
@@ -241,8 +312,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="A03_UnboundMethodReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap13_FunctionalProgramming.A03_UnboundMethodReference" />
+    <configuration name="A04_FunctionalAnnotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap13_FunctionalProgramming.A04_FunctionalAnnotation" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
@@ -315,19 +386,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.A02_RecursiveFibonacci" />
-      <item itemvalue="Application.A03_MethodReferences" />
       <item itemvalue="Application.A04_RunnableMethodReference" />
       <item itemvalue="Application.A03_UnboundMethodReference" />
       <item itemvalue="Application.A03_CtorReference" />
+      <item itemvalue="Application.A01_Strategize" />
+      <item itemvalue="Application.A04_FunctionalAnnotation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.A04_FunctionalAnnotation" />
         <item itemvalue="Application.A03_CtorReference" />
+        <item itemvalue="Application.A01_Strategize" />
         <item itemvalue="Application.A03_UnboundMethodReference" />
         <item itemvalue="Application.A04_RunnableMethodReference" />
-        <item itemvalue="Application.A03_MethodReferences" />
-        <item itemvalue="Application.A02_RecursiveFibonacci" />
       </list>
     </recent_temporary>
   </component>
@@ -373,14 +444,8 @@
       <workItem from="1617154148479" duration="19352000" />
       <workItem from="1617237448592" duration="19415000" />
       <workItem from="1617319067423" duration="34168000" />
-      <workItem from="1617410906445" duration="15749000" />
-    </task>
-    <task id="LOCAL-00002" summary="2021/3/12 first commit by sunyujun.">
-      <created>1615557603667</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1615557603667</updated>
+      <workItem from="1617410906445" duration="15965000" />
+      <workItem from="1617801868356" duration="3614000" />
     </task>
     <task id="LOCAL-00003" summary="2021/3/12 first commit by sunyujun.">
       <created>1615558498823</created>
@@ -718,11 +783,18 @@
       <option name="project" value="LOCAL" />
       <updated>1617436280804</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="code everyday, job on its way!">
+      <created>1617437836933</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1617437836933</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="294301000" />
+    <option name="totallyTimeSpent" value="298131000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -869,20 +941,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/ListIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="699" column="26" lean-forward="true" selection-start-line="699" selection-start-column="26" selection-end-line="699" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/Iterator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -1212,13 +1270,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A03_IntCall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A02_LambdaExpressions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -1233,85 +1284,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A01_Strategize.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="48" column="49" lean-forward="true" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
-          <folding>
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="class#742:914" />
-            <element signature="e#817#818#0" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A03_MethodReferences.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#667#668#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/lang/Runnable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="657">
           <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A03_RunnableMethodReference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <folding>
-            <element signature="e#71#72#0" expanded="true" />
-            <element signature="e#117#118#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A02_RecursiveFibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A03_UnboundMethodReference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding>
-            <element signature="e#64#65#0" expanded="true" />
-            <element signature="e#95#96#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A03_MultiUnbound.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1322,10 +1298,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A01_Strategize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="40" column="21" lean-forward="true" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A03_IntCall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A02_RecursiveFibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A03_MethodReferences.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="44" column="30" lean-forward="true" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
+          <folding>
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A03_RunnableMethodReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+          <folding>
+            <element signature="e#71#72#0" expanded="true" />
+            <element signature="e#117#118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A03_UnboundMethodReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="e#64#65#0" expanded="true" />
+            <element signature="e#95#96#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A03_ConstructorRefrence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A03_MultiUnbound.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A03_CtorReference.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        <state relative-caret-position="840">
+          <caret line="44" column="53" lean-forward="true" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A04_FunctionalAnnotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="39" column="49" lean-forward="true" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
+          <folding>
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
