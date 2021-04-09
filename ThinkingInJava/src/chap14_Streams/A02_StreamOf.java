@@ -2,7 +2,7 @@ package chap14_Streams;
 
 import java.util.stream.*;
 
-public class A01_StreamOf {
+public class A02_StreamOf {
     public static void main(String[] args) {
 //        Stream.of(
 //                new Bubble(1), new Bubble(2), new Bubble(3))

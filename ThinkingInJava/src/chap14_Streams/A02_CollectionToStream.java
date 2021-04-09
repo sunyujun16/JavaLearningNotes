@@ -3,7 +3,7 @@ package chap14_Streams;
 import java.util.*;
 import java.util.stream.*;
 
-public class A01_CollectionToStream {
+public class A02_CollectionToStream {
     public static void main(String[] args) {
 //        List<Bubble> bubbles = Arrays.asList(
 //                new Bubble(1), new Bubble(2), new Bubble(3));
