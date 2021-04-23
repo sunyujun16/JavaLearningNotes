@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ad74665-bec8-49cd-a749-d0754b62935a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_ArrayStreams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_FileToWordsBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_FileToWordsRegexp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_Machine2.java" afterDir="false" />
+    <list default="true" id="7ad74665-bec8-49cd-a749-d0754b62935a" name="Default Changelist" comment="code everyday, job on its way!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_Cheese.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_Cheese.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_CollectionToStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_CollectionToStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap04_Operators/E10_BitwiseOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap04_Operators/E10_BitwiseOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_FileToWordsRegexp.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_FileToWordsRegexp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,59 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_Fibonacci.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_FileToWordsBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_Machine2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_ArrayStreams.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_FileToWordsRegexp.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap04_Operators/E10_BitwiseOperation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="672">
+              <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -125,8 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap06_Housekepping/E12_Tank.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/E09_Sequence.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A01_Strategize.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A02_LambdaExpressions.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/IntCall.java" />
@@ -176,6 +121,8 @@
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_ArraySreams.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_ArrayStreams.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_FileToWordsRegex.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_FileToWordsRegexp.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap04_Operators/E10_BitwiseOperation.java" />
       </list>
     </option>
   </component>
@@ -192,6 +139,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,6 +156,12 @@
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chap04_Operators" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="chap14_Streams" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -218,7 +172,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -251,35 +204,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.A02_ArrayStreams">
+  <component name="RunManager" selected="Application.E10_BitwiseOperation">
     <configuration name="A02_ArrayStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap14_Streams.A02_ArrayStreams" />
-      <module name="ThinkingInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap14_Streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="A02_CollectionToStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap14_Streams.A02_CollectionToStream" />
-      <module name="ThinkingInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap14_Streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="A02_Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap14_Streams.A02_Fibonacci" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
@@ -304,12 +231,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="A02_FileToWordsRegexp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap14_Streams.A02_FileToWordsRegexp" />
+      <module name="ThinkingInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap14_Streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="A02_Machine2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap14_Streams.A02_Machine2" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="chap14_Streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E10_BitwiseOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap04_Operators.E10_BitwiseOperation" />
+      <module name="ThinkingInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap04_Operators.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -365,19 +318,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.A02_Fibonacci" />
-      <item itemvalue="Application.A02_CollectionToStream" />
       <item itemvalue="Application.A02_FileToWordsBuilder" />
       <item itemvalue="Application.A02_Machine2" />
       <item itemvalue="Application.A02_ArrayStreams" />
+      <item itemvalue="Application.A02_FileToWordsRegexp" />
+      <item itemvalue="Application.E10_BitwiseOperation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.E10_BitwiseOperation" />
+        <item itemvalue="Application.A02_FileToWordsRegexp" />
         <item itemvalue="Application.A02_ArrayStreams" />
         <item itemvalue="Application.A02_Machine2" />
         <item itemvalue="Application.A02_FileToWordsBuilder" />
-        <item itemvalue="Application.A02_CollectionToStream" />
-        <item itemvalue="Application.A02_Fibonacci" />
       </list>
     </recent_temporary>
   </component>
@@ -427,14 +380,8 @@
       <workItem from="1617801868356" duration="4678000" />
       <workItem from="1617858764842" duration="15101000" />
       <workItem from="1617926328450" duration="23894000" />
-      <workItem from="1617978129776" duration="1427000" />
-    </task>
-    <task id="LOCAL-00008" summary="2021/3/16 by sunyujun.">
-      <created>1615890205290</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1615890205290</updated>
+      <workItem from="1617978129776" duration="2004000" />
+      <workItem from="1619180229844" duration="1579000" />
     </task>
     <task id="LOCAL-00009" summary="2021/3/16 by sunyujun.">
       <created>1615903677563</created>
@@ -772,11 +719,18 @@
       <option name="project" value="LOCAL" />
       <updated>1617967055186</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="code everyday, job on its way!">
+      <created>1617979603180</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1617979603181</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="339617000" />
+    <option name="totallyTimeSpent" value="341773000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -788,7 +742,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1080" height="1844" extended-state="6" />
+    <frame x="0" y="27" width="1078" height="1700" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -796,12 +750,12 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" weight="0.32945737" />
-      <window_info auto_hide="true" content_ui="combo" x="55" y="153" width="366" height="945" id="Project" order="5" sideWeight="0.49736688" weight="0.26647288" />
+      <window_info auto_hide="true" content_ui="combo" x="55" y="153" width="366" height="945" id="Project" order="5" sideWeight="0.49736688" weight="0.2660194" />
       <window_info id="Structure" order="6" sideWeight="0.5026331" weight="0.25484496" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.22905682" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.17223199" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.30287054" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.30262315" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298184" />
@@ -923,14 +877,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A03_ConstructorRefrence.java" />
-    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/function/ToIntFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="47" column="28" lean-forward="true" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A03_UnboundMethodReference.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -1295,10 +1241,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/java_work/mylibs/onjava/build/classes/java/main/onjava/Operations.class">
+    <entry file="file://$USER_HOME$/java_work/mylibs/onjava/build/classes/java/main/onjava/Operations.class" />
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/onjava/Operations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="126">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/regex/Pattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="659">
+          <caret line="1068" column="37" lean-forward="true" selection-start-line="1068" selection-start-column="37" selection-end-line="1068" selection-end-column="37" />
+          <folding>
+            <element signature="e#54862#54863#0" expanded="true" />
+            <element signature="e#54906#54907#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1311,24 +1269,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_FileToWordsBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+        <state relative-caret-position="441">
+          <caret line="24" column="67" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/onjava/Operations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_Machine2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
+        <state relative-caret-position="504">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1338,8 +1289,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_ArrayStreams.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        <state relative-caret-position="357">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1348,11 +1299,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_FileToWordsRegexp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        <state relative-caret-position="714">
+          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap04_Operators/E10_BitwiseOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
         </state>
       </provider>
     </entry>

@@ -8,8 +8,7 @@ import java.util.regex.Pattern;
 public class A02_FileToWordsRegexp {
     private String all;
 
-    public A02_FileToWordsRegexp(String filePath)
-            throws Exception {
+    public A02_FileToWordsRegexp(String filePath) throws Exception {
         all = Files.lines(Paths.get(filePath))
                 .skip(1) // First (comment) line
                 .collect(Collectors.joining(" "));
@@ -23,7 +22,8 @@ public class A02_FileToWordsRegexp {
     public static void
     main(String[] args) throws Exception {
         A02_FileToWordsRegexp fw =
-                new A02_FileToWordsRegexp("Cheese.dat");
+                new A02_FileToWordsRegexp(
+                        "ThinkingInJava/src/chap14_Streams/A02_Cheese.txt");
         fw.stream()
                 .limit(7)
                 .map(w -> w + " ")
