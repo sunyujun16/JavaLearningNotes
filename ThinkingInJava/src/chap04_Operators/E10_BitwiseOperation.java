@@ -34,6 +34,15 @@ public class E10_BitwiseOperation {
         System.out.println(i6); // 所以负数也是除以2
         i6 <<= 1;
         System.out.println(i6);
+        System.out.println("---------------------");
+
+        float d1 = 21474123418.1f;
+        System.out.println(d1);
+        System.out.println(Long.toBinaryString(21474123418l));
+
+        int d2 = (int)d1;
+        System.out.println(d2);
+        System.out.println(Integer.toBinaryString(d2));
 
     }
 }
