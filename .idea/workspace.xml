@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ad74665-bec8-49cd-a749-d0754b62935a" name="Default Changelist" comment="code everyday, job on its way!">
+    <list default="true" id="7ad74665-bec8-49cd-a749-d0754b62935a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap08_ReusingClasses/A04_CADSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap04_Operators/E10_BitwiseOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap04_Operators/E10_BitwiseOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_FileToWordsRegexp.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_FileToWordsRegexp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,10 +35,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap04_Operators/E10_BitwiseOperation.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap08_ReusingClasses/A04_CADSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+            <state relative-caret-position="252">
+              <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+              <folding>
+                <element signature="class#Circle#0" />
+                <element signature="class#Triangle#0" />
+                <element signature="class#Line#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,7 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A01_Strategize.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A02_LambdaExpressions.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/IntCall.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A02_RecursiveFactorial.java" />
@@ -123,6 +126,7 @@
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_FileToWordsRegex.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_FileToWordsRegexp.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap04_Operators/E10_BitwiseOperation.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap08_ReusingClasses/A04_CADSystem.java" />
       </list>
     </option>
   </component>
@@ -138,8 +142,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,7 +166,7 @@
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap14_Streams" type="462c0819:PsiDirectoryNode" />
+              <item name="chap08_ReusingClasses" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
@@ -381,21 +385,8 @@
       <workItem from="1617858764842" duration="15101000" />
       <workItem from="1617926328450" duration="23894000" />
       <workItem from="1617978129776" duration="2004000" />
-      <workItem from="1619180229844" duration="1579000" />
-    </task>
-    <task id="LOCAL-00009" summary="2021/3/16 by sunyujun.">
-      <created>1615903677563</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1615903677563</updated>
-    </task>
-    <task id="LOCAL-00010" summary="2021/3/16 by sunyujun.">
-      <created>1615905448201</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1615905448201</updated>
+      <workItem from="1619180229844" duration="4305000" />
+      <workItem from="1619317442520" duration="1104000" />
     </task>
     <task id="LOCAL-00011" summary="2021/3/17 by sunyujun.">
       <created>1615947892097</created>
@@ -726,11 +717,25 @@
       <option name="project" value="LOCAL" />
       <updated>1617979603181</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="code everyday, job on its way!">
+      <created>1619182381179</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1619182381186</updated>
+    </task>
+    <task id="LOCAL-00059" summary="code everyday, job on its way!">
+      <created>1619190682048</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1619190682048</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="341773000" />
+    <option name="totallyTimeSpent" value="345603000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -755,7 +760,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.22905682" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.17223199" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.30262315" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.30262315" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298184" />
@@ -877,17 +882,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A03_UnboundMethodReference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <element signature="e#64#65#0" expanded="true" />
-            <element signature="e#95#96#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A03_MultiUnbound.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="609">
@@ -1086,13 +1080,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_StreamOf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1309,8 +1296,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap04_Operators/E10_BitwiseOperation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        <state relative-caret-position="924">
+          <caret line="44" column="55" lean-forward="true" selection-start-line="43" selection-start-column="31" selection-end-line="44" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_StreamOf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap08_ReusingClasses/A04_CADSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+          <folding>
+            <element signature="class#Circle#0" />
+            <element signature="class#Triangle#0" />
+            <element signature="class#Line#0" />
+          </folding>
         </state>
       </provider>
     </entry>
