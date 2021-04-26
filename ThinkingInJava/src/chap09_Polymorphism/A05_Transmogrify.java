@@ -2,7 +2,8 @@ package chap09_Polymorphism;
 
 // via composition (the "State" design pattern)
 class Actor {
-    public void act() {}
+    public void act() {
+    }
 }
 
 class HappyActor extends Actor {

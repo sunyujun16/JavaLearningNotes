@@ -30,7 +30,7 @@ public class E16_Adapter implements Readable {
     private int count;
     private StringGenerator sg = new StringGenerator(10);
 
-    private E16_Adapter(int count) {
+    E16_Adapter(int count) {
         this.count = count;
     }
 
