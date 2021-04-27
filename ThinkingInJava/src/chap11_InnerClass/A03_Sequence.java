@@ -9,11 +9,12 @@ interface Selector {
     void next();
 }
 
+/** @noinspection WeakerAccess*/
 public class A03_Sequence {
     private Object[] items;
     private int next = 0;
 
-    private A03_Sequence(int size) {
+    A03_Sequence(int size) {
         items = new Object[size];
     }
 

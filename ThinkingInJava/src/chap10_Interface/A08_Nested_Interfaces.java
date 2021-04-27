@@ -33,6 +33,7 @@ class A {
         }
     }
 
+    // Classes can have private interfaces.
     private interface D {
         default void f() {
             System.out.println("Got D default.");
@@ -79,7 +80,7 @@ interface E {
 //- private interface I {}
 }
 
-public class A01_Nested_Interfaces {
+public class A08_Nested_Interfaces {
     public class BImp implements A.B {
         @Override
         public void f() {
@@ -93,10 +94,11 @@ public class A01_Nested_Interfaces {
     }
 
     // Cannot implement a private interface except
-// within that interface's defining class:
-//- class DImp implements A.D {
-//- public void f() {}
-//- }
+    // within that interface's defining class:
+//    class DImp implements A.D {
+//    public void f() {}
+//    }
+
     class EImp implements E {
         @Override
         public void g() {
@@ -132,6 +134,11 @@ public class A01_Nested_Interfaces {
 // Only another A can do anything with getD():
         A a2 = new A();
         a2.receiveD(a.getD());
+
+        // while, still can get DImp2 as an inner class.
+        A a3 = new A();
+        A.DImp2 a4 = a3.new DImp2();
+        a4.f();
     }
 }
 
