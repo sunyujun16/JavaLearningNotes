@@ -7,9 +7,10 @@ import java.util.*;
 import java.time.*;
 
 public class A13_Controller {
-    // A class from java.util to hold A12_Event objects:
+    // 这俩是我自己加的, 也是为了结果可读性.
     private final Instant ins = Instant.now();
-    private final String sThen = (ins.toString().split(":")[2].substring(0, 5));
+    private final String sThen = ins.toString().split(":")[2].substring(0, 5);
+
     private List<A12_Event> eventList = new ArrayList<>();
 
     public void addA12_Event(A12_Event c) {
@@ -33,6 +34,8 @@ public class A13_Controller {
                     String res = String.format("%.2f", timeMinus);
 
                     A12_Event.increaseI();
+
+                    // 以下是书中的语句, 前面的语句也是我自己添加. 回头想想, 这些其实放在toString里实现更好.
                     System.out.println(
                             (Integer.toString(e.getI()).length() == 2 ? e.getI() : "0" + e.getI())
                                     + ": " + res + " --- " + e);

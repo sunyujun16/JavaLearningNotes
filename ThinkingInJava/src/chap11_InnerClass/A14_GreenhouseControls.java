@@ -13,8 +13,6 @@ public class A14_GreenhouseControls extends A13_Controller {
 
         @Override
         public void action() {
-            // Put hardware control code here to
-            // physically turn on the light.
             light = true;
         }
 
@@ -31,10 +29,8 @@ public class A14_GreenhouseControls extends A13_Controller {
 
         @Override
         public void action() {
-            // Put hardware control code here to
-            // physically turn off the light.
             light = false;
-        }
+        } // Put hardware control code here to physically turn off the light.
 
         @Override
         public String toString() {
@@ -51,7 +47,6 @@ public class A14_GreenhouseControls extends A13_Controller {
 
         @Override
         public void action() {
-            // Put hardware control code here.
             water = true;
         }
 
@@ -68,7 +63,6 @@ public class A14_GreenhouseControls extends A13_Controller {
 
         @Override
         public void action() {
-            // Put hardware control code here.
             water = false;
         }
 
@@ -87,7 +81,6 @@ public class A14_GreenhouseControls extends A13_Controller {
 
         @Override
         public void action() {
-            // Put hardware control code here.
             thermostat = "Night";
         }
 
@@ -104,7 +97,6 @@ public class A14_GreenhouseControls extends A13_Controller {
 
         @Override
         public void action() {
-            // Put hardware control code here.
             thermostat = "Day";
         }
 
@@ -123,7 +115,6 @@ public class A14_GreenhouseControls extends A13_Controller {
 
         @Override
         public void action() {
-            //delayTime来自父类, 且已由上面的构造方法初始化.
             addA12_Event(new Bell(delayTime.toMillis()));
         }
 
@@ -146,11 +137,11 @@ public class A14_GreenhouseControls extends A13_Controller {
         @Override
         public void action() {
             for (A12_Event e : eventList) {
-                e.start(); // Rerun each event
+                e.start(); // Reset each event's time.
                 addA12_Event(e);
             }
-            start(); // Rerun this Event
-            addA12_Event(this);
+            start(); // Reset this Event's time.
+            addA12_Event(this); // To rerun it again later.
         }
 
         @Override
@@ -176,6 +167,7 @@ public class A14_GreenhouseControls extends A13_Controller {
     }
 }
 
+// 下面是做练习题时新增部分
 class NewGreenControls extends A14_GreenhouseControls{
     private boolean jet = false;
 

@@ -1,7 +1,7 @@
 package chap11_InnerClass;
 
 // Using inner classes for callbacks
-// {java innerclasses.A11_Callbacks}
+// {java inner classes.A11_Callbacks}
 interface Incrementable {
     void increment();
 }
@@ -36,7 +36,7 @@ class Callee2 extends MyIncrement {
     public void increment() {
         super.increment();
         j++;
-        System.out.println(j);
+        System.out.println("j: "+j);
     }
 
     private class Closure implements Incrementable {
@@ -69,13 +69,19 @@ public class A11_Callbacks {
     public static void main(String[] args) {
         Callee1 c1 = new Callee1();
         Callee2 c2 = new Callee2();
+        System.out.println("--------------");
         MyIncrement.f(c2);
+        System.out.println("--------------");
         Caller caller1 = new Caller(c1);
         Caller caller2 =
                 new Caller(c2.getCallbackReference());
+        System.out.println("--------------");
         caller1.go();
+        System.out.println("--------------");
         caller1.go();
+        System.out.println("--------------");
         caller2.go();
+        System.out.println("--------------");
         caller2.go();
     }
 }

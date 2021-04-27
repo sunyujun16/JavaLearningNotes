@@ -2,9 +2,12 @@ package chap11_InnerClass;
 
 // Nested classes (static inner classes)
 public class A10_Parcel11 {
-    private static class
-    ParcelContents implements A07_Contents {
+    private static class ParcelContents implements A07_Contents {
         private int i = 11;
+
+        public ParcelContents() {
+            System.out.println("God is a girl.");
+        }
 
         @Override
         public int value() {
@@ -17,6 +20,7 @@ public class A10_Parcel11 {
 
         private ParcelDestination(String whereTo) {
             label = whereTo;
+            System.out.println("label initialized: "+ label);
         }
 
         @Override
@@ -47,7 +51,7 @@ public class A10_Parcel11 {
 
     public static void main(String[] args) {
         A07_Contents c = contents();
-        A07_Destination d = destination("Tasmania");
+        A07_Destination d = destination("God is yourself.");
     }
 }
 
