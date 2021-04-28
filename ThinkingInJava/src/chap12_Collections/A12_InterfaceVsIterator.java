@@ -15,7 +15,7 @@ public class A12_InterfaceVsIterator {
         System.out.println();
     }
 
-    public static void display(Collection<reflection.pets.Pet> pets) {
+    public static void display(Collection<Pet> pets) {
         for (Pet p : pets)
             System.out.print(p.id() + ":" + p + " ");
         System.out.println();

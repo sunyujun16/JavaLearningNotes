@@ -21,7 +21,7 @@ public class A11_PriorityQueueDemo {
         priorityQueue = new PriorityQueue<>(
                 ints.size(), Collections.reverseOrder());
         priorityQueue.addAll(ints);
-        A11_QueueDemo.printQ(priorityQueue);
+        A11_QueueDemo.printQ(priorityQueue); // reversed
 
         String fact = "EDUCATION SHOULD ESCHEW OBFUSCATION";
         List<String> strings =
