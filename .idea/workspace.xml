@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ad74665-bec8-49cd-a749-d0754b62935a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A12_CollectionSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A12_NonCollectionSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A12_ArrayIsNotIterable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A11_PriorityQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A11_PriorityQueueDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A12_InterfaceVsIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A12_InterfaceVsIterator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,62 +33,39 @@
     <favorites_list name="JavaLearningNotes" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A11_PriorityQueueDemo.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A13_IterableClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+            <state relative-caret-position="756">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A12_InterfaceVsIterator.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A13_EnvironmentVariables.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="46" column="33" lean-forward="true" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="168">
+              <caret line="8" column="60" lean-forward="true" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A12_CollectionSequence.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A12_ArrayIsNotIterable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#236#237#0" expanded="true" />
-                <element signature="e#270#271#0" expanded="true" />
-                <element signature="e#437#438#0" expanded="true" />
-                <element signature="e#495#496#0" expanded="true" />
-                <element signature="e#577#578#0" expanded="true" />
-                <element signature="e#629#630#0" expanded="true" />
-                <element signature="e#630#631#0" expanded="true" />
-                <element signature="e#722#723#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="273">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A12_NonCollectionSequence.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A13_MultiIterableClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="30" column="10" lean-forward="true" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#363#364#0" expanded="true" />
-                <element signature="e#421#422#0" expanded="true" />
-                <element signature="e#494#495#0" expanded="true" />
-                <element signature="e#546#547#0" expanded="true" />
-                <element signature="e#556#557#0" expanded="true" />
-                <element signature="e#648#649#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="126">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -124,8 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_RandomWords.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_Ranges.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A01_Randoms.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_Generator.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_Duplicator.java" />
@@ -175,6 +147,8 @@
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A12_InterfaceVsIterator.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A12_CollectionSequence.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A12_NonCollectionSequence.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A13_IterableClass.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A12_ArrayIsNotIterable.java" />
       </list>
     </option>
   </component>
@@ -190,6 +164,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -252,7 +227,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -285,35 +259,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.A12_NonCollectionSequence">
-    <configuration name="A10_MapOfList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap12_Collections.A10_MapOfList" />
-      <module name="ThinkingInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap12_Collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.A13_EnvironmentVariables">
     <configuration name="A11_PriorityQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap12_Collections.A11_PriorityQueueDemo" />
-      <module name="ThinkingInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap12_Collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="A11_QueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap12_Collections.A11_QueueDemo" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
@@ -340,6 +288,32 @@
     </configuration>
     <configuration name="A12_NonCollectionSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap12_Collections.A12_NonCollectionSequence" />
+      <module name="ThinkingInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap12_Collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="A13_EnvironmentVariables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap12_Collections.A13_EnvironmentVariables" />
+      <module name="ThinkingInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap12_Collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="A13_IterableClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap12_Collections.A13_IterableClass" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
@@ -399,19 +373,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.A10_MapOfList" />
-      <item itemvalue="Application.A11_QueueDemo" />
       <item itemvalue="Application.A11_PriorityQueueDemo" />
       <item itemvalue="Application.A12_InterfaceVsIterator" />
       <item itemvalue="Application.A12_NonCollectionSequence" />
+      <item itemvalue="Application.A13_IterableClass" />
+      <item itemvalue="Application.A13_EnvironmentVariables" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.A13_EnvironmentVariables" />
+        <item itemvalue="Application.A13_IterableClass" />
         <item itemvalue="Application.A12_NonCollectionSequence" />
         <item itemvalue="Application.A12_InterfaceVsIterator" />
         <item itemvalue="Application.A11_PriorityQueueDemo" />
-        <item itemvalue="Application.A11_QueueDemo" />
-        <item itemvalue="Application.A10_MapOfList" />
       </list>
     </recent_temporary>
   </component>
@@ -467,14 +441,8 @@
       <workItem from="1619423153435" duration="1206000" />
       <workItem from="1619427369776" duration="5011000" />
       <workItem from="1619490600772" duration="14031000" />
-      <workItem from="1619572776555" duration="19352000" />
-    </task>
-    <task id="LOCAL-00019" summary="code everyday, job on its way!">
-      <created>1616317302034</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1616317302034</updated>
+      <workItem from="1619572776555" duration="19529000" />
+      <workItem from="1619660144486" duration="1964000" />
     </task>
     <task id="LOCAL-00020" summary="code everyday, job on its way!">
       <created>1616326772873</created>
@@ -812,11 +780,18 @@
       <option name="project" value="LOCAL" />
       <updated>1619621387658</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="code everyday, job on its way!">
+      <created>1619625106622</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1619625106622</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="385269000" />
+    <option name="totallyTimeSpent" value="387410000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -828,7 +803,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1074" height="1696" extended-state="6" />
+    <frame x="0" y="27" width="1078" height="1700" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -836,12 +811,12 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" weight="0.32945737" />
-      <window_info auto_hide="true" content_ui="combo" x="55" y="153" width="366" height="945" id="Project" order="5" sideWeight="0.49736688" weight="0.2748538" />
+      <window_info auto_hide="true" content_ui="combo" x="55" y="153" width="366" height="945" id="Project" order="5" sideWeight="0.49736688" weight="0.2747573" />
       <window_info id="Structure" order="6" sideWeight="0.5026331" weight="0.25436893" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.22905682" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.17223199" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.29506093" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.22648752" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298184" />
@@ -949,36 +924,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="code everyday, job on its way!" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_StreamOf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap09_Polymorphism/A02_Shape.java" />
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap08_ReusingClasses/A04_CADSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <element signature="class#Circle#0" />
-            <element signature="class#Triangle#0" />
-            <element signature="class#Line#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap09_Polymorphism/A05_Transmogrify.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="method#act#0;class#Actor#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap09_Polymorphism/A03_ReferenceCounting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="573">
@@ -1339,15 +1284,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A11_PriorityQueueDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
+        <state relative-caret-position="273">
           <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A12_InterfaceVsIterator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="46" column="33" lean-forward="true" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+        <state relative-caret-position="944">
+          <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1362,29 +1307,47 @@
             <element signature="imports" expanded="true" />
             <element signature="e#236#237#0" expanded="true" />
             <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
             <element signature="e#577#578#0" expanded="true" />
             <element signature="e#629#630#0" expanded="true" />
-            <element signature="e#630#631#0" expanded="true" />
-            <element signature="e#722#723#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A12_NonCollectionSequence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="30" column="10" lean-forward="true" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+        <state relative-caret-position="273">
+          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A13_IterableClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A13_EnvironmentVariables.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="60" lean-forward="true" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A12_ArrayIsNotIterable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A13_MultiIterableClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
