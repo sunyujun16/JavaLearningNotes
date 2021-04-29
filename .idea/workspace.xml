@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ad74665-bec8-49cd-a749-d0754b62935a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/E00_TailRecursive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A13_MultiIterableClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A13_MultiIterableClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A01_Strategize.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A01_Strategize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A02_LambdaExpressions.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A02_LambdaExpressions.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,37 +37,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A13_EnvironmentVariables.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A01_Strategize.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+            <state relative-caret-position="882">
+              <caret line="52" column="1" lean-forward="true" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A13_IterableClass.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A02_LambdaExpressions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="17" selection-start-line="7" selection-start-column="23" selection-end-line="9" selection-end-column="17" />
-              <folding>
-                <element signature="e#587#588#0" expanded="true" />
-                <element signature="e#646#647#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="441">
+              <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A13_MultiIterableClass.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/E00_TailRecursive.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="651">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
               <folding>
-                <element signature="e#318#319#0" expanded="true" />
-                <element signature="e#369#370#0" expanded="true" />
-                <element signature="e#405#406#0" expanded="true" />
-                <element signature="e#460#461#0" expanded="true" />
+                <element signature="e#1040#1041#0" expanded="true" />
+                <element signature="e#1080#1081#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,9 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_Generator.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_Duplicator.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_Bubble.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_Bubbles.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_Fibonacci.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_FileToWordsBulider.java" />
@@ -150,6 +143,9 @@
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A13_IterableClass.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A12_ArrayIsNotIterable.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A13_MultiIterableClass.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A01_Strategize.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A02_LambdaExpressions.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/E00_TailRecursive.java" />
       </list>
     </option>
   </component>
@@ -182,7 +178,7 @@
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap12_Collections" type="462c0819:PsiDirectoryNode" />
+              <item name="chap13_FunctionalProgramming" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
@@ -260,13 +256,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.A13_MultiIterableClass">
-    <configuration name="A12_InterfaceVsIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap12_Collections.A12_InterfaceVsIterator" />
+  <component name="RunManager" selected="Application.E00_TailRecursive">
+    <configuration name="A01_Strategize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap13_FunctionalProgramming.A01_Strategize" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap12_Collections.*" />
+          <option name="PATTERN" value="chap13_FunctionalProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -274,38 +270,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="A12_NonCollectionSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap12_Collections.A12_NonCollectionSequence" />
+    <configuration name="A02_LambdaExpressions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap13_FunctionalProgramming.A02_LambdaExpressions" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap12_Collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="A13_EnvironmentVariables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap12_Collections.A13_EnvironmentVariables" />
-      <module name="ThinkingInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap12_Collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="A13_IterableClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap12_Collections.A13_IterableClass" />
-      <module name="ThinkingInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap12_Collections.*" />
+          <option name="PATTERN" value="chap13_FunctionalProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -319,6 +289,32 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="chap12_Collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E00_Recursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap13_FunctionalProgramming.E00_Recursive" />
+      <module name="ThinkingInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap13_FunctionalProgramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="E00_TailRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap13_FunctionalProgramming.E00_TailRecursive" />
+      <module name="ThinkingInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap13_FunctionalProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -374,19 +370,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.A12_InterfaceVsIterator" />
-      <item itemvalue="Application.A12_NonCollectionSequence" />
-      <item itemvalue="Application.A13_IterableClass" />
-      <item itemvalue="Application.A13_EnvironmentVariables" />
       <item itemvalue="Application.A13_MultiIterableClass" />
+      <item itemvalue="Application.A01_Strategize" />
+      <item itemvalue="Application.A02_LambdaExpressions" />
+      <item itemvalue="Application.E00_TailRecursive" />
+      <item itemvalue="Application.E00_Recursive" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.E00_TailRecursive" />
+        <item itemvalue="Application.E00_Recursive" />
+        <item itemvalue="Application.A02_LambdaExpressions" />
+        <item itemvalue="Application.A01_Strategize" />
         <item itemvalue="Application.A13_MultiIterableClass" />
-        <item itemvalue="Application.A13_EnvironmentVariables" />
-        <item itemvalue="Application.A13_IterableClass" />
-        <item itemvalue="Application.A12_NonCollectionSequence" />
-        <item itemvalue="Application.A12_InterfaceVsIterator" />
       </list>
     </recent_temporary>
   </component>
@@ -443,14 +439,7 @@
       <workItem from="1619427369776" duration="5011000" />
       <workItem from="1619490600772" duration="14031000" />
       <workItem from="1619572776555" duration="19529000" />
-      <workItem from="1619660144486" duration="4480000" />
-    </task>
-    <task id="LOCAL-00021" summary="code everyday, job on its way!">
-      <created>1616378097859</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1616378097859</updated>
+      <workItem from="1619660144486" duration="9323000" />
     </task>
     <task id="LOCAL-00022" summary="code everyday, job on its way!">
       <created>1616415730982</created>
@@ -788,11 +777,18 @@
       <option name="project" value="LOCAL" />
       <updated>1619662115469</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="code everyday, job on its way!">
+      <created>1619694916554</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1619694916554</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="389926000" />
+    <option name="totallyTimeSpent" value="394769000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -817,7 +813,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.22905682" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.17223199" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.22648752" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.2802303" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298184" />
@@ -925,27 +921,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="code everyday, job on its way!" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap09_Polymorphism/A03_ReferenceCounting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/Scanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="875" column="18" selection-start-line="875" selection-start-column="18" selection-end-line="875" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap10_Interface/E16_Adapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="43" column="24" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap10_Interface/A03_Waveform.java" />
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap10_Interface/A08_NestingInterfaces.java" />
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap10_Interface/A03_Applicator.java">
@@ -1324,17 +1299,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A13_EnvironmentVariables.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A12_ArrayIsNotIterable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A13_MultiIterableClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1349,15 +1330,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A13_MultiIterableClass.java">
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A13_EnvironmentVariables.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="168">
+          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A01_Strategize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="52" column="1" lean-forward="true" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A02_LambdaExpressions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/E00_TailRecursive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           <folding>
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#1040#1041#0" expanded="true" />
+            <element signature="e#1080#1081#0" expanded="true" />
           </folding>
         </state>
       </provider>
