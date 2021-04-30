@@ -2,11 +2,9 @@ package chap13_FunctionalProgramming;
 
 import java.util.function.*;
 
-class In1 {
-}
+class In1 {}
 
-class In2 {
-}
+class In2 {}
 
 public class A04_MethodConversion {
     static void accept(In1 i1, In2 i2) {

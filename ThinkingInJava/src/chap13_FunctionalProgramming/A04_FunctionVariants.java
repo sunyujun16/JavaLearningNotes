@@ -2,12 +2,10 @@ package chap13_FunctionalProgramming;
 
 import java.util.function.*;
 
-class Foo {
-}
+class Foo { }
 
 class Bar {
     Foo f;
-
     Bar(Foo f) {
         this.f = f;
     }

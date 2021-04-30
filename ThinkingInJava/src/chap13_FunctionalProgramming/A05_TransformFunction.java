@@ -34,7 +34,7 @@ public class A05_TransformFunction {
         // 有了上面的解析, 显然, 此处传入transform的参数就是我们定义的in的行为, 准确来讲是原始apply的行为.
         // 它返回的new O()将被传入andThen的形参所展示的行为函数, 这个函数的行为是: 打印o, 并返回o.
         // 注意, 这些事件的核心都是围绕着in(Function的实例对象)展开的. 所以andThen才能在底层获取apply的
-        // 返回值.    如果再深究下去, in和after(见源码)本质上都是某个实现了Function的具体类的
+        // 返回值.    如果再深究下去, in和after(见源码)本质上都是某个实现了Function接口的类的
         // 对象, 但这个实现过程被JAVA隐藏了.
         Function<I, O> f2 = transform(i -> {
             System.out.println(i);
