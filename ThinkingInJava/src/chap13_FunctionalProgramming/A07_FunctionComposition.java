@@ -23,8 +23,7 @@ public class A07_FunctionComposition {
             // 而最后面的这个String, 不要和最初的String混淆, 它是不是String完全取决于f3的心情.
 
     public static void main(String[] args) {
-        System.out.println(
-                f4.apply(111111));
+        System.out.println( f4.apply(111111) );
                 // 结果中第一行是取自于f1中的那部分代码的副作用, 第二行是f4的返回值. 修改之后看不出小写效果了.
     }
 }
