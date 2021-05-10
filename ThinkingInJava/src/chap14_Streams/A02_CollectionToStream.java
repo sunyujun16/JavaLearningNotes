@@ -19,6 +19,7 @@ public class A02_CollectionToStream {
                 .forEach(System.out::print);
 
         System.out.println();
+        System.out.println("---");
 
         Map<String, Double> m = new HashMap<>();
         m.put("pi", 3.14159);

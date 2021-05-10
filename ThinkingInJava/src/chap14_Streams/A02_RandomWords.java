@@ -32,10 +32,10 @@ public class A02_RandomWords implements Supplier<String> {
                 .collect(Collectors.joining(" "));
     }
 
-    public static void
-    main(String[] args) throws Exception {
+    public static void main(String[] args) throws Exception {
         System.out.println(
-                Stream.generate(new A02_RandomWords(
+                Stream.generate(new A02_RandomWords( // generate源码表明, 它的参数是一个Supplier,
+                        // 这意味着,在更深层的实现中,必然要用到其get方法.
                         "./ThinkingInJava/src/chap14_Streams/A02_Cheese.txt"))
                         // 这里无法识别dat后缀的文件. 报错NoSuchFileException
                         .limit(10)
