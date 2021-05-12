@@ -2,7 +2,6 @@ package chap14_Streams;
 
 import java.lang.reflect.Array;
 import java.util.*;
-
 import onjava.Operations;
 
 public class A02_Machine2 {

@@ -15,12 +15,10 @@ public class A02_FileToWordsRegexp {
     }
 
     public Stream<String> stream() {
-        return Pattern
-                .compile("[ .,?]+").splitAsStream(all);
+        return Pattern.compile("[ .,?]+").splitAsStream(all);
     }
 
-    public static void
-    main(String[] args) throws Exception {
+    public static void main(String[] args) throws Exception {
         A02_FileToWordsRegexp fw =
                 new A02_FileToWordsRegexp(
                         "ThinkingInJava/src/chap14_Streams/A02_Cheese.txt");
@@ -28,6 +26,9 @@ public class A02_FileToWordsRegexp {
                 .limit(7)
                 .map(w -> w + " ")
                 .forEach(System.out::print);
+
+        System.out.println("");
+
         fw.stream()
                 .skip(7)
                 .limit(2)
