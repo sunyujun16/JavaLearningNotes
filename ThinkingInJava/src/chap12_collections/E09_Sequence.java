@@ -3,15 +3,14 @@ package chap12_collections;
 import java.util.*;
 
 public class E09_Sequence {
-    private ArrayList items;
+    private ArrayList<Object> items;
     private int length = 0;
 
     private E09_Sequence() {
-        items = new ArrayList();
+        items = new ArrayList<>();
     }
 
     private void add(Object x) {
-        //noinspection unchecked
         items.add(x);
         length++;
     }

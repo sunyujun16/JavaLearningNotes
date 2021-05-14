@@ -15,7 +15,7 @@ public class E12_Tank {
         emp = true;
     }
 
-    /** @noinspection deprecation*/
+
     @Override
     public void finalize(){
         if (!emp) System.out.println("Fuck it, get back.");
