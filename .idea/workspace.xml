@@ -1,19 +1,195 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ad74665-bec8-49cd-a749-d0754b62935a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A04_OptionalFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A04_OptionalFlatMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A04_OptionalMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A04_Signal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A04_StreamOfOptionals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A05_ForEach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A05_MapCollector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A05_RandInts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A05_TreeSetOfWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/UsePair.java" afterDir="false" />
+    <list default="true" id="7ad74665-bec8-49cd-a749-d0754b62935a" name="Default Changelist" comment="code everyday, job on its way!">
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A05_Matching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A05_Reduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A05_SelectElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A05_SpecialCollector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A04_CreatingOptionals.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A04_CreatingOptionals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap03_Object/E01_Initialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap03_object/E01_Initialize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap03_Object/E02_HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap03_object/E02_HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap03_Object/E03_ATypeName.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap03_object/E03_ATypeName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap03_Object/E04_DateOnly.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap03_object/E04_DateOnly.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap03_Object/E06_Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap03_object/E06_Storage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap03_Object/E07_Incrementable.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap03_object/E07_Incrementable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap03_Object/E08_StaticVariable.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap03_object/E08_StaticVariable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap03_Object/E09_Autoboxing.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap03_object/E09_Autoboxing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap03_Object/E10_CommandLineArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap03_object/E10_CommandLineArgs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap03_Object/HelloDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap03_object/HelloDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap03_Object/ShowProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap03_object/ShowProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap04_Operators/E04_Speed.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap04_operators/E04_Speed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap04_Operators/E05_Dogs.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap04_operators/E05_Dogs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap04_Operators/E07_FlipCoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap04_operators/E07_FlipCoin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap04_Operators/E08_HexOctalLong.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap04_operators/E08_HexOctalLong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap04_Operators/E10_BitwiseOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap04_operators/E10_BitwiseOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap04_Operators/E14_CompareStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap04_operators/E14_CompareStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap05_ControlFlow/E02_25Ints.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap05_control_flow/E02_25Ints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap05_ControlFlow/E04_PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap05_control_flow/E04_PrimeNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap05_ControlFlow/E05_BitwiseOperation2.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap05_control_flow/E05_BitwiseOperation2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap05_ControlFlow/E10_VampireNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap05_control_flow/E10_VampireNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap06_Housekepping/E12_Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap06_housekepping/E12_Tank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap06_Housekepping/E14_ScopeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap06_housekepping/E14_ScopeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap06_Housekepping/E18_InitializeArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap06_housekepping/E18_InitializeArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap06_Housekepping/E19_Varargs.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap06_housekepping/E19_Varargs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap07_ImplementationHiding/E01_OutOfPackage.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap07_implementation_hiding/E01_OutOfPackage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap07_ImplementationHiding/E02_Collision.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap07_implementation_hiding/E02_Collision.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap07_ImplementationHiding/E08_ConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap07_implementation_hiding/E08_ConnectionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap08_ReusingClasses/A04_CADSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap08_reusing_classes/A04_CADSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap08_ReusingClasses/E01_LazyInitialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap08_reusing_classes/E01_LazyInitialize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap08_ReusingClasses/E02_Inheritance01.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap08_reusing_classes/E02_Inheritance01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap08_ReusingClasses/E14_Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap08_reusing_classes/E14_Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap08_ReusingClasses/E17_UpcastingWithOveride.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap08_reusing_classes/E17_UpcastingWithOveride.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap08_ReusingClasses/E25_InitializeOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap08_reusing_classes/E25_InitializeOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap09_Polymorphism/A03_ReferenceCounting.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap09_polymorphism/A03_ReferenceCounting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap09_Polymorphism/A05_Transmogrify.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap09_polymorphism/A05_Transmogrify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap09_Polymorphism/PolyConstructors.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap09_polymorphism/PolyConstructors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap10_Interface/A02_Factories.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap10_interface/A02_Factories.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap10_Interface/A03_Applicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap10_interface/A03_Applicator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap10_Interface/A03_Games.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap10_interface/A03_Games.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap10_Interface/A08_Nested_Interfaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap10_interface/A08_Nested_Interfaces.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap10_Interface/E10_Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap10_interface/E10_Music.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap10_Interface/E16_Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap10_interface/E16_Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap10_Interface/E18_SimpleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap10_interface/E18_SimpleFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap11_InnerClass/A01_Parcel1.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_inner_class/A01_Parcel1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap11_InnerClass/A02_Parcel2.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_inner_class/A02_Parcel2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap11_InnerClass/A03_Sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_inner_class/A03_Sequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap11_InnerClass/A04_DotThis.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_inner_class/A04_DotThis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap11_InnerClass/A05_DotNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_inner_class/A05_DotNew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap11_InnerClass/A06_Parcel3.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_inner_class/A06_Parcel3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap11_InnerClass/A07_Contents.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_inner_class/A07_Contents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap11_InnerClass/A07_Destination.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_inner_class/A07_Destination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap11_InnerClass/A07_TestParcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_inner_class/A07_TestParcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap11_InnerClass/A08_Parcel5_Local_InnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_inner_class/A08_Parcel5_Local_InnerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap11_InnerClass/A08_Parcel6.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_inner_class/A08_Parcel6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap11_InnerClass/A09_AnonymousConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_inner_class/A09_AnonymousConstructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap11_InnerClass/A09_Parcel10.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_inner_class/A09_Parcel10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap11_InnerClass/A09_Parcel7.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_inner_class/A09_Parcel7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap11_InnerClass/A09_Parcel8.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_inner_class/A09_Parcel8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap11_InnerClass/A09_Parcel9.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_inner_class/A09_Parcel9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap11_InnerClass/A10_Parcel11.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_inner_class/A10_Parcel11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap11_InnerClass/A11_Callbacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_inner_class/A11_Callbacks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap11_InnerClass/A12_Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_inner_class/A12_Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap11_InnerClass/A13_Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_inner_class/A13_Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap11_InnerClass/A14_GreenhouseControls.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_inner_class/A14_GreenhouseControls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap11_InnerClass/A15_GreenhouseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_inner_class/A15_GreenhouseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap11_InnerClass/A15_InheritInner.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_inner_class/A15_InheritInner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap11_InnerClass/A16_BigEgg2.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_inner_class/A16_BigEgg2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap11_InnerClass/A17_Local_InnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_inner_class/A17_Local_InnerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap11_InnerClass/E25_NewGC.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap11_inner_class/E25_NewGC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A01_ApplesAndOrangesWithGenerics.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/A01_ApplesAndOrangesWithGenerics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A01_ApplesAndOrangesWithoutGenerics.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/A01_ApplesAndOrangesWithoutGenerics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A02_AddingGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/A02_AddingGroups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A02_AsListInference.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/A02_AsListInference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A03_PrintingCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/A03_PrintingCollections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A05_ListFeatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/A05_ListFeatures.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A06_SimpleIteration.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/A06_SimpleIteration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A07_LinkedListFeatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/A07_LinkedListFeatures.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A07_ListIteration.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/A07_ListIteration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A08_SetOfString.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/A08_SetOfString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A08_SetOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/A08_SetOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A08_SortedSetOfString.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/A08_SortedSetOfString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A08_UniqueWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/A08_UniqueWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A10_MapOfList.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/A10_MapOfList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A10_PetMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/A10_PetMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A10_Statistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/A10_Statistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A11_PriorityQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/A11_PriorityQueueDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A11_QueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/A11_QueueDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A12_ArrayIsNotIterable.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/A12_ArrayIsNotIterable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A12_CollectionSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/A12_CollectionSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A12_InterfaceVsIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/A12_InterfaceVsIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A12_NonCollectionSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/A12_NonCollectionSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A13_AdapterMethodIdiom.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/A13_AdapterMethodIdiom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A13_EnvironmentVariables.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/A13_EnvironmentVariables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A13_IterableClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/A13_IterableClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A13_MultiIterableClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/A13_MultiIterableClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/E01_Gerbil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/E01_Gerbil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/E02_SimpleCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/E02_SimpleCollections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/E03_Sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/E03_Sequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/E04_Generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/E04_Generator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/E05_ListFeatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/E05_ListFeatures.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/E07_RemoveSubList.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/E07_RemoveSubList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/E08_Gerbil_Iterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/E08_Gerbil_Iterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/E09_Sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/E09_Sequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/E12_ListIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/E12_ListIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/E14_LinkedListInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/E14_LinkedListInsert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/E16_Vowels.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/E16_Vowels.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/E17_GerbilsMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/E17_GerbilsMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/E18_SortHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/E18_SortHashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/E19_SetOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/E19_SetOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/E22_WordsInfo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/E22_WordsInfo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/E22_WordsStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/E22_WordsStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/E23_MoreProbable.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/E23_MoreProbable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/E27_PassQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/E27_PassQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/E28_PriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/E28_PriorityQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/E29_PriorityQueueLimit.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/E29_PriorityQueueLimit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/E30_CollectionSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/E30_CollectionSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A01_Strategize.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap13_functional_programming/A01_Strategize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A02_LambdaExpressions.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap13_functional_programming/A02_LambdaExpressions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A02_RecursiveFactorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap13_functional_programming/A02_RecursiveFactorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A02_RecursiveFibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap13_functional_programming/A02_RecursiveFibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A03_CtorReference.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap13_functional_programming/A03_CtorReference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A03_IntCall.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap13_functional_programming/A03_IntCall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A03_MethodReferences.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap13_functional_programming/A03_MethodReferences.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A03_MultiUnbound.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap13_functional_programming/A03_MultiUnbound.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A03_RunnableMethodReference.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap13_functional_programming/A03_RunnableMethodReference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A03_UnboundMethodReference.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap13_functional_programming/A03_UnboundMethodReference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A04_ClassFunctionals.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap13_functional_programming/A04_ClassFunctionals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A04_FunctionVariants.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap13_functional_programming/A04_FunctionVariants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A04_FunctionalAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap13_functional_programming/A04_FunctionalAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A04_MethodConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap13_functional_programming/A04_MethodConversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A05_ConsumeFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap13_functional_programming/A05_ConsumeFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A05_ProduceFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap13_functional_programming/A05_ProduceFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A05_TransformFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap13_functional_programming/A05_TransformFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A06_Closure1_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap13_functional_programming/A06_Closure1_8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A07_FunctionComposition.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap13_functional_programming/A07_FunctionComposition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A07_PredicateComposition.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap13_functional_programming/A07_PredicateComposition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A08_CurriedIntAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap13_functional_programming/A08_CurriedIntAdd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/A08_CurryingAndPartials.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap13_functional_programming/A08_CurryingAndPartials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap13_FunctionalProgramming/E00_TailRecursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap13_functional_programming/E00_TailRecursive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A01_ImperativeRandoms.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A01_ImperativeRandoms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A01_Randoms.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A01_Randoms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_ArrayStreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A02_ArrayStreams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_Bubble.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A02_Bubble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_Bubbles.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A02_Bubbles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_Cheese.data" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A02_Cheese.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_Cheese.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A02_Cheese.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_CollectionToStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A02_CollectionToStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_Duplicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A02_Duplicator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A02_Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_FileToWordsBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A02_FileToWordsBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_FileToWordsRegexp.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A02_FileToWordsRegexp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_Generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A02_Generator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_Looping.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A02_Looping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_Machine2.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A02_Machine2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_RandomGenerators.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A02_RandomGenerators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_RandomWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A02_RandomWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_Ranges.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A02_Ranges.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_StreamOf.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A02_StreamOf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A03_FileToWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A03_FileToWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A03_FileToWordsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A03_FileToWordsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A03_FlatMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A03_FlatMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A03_FunctionMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A03_FunctionMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A03_Peeking.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A03_Peeking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A03_Prime.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A03_Prime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A03_SortedComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A03_SortedComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A03_StreamOfRandoms.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A03_StreamOfRandoms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A03_StreamOfStreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A03_StreamOfStreams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A04_CreatingOptionals.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A04_CreatingOptionals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A04_OptionalBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A04_OptionalBasics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A04_OptionalFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A04_OptionalFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A04_OptionalFlatMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A04_OptionalFlatMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A04_OptionalMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A04_OptionalMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A04_Optionals.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A04_Optionals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A04_OptionalsFromEmptyStreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A04_OptionalsFromEmptyStreams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A04_Signal.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A04_Signal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A04_StreamOfOptionals.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A04_StreamOfOptionals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A05_ForEach.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A05_ForEach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A05_MapCollector.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A05_MapCollector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A05_RandInts.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A05_RandInts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A05_TreeSetOfWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A05_TreeSetOfWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/E02_FileToWordsRegexp.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/E02_FileToWordsRegexp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/UsePair.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/UsePair.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,10 +221,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A05_ForEach.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A05_SpecialCollector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+            <state relative-caret-position="252">
+              <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A05_Reduce.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="693">
+              <caret line="33" column="86" selection-start-line="33" selection-start-column="86" selection-end-line="33" selection-end-column="86" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#126#127#0" expanded="true" />
+                <element signature="e#151#152#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A05_Matching.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,10 +260,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A05_TreeSetOfWords.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A05_SelectElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
+            <state relative-caret-position="42">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,35 +272,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A05_MapCollector.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A05_RandInts.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1348">
-              <caret line="80" column="41" lean-forward="true" selection-start-line="80" selection-start-column="41" selection-end-line="80" selection-end-column="41" />
+            <state relative-caret-position="189">
+              <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#326#327#0" expanded="true" />
-                <element signature="e#350#351#0" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
-                <element signature="e#438#439#0" expanded="true" />
-                <element signature="e#479#480#0" expanded="true" />
-                <element signature="e#525#526#0" expanded="true" />
-                <element signature="e#576#577#0" expanded="true" />
-                <element signature="e#1212#1213#0" expanded="true" />
-                <element signature="e#1245#1246#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/stream/Stream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="1330" column="45" selection-start-line="1330" selection-start-column="45" selection-end-line="1330" selection-end-column="45" />
-              <folding>
-                <element signature="e#55060#55061#0" expanded="true" />
-                <element signature="e#55116#55117#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -131,11 +311,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A11_QueueDemo.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A11_PriorityQueueDemo.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A12_InterfaceVsIterator.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A12_CollectionSequence.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A12_NonCollectionSequence.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A13_IterableClass.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A12_ArrayIsNotIterable.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap12_Collections/A13_MultiIterableClass.java" />
@@ -182,6 +357,11 @@
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A05_TreeSetOfWords.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/UsePair.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A05_MapCollector.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A05_SpecialCollector.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A05_Reduce.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A05_Matching.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A05_SelectElement.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A05_RandInts.java" />
       </list>
     </option>
   </component>
@@ -197,8 +377,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -215,7 +393,7 @@
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap14_Streams" type="462c0819:PsiDirectoryNode" />
+              <item name="chap14_streams" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
@@ -230,6 +408,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,39 +442,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.A05_MapCollector">
-    <configuration name="A04_StreamOfOptionals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap14_Streams.A04_StreamOfOptionals" />
-      <module name="ThinkingInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap14_Streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="A05_ForEach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap14_Streams.A05_ForEach" />
-      <module name="ThinkingInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap14_Streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.A05_Matching">
     <configuration name="A05_MapCollector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap14_Streams.A05_MapCollector" />
+      <option name="MAIN_CLASS_NAME" value="chap14_streams.A05_MapCollector" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap14_Streams.*" />
+          <option name="PATTERN" value="chap14_streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -302,12 +456,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="A05_TreeSetOfWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap14_Streams.A05_TreeSetOfWords" />
+    <configuration name="A05_Matching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap14_streams.A05_Matching" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap14_Streams.*" />
+          <option name="PATTERN" value="chap14_streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -315,12 +469,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsePair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap14_Streams.UsePair" />
+    <configuration name="A05_Reduce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap14_streams.A05_Reduce" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap14_Streams.*" />
+          <option name="PATTERN" value="chap14_streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="A05_SpecialCollector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap14_streams.A05_SpecialCollector" />
+      <module name="ThinkingInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap14_streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpecialCollector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap14_Streams.SpecialCollector" />
+      <module name="ThinkingInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap14_streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -376,21 +556,24 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.A04_StreamOfOptionals" />
-      <item itemvalue="Application.A05_ForEach" />
-      <item itemvalue="Application.A05_TreeSetOfWords" />
       <item itemvalue="Application.A05_MapCollector" />
-      <item itemvalue="Application.UsePair" />
+      <item itemvalue="Application.SpecialCollector" />
+      <item itemvalue="Application.A05_SpecialCollector" />
+      <item itemvalue="Application.A05_Reduce" />
+      <item itemvalue="Application.A05_Matching" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.A05_Matching" />
+        <item itemvalue="Application.A05_Reduce" />
+        <item itemvalue="Application.A05_SpecialCollector" />
+        <item itemvalue="Application.SpecialCollector" />
         <item itemvalue="Application.A05_MapCollector" />
-        <item itemvalue="Application.UsePair" />
-        <item itemvalue="Application.A05_TreeSetOfWords" />
-        <item itemvalue="Application.A05_ForEach" />
-        <item itemvalue="Application.A04_StreamOfOptionals" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -451,14 +634,8 @@
       <workItem from="1620636272588" duration="9973000" />
       <workItem from="1620702321224" duration="2513000" />
       <workItem from="1620817786995" duration="10541000" />
-      <workItem from="1620868215330" duration="17653000" />
-    </task>
-    <task id="LOCAL-00031" summary="code everyday, job on its way!">
-      <created>1616589348015</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1616589348015</updated>
+      <workItem from="1620868215330" duration="17727000" />
+      <workItem from="1620954075463" duration="8983000" />
     </task>
     <task id="LOCAL-00032" summary="code everyday, job on its way!">
       <created>1616598819580</created>
@@ -796,11 +973,18 @@
       <option name="project" value="LOCAL" />
       <updated>1620888703918</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="code everyday, job on its way!">
+      <created>1620917594027</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1620917594027</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="458339000" />
+    <option name="totallyTimeSpent" value="467396000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -825,7 +1009,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.22905682" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.17223199" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.31751612" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.31751612" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298184" />
@@ -865,7 +1049,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3298184" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.36148432" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.36145285" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -933,107 +1117,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="code everyday, job on its way!" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_CollectionToStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_RandomGenerators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_RandomWords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_Ranges.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_Looping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_Generator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_Duplicator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_Bubble.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_Bubbles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/stream/Streams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5859">
-          <caret line="325" column="16" selection-start-line="325" selection-start-column="16" selection-end-line="325" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_FileToWordsBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_Machine2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="64" lean-forward="true" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/function/IntConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -1058,21 +1141,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_ArrayStreams.java">
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A02_ArrayStreams.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/nio/file/Files.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="4103" column="47" lean-forward="true" selection-start-line="4103" selection-start-column="47" selection-end-line="4103" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_FileToWordsRegexp.java">
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A02_FileToWordsRegexp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="23" column="73" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="73" />
@@ -1084,14 +1160,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A03_Peeking.java">
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A03_Peeking.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="78" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="80" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A03_SortedComparator.java">
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A03_SortedComparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="50" lean-forward="true" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
@@ -1122,7 +1198,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A03_Prime.java">
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A03_Prime.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="24" column="59" lean-forward="true" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
@@ -1132,7 +1208,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A03_FunctionMap.java">
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A03_FunctionMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
@@ -1148,21 +1224,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A03_StreamOfStreams.java">
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A03_StreamOfStreams.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A03_FlatMap.java">
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A03_FlatMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A03_StreamOfRandoms.java">
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A03_StreamOfRandoms.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
@@ -1172,7 +1248,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A04_OptionalsFromEmptyStreams.java">
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A04_OptionalsFromEmptyStreams.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
@@ -1187,7 +1263,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A04_OptionalBasics.java">
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A04_OptionalBasics.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
@@ -1205,7 +1281,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/E02_FileToWordsRegexp.java">
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/E02_FileToWordsRegexp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="22" column="65" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="65" />
@@ -1217,7 +1293,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A04_Optionals.java">
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A04_Optionals.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
           <caret line="32" column="37" lean-forward="true" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
@@ -1232,7 +1308,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A04_CreatingOptionals.java">
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A04_CreatingOptionals.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="17" column="53" lean-forward="true" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
@@ -1242,7 +1318,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A04_OptionalFilter.java">
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A04_OptionalFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
@@ -1254,7 +1330,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A04_OptionalMap.java">
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A04_OptionalMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
@@ -1264,7 +1340,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A04_OptionalFlatMap.java">
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A04_OptionalFlatMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
           <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
@@ -1276,7 +1352,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A04_Signal.java">
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A04_Signal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="651">
           <caret line="37" column="60" lean-forward="true" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
@@ -1286,17 +1362,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A03_FileToWords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="78" lean-forward="true" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A04_StreamOfOptionals.java">
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A04_StreamOfOptionals.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
@@ -1306,32 +1372,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A03_FileToWordsTest.java">
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A03_FileToWordsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" column="66" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A05_RandInts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A05_ForEach.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1339,16 +1383,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="723" column="17" selection-start-line="723" selection-start-column="17" selection-end-line="723" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A05_TreeSetOfWords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1373,18 +1407,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/stream/Stream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="1330" column="45" selection-start-line="1330" selection-start-column="45" selection-end-line="1330" selection-end-column="45" />
-          <folding>
-            <element signature="e#55060#55061#0" expanded="true" />
-            <element signature="e#55116#55117#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/UsePair.java">
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/UsePair.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
           <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
@@ -1394,10 +1417,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A05_MapCollector.java">
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A05_ForEach.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1348">
-          <caret line="80" column="41" lean-forward="true" selection-start-line="80" selection-start-column="41" selection-end-line="80" selection-end-column="41" />
+        <state relative-caret-position="273">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A05_TreeSetOfWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="73" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A05_MapCollector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="39" column="24" lean-forward="true" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#326#327#0" expanded="true" />
@@ -1410,6 +1453,143 @@
             <element signature="e#576#577#0" expanded="true" />
             <element signature="e#1212#1213#0" expanded="true" />
             <element signature="e#1245#1246#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/function/BiConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A02_Cheese.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/stream/BaseStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="764">
+          <caret line="157" column="6" selection-start-line="157" selection-start-column="6" selection-end-line="157" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/nio/file/Files.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="886">
+          <caret line="4194" column="36" selection-start-line="4194" selection-start-column="36" selection-end-line="4194" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="653" column="5" lean-forward="true" selection-start-line="653" selection-start-column="5" selection-end-line="653" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A03_FileToWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/stream/ReduceOps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="122" column="53" lean-forward="true" selection-start-line="122" selection-start-column="53" selection-end-line="122" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A05_Reduce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="33" column="86" selection-start-line="33" selection-start-column="86" selection-end-line="33" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#126#127#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/stream/ReferencePipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="532" column="40" lean-forward="true" selection-start-line="532" selection-start-column="40" selection-end-line="532" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/function/BiPredicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="48" column="28" lean-forward="true" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="1070" column="17" selection-start-line="1070" selection-start-column="17" selection-end-line="1070" selection-end-column="17" />
+          <folding>
+            <element signature="e#55060#55061#0" expanded="true" />
+            <element signature="e#55116#55117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A05_Matching.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A05_SelectElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A05_SpecialCollector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A05_RandInts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
