@@ -26,6 +26,9 @@ public class A04_FullConstructors {
         } catch (MyException e) {
             e.printStackTrace(System.out);
         }
+
+        System.out.println();
+
         try {
             g();
         } catch (MyException e) {
