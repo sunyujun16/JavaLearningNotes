@@ -83,6 +83,7 @@ public class A04_CADSystem extends Shape {
         A04_CADSystem x = new A04_CADSystem(47);
         try {
             // Code and exception handling...
+            return;
         } finally {
             x.dispose();
         }

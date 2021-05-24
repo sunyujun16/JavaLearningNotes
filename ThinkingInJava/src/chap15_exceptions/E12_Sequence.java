@@ -9,7 +9,9 @@ interface Selector {
     void next();
 }
 
-/** @noinspection WeakerAccess*/
+/**
+ * @noinspection WeakerAccess
+ */
 public class E12_Sequence {
     private Object[] items;
     private int next = 0;
@@ -51,21 +53,19 @@ public class E12_Sequence {
     public static void main(String[] args) {
         E12_Sequence e12Sequence = new E12_Sequence(10);
 
-        try{
+        try {
             for (int i = 0; i < 11; i++)
                 e12Sequence.add(Integer.toString(i));
-        }catch(ArrayIndexOutOfBoundsException e){
+        } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Exception caught: ");
             e.printStackTrace(System.out);
-
+        } finally {
             Selector selector = e12Sequence.selector();
-
             while (!selector.end()) {
                 System.out.print(selector.current() + " ");
                 selector.next();
             }
         }
-
     }
 }
 
