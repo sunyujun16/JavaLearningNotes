@@ -5,13 +5,13 @@ import java.io.*;
 
 class LoggingException extends Exception {
     private static Logger logger =
-            Logger.getLogger("LoggingException");
+            Logger.getLogger("Logging...Exception");
 
     LoggingException() {
         StringWriter trace = new StringWriter();
         printStackTrace(new PrintWriter(trace));
         logger.severe(trace.toString()); // printing job is done here, not the pre clause.
-        // severe: 严重的.
+        // severe /sɪˈvɪr/: 严重的.
     }
 }
 
@@ -23,7 +23,7 @@ public class A04_LoggingExceptions {
             System.err.println("Caught " + e);
         }
 
-        System.out.println("-------------------");
+        System.out.println("-------------------"); // 这行偶尔会在上一行之前输出, 说明发生了并行执行.
 
         try {
             throw new LoggingException();

@@ -2,13 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ad74665-bec8-49cd-a749-d0754b62935a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E01_TryCatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E02_InferenceNull.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E03_ArrayException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E04_Customize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E05_RestoreModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A04_ExtraFeatures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A04_LoggingExceptions2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A06_DynamicFields.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A06_ExceptionMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A06_MultiCatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A06_PreciseRethrow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A06_RethrowNew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A06_Rethrowing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A06_SameHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A06_WhoCalled.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A07_NeverCaught.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E06_TwoExceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E07_ArrayException2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E11_CatchAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E12_Sequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A04_FullConstructors.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A04_FullConstructors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A04_LoggingExceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A04_LoggingExceptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E04_Customize.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E04_Customize.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,50 +51,112 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E01_TryCatch.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E07_ArrayException2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E02_InferenceNull.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E03_ArrayException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" column="5" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E04_Customize.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="588">
+              <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
               <folding>
-                <element signature="e#199#200#0" expanded="true" />
-                <element signature="e#235#236#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A06_ExceptionMethods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="50" lean-forward="true" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A06_SameHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A07_NeverCaught.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <folding>
+                <element signature="e#75#76#0" expanded="true" />
+                <element signature="e#129#130#0" expanded="true" />
+                <element signature="e#151#152#0" expanded="true" />
+                <element signature="e#170#171#0" expanded="true" />
+                <element signature="e#215#216#0" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E05_RestoreModule.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E12_Sequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="22" column="70" lean-forward="true" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
+            <state relative-caret-position="651">
+              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+              <folding>
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#326#327#0" expanded="true" />
+                <element signature="e#843#844#0" expanded="true" />
+                <element signature="e#888#889#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A06_WhoCalled.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+              <folding>
+                <element signature="e#444#445#0" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A06_Rethrowing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="861">
+              <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A06_PreciseRethrow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A06_DynamicFields.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="66" column="54" lean-forward="true" selection-start-line="66" selection-start-column="54" selection-end-line="66" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E11_CatchAll.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -116,21 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_RandomGenerators.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_RandomWords.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_Repeat.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_Looping.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_Machine2.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_ArrayStreams.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A02_FileToWordsRegexp.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/E02_FileToWordsRegexp.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A03_Peeking.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A03_SortedComparator.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A03_Prime.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A03_FunctionMap.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A03_StreamOfStreams.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A03_FlatMap.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A03_StreamOfRandoms.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A03_FileToWords.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A03_FileToWordsTest.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams/A04_OptionalsFromEmptyStreams.java" />
@@ -159,14 +217,29 @@
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A05_Informational.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A05_NumericStreamInfo.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A04_InheritingExceptions.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A04_LoggingExceptions.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A04_FullConstructors.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E01_TryCatch.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E02_InferenceNull.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E03_ArrayException.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E04_Custmize.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E04_Customize.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E05_RestoreModule.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A04_LoggingExceptions.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A04_LoggingExceptions2.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E04_Customize.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A04_ExtraFeatures.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E06_TwoExceptions.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E07_ArrayException2.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A06_ExceptionMethods.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A06_SameHandler.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A06_MultiCatch.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A06_WhoCalled.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A06_Rethrowing.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A06_RethrowNew.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A06_PreciseRethrow.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A06_DynamicFields.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E11_CatchAll.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A07_NeverCaught.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E12_Sequence.java" />
       </list>
     </option>
   </component>
@@ -202,6 +275,13 @@
             </path>
             <path>
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chap15_exceptions" type="462c0819:PsiDirectoryNode" />
+              <item name="E12_Sequence.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -222,7 +302,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -232,6 +312,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions" />
       <recent name="$PROJECT_DIR$/ThinkingInJava/src/chap14_Streams" />
     </key>
   </component>
@@ -247,9 +328,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.E05_RestoreModule">
-    <configuration name="E01_TryCatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap15_exceptions.E01_TryCatch" />
+  <component name="RunManager" selected="Application.E12_Sequence">
+    <configuration name="A06_DynamicFields" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap15_exceptions.A06_DynamicFields" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
@@ -261,8 +342,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E02_InferenceNull" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap15_exceptions.E02_InferenceNull" />
+    <configuration name="A06_RethrowNew" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap15_exceptions.A06_RethrowNew" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
@@ -274,8 +355,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E03_ArrayException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap15_exceptions.E03_ArrayException" />
+    <configuration name="E11_CatchAll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap15_exceptions.E11_CatchAll" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
@@ -287,8 +368,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E04_Customize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap15_exceptions.E04_Customize" />
+    <configuration name="E12_Sequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap15_exceptions.E12_Sequence" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
@@ -300,8 +381,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E05_RestoreModule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap15_exceptions.E05_RestoreModule" />
+    <configuration name="NeverCaught" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap15_exceptions.NeverCaught" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
@@ -361,19 +442,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.E01_TryCatch" />
-      <item itemvalue="Application.E02_InferenceNull" />
-      <item itemvalue="Application.E03_ArrayException" />
-      <item itemvalue="Application.E04_Customize" />
-      <item itemvalue="Application.E05_RestoreModule" />
+      <item itemvalue="Application.A06_RethrowNew" />
+      <item itemvalue="Application.A06_DynamicFields" />
+      <item itemvalue="Application.E11_CatchAll" />
+      <item itemvalue="Application.NeverCaught" />
+      <item itemvalue="Application.E12_Sequence" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.E05_RestoreModule" />
-        <item itemvalue="Application.E04_Customize" />
-        <item itemvalue="Application.E03_ArrayException" />
-        <item itemvalue="Application.E02_InferenceNull" />
-        <item itemvalue="Application.E01_TryCatch" />
+        <item itemvalue="Application.E12_Sequence" />
+        <item itemvalue="Application.NeverCaught" />
+        <item itemvalue="Application.E11_CatchAll" />
+        <item itemvalue="Application.A06_DynamicFields" />
+        <item itemvalue="Application.A06_RethrowNew" />
       </list>
     </recent_temporary>
   </component>
@@ -441,14 +522,7 @@
       <workItem from="1620817786995" duration="10541000" />
       <workItem from="1620868215330" duration="17727000" />
       <workItem from="1620954075463" duration="17652000" />
-      <workItem from="1621816775444" duration="3376000" />
-    </task>
-    <task id="LOCAL-00035" summary="code everyday, job on its way!">
-      <created>1616677363469</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1616677363469</updated>
+      <workItem from="1621816775444" duration="19915000" />
     </task>
     <task id="LOCAL-00036" summary="code everyday, job on its way!">
       <created>1616684412864</created>
@@ -786,11 +860,18 @@
       <option name="project" value="LOCAL" />
       <updated>1621001901308</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="code everyday, job on its way!">
+      <created>1621822292518</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1621822292519</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="479441000" />
+    <option name="totallyTimeSpent" value="495980000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -815,7 +896,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.22905682" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.17223199" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.31751612" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.38957235" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298184" />
@@ -923,149 +1004,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="code everyday, job on its way!" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/E02_FileToWordsRegexp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="65" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A04_Optionals.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="32" column="37" lean-forward="true" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#1211#1219#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A04_CreatingOptionals.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="53" lean-forward="true" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A04_OptionalFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A04_OptionalMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A04_OptionalFlatMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A04_Signal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="37" column="60" lean-forward="true" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A04_StreamOfOptionals.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A03_FileToWordsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="66" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/Random.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="723" column="17" selection-start-line="723" selection-start-column="17" selection-end-line="723" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/stream/Collectors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="1652" column="64" selection-start-line="1652" selection-start-column="64" selection-end-line="1652" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/function/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="47" column="7" lean-forward="true" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/function/Supplier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/UsePair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A05_ForEach.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -1338,16 +1276,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A04_LoggingExceptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="49" lean-forward="true" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E01_TryCatch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -1373,28 +1301,178 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E05_RestoreModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E04_Customize.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        <state relative-caret-position="399">
+          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A04_LoggingExceptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="48" />
           <folding>
-            <element signature="e#199#200#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A04_LoggingExceptions2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E03_ArrayException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="63">
+          <caret line="3" column="41" lean-forward="true" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E05_RestoreModule.java">
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A04_ExtraFeatures.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="70" lean-forward="true" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
+        <state relative-caret-position="1152">
+          <caret line="64" column="34" lean-forward="true" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
+          <folding>
+            <element signature="method#MyException2#0;class#MyException2#0" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E06_TwoExceptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A06_MultiCatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A06_RethrowNew.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="34" column="42" lean-forward="true" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+          <folding>
+            <element signature="e#94#95#0" expanded="true" />
+            <element signature="e#118#119#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A06_PreciseRethrow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A06_DynamicFields.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="66" column="54" lean-forward="true" selection-start-line="66" selection-start-column="54" selection-end-line="66" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E11_CatchAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A06_Rethrowing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="861">
+          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A06_WhoCalled.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <folding>
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E07_ArrayException2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A06_ExceptionMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="50" lean-forward="true" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A06_SameHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A07_NeverCaught.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#75#76#0" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E12_Sequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#843#844#0" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
