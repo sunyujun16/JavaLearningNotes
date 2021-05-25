@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ad74665-bec8-49cd-a749-d0754b62935a" name="Default Changelist" comment="code everyday, job on its way!">
-      <change afterPath="$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/A01_CountedList.java" afterDir="false" />
+    <list default="true" id="7ad74665-bec8-49cd-a749-d0754b62935a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/test/chap16_validating/CountedListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ThinkingInJava/ThinkingInJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/ThinkingInJava.iml" afterDir="false" />
     </list>
@@ -36,11 +35,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/A01_CountedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="231">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <folding>
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#295#296#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/test/chap16_validating/CountedListTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="518">
+              <caret line="53" column="60" lean-forward="true" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#588#589#0" expanded="true" />
+                <element signature="e#654#655#0" expanded="true" />
+                <element signature="e#700#701#0" expanded="true" />
+                <element signature="e#766#767#0" expanded="true" />
+                <element signature="e#687#688#0" expanded="true" />
+                <element signature="e#759#760#0" expanded="true" />
+                <element signature="e#1800#1801#0" expanded="true" />
+                <element signature="e#1867#1868#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,7 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A04_LoggingExceptions.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A04_LoggingExceptions2.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E04_Customize.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A04_ExtraFeatures.java" />
@@ -125,6 +147,7 @@
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap16_validating_your_code/A01_CountedList.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/A01_CountedList.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/CountedListTest.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/test/chap16_validating/CountedListTest.java" />
       </list>
     </option>
   </component>
@@ -151,6 +174,22 @@
             </path>
             <path>
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="chap16_validating" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -170,7 +209,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/java_work/DownloadLibs/junit-4.13.2.jar!/" />
+    <property name="last_opened_file_path" value="$USER_HOME$/java_work/DownloadLibs/junit-vintage-engine-5.7.2.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -202,20 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.A13_TurnOffChecking">
-    <configuration name="A11_AutoCloseableDetails" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap15_exceptions.A11_AutoCloseableDetails" />
-      <module name="ThinkingInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap15_exceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.CountedListTest">
     <configuration name="A11_BodyException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap15_exceptions.A11_BodyException" />
       <module name="ThinkingInJava" />
@@ -268,6 +294,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CountedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ThinkingInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap16_validating.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="chap16_validating" />
+      <option name="MAIN_CLASS_NAME" value="chap16_validating.CountedListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="JavaLearningNotes1" />
       <option name="VM_PARAMETERS" />
@@ -316,19 +357,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.A11_AutoCloseableDetails" />
       <item itemvalue="Application.A11_ConstructorException" />
       <item itemvalue="Application.A11_BodyException" />
       <item itemvalue="Application.A11_CloseExceptions" />
       <item itemvalue="Application.A13_TurnOffChecking" />
+      <item itemvalue="JUnit.CountedListTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CountedListTest" />
         <item itemvalue="Application.A13_TurnOffChecking" />
         <item itemvalue="Application.A11_CloseExceptions" />
         <item itemvalue="Application.A11_BodyException" />
         <item itemvalue="Application.A11_ConstructorException" />
-        <item itemvalue="Application.A11_AutoCloseableDetails" />
       </list>
     </recent_temporary>
   </component>
@@ -399,14 +440,7 @@
       <workItem from="1621816775444" duration="25099000" />
       <workItem from="1621901521563" duration="17949000" />
       <workItem from="1621946199431" duration="1554000" />
-      <workItem from="1621947778819" duration="184000" />
-    </task>
-    <task id="LOCAL-00041" summary="code everyday, job on its way!">
-      <created>1617268092303</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1617268092303</updated>
+      <workItem from="1621947778819" duration="6310000" />
     </task>
     <task id="LOCAL-00042" summary="code everyday, job on its way!">
       <created>1617282111445</created>
@@ -744,11 +778,35 @@
       <option name="project" value="LOCAL" />
       <updated>1621942623022</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="code everyday, job on its way!">
+      <created>1621948033352</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1621948033353</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="CountedListTest - 2021.05.25 at 21h 53m 11s.xml">
+      <configuration name="CountedListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CountedListTest - 2021.05.25 at 22h 03m 14s.xml">
+      <configuration name="CountedListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CountedListTest - 2021.05.25 at 22h 22m 51s.xml">
+      <configuration name="CountedListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CountedListTest - 2021.05.25 at 22h 23m 29s.xml">
+      <configuration name="CountedListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CountedListTest - 2021.05.25 at 22h 24m 00s.xml">
+      <configuration name="CountedListTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="520851000" />
+    <option name="totallyTimeSpent" value="526977000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -761,18 +819,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1080" height="1844" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" weight="0.32945737" />
-      <window_info active="true" auto_hide="true" content_ui="combo" x="55" y="153" width="366" height="945" id="Project" order="5" sideWeight="0.49736688" visible="true" weight="0.2751938" />
+      <window_info auto_hide="true" content_ui="combo" x="55" y="153" width="366" height="945" id="Project" order="5" sideWeight="0.49736688" weight="0.2751938" />
       <window_info id="Structure" order="6" sideWeight="0.5026331" weight="0.1879845" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.22905682" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.17223199" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2888108" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.36906853" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298184" />
@@ -880,45 +939,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="code everyday, job on its way!" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A04_LoggingExceptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A04_LoggingExceptions2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E03_ArrayException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="41" lean-forward="true" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A04_ExtraFeatures.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1152">
-          <caret line="64" column="34" lean-forward="true" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
-          <folding>
-            <element signature="method#MyException2#0;class#MyException2#0" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E06_TwoExceptions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -1063,14 +1083,6 @@
             <element signature="e#353#354#0" expanded="true" />
             <element signature="e#396#397#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1308,10 +1320,57 @@
     <entry file="file://$PROJECT_DIR$/test/chap16_validating/A01_CountedListTest.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Results.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/A01_CountedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="231">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="239" column="15" lean-forward="true" selection-start-line="239" selection-start-column="15" selection-end-line="239" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="398" column="49" lean-forward="true" selection-start-line="398" selection-start-column="49" selection-end-line="398" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/test/chap16_validating/CountedListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="53" column="60" lean-forward="true" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#1800#1801#0" expanded="true" />
+            <element signature="e#1867#1868#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
