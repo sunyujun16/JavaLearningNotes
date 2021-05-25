@@ -52,10 +52,9 @@ public class A09_StormyInning extends Inning implements Storm {
     public void rainHard() throws RainedOut {
     }
 
-    // You can choose to not throw any exceptions,
-    // even if the base version does:
+    // You can choose to not throw any exceptions, even if the base version does:
     @Override
-    public void event() {
+    public void event(){
     }
 
     // Overridden methods can throw inherited exceptions:
@@ -82,8 +81,7 @@ public class A09_StormyInning extends Inning implements Storm {
             // What happens if you upcast?
             Inning i = new A09_StormyInning();
             i.atBat();
-        // You must catch the exceptions from the
-        // base-class version of the method:
+        // You must catch the exceptions from the base-class version of the method:
         } catch (Strike e) {
             System.out.println("Strike");
         } catch (Foul e) {
