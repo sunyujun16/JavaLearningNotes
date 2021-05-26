@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ad74665-bec8-49cd-a749-d0754b62935a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/test/chap16_validating/CountedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/Assert1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/Assert2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/LoaderAssertions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThinkingInJava/ThinkingInJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/ThinkingInJava.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/A01_CountedList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding>
                 <element signature="e#239#240#0" expanded="true" />
                 <element signature="e#295#296#0" expanded="true" />
@@ -48,21 +50,48 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ThinkingInJava/test/chap16_validating/CountedListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="53" column="60" lean-forward="true" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
+            <state relative-caret-position="525">
+              <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#588#589#0" expanded="true" />
-                <element signature="e#654#655#0" expanded="true" />
-                <element signature="e#700#701#0" expanded="true" />
-                <element signature="e#766#767#0" expanded="true" />
                 <element signature="e#687#688#0" expanded="true" />
                 <element signature="e#759#760#0" expanded="true" />
-                <element signature="e#1800#1801#0" expanded="true" />
-                <element signature="e#1867#1868#0" expanded="true" />
+                <element signature="e#1462#1463#0" expanded="true" />
+                <element signature="e#1529#1530#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/Assert1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/Assert2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/LoaderAssertions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+              <folding>
+                <element signature="e#339#340#0" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,8 +102,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -97,9 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A04_LoggingExceptions2.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E04_Customize.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A04_ExtraFeatures.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E06_TwoExceptions.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E07_ArrayException2.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A06_ExceptionMethods.java" />
@@ -148,6 +174,9 @@
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/A01_CountedList.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/CountedListTest.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/test/chap16_validating/CountedListTest.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/Assert1.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/Assert2.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/LoaderAssertions.java" />
       </list>
     </option>
   </component>
@@ -176,6 +205,12 @@
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chap16_validating" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
@@ -215,7 +250,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="plugins.junitgenerator.application" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -241,52 +276,52 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CountedListTest">
-    <configuration name="A11_BodyException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap15_exceptions.A11_BodyException" />
-      <module name="ThinkingInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap15_exceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="A11_CloseExceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap15_exceptions.A11_CloseExceptions" />
-      <module name="ThinkingInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap15_exceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="A11_ConstructorException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap15_exceptions.A11_ConstructorException" />
-      <module name="ThinkingInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap15_exceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LoaderAssertions">
     <configuration name="A13_TurnOffChecking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap15_exceptions.A13_TurnOffChecking" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="chap15_exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Assert1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap16_validating.Assert1" />
+      <module name="ThinkingInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap16_validating.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Assert2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap16_validating.Assert2" />
+      <module name="ThinkingInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap16_validating.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoaderAssertions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap16_validating.LoaderAssertions" />
+      <module name="ThinkingInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap16_validating.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -357,19 +392,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.A11_ConstructorException" />
-      <item itemvalue="Application.A11_BodyException" />
-      <item itemvalue="Application.A11_CloseExceptions" />
       <item itemvalue="Application.A13_TurnOffChecking" />
       <item itemvalue="JUnit.CountedListTest" />
+      <item itemvalue="Application.Assert1" />
+      <item itemvalue="Application.Assert2" />
+      <item itemvalue="Application.LoaderAssertions" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LoaderAssertions" />
+        <item itemvalue="Application.Assert2" />
+        <item itemvalue="Application.Assert1" />
         <item itemvalue="JUnit.CountedListTest" />
         <item itemvalue="Application.A13_TurnOffChecking" />
-        <item itemvalue="Application.A11_CloseExceptions" />
-        <item itemvalue="Application.A11_BodyException" />
-        <item itemvalue="Application.A11_ConstructorException" />
       </list>
     </recent_temporary>
   </component>
@@ -440,14 +475,8 @@
       <workItem from="1621816775444" duration="25099000" />
       <workItem from="1621901521563" duration="17949000" />
       <workItem from="1621946199431" duration="1554000" />
-      <workItem from="1621947778819" duration="6310000" />
-    </task>
-    <task id="LOCAL-00042" summary="code everyday, job on its way!">
-      <created>1617282111445</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1617282111445</updated>
+      <workItem from="1621947778819" duration="6662000" />
+      <workItem from="1621990059770" duration="3573000" />
     </task>
     <task id="LOCAL-00043" summary="code everyday, job on its way!">
       <created>1617286477367</created>
@@ -785,7 +814,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621948033353</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="code everyday, job on its way!">
+      <created>1621954469053</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1621954469053</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -806,7 +842,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="526977000" />
+    <option name="totallyTimeSpent" value="530902000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -819,19 +855,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1080" height="1844" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" weight="0.32945737" />
-      <window_info auto_hide="true" content_ui="combo" x="55" y="153" width="366" height="945" id="Project" order="5" sideWeight="0.49736688" weight="0.2751938" />
-      <window_info id="Structure" order="6" sideWeight="0.5026331" weight="0.1879845" />
+      <window_info active="true" auto_hide="true" content_ui="combo" x="55" y="153" width="366" height="945" id="Project" order="5" sideWeight="0.49736688" visible="true" weight="0.2751938" />
+      <window_info id="Structure" order="6" sideWeight="0.5026331" weight="0.19186047" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.22905682" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.17223199" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.36906853" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.36906853" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298184" />
@@ -939,47 +974,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="code everyday, job on its way!" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E06_TwoExceptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#936#937#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A06_MultiCatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A06_RethrowNew.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="34" column="42" lean-forward="true" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
-          <folding>
-            <element signature="e#94#95#0" expanded="true" />
-            <element signature="e#118#119#0" expanded="true" />
-            <element signature="e#189#190#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/E07_ArrayException2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A06_ExceptionMethods.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -1314,12 +1308,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/CountedListTest.java" />
-    <entry file="file://$PROJECT_DIR$/test/chap16_validating/CountedListTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/chap16_validating/A01_CountedListTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test/chap16_validating/CountedListTest.java" />
+    <entry file="file://$PROJECT_DIR$/test/chap16_validating/A01_CountedListTest.java" />
     <entry file="file://$PROJECT_DIR$/Results.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1328,17 +1318,6 @@
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/A01_CountedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1356,20 +1335,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/A01_CountedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java_work/DownloadLibs/junit-jupiter-api-5.7.2.jar!/org/junit/jupiter/api/Assertions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="247" lean-forward="true" selection-start-line="247" selection-end-line="247" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/test/chap16_validating/CountedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="53" column="60" lean-forward="true" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
+        <state relative-caret-position="525">
+          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#700#701#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
             <element signature="e#687#688#0" expanded="true" />
             <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#1800#1801#0" expanded="true" />
-            <element signature="e#1867#1868#0" expanded="true" />
+            <element signature="e#1462#1463#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/Assert1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/Assert2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/LoaderAssertions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+          <folding>
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
           </folding>
         </state>
       </provider>
