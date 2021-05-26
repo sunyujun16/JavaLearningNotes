@@ -12,16 +12,16 @@ interface Selector {
 }
 
 public class E03_Sequence {
-    private ArrayList items;
+    private ArrayList<Object> items;
     private int length = 0;
 
     private E03_Sequence() {
-        items = new ArrayList();
+        items = new ArrayList<Object>();
     }
 
     private void add(Object x) {
-            items.add(x);
-            length++;
+        items.add(x);
+        length++;
     }
 
     // 相当于实现一个自定义的迭代器接口. 只是没有系统的迭代器接口更通用且直接地支持forEach语法.
