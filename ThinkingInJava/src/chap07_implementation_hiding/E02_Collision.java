@@ -1,6 +1,6 @@
 package chap07_implementation_hiding;
 
-import sunyujunlib.trytry.*;
+//import sunyujunlib.trytry.*;
 
 public class E02_Collision {
     public E02_Collision() {
@@ -11,7 +11,7 @@ public class E02_Collision {
         // Name collision occurs below.
 //        Vector v = new Vector();
         // /home/sun/java_work/StreetPacks/mindview.jar
-        TryTry t1 = new TryTry();
+//        TryTry t1 = new TryTry();
 
 
     }

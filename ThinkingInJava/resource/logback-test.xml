@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- chap16_validating/logback.xml -->
+<!-- chap16_validating/logback-test.xml -->
 <configuration>
     <appender name="STDOUT"
               class="ch.qos.logback.core.ConsoleAppender" >
@@ -10,7 +10,7 @@
             </pattern>
         </encoder>
     </appender>
-    <root level="WARN" >
+    <root level="TRACE" >
         <appender-ref ref="STDOUT" />
     </root>
 </configuration>

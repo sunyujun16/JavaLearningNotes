@@ -7,6 +7,9 @@ public class SLF4JLogging {
             LoggerFactory.getLogger(SLF4JLogging.class);
 
     public static void main(String[] args) {
+        String s = Thread.currentThread().getContextClassLoader().getResource("").getPath();
+        System.out.println("classpath => " + s );
+
         log.info("hello logging");
     }
 }
