@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ad74665-bec8-49cd-a749-d0754b62935a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/test/chap16_validating/StringInverterTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/SLF4JLevels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/SLF4JLogging.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/ThinkingInJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/ThinkingInJava.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap06_housekepping/E12_Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap06_housekepping/E12_Tank.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,84 +39,32 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/StringInverter.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/SLF4JLogging.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/test/chap16_validating/CircularQueueTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-853">
-              <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+            <state relative-caret-position="231">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/test/chap16_validating/DynamicStringInverterTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#208#209#0" expanded="true" />
+                <element signature="e#249#250#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/test/chap16_validating/StringInverterTests.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/SLF4JLevels.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="40" column="34" lean-forward="true" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#286#287#0" expanded="true" />
-                <element signature="e#351#352#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="210">
+              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/Inverter1.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/logback.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/Inverter2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/Inverter3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/Inverter4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            <state relative-caret-position="315">
+              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -123,8 +75,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -147,10 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A08_MultipleReturns.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A08_ExceptionSilencer.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A08_OnOffSwitch.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A08_WithFinally.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap08_reusing_classes/A04_CADSystem.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A08_LostMessage.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A09_StormyInning.java" />
@@ -198,6 +146,10 @@
         <option value="$PROJECT_DIR$/ThinkingInJava/test/chap16_validating/q.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/test/chap16_validating/Inverter4Test.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/test/chap16_validating/StringInverterTests.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/SLF4JLogging.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap06_housekepping/E12_Tank.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/SLF4JLevels.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/logback.xml" />
       </list>
     </option>
   </component>
@@ -267,7 +219,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/java_work/mylibs/guava-23.0.jar!/" />
+    <property name="last_opened_file_path" value="$USER_HOME$/java_work/mylibs/logback-core-1.2.3.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -302,20 +254,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StringInverterTests">
-    <configuration name="GuavaAssertions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap16_validating.GuavaAssertions" />
-      <module name="ThinkingInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap16_validating.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SLF4JLevels">
     <configuration name="GuavaPreconditions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap16_validating.GuavaPreconditions" />
       <module name="ThinkingInJava" />
@@ -329,7 +268,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CircularQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SLF4JLevels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap16_validating.SLF4JLevels" />
+      <module name="ThinkingInJava" />
+      <option name="PROGRAM_PARAMETERS" value="-Dlogback.configurationFile=ThingkingInJava/src/chap16_validating/logback.xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap16_validating.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SLF4JLogging" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap16_validating.SLF4JLogging" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
@@ -337,9 +291,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="chap16_validating" />
-      <option name="MAIN_CLASS_NAME" value="chap16_validating.CircularQueueTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -423,18 +374,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.GuavaPreconditions" />
-      <item itemvalue="Application.GuavaAssertions" />
-      <item itemvalue="JUnit.CircularQueueTest" />
+      <item itemvalue="Application.SLF4JLogging" />
+      <item itemvalue="Application.SLF4JLevels" />
       <item itemvalue="JUnit.DynamicStringInverterTests" />
       <item itemvalue="JUnit.StringInverterTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SLF4JLevels" />
+        <item itemvalue="Application.SLF4JLogging" />
         <item itemvalue="JUnit.StringInverterTests" />
         <item itemvalue="JUnit.DynamicStringInverterTests" />
         <item itemvalue="Application.GuavaPreconditions" />
-        <item itemvalue="Application.GuavaAssertions" />
-        <item itemvalue="JUnit.CircularQueueTest" />
       </list>
     </recent_temporary>
   </component>
@@ -508,14 +459,8 @@
       <workItem from="1621947778819" duration="6662000" />
       <workItem from="1621990059770" duration="8206000" />
       <workItem from="1622011686112" duration="16679000" />
-      <workItem from="1622037543815" duration="2570000" />
-    </task>
-    <task id="LOCAL-00047" summary="code everyday, job on its way!">
-      <created>1617368028837</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1617368028837</updated>
+      <workItem from="1622037543815" duration="3154000" />
+      <workItem from="1622075988724" duration="5805000" />
     </task>
     <task id="LOCAL-00048" summary="code everyday, job on its way!">
       <created>1617374361813</created>
@@ -853,7 +798,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622035870738</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="code everyday, job on its way!">
+      <created>1622040967989</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1622040967990</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -889,7 +841,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="554784000" />
+    <option name="totallyTimeSpent" value="561173000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -909,7 +861,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" weight="0.32945737" />
-      <window_info content_ui="combo" x="55" y="153" width="366" height="945" id="Project" order="5" sideWeight="0.49736688" visible="true" weight="0.20245726" />
+      <window_info content_ui="combo" x="55" y="153" width="366" height="945" id="Project" order="5" sideWeight="0.49736688" visible="true" weight="0.20459402" />
       <window_info id="Structure" order="6" sideWeight="0.5026331" weight="0.1917735" />
       <window_info anchor="bottom" id="FundAssistant" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
@@ -922,9 +874,9 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.28119507" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3298184" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.29540482" />
-      <window_info anchor="bottom" auto_hide="true" x="1323" y="131" width="572" height="907" id="Debug" order="13" weight="0.33842796" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5005342" side_tool="true" weight="0.29475984" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49946582" weight="0.29475984" />
+      <window_info active="true" anchor="bottom" auto_hide="true" x="1323" y="131" width="572" height="907" id="Debug" order="13" visible="true" weight="0.33842796" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1027,27 +979,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A10_InputFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A11_MessyExceptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A11_TryWithResources.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/io/PrintWriter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
@@ -1247,17 +1178,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap06_housekepping/E12_Tank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A12_Human.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -1328,6 +1248,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/java_work/DownloadLibs/junit-jupiter-api-5.7.2.jar!/org/junit/jupiter/api/function/ThrowingSupplier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java_work/DownloadLibs/junit-jupiter-api-5.7.2.jar!/org/junit/jupiter/api/function/ThrowingConsumer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java_work/DownloadLibs/junit-jupiter-api-5.7.2.jar!/org/junit/jupiter/api/function/Executable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/StringInverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/test/chap16_validating/CircularQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="987">
+          <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/test/chap16_validating/DynamicStringInverterTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1366,53 +1324,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/java_work/DownloadLibs/junit-jupiter-api-5.7.2.jar!/org/junit/jupiter/api/function/ThrowingSupplier.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/java_work/DownloadLibs/junit-jupiter-api-5.7.2.jar!/org/junit/jupiter/api/function/ThrowingConsumer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/java_work/DownloadLibs/junit-jupiter-api-5.7.2.jar!/org/junit/jupiter/api/function/Executable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/StringInverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/test/chap16_validating/CircularQueueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-853">
-          <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/test/chap16_validating/StringInverterTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="40" column="34" lean-forward="true" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+        <state relative-caret-position="-60">
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#286#287#0" expanded="true" />
             <element signature="e#351#352#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap06_housekepping/E12_Tank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/SLF4JLogging.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/SLF4JLevels.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
         </state>
       </provider>
     </entry>

@@ -16,10 +16,10 @@ public class E12_Tank {
     }
 
 
-    @Override
-    public void finalize(){
-        if (!emp) System.out.println("Fuck it, get back.");
-    }
+//    @Override
+//    public void finalize(){
+//        if (!emp) System.out.println("Fuck it, get back.");
+//    }
 
     public static void main(String[] args) {
         E12_Tank t1 = new E12_Tank();
