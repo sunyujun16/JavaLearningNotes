@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ad74665-bec8-49cd-a749-d0754b62935a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/BadMicroBenchmark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/BadMicroBenchmark2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/SimpleDebugging.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap17_files/AddAndSubtractPaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap17_files/PartsOfPaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap17_files/PathAnalysis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap17_files/PathInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/sun.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/sun.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap17_files/Directories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap17_files/FileSystemDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThinkingInJava/ThinkingInJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/ThinkingInJava.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap07_implementation_hiding/E02_Collision.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap07_implementation_hiding/E02_Collision.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A02_FileToWordsRegexp.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A02_FileToWordsRegexp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/SLF4JLevels.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/SLF4JLevels.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/SLF4JLogging.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/SLF4JLogging.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/resource/logback-test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/RmDir.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/RmDir.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/Timer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/Timer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,45 +37,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap17_files/PathInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="29" column="59" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#183#184#0" expanded="true" />
-                <element signature="e#232#233#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap17_files/PartsOfPaths.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="8" column="59" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap17_files/PathAnalysis.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="59" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap17_files/AddAndSubtractPaths.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="45" column="49" lean-forward="true" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
+            <state relative-caret-position="588">
+              <caret line="31" column="60" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/onjava/RmDir.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap17_files/Directories.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="46" column="64" selection-start-line="46" selection-start-column="64" selection-end-line="46" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,13 +73,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/onjava/RmDir.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap17_files/FileSystemDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+            <state relative-caret-position="252">
+              <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
               <folding>
-                <element signature="e#0#856#0" expanded="true" />
-                <element signature="imports" expanded="true" />
+                <element signature="e#119#120#0" expanded="true" />
+                <element signature="e#168#169#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,17 +88,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/nio/file/Files.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="2872" column="55" selection-start-line="2872" selection-start-column="55" selection-end-line="2872" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/nio/file/FileVisitor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="611">
-              <caret line="118" column="30" selection-start-line="118" selection-start-column="30" selection-end-line="118" selection-end-column="30" />
+            <state relative-caret-position="156">
+              <caret line="700" column="77" selection-start-line="700" selection-start-column="77" selection-end-line="700" selection-end-column="77" />
+              <folding>
+                <element signature="e#2822#2823#0" expanded="true" />
+                <element signature="e#2876#2877#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -157,8 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A10_StreamsAreAutoCloseable.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A11_InputFile2.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/Results.txt" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A11_StreamsAreAutoCloseable.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A11_AutoCloseableDetails.java" />
@@ -208,6 +177,8 @@
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap17_files/PathAnalysis.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap17_files/AddAndSubtractPaths.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/onjava/RmDir.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap17_files/Directories.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap17_files/FileSystemDemo.java" />
       </list>
     </option>
   </component>
@@ -230,8 +201,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -260,6 +229,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -315,7 +286,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AddAndSubtractPaths">
+  <component name="RunManager" selected="Application.Directories">
     <configuration name="AddAndSubtractPaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap17_files.AddAndSubtractPaths" />
       <module name="ThinkingInJava" />
@@ -329,12 +300,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BadMicroBenchmark2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap16_validating.BadMicroBenchmark2" />
+    <configuration name="Directories" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap17_files.Directories" />
       <module name="ThinkingInJava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ThinkingInJava/src/chap17_files/" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap16_validating.*" />
+          <option name="PATTERN" value="chap17_files.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -429,19 +401,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BadMicroBenchmark2" />
       <item itemvalue="Application.PathInfo" />
       <item itemvalue="Application.PartsOfPaths" />
       <item itemvalue="Application.PathAnalysis" />
       <item itemvalue="Application.AddAndSubtractPaths" />
+      <item itemvalue="Application.Directories" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Directories" />
         <item itemvalue="Application.AddAndSubtractPaths" />
         <item itemvalue="Application.PathAnalysis" />
         <item itemvalue="Application.PartsOfPaths" />
         <item itemvalue="Application.PathInfo" />
-        <item itemvalue="Application.BadMicroBenchmark2" />
       </list>
     </recent_temporary>
   </component>
@@ -518,14 +490,8 @@
       <workItem from="1622037543815" duration="3154000" />
       <workItem from="1622075988724" duration="5812000" />
       <workItem from="1622086179388" duration="3537000" />
-      <workItem from="1622107330528" duration="11844000" />
-    </task>
-    <task id="LOCAL-00049" summary="code everyday, job on its way!">
-      <created>1617428914403</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1617428914403</updated>
+      <workItem from="1622107330528" duration="11947000" />
+      <workItem from="1622161259994" duration="8155000" />
     </task>
     <task id="LOCAL-00050" summary="code everyday, job on its way!">
       <created>1617436280803</created>
@@ -863,7 +829,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622085309453</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="code everyday, job on its way!">
+      <created>1622127188225</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1622127188226</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -899,7 +872,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="576561000" />
+    <option name="totallyTimeSpent" value="584819000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -919,7 +892,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" weight="0.32945737" />
-      <window_info active="true" content_ui="combo" x="55" y="153" width="366" height="945" id="Project" order="5" sideWeight="0.49736688" visible="true" weight="0.2056624" />
+      <window_info active="true" content_ui="combo" x="55" y="153" width="366" height="945" id="Project" order="5" sideWeight="0.49736688" visible="true" weight="0.20779915" />
       <window_info id="Structure" order="6" sideWeight="0.5026331" weight="0.1917735" />
       <window_info anchor="bottom" id="FundAssistant" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
@@ -934,7 +907,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3298184" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5005342" side_tool="true" weight="0.29475984" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49946582" weight="0.29475984" />
-      <window_info anchor="bottom" x="1323" y="131" width="572" height="907" id="Debug" order="13" weight="0.36462882" />
+      <window_info anchor="bottom" x="1323" y="131" width="572" height="907" id="Debug" order="13" visible="true" weight="0.26746726" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1045,42 +1018,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/CircularQueueException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#137#138#0" expanded="true" />
-            <element signature="e#163#164#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/LoaderAssertions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/CircularQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1060">
-          <caret line="68" column="46" selection-start-line="68" selection-start-column="46" selection-end-line="68" selection-end-column="46" />
-          <folding>
-            <element signature="e#1764#1765#0" expanded="true" />
-            <element signature="e#1828#1829#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap12_collections/E03_Sequence.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
@@ -1302,13 +1239,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/Timer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/Timer.java" />
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/onjava/Timer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -1340,35 +1271,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap17_files/PathInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="29" column="59" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap17_files/PartsOfPaths.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="8" column="59" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap17_files/PathAnalysis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="59" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1408,10 +1310,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap17_files/PathInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="29" column="59" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap17_files/PartsOfPaths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="59" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap17_files/PathAnalysis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="15" column="59" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/nio/file/SimpleFileVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/nio/file/FileVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="118" column="30" selection-start-line="118" selection-start-column="30" selection-end-line="118" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap17_files/test/bag/foo/bar/baz/File.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap17_files/AddAndSubtractPaths.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="45" column="49" lean-forward="true" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
+        <state relative-caret-position="588">
+          <caret line="31" column="60" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/onjava/RmDir.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1420,25 +1376,32 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/nio/file/Files.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="2872" column="55" selection-start-line="2872" selection-start-column="55" selection-end-line="2872" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/nio/file/FileVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="118" column="30" selection-start-line="118" selection-start-column="30" selection-end-line="118" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/onjava/RmDir.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        <state relative-caret-position="156">
+          <caret line="700" column="77" selection-start-line="700" selection-start-column="77" selection-end-line="700" selection-end-column="77" />
           <folding>
-            <element signature="e#0#856#0" expanded="true" />
+            <element signature="e#2822#2823#0" expanded="true" />
+            <element signature="e#2876#2877#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap17_files/Directories.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="46" column="64" selection-start-line="46" selection-start-column="64" selection-end-line="46" selection-end-column="64" />
+          <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap17_files/FileSystemDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
           </folding>
         </state>
       </provider>
