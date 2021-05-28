@@ -23,6 +23,17 @@ public class Directories {
             Files.createDirectory(test);
     }
 
+    /**
+     * this method creates a dir named test in your default relative path,
+     * which is usually ./ .
+     * then it make 4 dirs, for each one of which it generate a File.txt and
+     * one .tmp file within.
+     *
+     * @return nothing
+     *
+     * @throws Exception
+     *      if something happens, I don't know...
+     */
     static void populateTestDir() throws Exception {
         for (int i = 0; i < parts.size(); i++) {
             Path variant = makeVariant();
@@ -57,6 +68,6 @@ public class Directories {
         Files.newDirectoryStream(test)
                 .forEach(System.out::println);  // 打印test子目录和文件
         System.out.println("*********");
-        Files.walk(test).forEach(System.out::println);  // 递归打印test子目录和文件
+        Files.walk(test).forEach(System.out::println);  // 递归打印test子目录和文件,包括test本身.
     }
 }
