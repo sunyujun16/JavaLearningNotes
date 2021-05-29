@@ -47,7 +47,7 @@ public class A06_StartEnd {
     public static void main(String[] args) {
         for (String in : input.split("\n")) { // 把字符串按行拆分
 
-            System.out.println("input : " + in);
+            System.out.println("* * input : " + in);
 
             // 在行内, 对每个正则进行匹配
             for (String regex :
@@ -55,8 +55,7 @@ public class A06_StartEnd {
                             "\\w*ere\\w*",
                             "\\w*ever",
                             "T\\w+",
-                            "Never.*?!"}
-            )
+                            "Never.*?!"})  // 非贪婪
                 examine(in, regex);
         }
     }
