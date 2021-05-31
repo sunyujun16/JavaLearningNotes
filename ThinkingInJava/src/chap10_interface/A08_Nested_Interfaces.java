@@ -127,7 +127,7 @@ public class A08_Nested_Interfaces {
         A a = new A();
 // Can't access A.D:
 //        A.D ad = a.getD();
-// Doesn't return anything but A.D:
+// Doesn't return anything but A.D, and its a downcast:
 //        A.DImp2 di2 = a.getD();
 // Cannot access a member of the interface:
 //        a.getD().f();
