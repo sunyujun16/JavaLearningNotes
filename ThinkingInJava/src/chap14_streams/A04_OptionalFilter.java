@@ -17,7 +17,7 @@ class OptionalFilter {
             System.out.println(
                     testStream()
                             .skip(i)
-                            .findFirst()
+                            .findFirst() //每次循环包装一个
                             .filter(pred));
         }
     }
