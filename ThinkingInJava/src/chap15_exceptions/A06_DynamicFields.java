@@ -44,14 +44,14 @@ public class A06_DynamicFields {
                 fields[i][0] = id;
                 return i;
             }
-// No empty fields. Add one:
+        // No empty fields. Add one:
         Object[][] tmp = new Object[fields.length + 1][2];
         for (int i = 0; i < fields.length; i++)
             tmp[i] = fields[i];
         for (int i = fields.length; i < tmp.length; i++)
             tmp[i] = new Object[]{null, null};
         fields = tmp;
-// Recursive call with expanded fields:
+        // Recursive call with expanded fields:
         return makeField(id);
     }
 
@@ -61,8 +61,8 @@ public class A06_DynamicFields {
 
     public Object setField(String id, Object value) throws DynamicFieldsException {
         if (value == null) {
-// Most exceptions don't have a "cause" constructor. In these cases you must use
-// initCause(), available in all Throwable subclasses.
+            // Most exceptions don't have a "cause" constructor. In these cases you
+            // must use initCause(), available in all Throwable subclasses.
             DynamicFieldsException dfe = new DynamicFieldsException();
             dfe.initCause(new NullPointerException());
             throw dfe;

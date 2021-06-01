@@ -1,7 +1,5 @@
 package chap15_exceptions;
-
 // Paying attention to exceptions in constructors
-
 import java.io.*;
 
 public class A10_InputFile {

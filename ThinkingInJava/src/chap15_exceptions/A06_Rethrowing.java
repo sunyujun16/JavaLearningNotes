@@ -3,7 +3,7 @@ package chap15_exceptions;
 public class A06_Rethrowing {
     public static void f() throws Exception {
         System.out.println(
-                "originating the exception in f()");
+                "originating the exception in f()...........");
         throw new Exception("thrown from f()");
     }
 
@@ -13,7 +13,9 @@ public class A06_Rethrowing {
         } catch (Exception e) {
             System.out.println(
                     "Inside g(), e.printStackTrace()");
-            e.printStackTrace(System.out);
+            for(StackTraceElement ste : e.getStackTrace())
+                System.out.println(ste.getMethodName());
+            System.out.println();
             throw e;
         }
     }
@@ -24,7 +26,9 @@ public class A06_Rethrowing {
         } catch (Exception e) {
             System.out.println(
                     "Inside h(), e.printStackTrace()");
-            e.printStackTrace(System.out);
+            for(StackTraceElement ste : e.getStackTrace())
+                System.out.println(ste.getMethodName());
+            System.out.println();
             throw (Exception) e.fillInStackTrace();
         }
     }
@@ -34,13 +38,19 @@ public class A06_Rethrowing {
             g();
         } catch (Exception e) {
             System.out.println("main: printStackTrace()");
-            e.printStackTrace(System.out);
+            for(StackTraceElement ste : e.getStackTrace())
+                System.out.println(ste.getMethodName());
+            System.out.println();
         }
+
+
         try {
             h();
         } catch (Exception e) {
             System.out.println("main: printStackTrace()");
-            e.printStackTrace(System.out);
+            for(StackTraceElement ste : e.getStackTrace())
+                System.out.println(ste.getMethodName());
+            System.out.println();
         }
     }
 }
