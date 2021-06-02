@@ -15,8 +15,8 @@ public class Timer {
     }
 
     public static long duration(Runnable test) {
-        Timer timer = new Timer();
-        test.run();
-        return timer.duration();
+        Timer timer = new Timer(); // 初始化成员变量, start获得值.
+        test.run(); // 运行传入的函数.
+        return timer.duration(); // 获取程序运行的时间.
     }
 }
