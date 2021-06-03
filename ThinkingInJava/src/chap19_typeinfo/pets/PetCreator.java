@@ -3,8 +3,7 @@ package chap19_typeinfo.pets;
 import java.util.*;
 import java.util.function.*;
 
-public abstract
-class PetCreator implements Supplier<Pet> {
+public abstract class PetCreator implements Supplier<Pet> {
     private Random rand = new Random(47);
 
     // The List of the different types of Pet to create:
@@ -22,6 +21,5 @@ class PetCreator implements Supplier<Pet> {
     }
 
     public static void main(String[] args) {
-
     }
 }

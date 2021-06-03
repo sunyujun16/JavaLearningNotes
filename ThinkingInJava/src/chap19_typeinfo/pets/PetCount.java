@@ -7,6 +7,7 @@ import chap19_typeinfo.pets.*;
 import java.util.*;
 
 public class PetCount {
+    // 我尼玛这个HashMap的用法是真的牛逼, 太灵活了.
     static class Counter extends HashMap<String, Integer> {
         public void count(String type) {
             Integer quantity = get(type);
@@ -17,13 +18,12 @@ public class PetCount {
         }
     }
 
-    public static void countPets() {
+    public static void countPets(PetCreator creator) {
         Counter counter = new Counter();
-        for (Pet pet : Pets.array(20)) {
+        for (Pet pet : MyPets.array(20)) {
 
             // List each individual pet:
-            System.out.println(
-                    pet.getClass().getSimpleName() + " ");
+            System.out.println(pet.getClass().getSimpleName() + " ");
             if (pet instanceof Pet)
                 counter.count("Pet");
             if (pet instanceof Dog)
@@ -56,7 +56,7 @@ public class PetCount {
     }
 
     public static void main(String[] args) {
-//        countPets(new ForNameCreator());  //参数鸡巴毛用都没有, 我醉了.
-        countPets();
+        countPets(new ForNameCreator());  //参数鸡巴毛用都没有, 我醉了.
+//        countPets();
     }
 }
