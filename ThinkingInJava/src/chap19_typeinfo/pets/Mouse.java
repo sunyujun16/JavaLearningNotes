@@ -4,9 +4,13 @@
 // Visit http://OnJava8.com for more book information.
 package chap19_typeinfo.pets;
 
-import reflection.pets.Rodent;
 
 public class Mouse extends Rodent {
-  public Mouse(String name) { super(name); }
-  public Mouse() { super(); }
+    public Mouse(String name) {
+        super(name);
+    }
+
+    public Mouse() {
+        super();
+    }
 }

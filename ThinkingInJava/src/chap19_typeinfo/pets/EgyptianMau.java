@@ -4,7 +4,6 @@
 // Visit http://OnJava8.com for more book information.
 package chap19_typeinfo.pets;
 
-import reflection.pets.Cat;
 
 public class EgyptianMau extends Cat {
   public EgyptianMau(String name) { super(name); }

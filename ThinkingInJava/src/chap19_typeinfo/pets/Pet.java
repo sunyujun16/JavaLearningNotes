@@ -4,9 +4,13 @@
 // Visit http://OnJava8.com for more book information.
 package chap19_typeinfo.pets;
 
-import reflection.pets.Individual;
 
 public class Pet extends Individual {
-  public Pet(String name) { super(name); }
-  public Pet() { super(); }
+    public Pet(String name) {
+        super(name);
+    }
+
+    public Pet() {
+        super();
+    }
 }

@@ -4,7 +4,6 @@
 // Visit http://OnJava8.com for more book information.
 package chap19_typeinfo.pets;
 
-import reflection.pets.Cat;
 
 public class Manx extends Cat {
   public Manx(String name) { super(name); }

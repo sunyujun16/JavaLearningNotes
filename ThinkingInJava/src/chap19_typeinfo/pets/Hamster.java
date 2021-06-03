@@ -4,7 +4,6 @@
 // Visit http://OnJava8.com for more book information.
 package chap19_typeinfo.pets;
 
-import reflection.pets.Rodent;
 
 public class Hamster extends Rodent {
   public Hamster(String name) { super(name); }

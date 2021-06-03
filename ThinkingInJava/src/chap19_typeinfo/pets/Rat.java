@@ -4,7 +4,6 @@
 // Visit http://OnJava8.com for more book information.
 package chap19_typeinfo.pets;
 
-import reflection.pets.Rodent;
 
 public class Rat extends Rodent {
   public Rat(String name) { super(name); }
