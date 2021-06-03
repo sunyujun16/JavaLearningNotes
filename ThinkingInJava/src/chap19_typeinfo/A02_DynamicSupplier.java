@@ -35,6 +35,7 @@ public class A02_DynamicSupplier<T> implements Supplier<T> {
                 new A02_DynamicSupplier<>(CountedInteger.class))
                 .skip(10)
                 .limit(5)
+                . peek(s -> System.out.println(s.getClass()))
                 .forEach(System.out::println);
     }
 }
