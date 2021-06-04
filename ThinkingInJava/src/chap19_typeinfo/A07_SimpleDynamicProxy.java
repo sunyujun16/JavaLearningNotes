@@ -10,8 +10,7 @@ class DynamicProxyHandler implements InvocationHandler {
     }
 
     @Override
-    public Object
-    invoke(Object proxy, Method method, Object[] args)
+    public Object invoke(Object proxy, Method method, Object... args)
             throws Throwable {
         System.out.println(
                 "**** proxy: " + proxy.getClass() +
@@ -32,11 +31,14 @@ class SimpleDynamicProxy {
     public static void main(String[] args) {
         RealObject real = new RealObject();
         consumer(real);
-// Insert a proxy and call again:
+        System.out.println();
+
+        // Insert a proxy and call again:
         Interface proxy = (Interface) Proxy.newProxyInstance(
                 Interface.class.getClassLoader(),
                 new Class[]{Interface.class},
                 new DynamicProxyHandler(real));
         consumer(proxy);
+        System.out.println();
     }
 }
