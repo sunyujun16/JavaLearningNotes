@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ad74665-bec8-49cd-a749-d0754b62935a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/pets/LiteralPetCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/pets/MyPets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/pets/PetCount2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/pets/PetCount3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/A04_RegisteredFactories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/A05_FamilyVsExactType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/A06_ShowMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/A07_SimpleProxyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/pets/PetCount4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/pets/PetCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/pets/PetCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/pets/PetCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/pets/PetCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/pets/Pets.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/pets/Pets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/pets/PetCount3.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/pets/PetCount3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/TypeCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/TypeCounter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,25 +41,58 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/pets/LiteralPetCreator.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/A05_FamilyVsExactType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+            <state relative-caret-position="717">
+              <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/A06_ShowMethods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-123">
+              <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
               <folding>
-                <element signature="e#783#784#0" expanded="true" />
-                <element signature="e#811#812#0" expanded="true" />
-                <element signature="e#856#857#0" expanded="true" />
-                <element signature="e#897#898#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1043#1069#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/A07_SimpleProxyDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-21">
+              <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+              <folding>
+                <element signature="e#194#195#0" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+                <element signature="e#470#471#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/pets/PetCount3.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/A07_SimpleDynamicProxy.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="42">
-              <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap18_strings/A06_JGrep.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,14 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap18_strings/A07_ThreatAnalyzer.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap18_strings/A07_ReplacingStringTokenizer.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap10_interface/A08_Nested_Interfaces.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/onjava/Range.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A03_FileToWordsTest.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A04_OptionalFilter.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A04_OptionalFlatMap.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A05_SpecialCollector.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A05_Reduce.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap14_streams/A05_Matching.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A06_Rethrowing.java" />
@@ -147,7 +172,15 @@
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/pets/Pets.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/pets/PetCount2.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/pets/PetCount.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/pets/MyPets.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/onjava/TypeCounter.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/pets/PetCount4.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/A03_RegisteredFactories.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/A04_RegisteredFactories.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/A05_FamilyVsExactType.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/pets/PetCount3.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/A06_ShowMethods.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/A07_SimpleProxyDemo.java" />
       </list>
     </option>
   </component>
@@ -186,20 +219,25 @@
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap19_typeinfo" type="462c0819:PsiDirectoryNode" />
+              <item name="chap18_strings" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="chap19_typeinfo" type="462c0819:PsiDirectoryNode" />
-              <item name="pets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="generics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="onjava" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
@@ -278,13 +316,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyPets">
-    <configuration name="LiteralPetCreator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap19_typeinfo.pets.LiteralPetCreator" />
+  <component name="RunManager" selected="Application.SimpleProxyDemo">
+    <configuration name="A04_RegisteredFactories" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap19_typeinfo.A04_RegisteredFactories" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap19_typeinfo.pets.*" />
+          <option name="PATTERN" value="chap19_typeinfo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -292,12 +330,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyPets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap19_typeinfo.pets.MyPets" />
+    <configuration name="A05_FamilyVsExactType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap19_typeinfo.A05_FamilyVsExactType" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap19_typeinfo.pets.*" />
+          <option name="PATTERN" value="chap19_typeinfo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="A06_ShowMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap19_typeinfo.A06_ShowMethods" />
+      <module name="ThinkingInJava" />
+      <option name="PROGRAM_PARAMETERS" value="chap19_typeinfo.A06_ShowMethods" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap19_typeinfo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -313,8 +365,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PetCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap19_typeinfo.pets.PetCount" />
+    <configuration name="PetCount4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap19_typeinfo.pets.PetCount4" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
@@ -326,25 +378,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PetCount2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap19_typeinfo.pets.PetCount2" />
+    <configuration name="SimpleProxyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap19_typeinfo.SimpleProxyDemo" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap19_typeinfo.pets.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PetCount3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap19_typeinfo.pets.PetCount3" />
-      <module name="ThinkingInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap19_typeinfo.pets.*" />
+          <option name="PATTERN" value="chap19_typeinfo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -410,19 +449,19 @@
     <list>
       <item itemvalue="Application.PathWatcher" />
       <item itemvalue="Application.StreamInAndOut" />
-      <item itemvalue="Application.PetCount" />
-      <item itemvalue="Application.LiteralPetCreator" />
-      <item itemvalue="Application.PetCount2" />
-      <item itemvalue="Application.PetCount3" />
-      <item itemvalue="Application.MyPets" />
+      <item itemvalue="Application.PetCount4" />
+      <item itemvalue="Application.A04_RegisteredFactories" />
+      <item itemvalue="Application.A05_FamilyVsExactType" />
+      <item itemvalue="Application.A06_ShowMethods" />
+      <item itemvalue="Application.SimpleProxyDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyPets" />
-        <item itemvalue="Application.PetCount3" />
-        <item itemvalue="Application.PetCount2" />
-        <item itemvalue="Application.LiteralPetCreator" />
-        <item itemvalue="Application.PetCount" />
+        <item itemvalue="Application.SimpleProxyDemo" />
+        <item itemvalue="Application.A06_ShowMethods" />
+        <item itemvalue="Application.A05_FamilyVsExactType" />
+        <item itemvalue="Application.A04_RegisteredFactories" />
+        <item itemvalue="Application.PetCount4" />
       </list>
     </recent_temporary>
   </component>
@@ -506,14 +545,8 @@
       <workItem from="1622422504525" duration="14776000" />
       <workItem from="1622509630568" duration="14415000" />
       <workItem from="1622591411369" duration="7719000" />
-      <workItem from="1622676035061" duration="27308000" />
-    </task>
-    <task id="LOCAL-00064" summary="code everyday, job on its way!">
-      <created>1619511669498</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1619511669499</updated>
+      <workItem from="1622676035061" duration="27778000" />
+      <workItem from="1622766232638" duration="12120000" />
     </task>
     <task id="LOCAL-00065" summary="code everyday, job on its way!">
       <created>1619537048868</created>
@@ -851,7 +884,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622726025650</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="code everyday, job on its way!">
+      <created>1622731801984</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1622731801984</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -887,7 +927,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="691696000" />
+    <option name="totallyTimeSpent" value="704286000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -907,7 +947,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" weight="0.32945737" />
-      <window_info content_ui="combo" x="50" y="142" width="376" height="938" id="Project" order="5" sideWeight="0.49736688" visible="true" weight="0.16826923" />
+      <window_info active="true" content_ui="combo" x="50" y="142" width="376" height="938" id="Project" order="5" sideWeight="0.49736688" visible="true" weight="0.17040598" />
       <window_info id="Structure" order="6" sideWeight="0.5026331" weight="0.1917735" />
       <window_info anchor="bottom" id="FundAssistant" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
@@ -932,7 +972,7 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32959402" />
-      <window_info active="true" anchor="right" x="1323" y="131" width="572" height="907" id="Debug" order="10" visible="true" weight="0.34508547" />
+      <window_info anchor="right" x="1323" y="131" width="572" height="907" id="Debug" order="10" visible="true" weight="0.38568377" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1000,88 +1040,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/lang/NoSuchFieldException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
-          <folding>
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A06_WhoCalled.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A06_DynamicFields.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1344">
-          <caret line="64" column="75" selection-start-line="64" selection-start-column="75" selection-end-line="64" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap15_exceptions/A10_InputFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/A01_CountedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/test/chap16_validating/CountedListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="29" column="65" lean-forward="true" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#687#688#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#1462#1463#0" expanded="true" />
-            <element signature="e#1529#1530#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/CircularQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="50" column="27" lean-forward="true" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
-          <folding>
-            <element signature="e#1764#1765#0" expanded="true" />
-            <element signature="e#1828#1829#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/test/chap16_validating/CircularQueueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/SLF4JLogging.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="6" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap16_validating/SLF4JLevels.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -1114,16 +1072,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap18_strings/A06_JGrep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1339,18 +1287,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/pets/ForNameCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding>
-            <element signature="e#827#857#0" expanded="true" />
-            <element signature="e#1089#1090#0" expanded="true" />
-            <element signature="e#1111#1112#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/pets/Pet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -1358,40 +1294,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/pets/PetCreator.java">
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/onjava/Pair.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="63">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/LinkedHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="671" column="31" selection-start-line="671" selection-start-column="31" selection-end-line="671" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/pets/ForNameCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/pets/MyPets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        <state relative-caret-position="420">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/pets/Pets.java">
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/onjava/TypeCounter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        <state relative-caret-position="231">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/pets/PetCount4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/pets/PetCount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
+        <state relative-caret-position="21">
           <caret line="22" column="42" lean-forward="true" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1404,16 +1355,67 @@
         <state relative-caret-position="126">
           <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
           <folding>
-            <element signature="e#123#124#0" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#100#101#0" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/onjava/Pair.java">
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/pets/PetCreator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="315">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/pets/Pets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/pets/PetCount3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="40" column="22" lean-forward="true" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/A04_RegisteredFactories.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#931#932#0" expanded="true" />
+            <element signature="e#970#971#0" expanded="true" />
+            <element signature="e#1049#1050#0" expanded="true" />
+            <element signature="e#1087#1088#0" expanded="true" />
+            <element signature="e#1143#1144#0" expanded="true" />
+            <element signature="e#1186#1187#0" expanded="true" />
+            <element signature="e#1298#1299#0" expanded="true" />
+            <element signature="e#1336#1337#0" expanded="true" />
+            <element signature="e#1438#1439#0" expanded="true" />
+            <element signature="e#1474#1475#0" expanded="true" />
+            <element signature="e#1497#1498#0" expanded="true" />
+            <element signature="e#1539#1540#0" expanded="true" />
+            <element signature="e#1631#1632#0" expanded="true" />
+            <element signature="e#1677#1678#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1421,29 +1423,74 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/A05_FamilyVsExactType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="717">
+          <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/regex/Pattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="1126" column="19" selection-start-line="1126" selection-start-column="19" selection-end-line="1126" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/regex/Matcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="602" column="18" selection-start-line="602" selection-start-column="18" selection-end-line="602" selection-end-column="18" />
           <folding>
-            <element signature="e#783#784#0" expanded="true" />
-            <element signature="e#811#812#0" expanded="true" />
-            <element signature="e#856#857#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
+            <element signature="e#20323#20324#0" expanded="true" />
+            <element signature="e#20354#20355#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/LinkedHashMap.java">
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap18_strings/A06_JGrep.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="671" column="31" selection-start-line="671" selection-start-column="31" selection-end-line="671" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/pets/PetCount3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="301">
+          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/A06_ShowMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-123">
+          <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1043#1069#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/A07_SimpleProxyDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding>
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/A07_SimpleDynamicProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
         </state>
       </provider>
     </entry>

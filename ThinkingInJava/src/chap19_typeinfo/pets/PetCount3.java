@@ -19,6 +19,7 @@ public class PetCount3 {
         public void count(Pet pet) {
             // Class.isInstance() eliminates instanceofs:
             entrySet().stream()
+                    //其实语义上讲,更适合hasInstance()这种命名方式
                     .filter(pair -> pair.getKey().isInstance(pet))
                     .forEach(pair ->
                             put(pair.getKey(), pair.getValue() + 1));
@@ -37,6 +38,7 @@ public class PetCount3 {
 
     public static void main(String[] args) {
         Counter petCount = new Counter();
+        // 得到的流只包括低级子类
         Pets.stream()
                 .limit(20)
                 .peek(petCount::count)
