@@ -19,8 +19,8 @@ public interface A08_Robot {
         System.out.println("Robot model: " + r.model());
 
         for (A08_Operation operation : r.operations()) {
-            System.out.println(operation.description.get());
-            operation.command.run();
+            System.out.println(operation.description.get());  // Supplier
+            operation.command.run();  // Runnable
         }
     }
 }
