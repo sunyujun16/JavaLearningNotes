@@ -1,6 +1,7 @@
 package chap19_typeinfo;
 
 import java.util.stream.*;
+import java.nio.file.*;
 
 abstract class Shape {
     void draw() {
@@ -37,5 +38,8 @@ public class A01_Shapes {
         Stream.of(
                 new Circle(), new Square(), new Triangle())
                 .forEach(Shape::draw);
+        System.out.println("here");
+        Path p = Paths.get("");
+
     }
 }
