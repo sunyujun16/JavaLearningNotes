@@ -7,7 +7,7 @@ import chap19_typeinfo.pets.*;
 import java.util.*;
 
 public class PetCount {
-    // 我尼玛这个HashMap的用法是真的牛逼, 太灵活了.
+    // 这个HashMap的用法是真TM牛逼, 太灵活了.
     static class Counter extends HashMap<String, Integer> {
         public void count(String type) {
             Integer quantity = get(type);

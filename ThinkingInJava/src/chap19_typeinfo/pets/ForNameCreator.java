@@ -27,7 +27,7 @@ public class ForNameCreator extends PetCreator {
         try {
             for (String name : typeNames)
                 types.add(
-                        (Class<? extends Pet>) Class.forName(name));
+                        (Class<? extends Pet>) Class.forName(name)); // 必须显式转换而无法自动转换
         } catch (ClassNotFoundException e) {
             throw new RuntimeException(e);
         }
