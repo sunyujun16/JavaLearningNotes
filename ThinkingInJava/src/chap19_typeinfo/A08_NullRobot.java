@@ -52,6 +52,7 @@ public class A08_NullRobot {
         Stream.of(
                 new A08_SnowRemovalRobot("SnowBee"),
                 newNullRobot(A08_SnowRemovalRobot.class)
-        ).forEach(A08_Robot::test);
+        ).peek(s -> System.out.println("---------"))
+                .forEach(A08_Robot::test);
     }
 }

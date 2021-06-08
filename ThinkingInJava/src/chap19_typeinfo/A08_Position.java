@@ -25,7 +25,7 @@ class Position {
     public void setTitle(String newTitle) {
 // Throws EmptyTitleException if newTitle is null:
         title = Optional.ofNullable(newTitle) // 包装或者生成empty对象
-                .orElseThrow(EmptyTitleException::new); //解包
+                .orElseThrow(EmptyTitleException::new); //解包并捕捉empty对象.
     }
 
     public Person getPerson() {
@@ -33,7 +33,7 @@ class Position {
     }
 
     public void setPerson(Person newPerson) {
-// Uses empty Person if newPerson is null:
+        // Uses empty Person if newPerson is null:
         person = Optional.ofNullable(newPerson)
                 .orElse(new Person());
     }

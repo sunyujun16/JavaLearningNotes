@@ -10,6 +10,7 @@ import onjava.*;
 public class PetCount3 {
     static class Counter extends LinkedHashMap<Class<? extends Pet>, Integer> {
         Counter() {
+            // 调用父类构造器, 初始化Map数据.
             super(LiteralPetCreator.ALL_TYPES.stream()
                     .map(lpc -> Pair.make(lpc, 0))
                     .collect(

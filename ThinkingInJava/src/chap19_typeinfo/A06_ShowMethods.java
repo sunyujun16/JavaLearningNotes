@@ -15,6 +15,7 @@ class A06_ShowMethods {
                     "To show all methods in class or:\n" +
                     "ShowMethods qualified.class.name word\n" +
                     "To search for methods involving 'word'";
+    // 匹配带点单词(即包名)
     private static Pattern p = Pattern.compile("\\w+\\.");
 
 //    public A06_ShowMethods() {
@@ -24,6 +25,7 @@ class A06_ShowMethods {
 //        System.out.println("FUCK.");
 //    }
 
+    // 第一个参数: 类名; 第二个参数: 筛选关键字.
     public static void main(String[] args) {
         if (args.length < 1) {
             System.out.println(usage);
@@ -37,9 +39,10 @@ class A06_ShowMethods {
 
             if (args.length == 1) {
                 for (Method method : methods)
-                    System.out.println(p.matcher(method.toString())
-                            .replaceAll("")
-                            );
+                    System.out.println(
+                            p.matcher(method.toString())
+                                    .replaceAll("")
+                    );
 //                    try{
 //                        Matcher m = p.matcher(method.toString());
 //                        m.find();
@@ -51,8 +54,9 @@ class A06_ShowMethods {
 //                    }
 
                 for (Constructor ctor : ctors)
-                    System.out.println(p.matcher(ctor.toString())
-                            .replaceAll("*")
+                    System.out.println(
+                            p.matcher(ctor.toString())
+                                    .replaceAll("*")
                     );
                 lines = methods.length + ctors.length;
             } else {

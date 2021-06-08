@@ -25,9 +25,10 @@ class Part implements Supplier<Part> {
             );
     private static Random rand = new Random(47);
 
-    public Part get() {
+    public Part get() {  // 随机获取一个prototype.
         int n = rand.nextInt(prototypes.size());
         return prototypes.get(n).get();
+        // 子类的方法难道不可以不叫get吗?
     }
 }
 
