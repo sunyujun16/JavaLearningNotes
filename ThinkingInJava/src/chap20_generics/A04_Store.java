@@ -8,6 +8,7 @@ import java.util.function.*;
 import onjava.*;
 
 class Product {
+    private static int count = 0;
     private final int id;
     private String description;
     private double price;
@@ -16,13 +17,13 @@ class Product {
         id = idNumber;
         description = descr;
         this.price = price;
-        System.out.println(toString());
+        System.out.println(toString() + "...here...");
     }
 
     @Override
     public String toString() {
         return id + ": " + description +
-                ", price: $" + price;
+                ", price: $" + price + "  --  " + ++count;
     }
 
     public void priceChange(double change) {
@@ -44,7 +45,7 @@ class Product {
 
 class Shelf extends ArrayList<Product> {
     Shelf(int nProducts) {
-        Suppliers.fill(this, Product.generator, nProducts);
+        Suppliers.fill(this, Product.generator, nProducts); // elegant.
     }
 }
 
