@@ -20,7 +20,7 @@ class GenericHolder2<T> {
 
 public class A05_GenericHolder2 {
 }
-/*
+/* 节选的字节码根本没变化嘛
 public void set(java.lang.Object);
 0: aload_0
 1: aload_1

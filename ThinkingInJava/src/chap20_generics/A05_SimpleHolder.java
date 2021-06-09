@@ -43,4 +43,4 @@ public static void main(java.lang.String[]);
 18: checkcast #8; //class java/lang/String
 21: astore_2
 22: return
-* */
+*/
