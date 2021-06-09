@@ -1,14 +1,11 @@
-// onjava/BasicSupplier.java
-// (c)2021 MindView LLC: see Copyright.txt
-// We make no guarantees that this code is fit for any purpose.
-// Visit http://OnJava8.com for more book information.
-// Supplier from a class with a zero-argument constructor
-package onjava;
+package chap20_generics;
 
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Method;
 import java.util.function.*;
 import java.lang.reflect.InvocationTargetException;
 
-public class BasicSupplier<T> implements Supplier<T> {
+class BasicSupplier<T> implements Supplier<T> {
     private Class<T> type;
 
     public BasicSupplier(Class<T> type) {
@@ -19,7 +16,10 @@ public class BasicSupplier<T> implements Supplier<T> {
     public T get() {
         try {
             // Assumes type is a public class:
-            return type.getConstructor().newInstance();
+            // 我偏不, 嘿.
+            Constructor ctor = type.getDeclaredConstructor();
+            ctor.setAccessible(true);
+            return (T) ctor.newInstance();
         } catch (InstantiationException |
                 NoSuchMethodException |
                 InvocationTargetException |
@@ -32,4 +32,7 @@ public class BasicSupplier<T> implements Supplier<T> {
     public static <T> Supplier<T> create(Class<T> type) {
         return new BasicSupplier<>(type);
     }
+}
+
+public class A03_BasicSupplier {
 }
