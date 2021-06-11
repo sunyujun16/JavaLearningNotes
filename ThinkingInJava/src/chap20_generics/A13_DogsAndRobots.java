@@ -21,11 +21,11 @@ class PerformingDog extends Dog implements Performs {
 
 class Robot implements Performs {
     public void speak() {
-        System.out.println("Click!");
+        System.out.println("Robot: Click!");
     }
 
     public void sit() {
-        System.out.println("Clank!");
+        System.out.println("Robot Clank!");
     }
 
     public void oilChange() {

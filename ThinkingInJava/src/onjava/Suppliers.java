@@ -29,8 +29,8 @@ public class Suppliers {
 
     // Use an unbound method reference to
     // produce a more general method:
-    public static <H, A> H fill(H holder,
-                                BiConsumer<H, A> adder, Supplier<A> gen, int n) {
+    public static <H, A> H fill(H holder, BiConsumer<H, A> adder,
+                                Supplier<A> gen, int n) {
         Stream.generate(gen)
                 .limit(n)
                 .forEach(a -> adder.accept(holder, a));

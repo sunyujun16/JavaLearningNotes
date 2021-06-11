@@ -5,10 +5,11 @@ import java.util.*;
 public class A05_ReceiptBuilder {
     private double total = 0;
     private Formatter f = new Formatter(new StringBuilder());
+    private static final int WIDTH = 15;
 
     public A05_ReceiptBuilder() {
-        f.format("%-15s %5s %10s%n", "Item", "Qty", "Price");
-        f.format("%-15s %5s %10s%n", "----", "---", "-----");
+        f.format("%-" + WIDTH + "s %5s %10s%n", "Item", "Qty", "Price");
+        f.format("%-" + WIDTH + "s %5s %10s%n", "----", "---", "-----");
     }
 
     public void add(String name, int qty, double price) {
