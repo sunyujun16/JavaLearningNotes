@@ -8,6 +8,10 @@ abstract class Shape {
         System.out.println(this + ".draw()");
     }
 
+    void rotate() {
+        System.out.println(this + " 转圈圈");
+    }
+
     @Override
     public abstract String toString();
 }
@@ -33,13 +37,30 @@ class Triangle extends Shape {
     }
 }
 
+class Rhomboid extends Shape {
+    @Override
+    public String toString() {
+        return "Rhomboid";
+    }
+}
+
 public class A01_Shapes {
     public static void main(String[] args) {
         Stream.of(
                 new Circle(), new Square(), new Triangle())
                 .forEach(Shape::draw);
         System.out.println("here");
-        Path p = Paths.get("");
+
+        Shape s = new Rhomboid();
+        Rhomboid rh = (Rhomboid) s;
+        System.out.println(s instanceof Rhomboid);
+        if(s instanceof Circle) {
+            Circle cl = (Circle) s;
+        } else System.out.println("滚犊子吧哈哈哈哈哈");
+        Stream.of(
+                new Circle(), new Square(), new Triangle())
+                .filter(ss -> !(ss instanceof Circle))
+                .forEach(Shape::rotate);
 
     }
 }

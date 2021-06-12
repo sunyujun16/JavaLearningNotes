@@ -9,6 +9,9 @@ interface Waterproof {
 interface Shoots {
 }
 
+interface Fuck {
+}
+
 class Toy {
     // Comment out the following no-arg
     // constructor to see NoSuchMethodError
@@ -20,7 +23,7 @@ class Toy {
 }
 
 class FancyToy extends Toy
-        implements HasBatteries, Waterproof, Shoots {
+        implements HasBatteries, Waterproof, Shoots, Fuck {
     FancyToy() {
         super(1);
     }
