@@ -52,6 +52,7 @@ class DogsAndRobotMethodReferences {
         CommunicateA.perform(new Mime(),
                 Mime::walkAgainstTheWind,
                 Mime::pushInvisibleWalls);
+
     }
 }
 

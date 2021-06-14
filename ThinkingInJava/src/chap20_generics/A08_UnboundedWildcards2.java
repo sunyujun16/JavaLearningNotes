@@ -22,7 +22,8 @@ class UnboundedWildcards2 {
     public static void main(String[] args) {
         assign1(new HashMap());
         assign2(new HashMap());
-//- assign3(new HashMap());
+        assign3(new HashMap());
+
 // warning: [unchecked] unchecked method invocation:
 // method assign3 in class UnboundedWildcards2
 // is applied to given types
@@ -36,6 +37,7 @@ class UnboundedWildcards2 {
 // required: Map<String,?>
 // found: HashMap
 // 2 warnings
+
         assign1(new HashMap<>());
         assign2(new HashMap<>());
         assign3(new HashMap<>());

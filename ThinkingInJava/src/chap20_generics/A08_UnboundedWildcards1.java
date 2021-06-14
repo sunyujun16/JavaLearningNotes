@@ -33,7 +33,7 @@ class UnboundedWildcards1 {
     public static void main(String[] args) {
         assign1(new ArrayList());
         assign2(new ArrayList());
-        //- assign3(new ArrayList());
+        assign3(new ArrayList());
         // warning: [unchecked] unchecked method invocation:
         // method assign3 in class UnboundedWildcards1
         // is applied to given types

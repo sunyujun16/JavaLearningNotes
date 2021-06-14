@@ -6,9 +6,14 @@ class ByteSet {
     Byte[] possibles = {1, 2, 3, 4, 5, 6, 7, 8, 9};
     Set<Byte> mySet =
             new HashSet<>(Arrays.asList(possibles));
-//     But you can't do this:
+    // 但是自动装箱也不是万能的:
+    //     But you can't do this:
 //     Set<Byte> mySet2 = new HashSet<>(
 //     Arrays.<Byte>asList(1,2,3,4,5,6,7,8,9));
+
+    // 这样跟最上面一样
+    Set<Byte> mySet2 = new HashSet<>(
+            Arrays.asList(new Byte[]{1, 2, 3, 4, 5, 6, 7, 8, 9}));
 
     public static void main(String[] args) {
         System.out.println(new ByteSet().mySet);
