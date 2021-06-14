@@ -2,6 +2,8 @@ package chap19_typeinfo;
 
 // Registering Factories in the base class
 
+import onjava.Null;
+
 import java.util.*;
 import java.util.function.*;
 import java.util.stream.*;
@@ -21,7 +23,11 @@ class Part implements Supplier<Part> {
                     new OilFilter(),
                     new FanBelt(),
                     new PowerSteeringBelt(),
-                    new GeneratorBelt()
+                    new GeneratorBelt(),
+                    new NullFilter(),
+                    new NullFilter(),
+                    new NullFilter(),
+                    new NullFilter()
             );
     private static Random rand = new Random(47);
 
@@ -33,6 +39,18 @@ class Part implements Supplier<Part> {
 }
 
 class Filter extends Part {
+}
+
+class NullFilter extends Filter implements Null{
+    @Override
+    public Part get() {
+        return new NullFilter();
+    }
+
+    @Override
+    public String toString() {
+        return "null???";
+    }
 }
 
 class FuelFilter extends Filter {

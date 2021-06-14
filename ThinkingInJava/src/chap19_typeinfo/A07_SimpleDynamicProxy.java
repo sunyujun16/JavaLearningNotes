@@ -18,6 +18,10 @@ class DynamicProxyHandler implements InvocationHandler {
         if (args != null)
             for (Object arg : args)
                 System.out.println(":::- " + arg);
+        // call toString()会引发无限递归, 因为toString也要通过代理invoke().
+//        System.out.println("********");
+//        System.out.println(proxy);
+//        System.out.println("********");
         return method.invoke(proxied, args);
     }
 }

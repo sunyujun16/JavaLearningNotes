@@ -16,8 +16,9 @@ class A06_ShowMethods {
                     "ShowMethods qualified.class.name word\n" +
                     "To search for methods involving 'word'";
     // 匹配带点单词(即包名)
-    private static Pattern p = Pattern.compile("\\w+\\.");
+    private static Pattern p = Pattern.compile("\\w+\\.|final|native");
 
+    // 非public类的默认构造器不是public
 //    public A06_ShowMethods() {
 //    }
 //

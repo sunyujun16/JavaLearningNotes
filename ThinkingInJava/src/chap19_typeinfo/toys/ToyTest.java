@@ -13,12 +13,19 @@ interface Fuck {
 }
 
 class Toy {
+    private int i = 0;
     // Comment out the following no-arg
     // constructor to see NoSuchMethodError
     Toy() {
     }
 
     Toy(int i) {
+        this.i = i;
+    }
+
+    @Override
+    public String toString() {
+        return "* " + i;
     }
 }
 
@@ -66,5 +73,19 @@ public class ToyTest {
             System.exit(1);
         }
         printInfo(obj.getClass());
+
+
+        // 练习19
+        System.out.println("");
+        Class c2 = Toy.class;
+        try {
+            System.out.println(
+                    c2.getDeclaredConstructor(int.class)
+                            .newInstance(2)
+            );
+//            System.out.println(c2.newInstance());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }

@@ -20,6 +20,7 @@ class RealObject implements Interface {
 
 class SimpleProxy implements Interface {
     private Interface proxied;
+    private static int count = 0;
 
     SimpleProxy(Interface proxied) {
         this.proxied = proxied;
@@ -28,14 +29,21 @@ class SimpleProxy implements Interface {
     @Override
     public void doSomething() {
         System.out.println("SimpleProxy doSomething");
+        count++;
         proxied.doSomething();
+
     }
 
     @Override
     public void somethingElse(String arg) {
         System.out.println(
                 "SimpleProxy somethingElse " + arg);
+        count++;
         proxied.somethingElse(arg);
+    }
+
+    static void setCount(){
+        System.out.println(count);
     }
 }
 
@@ -43,6 +51,7 @@ class SimpleProxyDemo {
     public static void consumer(Interface iface) {
         iface.doSomething();
         iface.somethingElse("bonobo");
+        SimpleProxy.setCount();
     }
 
     public static void main(String[] args) {
