@@ -8,6 +8,8 @@ class GenericHolder2<T> {
     }
 
     public T get() {
+        System.out.println(obj.getClass().getSimpleName()); //String.
+//        obj.split(" "); // 运行时虽然能用RTTI获取类型,但仍然只能调用Object的方法.
         return obj;
     }
 

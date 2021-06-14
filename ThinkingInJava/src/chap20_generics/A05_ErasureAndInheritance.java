@@ -21,6 +21,7 @@ class Derived2 extends GenericBase {
 // class Derived3 extends GenericBase<?> {
 // }
 // Strange error:
+// no wildcard expected.
 // unexpected type
 // required: class or interface without bounds
 class ErasureAndInheritance {

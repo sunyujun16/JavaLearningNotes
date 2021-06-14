@@ -13,6 +13,7 @@ class GenericArray2<T> {
 
     @SuppressWarnings("unchecked")
     public T get(int index) {
+        System.out.println(array[index].getClass().getSimpleName());
         return (T) array[index];
     }
 
@@ -29,8 +30,9 @@ class GenericArray2<T> {
         for (int i = 0; i < 10; i++)
             System.out.print(gai.get(i) + " ");
         System.out.println("\n");
+
         try {
-            Integer[] ia = gai.rep();
+            Integer[] ia = gai.rep(); // 不好使,诶嘿!
         } catch (Exception e) {
             System.out.println(e);
         }

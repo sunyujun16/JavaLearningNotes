@@ -27,7 +27,7 @@ public class CollectionMethodDifferences {
 
     static Set<String> object = methodSet(Object.class);
 
-    static {
+    static { //从未调用, 因为没有涉及初始化类的动作.
         object.add("clone");
     }
 

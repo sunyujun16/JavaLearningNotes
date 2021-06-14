@@ -42,8 +42,7 @@ class SuperSleuth<POWER extends XRayVision>
     }
 }
 
-class
-CanineHero<POWER extends SuperHearing & SuperSmell>
+class CanineHero<POWER extends SuperHearing & SuperSmell>
         extends SuperHero<POWER> {
     CanineHero(POWER power) {
         super(power);
@@ -99,5 +98,5 @@ class EpicBattle {
     }
 }
 
-public class A07_A07_BasicBounds {
+public class A07_EpicBattle {
 }
