@@ -4,7 +4,7 @@ import java.util.*;
 
 enum Input {
     NICKEL(5), DIME(10), QUARTER(25), DOLLAR(100),
-    TOOTHPASTE(200), CHIPS(75), SODA(100), SOAP(50),
+    TOOTHPASTE(198), CHIPS(72), SODA(98), SOAP(48),
     ABORT_TRANSACTION {
         @Override
         public int amount() { // Disallow

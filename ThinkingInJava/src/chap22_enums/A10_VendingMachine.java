@@ -26,10 +26,10 @@ enum Category {
         for (Category c : Category.class.getEnumConstants())
             for (Input type : c.values)
                 categories.put(type, c);
-    }
+    } // categories is initialized now.
 
     public static Category categorize(Input input) {
-        return categories.get(input);
+        return categories.get(input); // 按照键获取对应的category.
     }
 }
 
@@ -127,20 +127,35 @@ class VendingMachine {
         }
     }
 
+    // 这里因为把isTransient当作整体的变量而懵逼了, 实际上每个state都有
+    // 不同的isTransient, 每次对state赋值时, 它的行为和isTransient都变了.
     static void run(Supplier<Input> gen) {
         while (state != State.TERMINAL) {
             state.next(gen.get());
-            while (state.isTransient)
+            while (state.isTransient){
+//                System.out.println(state.name()+"-----------");
                 state.next();
+//                System.out.println(state.isTransient+"++++++++++++");
+            }
             state.output();
         }
     }
 
+//    public static void main(String[] args) {
+//        Supplier<Input> gen = new RandomInputSupplier(); // 健全测试
+//        if (args.length == 1)
+//            gen = new FileInputSupplier(args[0]);
+//        run(gen);
+//    }
+}
+
+// run it somewhere outside.
+class RunVM1{
     public static void main(String[] args) {
-        Supplier<Input> gen = new RandomInputSupplier();
+        Supplier<Input> gen = new RandomInputSupplier(); // 健全测试
         if (args.length == 1)
             gen = new FileInputSupplier(args[0]);
-        run(gen);
+        VendingMachine.run(gen);
     }
 }
 
@@ -153,13 +168,14 @@ class RandomInputSupplier implements Supplier<Input> {
 }
 
 // Create Inputs from a file of ';'-separated strings:
+// ThinkingInJava/src/chap22_enums/VendingMachineInput.txt
 class FileInputSupplier implements Supplier<Input> {
     private Iterator<String> input;
 
     FileInputSupplier(String fileName) {
         try {
             input = Files.lines(Paths.get(fileName))
-                    .skip(1) // Skip the comment line
+                    .skip(0) // Skip the comment line
                     .flatMap(s -> Arrays.stream(s.split(";")))
                     .map(String::trim)
                     .collect(Collectors.toList())
