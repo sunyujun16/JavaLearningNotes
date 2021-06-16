@@ -4,6 +4,7 @@ import java.util.*;
 
 import static chap22_enums.Outcome.*;
 
+// 把对应关系用EnumMap保存下来, 那么实际上compete就变成对表的查询了.
 enum RoShamBo5 implements Competitor<RoShamBo5> {
     PAPER, SCISSORS, ROCK;
     static EnumMap<RoShamBo5, EnumMap<RoShamBo5, Outcome>>

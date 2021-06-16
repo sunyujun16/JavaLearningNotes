@@ -15,7 +15,7 @@ public class CircularQueueTest {
 
     @AfterEach
     private void prln() {
-        System.out.println("---------------------------------------------");
+        System.out.println("------------------");
     }
 
     // Support methods:

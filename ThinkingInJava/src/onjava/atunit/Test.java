@@ -4,8 +4,10 @@
 // Visit http://OnJava8.com for more book information.
 // The @Test tag
 package onjava.atunit;
+
 import java.lang.annotation.*;
 
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface Test {}
+public @interface Test {
+}
