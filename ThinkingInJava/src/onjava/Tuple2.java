@@ -19,6 +19,6 @@ public class Tuple2<A, B> {
 
     @Override
     public String toString() {
-        return "(" + rep() + ")";  // why wrapped?
+        return "(" + rep() + ")";  // why wrapped? 因为子类继续扩展rep方法
     }
 }
