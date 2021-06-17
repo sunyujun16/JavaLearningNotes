@@ -10,11 +10,11 @@ import java.util.*;
 @SupportedSourceVersion(SourceVersion.RELEASE_15)
 public class SimpleProcessor extends AbstractProcessor {
     @Override
-    public boolean process(
-            Set<? extends TypeElement> annotations,
-            RoundEnvironment env) {
+    public boolean process(Set<? extends TypeElement> annotations,
+                           RoundEnvironment env) {
         for (TypeElement t : annotations)
             System.out.println(t);
+        System.out.println("--------------finished.-----------------");
         for (Element el :
                 env.getElementsAnnotatedWith(Simple.class))
             display(el);

@@ -8,6 +8,7 @@ import java.util.*;
 import java.util.stream.*;
 import java.io.*;
 
+// 提取公共方法, 并用这些公共方法生成一个接口.
 @SupportedAnnotationTypes(
         "chap23_annotations.ifx.ExtractInterface")
 @SupportedSourceVersion(SourceVersion.RELEASE_15)
@@ -50,8 +51,10 @@ public class IfaceExtractorProcessor extends AbstractProcessor {
 
     private void writeInterfaceFile(String interfaceName) {
         try (
+                // 加的路径没用... 又忘了编译了草, 马拉卡!
                 Writer writer = processingEnv.getFiler()
-                        .createSourceFile(interfaceName)
+                        .createSourceFile("chap23_annotations.ifx."
+                                +interfaceName)
                         .openWriter()
         ) {
             String packageName = elementUtils
