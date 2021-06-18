@@ -1,5 +1,7 @@
 package chap24_concurrent;
 
+import onjava.Nap;
+
 import java.util.concurrent.*;
 
 class CountingTask implements Callable<Integer> {
@@ -14,6 +16,7 @@ class CountingTask implements Callable<Integer> {
         Integer val = 0; // 局部变量似乎就安全了...吧
         for (int i = 0; i < 100; i++)
             val++;
+        new Nap(1);
         System.out.println(id + " " +
                 Thread.currentThread().getName() + " " + val);
         return val;
