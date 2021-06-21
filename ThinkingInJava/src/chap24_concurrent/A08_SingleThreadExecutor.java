@@ -8,7 +8,7 @@ import onjava.*;
 class SingleThreadExecutor {
     public static void main(String[] args) {
         ExecutorService exec =
-                Executors.newSingleThreadExecutor(); // 单独的线程.
+                Executors.newSingleThreadExecutor(); // 单独新线程而非主线程.
 
         IntStream.range(0, 10)
                 .mapToObj(NapTask::new)

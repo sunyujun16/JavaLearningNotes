@@ -22,12 +22,17 @@ class ParallelPrime {
         Timer timer = new Timer();
         List<String> primes =
                 iterate(2, i -> i + 1)
-                        .parallel()              // [1]
+//                        .parallel()              // [1]
                         .filter(ParallelPrime::isPrime)
                         .limit(COUNT)
                         .mapToObj(Long::toString)
                         .collect(Collectors.toList());
         System.out.println(timer.duration());
+
+        // 14506 ms for parallel. when COUNT is 1_000_000.
+        // 40300 ms for non_parallel.
+
+        // 使用primes, 防止高级编译器因为觉得结果没啥用而停止计算.
         Files.write(Paths.get("ThinkingInJava/src/" +
                         "chap24_concurrent/primes.txt"),
                 primes, StandardOpenOption.CREATE);

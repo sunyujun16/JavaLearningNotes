@@ -23,12 +23,18 @@ class Summing3 {
         Arrays.parallelSetAll(aL, i -> (long) i);
 
         Summing.timeTest("Long Array Stream Reduce", CHECK,
-                () -> Arrays.stream(aL).reduce(0L, Long::sum));
+                () -> Arrays.stream(aL)
+                        .reduce(0L, Long::sum));
+
+        Summing.timeTest("Long Parallel",CHECK,
+                () -> Arrays.stream(aL)
+                                .parallel()
+                                .reduce(0L, Long::sum));
 
         Summing.timeTest("Long Basic Sum", CHECK,
                 () -> basicSum(aL));
 
-    // Destructive summation:
+        // Destructive summation:
         Summing.timeTest("Long parallelPrefix", CHECK, () -> {
             Arrays.parallelPrefix(aL, Long::sum);
             return aL[aL.length - 1];
