@@ -16,8 +16,10 @@ class CompletableOperations {
 
     public static void main(String[] args) {
         showr(cfi(1)); // Basic test
+
+        //runAsync返回CompletableFuture<Void>
         voidr(cfi(2).runAsync(() ->
-                System.out.println("runAsync"))); //返回一个CF<void>作为参数
+                System.out.println("runAsync")));
         voidr(cfi(3).runAsync(()-> System.out.println("FirstDoNth..."))
                 .thenRunAsync(() ->
                 System.out.println("thenRunAsync...")));
@@ -78,7 +80,7 @@ class CompletableOperations {
         System.out.println(c);
 
         c = new CompletableFuture<>();
-        System.out.println(c.getNow(777));
+        System.out.println(c.getNow(777)); // 获取完成值, 否则777
 
         c = new CompletableFuture<>();
         c.thenApplyAsync(i -> i + 42)
@@ -87,14 +89,28 @@ class CompletableOperations {
         System.out.println(c); // [Not completed, 1 dependents]
 
         System.out.println("dependents: " +
-                c.getNumberOfDependents());
+                c.getNumberOfDependents()); // dependents: 1
 
-        c.thenApplyAsync(i -> i / 2);
+        c.thenApplyAsync(i -> i / 2); // 再加一个
         System.out.println("dependents: " +
-                c.getNumberOfDependents());
+                c.getNumberOfDependents()); // dependents: 2
 
-        System.out.println("第一波到此一停");
-        new Nap(1);
+        // 那么一个空的CF对象有了两个dependent之后该怎么使用呢?
+
+        // 不是这样
+//        c.obtrudeValue(1000);
+//        showr(c);
+//        System.out.println("----☝----");
+
+        // 那...这样? 也不行
+//        c.completeAsync(()-> 1);
+//        showr(c);
+//        System.out.println("----☝----");
+
+        // 那TM咋用?
+
+        System.out.println("到此一停, 等嘿嘿那个sb");
+        new Nap(1); //等着前面那个嘿嘿的sb执行完.
     }
 }
 

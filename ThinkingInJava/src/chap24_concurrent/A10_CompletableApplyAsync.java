@@ -29,7 +29,7 @@ class CompletableApplyAsync {
 
         System.out.println(timer.duration());
 
-        // 打印出来的是 Machina0: complete.即最终保存的Machina对象.
+        // 打印出来的是 Machina0: complete.即最后返回的Machina对象.
         System.out.println(cf.join());
 
         System.out.println(timer.duration());

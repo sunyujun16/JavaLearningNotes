@@ -9,6 +9,10 @@ import static java.util.concurrent.TimeUnit.*;
 public class Timer {
     private long start = System.nanoTime();
 
+    public void resetTime(){
+        start = System.nanoTime();
+    }
+
     public long duration() {
         return NANOSECONDS.toMillis(
                 System.nanoTime() - start);

@@ -39,7 +39,7 @@ class Batter {
 
 //        new Nap(0.1); // Mixing time
         new Nap(0.2); // 我的4线程环境, 除了主线程只有3个, 所以多给一点时间去Mix.
-
+        
         return CompletableFuture.completedFuture(new Batter());
     }
 }
