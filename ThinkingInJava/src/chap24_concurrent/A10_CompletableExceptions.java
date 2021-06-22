@@ -17,19 +17,19 @@ class CompletableExceptions {
     }
 
     public static void main(String[] args) {
-        // Got message, but, Exceptions don't appear ...
+        // Got message, but, Exceptions don't appear...
         test("A", 1);
         test("B", 2);
         // 我偷偷针对C设置了一个小延迟, 但并没有影响顺序执行, 这说明异步发生在test内部
         // 就是说异步只在其定义的作用域内部发生, 当程序跳出调用栈之前, 还是要等待其完成.
         // 还是说, 因为completedFuture的限制呢? 等复习的时候应该尝试一下.
-        // 待续...
-        //
+        // 待续... 上面的结论已经推翻, 异步执行的线程在遇到join之前不会被主程序等待.
+        // 等会儿? 异步个粑粑呀??? 代码都他妈不是Async的, 你瞅瞅, 不复习能行?
         test("C", 3);
         test("D", 4);
         test("E", 5);
 
-        new Nap(0.5);
+//        new Nap(0.5);
 
         System.out.println("**********************");
 
@@ -53,6 +53,8 @@ class CompletableExceptions {
         System.out.println("done? " + cfi.isDone()); // should be false
         cfi.completeExceptionally(
                 new RuntimeException("forced")); // 强制立刻完成并抛出异常
+
+        // java.lang.RuntimeException: forced
         try {
             cfi.get();
         } catch (Exception e) {

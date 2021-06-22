@@ -40,7 +40,10 @@ class FrostedCake {
         // 就完了.
 
         Timer timer = new Timer();
-        Baked.batch().forEach(b -> System.out.println(b));//[Not completed]
+        Baked.batch().forEach(b -> b.thenRunAsync(() ->
+                System.out.println(b))
+                .join()
+        );//join后时间为808. 之前是404. 这说明: 只有join能让程序等待
         System.out.println(timer.duration());
     }
 }

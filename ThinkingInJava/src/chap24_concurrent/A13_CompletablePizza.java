@@ -39,6 +39,7 @@ class CompletablePizza {
         System.out.println(timer.duration()); // 没有等待pizzas的返回值
         pizzas.forEach(CompletablePizza::show); // 这里得等, 因为要用.但是从结果
         // 发现, pizzas里的元素也是出来一个就show一个, 并没有等待pizza全部构建完成.
+        // 废话, 都tm不在一个线程里, 等鸡毛?
         System.out.println(timer.duration());
     }
 

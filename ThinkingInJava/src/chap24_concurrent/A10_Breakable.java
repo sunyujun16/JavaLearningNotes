@@ -22,12 +22,12 @@ class Breakable {
     public static Breakable work(Breakable b) {
         if (--b.failcount == 0) {
             System.out.println(
-                    "Throwing Exception for " + b.id + "");
+                    "Throwing Exception for " + b.id + " 的异常");
             throw new RuntimeException(
                     "Breakable_" + b.id + " failed");
         }
 //        if (b.id == "C") new Nap(0.1);
-        System.out.println(b + "is a Breakable without 错误s");
+        System.out.println(b + "is a Breakable and is 正确地.");
         return b;
     }
 }

@@ -1,7 +1,7 @@
 package chap24_concurrent;
 
 class StaticIDField implements HasID {
-    private static int counter = 0; // unsafe.static can be used same time
+    private static int counter = 0; // unsafe:static can be used simultaneously
     private int id = counter++;
 
     @Override

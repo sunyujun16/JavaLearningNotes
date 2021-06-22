@@ -14,7 +14,12 @@ final class SyncFactory implements HasID {
         return id;
     }
 
-    public static synchronized SyncFactory factory(SharedArg sa) {
+    public static
+
+    synchronized // 再看不见把你眼睛挖了喂狗,草了...
+
+    SyncFactory
+    factory(SharedArg sa) {
         return new SyncFactory(sa);
     }
 }

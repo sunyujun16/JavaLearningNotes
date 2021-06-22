@@ -31,8 +31,8 @@ class Baked {
 
     public static Stream<CompletableFuture<Baked>> batch() {
         Timer timer = new Timer();
-        CompletableFuture<Batter> batter = Batter.mix(); // 0.2s
-        System.out.println("-:-:- " + timer.duration()); // 这句竟然花费了0.4s
+        CompletableFuture<Batter> batter = Batter.mix(); // 0.2s?
+        System.out.println("-:-:- " + timer.duration()); // 竟然花费了0.4s
         return Stream.of(bake(batter), bake(batter),
                 bake(batter), bake(batter));
         // 每个bake花费0.2s,那么这句用了多少? 在FrostedCake里差不多也是0.2 说明还是并发的.
