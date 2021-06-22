@@ -13,7 +13,7 @@ class CompletableApplyChained {
                         .thenApply(Machina::work)
                         .thenApply(Machina::work)
                         .thenApply(Machina::work)
-                        .thenApply(Machina::work);
+                        .thenApply(Machina::work); // not concurrent.
         System.out.print(timer.duration());
         System.out.println(" ms");
     }
