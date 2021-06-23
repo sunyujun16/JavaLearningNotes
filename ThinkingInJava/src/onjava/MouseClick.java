@@ -4,16 +4,27 @@
 // Visit http://OnJava8.com for more book information.
 // Helper interface to allow lambda expressions.
 package onjava;
+
 import java.awt.event.*;
 
 // Default everything except mouseClicked():
 public interface MouseClick extends MouseListener {
     @Override
-    default void mouseEntered(MouseEvent e) {}
+    default void mouseEntered(MouseEvent e) {
+    }
+
     @Override
-    default void mouseExited(MouseEvent e) {}
+    default void mouseExited(MouseEvent e) {
+    }
+
     @Override
-    default void mousePressed(MouseEvent e) {}
+    default void mousePressed(MouseEvent e) {
+    }
+
     @Override
-    default void mouseReleased(MouseEvent e) {}
+    default void mouseReleased(MouseEvent e) {
+    }
+
+//    @Override
+//    void mouseClicked(MouseEvent e);
 }
