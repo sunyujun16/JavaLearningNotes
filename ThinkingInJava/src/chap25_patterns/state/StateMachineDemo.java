@@ -16,7 +16,7 @@ abstract class StateMachine {
 
     // Template method:
     protected final void runAll() {
-        while (changeState()) // Customizable,这个思维模式值得寻味,真的是有高度.
+        while (changeState()) // Customizable,这个思维模式值得寻味,有高度.
             currentState.run();
     }
 }

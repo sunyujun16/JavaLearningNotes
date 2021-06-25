@@ -57,8 +57,7 @@ class FindMinima {
             algorithms = Arrays.asList(
             FindMinima::leastSquares,
             FindMinima::perturbation,
-            FindMinima::bisection
-    );
+            FindMinima::bisection);
 
     public static Result minima(List<Double> line) {
         for (Function<List<Double>, Result> alg :
