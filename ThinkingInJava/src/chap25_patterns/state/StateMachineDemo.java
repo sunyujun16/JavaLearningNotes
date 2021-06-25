@@ -1,4 +1,4 @@
-package chap25_patterns.states;
+package chap25_patterns.state;
 
 // The StateMachine pattern and Template method
 // {java patterns.state.StateMachineDemo}
