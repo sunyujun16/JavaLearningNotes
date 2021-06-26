@@ -105,7 +105,8 @@ public class BeeAndFlowers {
             f.accept(sval);
             System.out.println(sval + "~ ~");
         });
-// Perform "Bee" operation on all Flowers:
+
+        // Perform "Bee" operation on all Flowers:
         Bee bee = new Bee();
         flowers.forEach(f -> f.accept(bee));
     }
