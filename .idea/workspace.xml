@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ad74665-bec8-49cd-a749-d0754b62935a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap28_javadoc/Documentation1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap28_javadoc/Documentation2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap28_javadoc/Documentation3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap28_javadoc/HelloDateDoc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap29_references/Alias1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap29_references/Alias2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap29_references/PassReferences.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap29_references/Alias1.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap29_references/A01_Alias1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap29_references/Alias2.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap29_references/A01_Alias2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap29_references/PassReferences.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap29_references/A01_PassReferences.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap28_javadoc/Documentation2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -74,16 +70,16 @@
         <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap28_javadoc/HelloDateDoc.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="462">
-              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap29_references/PassReferences.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap29_references/A01_PassReferences.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+            <state relative-caret-position="273">
+              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
               <folding>
                 <element signature="e#101#102#0" expanded="true" />
                 <element signature="e#157#158#0" expanded="true" />
@@ -93,10 +89,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap29_references/Alias1.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap29_references/A01_Alias1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+            <state relative-caret-position="294">
+              <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
               <folding>
                 <element signature="e#137#138#0" expanded="true" />
                 <element signature="e#159#160#0" expanded="true" />
@@ -106,15 +102,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap29_references/Alias2.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap29_references/A01_Alias2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            <state>
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
               <folding>
                 <element signature="e#144#145#0" expanded="true" />
                 <element signature="e#170#171#0" expanded="true" />
-                <element signature="e#202#203#0" expanded="true" />
-                <element signature="e#231#232#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -150,7 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/shapes/ShapeFactory3.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/abstractfactory/GameEnvironment.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/A05_CommandPattern.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/strategy/StrategyPattern.java" />
@@ -201,6 +194,7 @@
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap29_references/PassReferences.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap29_references/Alias1.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap29_references/Alias2.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap29_references/A01_Alias2.java" />
       </list>
     </option>
   </component>
@@ -225,6 +219,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -248,7 +243,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -311,9 +305,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Alias1">
-    <configuration name="Alias1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap29_references.Alias1" />
+  <component name="RunManager" selected="Application.A01_Alias1">
+    <configuration name="A01_Alias1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap29_references.A01_Alias1" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
@@ -447,11 +441,11 @@
       <item itemvalue="Application.DoubleDispatch" />
       <item itemvalue="Application.TrashVisitor" />
       <item itemvalue="Application.HelloDateDoc" />
-      <item itemvalue="Application.Alias1" />
+      <item itemvalue="Application.A01_Alias1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Alias1" />
+        <item itemvalue="Application.A01_Alias1" />
         <item itemvalue="Application.HelloDateDoc" />
         <item itemvalue="Application.TrashVisitor" />
         <item itemvalue="Application.DoubleDispatch" />
@@ -563,14 +557,8 @@
       <workItem from="1624408305752" duration="26216000" />
       <workItem from="1624494922448" duration="24770000" />
       <workItem from="1624581075749" duration="21862000" />
-      <workItem from="1624668782872" duration="24518000" />
-    </task>
-    <task id="LOCAL-00111" summary="code everyday, job on its way!">
-      <created>1622721594534</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1622721594534</updated>
+      <workItem from="1624668782872" duration="24555000" />
+      <workItem from="1624864224458" duration="1249000" />
     </task>
     <task id="LOCAL-00112" summary="code everyday, job on its way!">
       <created>1622726025650</created>
@@ -908,7 +896,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624708123519</updated>
     </task>
-    <option name="localTasksCounter" value="160" />
+    <task id="LOCAL-00160" summary="code everyday, job on its way!">
+      <created>1624720505337</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1624720505337</updated>
+    </task>
+    <option name="localTasksCounter" value="161" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -944,7 +939,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1156419000" />
+    <option name="totallyTimeSpent" value="1157705000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -957,14 +952,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" weight="0.32945737" />
-      <window_info active="true" content_ui="combo" x="50" y="142" width="376" height="938" id="Project" order="5" sideWeight="0.49736688" visible="true" weight="0.20032051" />
+      <window_info active="true" content_ui="combo" x="50" y="142" width="376" height="938" id="Project" order="5" sideWeight="0.49736688" visible="true" weight="0.20245726" />
       <window_info id="Structure" order="6" sideWeight="0.5026331" weight="0.1917735" />
       <window_info anchor="bottom" id="FundAssistant" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
@@ -989,7 +983,7 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Coverage" order="9" sideWeight="0.5010917" side_tool="true" weight="0.35950854" />
-      <window_info anchor="right" x="1323" y="131" width="572" height="907" id="Debug" order="10" sideWeight="0.4989083" visible="true" weight="0.35950854" />
+      <window_info anchor="right" x="1323" y="131" width="572" height="907" id="Debug" order="10" sideWeight="0.4989083" weight="0.35950854" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1533,16 +1527,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/script-dir/images/ui-bg_glass_55_fbf9ee_1x400.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/script-dir/images/ui-bg_glass_55_fbf9ee_1x400.png" />
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/index.html" />
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/doubledispatch/DoubleDispatch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -1578,6 +1564,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap29_references.java" />
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap28_javadoc/Documentation1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -1588,7 +1575,7 @@
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap28_javadoc/Documentation2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1599,24 +1586,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap29_references.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" selection-start-column="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap28_javadoc/HelloDateDoc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap29_references/PassReferences.java">
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap29_references/A01_PassReferences.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        <state relative-caret-position="273">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
           <folding>
             <element signature="e#101#102#0" expanded="true" />
             <element signature="e#157#158#0" expanded="true" />
@@ -1624,10 +1604,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap29_references/Alias1.java">
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap29_references/A01_Alias1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+        <state relative-caret-position="294">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
           <folding>
             <element signature="e#137#138#0" expanded="true" />
             <element signature="e#159#160#0" expanded="true" />
@@ -1635,15 +1615,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap29_references/Alias2.java">
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap29_references/A01_Alias2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
           <folding>
             <element signature="e#144#145#0" expanded="true" />
             <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
           </folding>
         </state>
       </provider>

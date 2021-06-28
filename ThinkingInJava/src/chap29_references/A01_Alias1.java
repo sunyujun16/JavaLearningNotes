@@ -1,16 +1,16 @@
 package chap29_references;
 
 // Aliasing two references to one object
-public class Alias1 {
+public class A01_Alias1 {
     private int i;
 
-    public Alias1(int ii) {
+    public A01_Alias1(int ii) {
         i = ii;
     }
 
     public static void main(String[] args) {
-        Alias1 x = new Alias1(7);
-        Alias1 y = x; // Assign the reference (1)
+        A01_Alias1 x = new A01_Alias1(7);
+        A01_Alias1 y = x; // Assign the reference (1)
 
         System.out.println("x: " + x.i);
         System.out.println("y: " + y.i);
