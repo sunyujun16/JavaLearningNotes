@@ -20,7 +20,9 @@ class SimplerMutableInteger {
                 .collect(Collectors.toList());
         v.forEach(iv2 ->
                 System.out.print(iv2.n + " "));
+
         System.out.println();
+
         v.forEach(iv2 -> iv2.n += 1);
         v.forEach(iv2 ->
                 System.out.print(iv2.n + " "));
