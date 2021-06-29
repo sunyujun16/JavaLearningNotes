@@ -31,6 +31,7 @@ public class OSExecute {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+
         if (err)
             throw new OSExecuteException(
                     "Errors executing " + command);
