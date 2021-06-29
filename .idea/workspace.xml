@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ad74665-bec8-49cd-a749-d0754b62935a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap30_iostreams/BasicFileOutput.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap30_iostreams/BasicFileOutput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap30_iostreams/FileOutputShortcut.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap30_iostreams/FileOutputShortcut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap30_iostreams/FormattedMemoryInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap30_iostreams/StoringAndRecoveringData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap30_iostreams/TestEOF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap30_iostreams/UsingRandomAccessFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap31_standardio/ChangeSystemOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap31_standardio/Echo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap31_standardio/OSExecuteDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap31_standardio/Redirecting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap32_newio/A01_GetChannel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap32_newio/ChannelCopy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/OSExecute.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/OSExecute.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,19 +39,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap31_standardio/Redirecting.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap32_newio/A01_GetChannel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+            <state relative-caret-position="588">
+              <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/onjava/OSExecute.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap32_newio/ChannelCopy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+            <state relative-caret-position="591">
+              <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,9 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/trashvisitor/Paper.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/trashvisitor/TrashVisitor.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/trashvisitor/Aluminum.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/dynatrash/DynaTrash.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/state/StateMachineDemo.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/shapes/FactoryTest.java" />
@@ -149,6 +140,9 @@
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap31_standardio/Redirecting.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/onjava/OSExecute.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap31_standardio/OSExecuteDemo.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap32_newio/A01_GetChannel.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap32_newio/A01_ChannelCopy.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap32_newio/ChannelCopy.java" />
       </list>
     </option>
   </component>
@@ -190,7 +184,7 @@
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap31_standardio" type="462c0819:PsiDirectoryNode" />
+              <item name="chap32_newio" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -260,7 +254,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Redirecting">
+  <component name="RunManager" selected="Application.ChannelCopy">
+    <configuration name="ChannelCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap32_newio.ChannelCopy" />
+      <module name="ThinkingInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap32_newio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Echo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap31_standardio.Echo" />
       <module name="ThinkingInJava" />
@@ -274,12 +281,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileOutputShortcut" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap30_iostreams.FileOutputShortcut" />
+    <configuration name="GetChannel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap32_newio.GetChannel" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap30_iostreams.*" />
+          <option name="PATTERN" value="chap32_newio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -301,19 +308,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="chap31_standardio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StoringAndRecoveringData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap30_iostreams.StoringAndRecoveringData" />
-      <module name="ThinkingInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap30_iostreams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -392,19 +386,19 @@
     <list>
       <item itemvalue="Application.PathWatcher" />
       <item itemvalue="Application.StreamInAndOut" />
-      <item itemvalue="Application.FileOutputShortcut" />
-      <item itemvalue="Application.StoringAndRecoveringData" />
       <item itemvalue="Application.UsingRandomAccessFile" />
       <item itemvalue="Application.Echo" />
       <item itemvalue="Application.Redirecting" />
+      <item itemvalue="Application.GetChannel" />
+      <item itemvalue="Application.ChannelCopy" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChannelCopy" />
+        <item itemvalue="Application.GetChannel" />
         <item itemvalue="Application.Redirecting" />
         <item itemvalue="Application.Echo" />
         <item itemvalue="Application.UsingRandomAccessFile" />
-        <item itemvalue="Application.StoringAndRecoveringData" />
-        <item itemvalue="Application.FileOutputShortcut" />
       </list>
     </recent_temporary>
   </component>
@@ -514,14 +508,7 @@
       <workItem from="1624581075749" duration="21862000" />
       <workItem from="1624668782872" duration="24555000" />
       <workItem from="1624864224458" duration="11985000" />
-      <workItem from="1624926584701" duration="23500000" />
-    </task>
-    <task id="LOCAL-00117" summary="code everyday, job on its way!">
-      <created>1622863349429</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1622863349433</updated>
+      <workItem from="1624926584701" duration="26877000" />
     </task>
     <task id="LOCAL-00118" summary="code everyday, job on its way!">
       <created>1623132347641</created>
@@ -859,7 +846,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624962811034</updated>
     </task>
-    <option name="localTasksCounter" value="166" />
+    <task id="LOCAL-00166" summary="code everyday, job on its way!">
+      <created>1624973457546</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1624973457546</updated>
+    </task>
+    <option name="localTasksCounter" value="167" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -895,7 +889,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1191941000" />
+    <option name="totallyTimeSpent" value="1195318000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -915,7 +909,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" weight="0.32945737" />
-      <window_info content_ui="combo" x="50" y="142" width="376" height="938" id="Project" order="5" sideWeight="0.49736688" visible="true" weight="0.20459402" />
+      <window_info active="true" content_ui="combo" x="50" y="142" width="376" height="938" id="Project" order="5" sideWeight="0.49736688" visible="true" weight="0.20459402" />
       <window_info id="Structure" order="6" sideWeight="0.5026331" weight="0.1917735" />
       <window_info anchor="bottom" id="FundAssistant" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
@@ -1017,32 +1011,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/doubledispatch/TypedBin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
-            <element signature="e#554#555#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap29_references.java" />
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap28_javadoc/Documentation1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap28_javadoc/Documentation2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -1463,13 +1431,6 @@
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap31_standardio/Redirecting.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap31_standardio/Redirecting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/onjava/OSExecuteException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -1488,6 +1449,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap31_standardio/Redirecting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap32_newio/A01_GetChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap32_newio/test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap32_newio/ChannelCopy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
