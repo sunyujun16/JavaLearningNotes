@@ -6,7 +6,7 @@ import java.nio.*;
 import java.nio.channels.*;
 import java.io.*;
 
-class GetChannel {
+public class GetChannel {
     private static String name = "ThinkingInJava/src/chap32_newio/" +
             "data.txt";
     private static final int BSIZE = 1024;
@@ -53,5 +53,4 @@ class GetChannel {
     }
 }
 
-public class A01_GetChannel {
-}
+
