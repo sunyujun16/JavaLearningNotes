@@ -1,10 +1,10 @@
 package chap12_collections;
 
-import reflection.pets.*;
+//import chap19_typeinfo.pets.*;
 import java.util.*;
 
 public class E05_ListFeatures {
-    private static PetCreator pc = new PetCreator();
+//    private static PetCreator pc = new PetCreator();
 
     public static void main(String[] args) {
         Random rand = new Random(47);
