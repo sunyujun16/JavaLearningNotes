@@ -214,8 +214,7 @@ public class Countries {
     };
 
     // Use AbstractMap by implementing entrySet()
-    private static class FlyweightMap
-            extends AbstractMap<String, String> {
+    private static class FlyweightMap extends AbstractMap<String, String> {
         private static class Entry
                 implements Map.Entry<String, String> {
             int index;
@@ -299,8 +298,7 @@ public class Countries {
             }
         }
 
-        private static
-        Set<Map.Entry<String, String>> entries =
+        private static Set<Map.Entry<String, String>> entries =
                 new EntrySet(DATA.length);
 
         @Override
@@ -329,8 +327,7 @@ public class Countries {
         return select(size); // A partial map
     }
 
-    static List<String> names =
-            new ArrayList<>(map.keySet());
+    static List<String> names = new ArrayList<>(map.keySet());
 
     // All the names:
     public static List<String> names() {

@@ -292,9 +292,9 @@ public interface Rand {
         @Override
         public java.lang.String get() {
             return r.ints(strlen, 'a', 'z' + 1)
-                    .collect(StringBuilder::new,
-                            StringBuilder::appendCodePoint,
-                            StringBuilder::append).toString();
+                    .collect(StringBuilder::new, // 提供sb
+                            StringBuilder::appendCodePoint, // 结合sb和int
+                            StringBuilder::append).toString(); // 结合sb
         }
 
         public java.lang.String get(int n) {
