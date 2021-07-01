@@ -9,7 +9,7 @@ import onjava.*;
 
 class MapOps {
     public static void printKeys(Map<Integer, String> map) {
-        System.out.print("Size = " + map.size() + ", ");
+        System.out.print("Size = " + map.size() + "\n");
         System.out.print("Keys: ");
 
         // Produce a Set of the keys:
@@ -48,6 +48,7 @@ class MapOps {
         map.keySet().removeAll(map.keySet());
         System.out.println(
                 "map.isEmpty(): " + map.isEmpty());
+        System.out.println();
     }
 
     public static void main(String[] args) {
