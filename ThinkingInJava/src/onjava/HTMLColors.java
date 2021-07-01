@@ -188,6 +188,7 @@ public class HTMLColors {
             Arrays.stream(ARRAY)
                     .map(item -> (String) item[1])
                     .collect(Collectors.toList());
+
     public static final List<Integer> RGBLIST =
             Arrays.stream(ARRAY)
                     .map(item -> (Integer) item[0])
