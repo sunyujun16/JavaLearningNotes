@@ -1,6 +1,6 @@
 package chap12_collections;
 
-import reflection.pets.*;
+import chap19_typeinfo.pets.*;
 
 import java.util.*;
 
@@ -31,6 +31,7 @@ public class A10_MapOfList {
     public static void main(String[] args) {
         System.out.println("People: " + petPeople.keySet());
         System.out.println("Pets: " + petPeople.values());
+
 
         for (Person person : petPeople.keySet()) {
             System.out.println(person + " has:");

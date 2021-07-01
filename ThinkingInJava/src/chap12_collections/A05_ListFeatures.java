@@ -7,7 +7,7 @@ import java.util.*;
 public class A05_ListFeatures {
     public static void main(String[] args) {
         Random rand = new Random(47);
-        List<Pet> pets = new PetCreator().list(7);
+        List<Pet> pets = Pets.list(7);
         System.out.println("1: " + pets);
 
         Hamster h = new Hamster();
@@ -69,7 +69,7 @@ public class A05_ListFeatures {
         System.out.println("19: " + pets);
         System.out.println("20: " + pets.isEmpty());
 
-        pets.addAll(new PetCreator().list(4));
+        pets.addAll(Pets.list(4));
         System.out.println("21: " + pets);
 
         Object[] o = pets.toArray();

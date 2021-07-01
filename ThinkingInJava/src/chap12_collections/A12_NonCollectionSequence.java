@@ -1,11 +1,11 @@
 package chap12_collections;
 
-import reflection.pets.*;
+import chap19_typeinfo.pets.*;
 
 import java.util.*;
 
 class PetSequence {
-    protected Pet[] pets = new PetCreator().array(8);
+    protected Pet[] pets = Pets.array(8);
 }
 
 /** @noinspection Duplicates*/

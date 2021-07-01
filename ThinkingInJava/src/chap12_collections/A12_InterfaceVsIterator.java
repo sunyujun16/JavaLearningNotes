@@ -3,13 +3,13 @@ package chap12_collections;
 
 import java.util.*;
 
-import reflection.pets.*;
+import chap19_typeinfo.pets.*;
 
 public class A12_InterfaceVsIterator {
     public static void display(Iterator<Pet> it) {
 
         while (it.hasNext()) {
-            reflection.pets.Pet p = it.next();
+            Pet p = it.next();
             System.out.print(p.id() + ":" + p + " ");
         }
         System.out.println();
@@ -22,7 +22,7 @@ public class A12_InterfaceVsIterator {
     }
 
     private static List<Pet> genPets(int n){
-        PetCreator ptc = new PetCreator();
+        Pets ptc = new Pets();
         return ptc.list(n);
     }
 

@@ -1,12 +1,12 @@
 package chap12_collections;
 
-import reflection.pets.*;
+import chap19_typeinfo.pets.*;
 
 import java.util.*;
 
 public class A07_ListIteration {
     public static void main(String[] args) {
-        List<Pet> pets = new PetCreator().list(8);
+        List<Pet> pets = Pets.list(8);
         ListIterator<Pet> it = pets.listIterator();
 
         while (it.hasNext())
@@ -21,7 +21,7 @@ public class A07_ListIteration {
         System.out.println();
         System.out.println(pets);
 
-        PetCreator pc = new PetCreator();
+        Pets pc = new Pets();
         it = pets.listIterator(3);
         while (it.hasNext()) {
             it.next();

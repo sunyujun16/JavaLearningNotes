@@ -1,11 +1,11 @@
 package chap12_collections;
 
-import reflection.pets.*;
+import chap19_typeinfo.pets.*;
 
 import java.util.*;
 
 public class A12_CollectionSequence extends AbstractCollection<Pet> {
-    private Pet[] pets = new PetCreator().array(8);
+    private Pet[] pets = Pets.array(8);
 
     @Override
     public int size() {

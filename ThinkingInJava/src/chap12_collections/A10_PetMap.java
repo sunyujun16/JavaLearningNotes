@@ -1,6 +1,6 @@
 package chap12_collections;
 
-import reflection.pets.*;
+import chap19_typeinfo.pets.*;
 import java.util.*;
 
 public class A10_PetMap {

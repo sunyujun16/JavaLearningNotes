@@ -1,12 +1,12 @@
 package chap12_collections;
 
-import reflection.pets.*;
+import chap19_typeinfo.pets.*;
 
 import java.util.*;
 
 public class A07_LinkedListFeatures {
     public static void main(String[] args) {
-        LinkedList<Pet> pets = new LinkedList<>(new PetCreator().list(5));
+        LinkedList<Pet> pets = new LinkedList<>(Pets.list(5));
         System.out.println(pets);
 
         // Identical:
@@ -27,10 +27,10 @@ public class A07_LinkedListFeatures {
         pets.addFirst(new Rat());
         System.out.println("After addFirst(): " + pets);
 
-        pets.offer(new PetCreator().get());
+        pets.offer(Pets.get());
         System.out.println("After offer(): " + pets);
 
-        pets.add(new PetCreator().get());
+        pets.add(Pets.get());
         System.out.println("After add(): " + pets);
 
         pets.addLast(new Hamster());

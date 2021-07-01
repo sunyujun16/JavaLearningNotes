@@ -1,12 +1,12 @@
 package chap12_collections;
 
-import reflection.pets.*;
+import chap19_typeinfo.pets.*;
 
 import java.util.*;
 
 public class A06_SimpleIteration {
     public static void main(String[] args) {
-        List<Pet> pets = new PetCreator().list(12);
+        List<Pet> pets = Pets.list(12);
         Iterator<Pet> it = pets.iterator();
         while (it.hasNext()) {
             Pet p = it.next();
