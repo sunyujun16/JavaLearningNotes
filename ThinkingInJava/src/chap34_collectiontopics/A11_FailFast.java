@@ -26,7 +26,6 @@ class FailFast {
         } catch (ConcurrentModificationException e) {
             System.out.println("another one : "+e);
         }
-
     }
 }
 
