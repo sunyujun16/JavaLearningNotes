@@ -61,6 +61,7 @@ public class APerson {
                 new APerson("Gonzo", "The Great"),
                 new APerson("Phillip J.", "Fry"));
         System.out.println(people);
+
         Element root = new Element("people");
 
         for (APerson p : people)
