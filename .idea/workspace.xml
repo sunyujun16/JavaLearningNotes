@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ad74665-bec8-49cd-a749-d0754b62935a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/People.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap38_staticchecking/A01_Nothing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap38_staticchecking/PetSpeak.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap38_staticchecking/petspeak/PetSpeak.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/APerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/APerson.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,34 +39,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/Blips.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1050">
-              <caret line="50" column="54" selection-start-line="49" selection-start-column="45" selection-end-line="50" selection-end-column="54" />
-              <folding>
-                <element signature="e#152#153#0" expanded="true" />
-                <element signature="e#207#208#0" expanded="true" />
-                <element signature="e#587#588#0" expanded="true" />
-                <element signature="e#642#643#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/Blip3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-              <folding>
-                <element signature="e#528#529#0" expanded="true" />
-                <element signature="e#556#557#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/Logon.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -147,7 +120,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/People.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
@@ -155,6 +128,32 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap38_staticchecking/petspeak/PetSpeak.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="609">
+              <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+              <folding>
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#425#426#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap38_staticchecking/PetSpeak.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -207,8 +206,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap34_collectiontopics/A13_Enumerations.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap34_collectiontopics/A13_Stacks.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap34_collectiontopics/A13_Bits.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap35_lowlevel/NumberOfProcessors.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap35_lowlevel/A01_ThreadSize.java" />
@@ -258,6 +255,8 @@
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/RecoverCADState.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/APerson.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/People.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap38_staticchecking/petspeak/PetSpeak.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap38_staticchecking/PetSpeak.py" />
       </list>
     </option>
   </component>
@@ -298,7 +297,7 @@
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap37_serialization" type="462c0819:PsiDirectoryNode" />
+              <item name="chap38_staticchecking" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -337,17 +336,8 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ThinkingInJava/src/chap23_annotations/ifx" />
-      <recent name="$PROJECT_DIR$/ThinkingInJava/src" />
-      <recent name="$PROJECT_DIR$/ThinkingInJava" />
-      <recent name="$PROJECT_DIR$/" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="chap16_validating" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="chap18_strings" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ThinkingInJava/src/chap20_generics" />
@@ -355,6 +345,16 @@
       <recent name="$PROJECT_DIR$/ThinkingInJava/src/generics/coffee" />
       <recent name="$PROJECT_DIR$/ThinkingInJava/src/generics" />
       <recent name="$PROJECT_DIR$/ThinkingInJava/src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="chap38_staticchecking" />
+      <recent name="chap18_strings" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ThinkingInJava/src/chap23_annotations/ifx" />
+      <recent name="$PROJECT_DIR$/ThinkingInJava/src" />
+      <recent name="$PROJECT_DIR$/ThinkingInJava" />
+      <recent name="$PROJECT_DIR$/" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -369,7 +369,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.People">
+  <component name="RunManager" selected="Application.PetSpeak">
     <configuration name="APerson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap37_serialization.APerson" />
       <module name="ThinkingInJava" />
@@ -396,19 +396,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap37_serialization.MyWorld" />
-      <module name="ThinkingInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap37_serialization.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PathWatcher" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="chap17_files.PathWatcher" />
       <module name="ThinkingInJava" />
@@ -423,6 +410,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="chap37_serialization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetSpeak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap38_staticchecking.petspeak.PetSpeak" />
+      <module name="ThinkingInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap38_staticchecking.petspeak.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -501,19 +501,19 @@
     <list>
       <item itemvalue="Application.PathWatcher" />
       <item itemvalue="Application.StreamInAndOut" />
-      <item itemvalue="Application.MyWorld" />
       <item itemvalue="Application.AStoreCADState" />
       <item itemvalue="Application.RecoverCADState" />
       <item itemvalue="Application.APerson" />
       <item itemvalue="Application.People" />
+      <item itemvalue="Application.PetSpeak" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PetSpeak" />
         <item itemvalue="Application.People" />
         <item itemvalue="Application.APerson" />
         <item itemvalue="Application.RecoverCADState" />
         <item itemvalue="Application.AStoreCADState" />
-        <item itemvalue="Application.MyWorld" />
       </list>
     </recent_temporary>
   </component>
@@ -627,14 +627,7 @@
       <workItem from="1625013180710" duration="32307000" />
       <workItem from="1625098099059" duration="34267000" />
       <workItem from="1625185428947" duration="26946000" />
-      <workItem from="1625273217027" duration="28604000" />
-    </task>
-    <task id="LOCAL-00131" summary="code everyday, job on its way!">
-      <created>1623671833066</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
-      <option name="project" value="LOCAL" />
-      <updated>1623671833066</updated>
+      <workItem from="1625273217027" duration="30300000" />
     </task>
     <task id="LOCAL-00132" summary="code everyday, job on its way!">
       <created>1623682888579</created>
@@ -972,7 +965,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625316807968</updated>
     </task>
-    <option name="localTasksCounter" value="180" />
+    <task id="LOCAL-00180" summary="code everyday, job on its way!">
+      <created>1625320145638</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1625320145638</updated>
+    </task>
+    <option name="localTasksCounter" value="181" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1008,7 +1008,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1317566000" />
+    <option name="totallyTimeSpent" value="1319262000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1021,7 +1021,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
@@ -1133,31 +1132,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="1895" column="53" selection-start-line="1895" selection-start-column="53" selection-end-line="1895" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap35_lowlevel/A02_CaptureUncaughtException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-          <folding>
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap35_lowlevel/A2_SettingDefaultHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/onjava/TimedAbort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -1654,6 +1628,35 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/pets/PetCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap38_staticchecking/petspeak/PetSpeak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+          <folding>
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap38_staticchecking/PetSpeak.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
         </state>
       </provider>
     </entry>
