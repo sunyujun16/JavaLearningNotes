@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ad74665-bec8-49cd-a749-d0754b62935a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap35_lowlevel/A07_DelayQueueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap35_lowlevel/A07_PriorityBlockingQueueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap36_compression/GZIPcompress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap36_compression/ZipCompress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/APerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/AStoreCADState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/Alien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/Blip3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/Blips.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/FreezeAlien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/Logon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/MyWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/RecoverCADState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/SerialCtl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/Worm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/xfiles/ThawAlien.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap35_lowlevel/A06_AttemptLocking.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap35_lowlevel/A06_AttemptLocking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/ThinkingInJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/ThinkingInJava.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,60 +50,136 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap35_lowlevel/A07_DelayQueueDemo.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/xfiles/ThawAlien.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+            <state relative-caret-position="252">
+              <caret line="12" column="46" selection-start-line="11" selection-start-column="45" selection-end-line="12" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/Blips.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1050">
+              <caret line="50" column="54" selection-start-line="49" selection-start-column="45" selection-end-line="50" selection-end-column="54" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1026#1027#0" expanded="true" />
-                <element signature="e#1070#1071#0" expanded="true" />
-                <element signature="e#1224#1225#0" expanded="true" />
-                <element signature="e#1282#1283#0" expanded="true" />
-                <element signature="e#1377#1378#0" expanded="true" />
-                <element signature="e#1413#1414#0" expanded="true" />
+                <element signature="e#152#153#0" expanded="true" />
+                <element signature="e#207#208#0" expanded="true" />
+                <element signature="e#587#588#0" expanded="true" />
+                <element signature="e#642#643#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap35_lowlevel/A07_PriorityBlockingQueueDemo.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/Blip3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="86" column="52" selection-start-line="86" selection-start-column="52" selection-end-line="86" selection-end-column="52" />
+            <state relative-caret-position="588">
+              <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1202#1203#0" expanded="true" />
-                <element signature="e#1235#1236#0" expanded="true" />
-                <element signature="e#1490#1491#0" expanded="true" />
-                <element signature="e#1515#1516#0" expanded="true" />
-                <element signature="e#2003#2004#0" expanded="true" />
-                <element signature="e#2029#2030#0" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
+                <element signature="e#556#557#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap36_compression/GZIPcompress.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/Logon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="39" column="51" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
+            <state relative-caret-position="420">
+              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/SerialCtl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+              <folding>
+                <element signature="e#408#409#0" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/MyWorld.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="51" column="40" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/AStoreCADState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-273">
+              <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1243#1244#0" expanded="true" />
+                <element signature="e#1281#1282#0" expanded="true" />
+                <element signature="e#1324#1325#0" expanded="true" />
+                <element signature="e#1356#1357#0" expanded="true" />
+                <element signature="e#1445#1446#0" expanded="true" />
+                <element signature="e#1473#1474#0" expanded="true" />
+                <element signature="e#1519#1520#0" expanded="true" />
+                <element signature="e#1557#1558#0" expanded="true" />
+                <element signature="e#1600#1601#0" expanded="true" />
+                <element signature="e#1632#1633#0" expanded="true" />
+                <element signature="e#1737#1738#0" expanded="true" />
+                <element signature="e#1765#1766#0" expanded="true" />
+                <element signature="e#2095#2096#0" expanded="true" />
+                <element signature="e#2133#2134#0" expanded="true" />
+                <element signature="e#2176#2177#0" expanded="true" />
+                <element signature="e#2208#2209#0" expanded="true" />
+                <element signature="e#2344#2345#0" expanded="true" />
+                <element signature="e#2372#2373#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap36_compression/ZipCompress.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/APerson.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="42" column="46" lean-forward="true" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+            <state relative-caret-position="402">
+              <caret line="59" column="32" lean-forward="true" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1046#1047#0" expanded="true" />
+                <element signature="e#1087#1088#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/People.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/RecoverCADState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#186#216#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -131,18 +215,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap34_collectiontopics/A09_ToDoList.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap34_collectiontopics/A09_SimpleDeques.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap34_collectiontopics/A10_AssociativeArray.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap34_collectiontopics/A10_MapOps.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap34_collectiontopics/A10_SortedMapDemo.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap34_collectiontopics/A10_LinkedHashMapDemo.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap34_collectiontopics/A11_Utilities.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap34_collectiontopics/A11_ListSortSearch.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap34_collectiontopics/A11_ReadOnly.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap34_collectiontopics/A11_Synchronization.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap34_collectiontopics/A11_FailFast.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap34_collectiontopics/A12_References.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap34_collectiontopics/A12_CanonicalMapping.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap34_collectiontopics/A13_Enumerations.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap34_collectiontopics/A13_Stacks.java" />
@@ -182,6 +254,18 @@
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap35_lowlevel/A07_PriorityBlockingQueueDemo.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap36_compression/GZIPcompress.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap36_compression/ZipCompress.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/Worm.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/Alien.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/FreezeAlien.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/xfiles/ThawAlien.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/Blips.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/Blip3.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/Logon.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/SerialCtl.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/MyWorld.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/AStoreCADState.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/RecoverCADState.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/APerson.java" />
       </list>
     </option>
   </component>
@@ -222,7 +306,7 @@
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap36_compression" type="462c0819:PsiDirectoryNode" />
+              <item name="chap37_serialization" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -244,10 +328,10 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ThinkingInJava/src/chap20_generics" />
+    <property name="last_opened_file_path" value="$USER_HOME$/java_work/DownloadLibs/xom-1.3.7.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -293,13 +377,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ZipCompress">
-    <configuration name="AttemptLocking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap35_lowlevel.AttemptLocking" />
+  <component name="RunManager" selected="Application.APerson">
+    <configuration name="APerson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap37_serialization.APerson" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap35_lowlevel.*" />
+          <option name="PATTERN" value="chap37_serialization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -307,12 +391,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DelayQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap35_lowlevel.DelayQueueDemo" />
+    <configuration name="AStoreCADState" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap37_serialization.AStoreCADState" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap35_lowlevel.*" />
+          <option name="PATTERN" value="chap37_serialization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -320,13 +404,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GZIPcompress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap36_compression.GZIPcompress" />
+    <configuration name="MyWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap37_serialization.MyWorld" />
       <module name="ThinkingInJava" />
-      <option name="PROGRAM_PARAMETERS" value="ThinkingInJava/src/chap36_compression/ZipCompress.java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap36_compression.*" />
+          <option name="PATTERN" value="chap37_serialization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -342,12 +425,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriorityBlockingQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap35_lowlevel.PriorityBlockingQueueDemo" />
+    <configuration name="RecoverCADState" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap37_serialization.RecoverCADState" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap35_lowlevel.*" />
+          <option name="PATTERN" value="chap37_serialization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SerialCtl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap37_serialization.SerialCtl" />
+      <module name="ThinkingInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap37_serialization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -359,19 +455,6 @@
       <option name="MAIN_CLASS_NAME" value="chap17_files.StreamInAndOut" />
       <module name="ThinkingInJava" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ThinkingInJava/src/chap17_files/" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZipCompress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap36_compression.ZipCompress" />
-      <module name="ThinkingInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap36_compression.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -426,19 +509,19 @@
     <list>
       <item itemvalue="Application.PathWatcher" />
       <item itemvalue="Application.StreamInAndOut" />
-      <item itemvalue="Application.AttemptLocking" />
-      <item itemvalue="Application.DelayQueueDemo" />
-      <item itemvalue="Application.PriorityBlockingQueueDemo" />
-      <item itemvalue="Application.GZIPcompress" />
-      <item itemvalue="Application.ZipCompress" />
+      <item itemvalue="Application.SerialCtl" />
+      <item itemvalue="Application.MyWorld" />
+      <item itemvalue="Application.AStoreCADState" />
+      <item itemvalue="Application.RecoverCADState" />
+      <item itemvalue="Application.APerson" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ZipCompress" />
-        <item itemvalue="Application.GZIPcompress" />
-        <item itemvalue="Application.PriorityBlockingQueueDemo" />
-        <item itemvalue="Application.DelayQueueDemo" />
-        <item itemvalue="Application.AttemptLocking" />
+        <item itemvalue="Application.APerson" />
+        <item itemvalue="Application.RecoverCADState" />
+        <item itemvalue="Application.AStoreCADState" />
+        <item itemvalue="Application.MyWorld" />
+        <item itemvalue="Application.SerialCtl" />
       </list>
     </recent_temporary>
   </component>
@@ -552,14 +635,7 @@
       <workItem from="1625013180710" duration="32307000" />
       <workItem from="1625098099059" duration="34267000" />
       <workItem from="1625185428947" duration="26946000" />
-      <workItem from="1625273217027" duration="11713000" />
-    </task>
-    <task id="LOCAL-00129" summary="code everyday, job on its way!">
-      <created>1623488626861</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1623488626861</updated>
+      <workItem from="1625273217027" duration="27614000" />
     </task>
     <task id="LOCAL-00130" summary="code everyday, job on its way!">
       <created>1623655170585</created>
@@ -897,7 +973,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625236955888</updated>
     </task>
-    <option name="localTasksCounter" value="178" />
+    <task id="LOCAL-00178" summary="code everyday, job on its way!">
+      <created>1625295179106</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1625295179107</updated>
+    </task>
+    <option name="localTasksCounter" value="179" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -933,7 +1016,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1300675000" />
+    <option name="totallyTimeSpent" value="1316576000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -946,6 +1029,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
@@ -965,7 +1049,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.28056768" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005342" side_tool="true" weight="0.29475984" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946582" weight="0.28820962" />
+      <window_info anchor="bottom" auto_hide="true" id="Terminal" order="11" weight="0.39082968" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49946582" weight="0.28820962" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -976,8 +1061,7 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Coverage" order="9" sideWeight="0.5021834" side_tool="true" weight="0.36004272" />
-      <window_info anchor="right" x="1323" y="131" width="572" height="907" id="Debug" order="10" sideWeight="0.4978166" weight="0.34668803" />
-      <window_info anchor="right" auto_hide="true" id="Terminal" order="11" weight="0.39102563" />
+      <window_info anchor="right" x="1323" y="131" width="572" height="907" id="Debug" order="10" sideWeight="0.4978166" visible="true" weight="0.4011752" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1057,162 +1141,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap34_collectiontopics/A11_Synchronization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/lang/Runtime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="663" column="28" lean-forward="true" selection-start-line="663" selection-start-column="28" selection-end-line="663" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="1793" column="30" selection-start-line="1793" selection-start-column="30" selection-end-line="1793" selection-end-column="30" />
-          <folding>
-            <element signature="e#77299#77300#0" expanded="true" />
-            <element signature="e#77340#77341#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap34_collectiontopics/result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="52" column="14" lean-forward="true" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap34_collectiontopics/A11_FailFast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap34_collectiontopics/A12_References.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap34_collectiontopics/A12_CanonicalMapping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
-            <element signature="e#785#786#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap34_collectiontopics/A13_Enumerations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="55" lean-forward="true" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap34_collectiontopics/A13_Stacks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
-          <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap34_collectiontopics/A13_Bits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="58" column="51" lean-forward="true" selection-start-line="58" selection-start-column="51" selection-end-line="58" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap35_lowlevel/A01_NumberOfProcessors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap35_lowlevel/A01_ThreadSize.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap35_lowlevel/A01_WorkStealingPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/onjava/Nap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap35_lowlevel/A02_SwallowedException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap35_lowlevel/A02_ExceptionThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-          <folding>
-            <element signature="e#165#166#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap35_lowlevel/A02_NaiveExceptionHandling.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -1565,12 +1493,171 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/zip/ZipEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="102" column="11" selection-start-line="102" selection-start-column="11" selection-end-line="102" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap36_compression/ZipCompress.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="42" column="46" lean-forward="true" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+        <state relative-caret-position="318">
+          <caret line="67" column="43" selection-start-line="67" selection-start-column="43" selection-end-line="67" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/worm.dat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/Worm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1197">
+          <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/Alien.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/FreezeAlien.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="54" selection-start-line="10" selection-start-column="45" selection-end-line="11" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/xfiles/ThawAlien.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="46" selection-start-line="11" selection-start-column="45" selection-end-line="12" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/Blips.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="50" column="54" selection-start-line="49" selection-start-column="45" selection-end-line="50" selection-end-column="54" />
+          <folding>
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/Blip3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+          <folding>
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/Logon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/SerialCtl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding>
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/MyWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="51" column="40" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/RecoverCADState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#186#216#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/AStoreCADState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-273">
+          <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1243#1244#0" expanded="true" />
+            <element signature="e#1281#1282#0" expanded="true" />
+            <element signature="e#1324#1325#0" expanded="true" />
+            <element signature="e#1356#1357#0" expanded="true" />
+            <element signature="e#1445#1446#0" expanded="true" />
+            <element signature="e#1473#1474#0" expanded="true" />
+            <element signature="e#1519#1520#0" expanded="true" />
+            <element signature="e#1557#1558#0" expanded="true" />
+            <element signature="e#1600#1601#0" expanded="true" />
+            <element signature="e#1632#1633#0" expanded="true" />
+            <element signature="e#1737#1738#0" expanded="true" />
+            <element signature="e#1765#1766#0" expanded="true" />
+            <element signature="e#2095#2096#0" expanded="true" />
+            <element signature="e#2133#2134#0" expanded="true" />
+            <element signature="e#2176#2177#0" expanded="true" />
+            <element signature="e#2208#2209#0" expanded="true" />
+            <element signature="e#2344#2345#0" expanded="true" />
+            <element signature="e#2372#2373#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/People.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/APerson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="59" column="32" lean-forward="true" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1046#1047#0" expanded="true" />
+            <element signature="e#1087#1088#0" expanded="true" />
           </folding>
         </state>
       </provider>
