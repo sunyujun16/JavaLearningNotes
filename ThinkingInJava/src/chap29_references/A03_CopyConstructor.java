@@ -106,7 +106,7 @@ class GreenZebra extends Tomato {
         addQualities(new ZebraQualities());
     }
 
-    GreenZebra(GreenZebra g) {
+    public GreenZebra(GreenZebra g) {
         super(g); // Calls Tomato(Tomato)
         // Restore the right qualities:
         addQualities(new ZebraQualities());
@@ -162,10 +162,10 @@ class CopyConstructor {
         try {
             Class c = f.getClass();
             Constructor ct =
-                    c.getConstructor(new Class[]{c});
+                    c.getConstructor(c);
             System.out.println("got???");
             Object obj =
-                    ct.newInstance(new Object[]{f});
+                    ct.newInstance(f);
             System.out.println("In slice2, f is a " +
                     obj.getClass().getName());
         } catch (NoSuchMethodException |
@@ -188,6 +188,8 @@ class CopyConstructor {
         System.out.println();
         slice2(tomato); // OK
         System.out.println();
+
+        System.out.println("-------------------------------");
 
         GreenZebra g = new GreenZebra();
         ripen(g); // OOPS!

@@ -32,7 +32,7 @@ class Snake implements Cloneable {
         try {
 //            Snake ss = (Snake) super.clone();
 //            if (next != null)
-//                ss.next = next.clone();
+//                ss.next = next.clone(); // 线性递归.
 //            return ss;
             return (Snake) super.clone();
         } catch (CloneNotSupportedException e) {
