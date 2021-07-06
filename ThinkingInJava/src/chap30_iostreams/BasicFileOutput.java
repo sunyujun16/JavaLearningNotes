@@ -26,7 +26,7 @@ public class BasicFileOutput {
             throw new RuntimeException(e);
         }
 
-        // 更快了, 马拉卡, 上哪儿说理去?
+        // 更快了, 马拉卡, 应该是体量太小导致缓冲区未充分利用.
         try (
                 BufferedReader in = new BufferedReader(
                         new StringReader(

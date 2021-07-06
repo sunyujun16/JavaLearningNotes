@@ -10,7 +10,8 @@ public class TestEOF {
         try (
                 DataInputStream in = new DataInputStream(
                         new BufferedInputStream(
-                                new FileInputStream("ThinkingInJava/" +
+                                new FileInputStream(
+                                        "ThinkingInJava/" +
                                         "src/chap30_iostreams/" +
                                         "TestEOF.java")))
         ) {

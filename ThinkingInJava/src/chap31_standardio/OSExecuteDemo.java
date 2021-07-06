@@ -5,4 +5,7 @@ package chap31_standardio;
 import onjava.*;
 
 public class OSExecuteDemo {
+    public static void main(String[] args) {
+        OSExecute.command("java -version");
+    }
 }

@@ -18,6 +18,7 @@ public class OSExecute {
                     BufferedReader results = new BufferedReader(
                             new InputStreamReader(
                                     process.getInputStream()));
+
                     BufferedReader errors = new BufferedReader(
                             new InputStreamReader(
                                     process.getErrorStream()))

@@ -28,7 +28,6 @@ public class StoringAndRecoveringData {
                                                 "Data.txt")))
         ) {
             System.out.println(in.readDouble());
-
             // Only readUTF() will recover the Java-UTF String properly:
             System.out.println(in.readUTF());
             System.out.println(in.readDouble());

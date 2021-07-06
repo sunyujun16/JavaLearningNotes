@@ -4,7 +4,7 @@ import java.io.*;
 
 public class UsingRandomAccessFile {
     static String file = "ThinkingInJava/src/" +
-            "chap30_iostreams/" +"rtest.dat";
+            "chap30_iostreams/rtest.dat";
 
     public static void display() {
         try (
@@ -38,7 +38,7 @@ public class UsingRandomAccessFile {
                 RandomAccessFile rf =
                         new RandomAccessFile(file, "rw")
         ) {
-            rf.seek(5 * 8);
+            rf.seek(5 * 8); // double是64位, 即:8个字节.
             rf.writeDouble(47.0001);
             rf.close();
             display();

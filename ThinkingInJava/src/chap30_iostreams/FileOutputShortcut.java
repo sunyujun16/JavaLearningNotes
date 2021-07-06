@@ -14,7 +14,7 @@ public class FileOutputShortcut {
                         new StringReader(BufferedInputFile.read(
                                 "ThinkingInJava/src/" +
                                         "chap30_iostreams/" +
-                                "FileOutputShortcut.java")));
+                                        "FileOutputShortcut.java")));
 
                 // Here's the shortcut:
                 PrintWriter out = new PrintWriter(file)

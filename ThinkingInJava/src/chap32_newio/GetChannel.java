@@ -7,12 +7,11 @@ import java.nio.channels.*;
 import java.io.*;
 
 public class GetChannel {
-    private static String name = "ThinkingInJava/src/chap32_newio/" +
-            "data.txt";
+    private static String name = "ThinkingInJava/src/" +
+            "chap32_newio/data.txt";
     private static final int BSIZE = 1024;
 
     public static void main(String[] args) {
-
         // Write a file:
         try (
                 FileChannel fc = new FileOutputStream(name)
