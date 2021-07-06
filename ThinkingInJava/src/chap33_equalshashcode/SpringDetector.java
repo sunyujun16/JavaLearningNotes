@@ -45,5 +45,14 @@ public class SpringDetector {
 
     public static void main(String[] args) {
         detectSpring(Groundhog.class);
+
+//        String s1 = "qwe";
+//        StringBuilder sb = new StringBuilder();
+//        sb.append("qw");
+//        sb.append("e");
+//        String s2 = sb.toString();
+//        System.out.println(s1.equals(s2));
+//        System.out.println("s1: " + s1.hashCode());
+//        System.out.println("s2: " + s2.hashCode());
     }
 }

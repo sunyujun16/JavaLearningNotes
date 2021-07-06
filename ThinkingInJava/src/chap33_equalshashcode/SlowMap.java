@@ -22,7 +22,7 @@ public class SlowMap<K, V> extends AbstractMap<K, V> {
     }
 
     @Override
-    public V get(Object key) { // key: type Object, not K, for Overriding.
+    public V get(Object key) { // key: type Object, not K, 'cause Overriding.
         if (!keys.contains(key))
             return null;
 //        Collections.binarySearch(keys,(K)key); // 无法确定K是Comparable,报错

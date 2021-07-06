@@ -28,6 +28,7 @@ class StreamFillMaps {
         // Two separate Suppliers:
         Rand.String rs = new Rand.String(3);
         Count.Character cc = new Count.Character();
+
         Map<Character, String> mcs = Stream.generate(
                 () -> Pair.make(cc.get(), rs.get()))
                 .limit(8)

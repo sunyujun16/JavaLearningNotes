@@ -33,6 +33,12 @@ class SetOrder {
                     .limit(10)
                     .forEach(System.out::println);
         }
+
+//        System.out.println("-------------------------------------");
+//        List<Integer> ln = new ArrayList<Integer>(
+//                Arrays.asList(1,2,3,4,5)
+//        );
+//        ln.forEach(n -> System.out.println(n));
     }
 }
 

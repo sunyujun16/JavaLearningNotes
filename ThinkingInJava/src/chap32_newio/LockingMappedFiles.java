@@ -10,8 +10,7 @@ public class LockingMappedFiles {
     static final int LENGTH = 0x8FFFFFF; // 128 MB
     static FileChannel fc;
 
-    public static void
-    main(String[] args) throws Exception {
+    public static void main(String[] args) throws Exception {
         fc = new RandomAccessFile("ThinkingInJava/src/"
                 + "chap32_newio/test.dat", "rw")
                 .getChannel();
@@ -19,6 +18,7 @@ public class LockingMappedFiles {
                 FileChannel.MapMode.READ_WRITE, 0, LENGTH);
         for (int i = 0; i < LENGTH; i++)
             out.put((byte) 'x');
+
         new LockAndModify(out, 0, 0 + LENGTH / 3);
         new LockAndModify(
                 out, LENGTH / 2, LENGTH / 2 + LENGTH / 4);
@@ -46,7 +46,8 @@ public class LockingMappedFiles {
                         "Locked: " + start + " to " + end);
                 // Perform modification:
                 while (buff.position() < buff.limit() - 1)
-                    buff.put((byte) (buff.get() + 1));
+                    buff.put((byte) (buff.get() + 1));//执行一次走两步,但无所谓,
+                // 因为buff.position()时刻把控着界限.
                 fl.release();
                 System.out.println(
                         "Released: " + start + " to " + end);

@@ -26,7 +26,7 @@ class Animal {
     @Override
     public int hashCode() {
         return Objects.hash(name, size);
-        // return Objects.hash(name, size, id); // [2]
+//         return Objects.hash(name, size, id); // [2]
     }
 
     @Override
