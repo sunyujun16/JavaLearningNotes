@@ -31,6 +31,7 @@ class SimpleDeques {
             deque.offerLast(s2.get()); // Same as offer()
         }
         System.out.println(deque);
+
         String result = "";
         while (deque.size() > 0) {
             System.out.print(deque.peekFirst() + " "); // peek只看不取.
@@ -45,10 +46,13 @@ class SimpleDeques {
         int count = 10;
         System.out.println("LinkedList");
         test(new LinkedList<>());
+
         System.out.println("ArrayDeque");
         test(new ArrayDeque<>());
+
         System.out.println("LinkedBlockingDeque");
         test(new LinkedBlockingDeque<>(count));
+
         System.out.println("ConcurrentLinkedDeque");
         test(new ConcurrentLinkedDeque<>());
     }

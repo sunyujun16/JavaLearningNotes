@@ -9,14 +9,15 @@ package onjava;
 import java.util.*;
 import java.util.stream.*;
 
-public class CountMap
-        extends AbstractMap<Integer, String> {
+public class CountMap extends AbstractMap<Integer, String> {
     private int size;
-    private static char[] chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".toCharArray();
+    private static char[] chars =
+            "ABCDEFGHIJKLMNOPQRSTUVWXYZ".toCharArray();
 
     private static String value(int key) {
         return
                 chars[key % chars.length] +
+                        // 不是取余!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
                         Integer.toString(key / chars.length);
     }
 
@@ -85,7 +86,8 @@ public class CountMap
                 .forEach(System.out::println);
         System.out.println();
 
-        new Random(47).ints(size, 0, 1000)
+        new Random(47).ints(size,
+                0, 1000)
                 .mapToObj(cm::get)
                 .forEach(System.out::println);
     }

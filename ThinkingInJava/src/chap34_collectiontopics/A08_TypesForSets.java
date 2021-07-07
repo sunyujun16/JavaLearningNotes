@@ -67,8 +67,8 @@ class TypesForSets {
 
     public static void main(String[] args) {
         test(new HashSet<>(), HashType::new); // hashCode序
-        test(new LinkedHashSet<>(), HashType::new); // 插叙
-        test(new TreeSet<>(), TreeType::new); // 倒叙
+        test(new LinkedHashSet<>(), HashType::new); // 插序
+        test(new TreeSet<>(), TreeType::new); // 倒序
 
         // Things that don't work:
         test(new HashSet<>(), SetType::new);

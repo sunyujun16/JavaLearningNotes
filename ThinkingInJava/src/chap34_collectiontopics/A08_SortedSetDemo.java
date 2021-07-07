@@ -5,6 +5,8 @@ import java.util.*;
 import static java.util.stream.Collectors.*;
 
 class SortedSetDemo {
+//    /** @noinspection Duplicates*/
+    @SuppressWarnings("Duplicates")
     public static void main(String[] args) {
         SortedSet<String> sortedSet =
                 Arrays.stream(
@@ -21,7 +23,6 @@ class SortedSetDemo {
         Iterator<String> it = sortedSet.iterator();
         for (int i = 0; i <= 6; i++) {
             if (i == 3) low = it.next();
-
             if (i == 6) high = it.next();
             else it.next();
         }
