@@ -15,11 +15,14 @@ class FailFast {
             System.out.println(e);
         }
 
-        // 这样也不行哦, 不过Python针对这种操作没有强行抛出异常.
+
+        // 这样也不行哦, 不过Python好像针对这种操作没有强行抛出异常.
         List<Integer> li = new ArrayList<>(
                 Arrays.asList(1, 2, 4, 2));
         try {
             for (Integer i : li) {
+//                i++; // 可以运行
+//                System.out.println(i);
                 li.add(3);
                 if (i == 3) break;
             }

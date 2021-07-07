@@ -1,7 +1,5 @@
 package chap34_collectiontopics;
 
-// Demonstrates WeakHashMap
-
 import onjava.TimedAbort;
 
 import java.util.*;

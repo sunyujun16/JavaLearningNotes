@@ -5,7 +5,14 @@ package chap35_lowlevel;
 import java.util.concurrent.*;
 
 class NaiveExceptionHandling {
+//    public static void throwTMD(){
+//        throw new RuntimeException("在这儿呢------------");
+//    }
+
+
     public static void main(String[] args) {
+//        throwTMD();
+
         ExecutorService es =
                 Executors.newCachedThreadPool();
         try {

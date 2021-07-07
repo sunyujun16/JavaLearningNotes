@@ -29,19 +29,22 @@ class References {
     private static ReferenceQueue<VeryBig> rq =
             new ReferenceQueue<>();
 
-    public static void checkQueue() {
+    public static void checkQueue(LinkedList<? extends Reference<VeryBig>> ll) {
         Reference<? extends VeryBig> inq = rq.poll();
         if (inq != null)
             System.out.println("In queue: " + inq.get());
+        else System.out.println("完犊子");
+
+        System.out.println(ll.getLast().get());
         System.out.println();
     }
 
     public static void main(String[] args) {
         int size = 10;
-
         // Or, choose size via the command line:
         if (args.length > 0)
             size = Integer.valueOf(args[0]);
+
         LinkedList<SoftReference<VeryBig>> sa =
                 new LinkedList<>();
         for (int i = 0; i < size; i++) {
@@ -49,7 +52,7 @@ class References {
                     new VeryBig("Soft " + i), rq));
             System.out.println(
                     "Just created: " + sa.getLast());
-            checkQueue();
+            checkQueue(sa);
         }
 
         LinkedList<WeakReference<VeryBig>> wa =
@@ -59,7 +62,7 @@ class References {
                     new VeryBig("Weak " + i), rq));
             System.out.println(
                     "Just created: " + wa.getLast());
-            checkQueue();
+            checkQueue(wa);
         }
 
         SoftReference<VeryBig> s =
@@ -77,7 +80,7 @@ class References {
                     new VeryBig("Phantom " + i), rq));
             System.out.println(
                     "Just created: " + pa.getLast());
-            checkQueue();
+            checkQueue(pa);
         }
     }
 }
