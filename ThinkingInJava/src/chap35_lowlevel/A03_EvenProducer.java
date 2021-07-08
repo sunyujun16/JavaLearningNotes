@@ -10,7 +10,7 @@ class EvenProducer extends IntGenerator {
     @Override
     public int next() {
         ++currentEvenValue; // [1]
-        new Nap(0.001); // 保证立刻发生变量冲突.没有这个则很难发生,估计是因为
+        new Nap(0.001); // 保证迅速发生变量冲突.没有这个则很难发生,估计是因为
         // 我的虚拟机可以同时执行的线程太少了(算上主线程才4个).
         ++currentEvenValue;
         return currentEvenValue;
