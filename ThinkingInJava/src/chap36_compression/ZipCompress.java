@@ -2,7 +2,7 @@ package chap36_compression;
 
 // Uses Zip compression to compress any
 // number of files given on the command line
-// {java ZipCompress ZipCompress.java}
+// {java ZipCompress ThinkingInJava/src/chap36_compression/ZipCompress.java}
 // {VisuallyInspectOutput}
 
 import java.util.zip.*;
@@ -11,9 +11,15 @@ import java.util.*;
 
 public class ZipCompress {
     public static void main(String[] args) {
+        if (args.length == 0) {
+            System.out.println("no arg!!!");
+            System.exit(0);
+        }
+
         try (
                 FileOutputStream f =
-                        new FileOutputStream("test.zip");
+                        new FileOutputStream("ThinkingInJava/src/" +
+                                "chap36_compression/test.zip");
                 CheckedOutputStream csum =
                         new CheckedOutputStream(f, new Adler32());
                 ZipOutputStream zos = new ZipOutputStream(csum);
@@ -49,7 +55,8 @@ public class ZipCompress {
         System.out.println("Reading file");
         try (
                 FileInputStream fi =
-                        new FileInputStream("test.zip");
+                        new FileInputStream("ThinkingInJava/src/" +
+                                "chap36_compression/test.zip");
                 CheckedInputStream csumi =
                         new CheckedInputStream(fi, new Adler32());
                 ZipInputStream in2 = new ZipInputStream(csumi);
@@ -72,7 +79,8 @@ public class ZipCompress {
 
         // Alternative way to open and read Zip files:
         try (
-                ZipFile zf = new ZipFile("test.zip")
+                ZipFile zf = new ZipFile("ThinkingInJava/src/" +
+                        "chap36_compression/test.zip")
         ) {
             Enumeration e = zf.entries();
             while (e.hasMoreElements()) {

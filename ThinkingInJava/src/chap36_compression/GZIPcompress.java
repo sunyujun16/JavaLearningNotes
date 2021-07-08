@@ -1,13 +1,13 @@
 package chap36_compression;
 
-// !!!!!!!!!!!!突然又识别相对路径了. 我觉得这是IDEA的问题
-
+// {java GZIPcompress GZIPcompress.java}
 import java.nio.file.Paths;
 import java.util.zip.*;
 import java.io.*;
 
 public class GZIPcompress {
-    private static final String testGZ = "test.gz";
+    private static final String testGZ = "ThinkingInJava/src/" +
+            "chap36_compression/test.gz";
 
 
     public static void main(String[] args) {
@@ -19,6 +19,7 @@ public class GZIPcompress {
                             "the file to test.gz");
             System.exit(1);
         }
+
         try (
                 InputStream in = new BufferedInputStream(
                         new FileInputStream(args[0]));

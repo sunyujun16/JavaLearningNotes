@@ -103,6 +103,7 @@ class PriorityBlockingQueueDemo {
         CompletableFuture.runAsync(new Producer(queue));
         CompletableFuture.runAsync(new Producer(queue));
         CompletableFuture.runAsync(new Producer(queue));
+
         CompletableFuture.runAsync(new Consumer(queue))
                 .join();
         // Consumer不关心有几个-1, 只要找到-1就break.所以尽管有
