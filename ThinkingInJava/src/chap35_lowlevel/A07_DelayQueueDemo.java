@@ -26,6 +26,7 @@ class DelayedTask implements Runnable, Delayed {
         return unit.convert(
                 trigger - System.nanoTime(), NANOSECONDS);
     } // 返回的是负数, 就是说, 越小, 越应该先执行.
+    // 纠正: 谁说一定是负数? 可能还没到时间嘛.
 
     @Override
     public int compareTo(Delayed arg) {

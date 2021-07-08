@@ -37,16 +37,16 @@ class AttemptLocking {
         }
     }
 
-    public void letWait() {
-        boolean captured = false;
-        try {
-            captured = lock.tryLock();
-            new Nap(2.1);
-        } finally {
-            if (captured)
-                lock.unlock();
-        }
-    }
+//    public void letWait() {
+//        boolean captured = false;
+//        try {
+//            captured = lock.tryLock();
+//            new Nap(2.1);
+//        } finally {
+//            if (captured)
+//                lock.unlock();
+//        }
+//    }
 
     public static void main(String[] args) {
         final AttemptLocking al = new AttemptLocking();
@@ -57,6 +57,7 @@ class AttemptLocking {
         CompletableFuture.runAsync(() -> {
             al.lock.lock();
             System.out.println("acquired");
+            // 下面三行是我自己加的.
             new Nap(1); // 调整解锁时机.发现untimed方法不等待,直接跳过.
             al.lock.unlock();
             System.out.println("released"); // 谁上锁, 谁解锁.
@@ -65,9 +66,10 @@ class AttemptLocking {
         al.untimed(); // False -- lock grabbed by task
 
         // 确保超时? 但此处无效, 因为是同步的, runAsync才行. 懒得继续改了...
-        al.letWait();
+//        al.letWait();
 
-        al.timed(); // False -- lock grabbed by task
+        al.timed(); // False -- lock grabbed by task, 原来代码没有release
+        // 是我自己加的.
 //        System.out.println("---------------------------------");
 ////        al.lock.unlock(); // 报错, 不能在其他线程去解锁
 ////        System.out.println("released");

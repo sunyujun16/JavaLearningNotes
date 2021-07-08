@@ -1,9 +1,10 @@
 package chap35_lowlevel;
 
-import java.util.concurrent.CompletableFuture;
+import java.util.*;
+import java.util.concurrent.*;
 import java.util.function.*;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
+import java.util.stream.*;
+
 
 abstract class IntTestable implements Runnable, IntSupplier {
     abstract void evenIncrement();
@@ -19,28 +20,6 @@ abstract class IntTestable implements Runnable, IntSupplier {
 //    public int getAsInt(){
 //        return 1;
 //    }
-
-
-    public static void main(String[] args) {
-        List<CompletableFuture<Void>> lc =
-        IntStream.range(0, 10)
-                .mapToObj(
-                        x -> new IntTestable() {
-                            private int n = 0;
-
-                            @Override
-                            void evenIncrement() {
-                                n +=2 ;
-                            }
-
-                            @Override
-                            public int getAsInt() {
-                                return n;
-                            }
-                        }
-                ).map(CompletableFuture::runAsync)
-                .collect(Collectors.toList());
-    }
 }
 
 public class A05_IntTestable {

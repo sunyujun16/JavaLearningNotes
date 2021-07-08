@@ -48,7 +48,7 @@ class SyncOnObject {
     public static void main(String[] args) {
         test(true, false);
         System.out.println("****");
-        test(false, true);
+        test(false, true); // f的循环还没结束, g就插入了.
     }
 }
 

@@ -66,7 +66,7 @@ class Caller implements Runnable {
                     public void run() {
                         stop.set(true);
                     }
-                }, 2500);
+                }, 3000);
         while (!stop.get()) {
             g.method();
             successfulCalls.getAndIncrement();
