@@ -75,6 +75,10 @@ class Square extends Shape {
     public Color getColor() {
         return color;
     }
+
+    public static Color getCol(){
+        return color;
+    }
 }
 
 class Line extends Shape {
@@ -121,11 +125,13 @@ public class AStoreCADState {
         try (
                 ObjectOutputStream out =
                         new ObjectOutputStream(
-                                new FileOutputStream("CADState.dat"))
+                                new FileOutputStream("ThinkingInJava/" +
+                                        "src/chap37_serialization/" +
+                                        "CADState.dat"))
         ) {
-            out.writeObject(shapeTypes);
-            Line.serializeStaticState(out);
-            out.writeObject(shapes);
+//            out.writeObject(shapeTypes); // 把Class对象写入
+            Line.serializeStaticState(out); // 把Line的color写入
+            out.writeObject(shapes); // 把shapes写入
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

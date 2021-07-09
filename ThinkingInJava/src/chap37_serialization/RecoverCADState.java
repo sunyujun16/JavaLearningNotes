@@ -12,15 +12,19 @@ public class RecoverCADState {
         try (
                 ObjectInputStream in =
                         new ObjectInputStream(
-                                new FileInputStream("CADState.dat"))
+                                new FileInputStream("ThinkingInJava/" +
+                                        "src/chap37_serialization/" +
+                                        "CADState.dat"))
         ) {
             // Read in the same order they were written:
-            List<Class<? extends Shape>> shapeTypes =
-                    (List<Class<? extends Shape>>) in.readObject();
+//            List<Class<? extends Shape>> shapeTypes =
+//                    (List<Class<? extends Shape>>) in.readObject();
             Line.deserializeStaticState(in);
             List<Shape> shapes =
                     (List<Shape>) in.readObject();
             System.out.println(shapes);
+
+            System.out.println("\n" + Square.getCol());
         } catch (IOException | ClassNotFoundException e) {
             throw new RuntimeException(e);
         }
