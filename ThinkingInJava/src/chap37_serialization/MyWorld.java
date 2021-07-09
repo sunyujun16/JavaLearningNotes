@@ -26,13 +26,14 @@ public class MyWorld {
     public static void main(String[] args) {
         House house = new House();
         List<Animal> animals = new ArrayList<>();
+        // 3 animals same house. Cat would probably eat the hamster.
         animals.add(
                 new Animal("dog", house));
         animals.add(
                 new Animal("hamster", house));
         animals.add(
                 new Animal("cat", house));
-        System.out.println("animals: " + animals);
+        System.out.println("animals: \n" + animals);
         try (
                 ByteArrayOutputStream buf1 =
                         new ByteArrayOutputStream();
@@ -67,11 +68,11 @@ public class MyWorld {
                             animals2 = (List) in1.readObject(),
                             animals3 = (List) in2.readObject();
                     System.out.println(
-                            "animals1: " + animals1);
+                            "animals1: \n" + animals1);
                     System.out.println(
-                            "animals2: " + animals2);
+                            "animals2: \n" + animals2);
                     System.out.println(
-                            "animals3: " + animals3);
+                            "animals3: \n" + animals3);
                     // 不同步的写入返回了不同的对象.
                 }
             }

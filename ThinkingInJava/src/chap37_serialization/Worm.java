@@ -25,7 +25,7 @@ public class Worm implements Serializable {
             new Data(rand.nextInt(10)),
             new Data(rand.nextInt(10))
     };
-    private Worm next; // null by default.
+    private Worm next; // null by default. 自己写的, 啊! 看起来多么专业, 哦!
     private char c;
 
     // Value of i == number of segments
@@ -63,9 +63,11 @@ public class Worm implements Serializable {
                                 "chap37_serialization/worm.dat"))
         ) {
             out.writeObject("Worm storage\n"); // 对使用者而言, 这行会不会太烦人了.
-            out.writeObject("我就试试");
+            out.writeObject("我就试试"); // 也不一定, 可以作为一个文件标记, 以免误读.
             out.writeObject(w);
+            out.flush();
         }
+
         // then read it.
         try (
                 ObjectInputStream in = new ObjectInputStream(

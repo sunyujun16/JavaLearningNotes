@@ -132,5 +132,6 @@ public class AStoreCADState {
 
         // Display the shapes:
         System.out.println(shapes);
+
     }
 }
