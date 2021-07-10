@@ -1,5 +1,6 @@
 package chap13_functional_programming;
 
+@FunctionalInterface
 interface Strategy {
     String approach(String msg);
 }
@@ -43,8 +44,10 @@ public class A01_Strategize {
                 msg -> msg.substring(0, 5), // [3]
                 Unrelated::twice // [4]
         };
+
         A01_Strategize s = new A01_Strategize("Hello there");
-        s.communicate();
+        // 4种方式:
+        s.communicate(); // 最老
         for (Strategy newStrategy : strategies) {
             s.changeStrategy(newStrategy); // [5]
             s.communicate(); // [6]

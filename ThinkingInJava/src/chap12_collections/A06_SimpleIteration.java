@@ -19,11 +19,13 @@ public class A06_SimpleIteration {
             System.out.print(p.id() + ":" + p + " ");
         System.out.println();
 
+//        pets.remove(1);
+
         // An Iterator can also remove elements:
         it = pets.iterator();
         for (int i = 0; i < 6; i++) {
             it.next();
-            it.remove(); // remove动作比较危险, 我猜底层使用了原列表的副本.
+            it.remove(); // remove动作比较危险, 我猜底层使用了原列表的副本.- 错!
         }
         System.out.println(pets);
     }

@@ -2,12 +2,14 @@
 package chap01;
 
 import java.util.*;
+import onjava.*;
+import onjava.Stack;
 
 interface Printable {
     void print();
 }
 
-class Universe extends ArrayList<Planet> implements Printable{
+class Universe extends ArrayList<Planet> implements Printable {
     private int time;
 
     public Universe addAr(Planet... planets) {
@@ -16,18 +18,22 @@ class Universe extends ArrayList<Planet> implements Printable{
     }
 
     @Override
-    public void print(){
+    public void print() {
         System.out.println(this);
     }
 
     @Override
     public String toString() {
-        return "I am Universe with: "+ super.toString();
+        return "I am Universe with: " + super.toString();
     }
 }
 
 class Planet {
     private int size;
+
+    public static void tryArParam(Object[] obs) {
+        Arrays.asList(obs).forEach(System.out::println);
+    }
 
     @Override
     public String toString() {
@@ -38,7 +44,7 @@ class Planet {
 class Earth extends Planet {
     private int humanPopulation;
 
-    Earth(int pop){
+    Earth(int pop) {
         humanPopulation = pop;
     }
 
@@ -82,7 +88,12 @@ public class HelloWorld {
         System.out.println(d2);
         System.out.println(Integer.toBinaryString(d2));
 
-
+        // 试验Object数组是否接收任何类型的数组
+        //noinspection unchecked
+        Planet.tryArParam(new ArrayList<Object>(
+                Arrays.asList(
+                        new Planet(), new Earth(123456))
+        ).toArray());
 
     }
 }

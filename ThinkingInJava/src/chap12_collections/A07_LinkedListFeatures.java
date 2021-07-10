@@ -36,6 +36,7 @@ public class A07_LinkedListFeatures {
         pets.addLast(new Hamster());
         System.out.println("After addLast(): " + pets);
         System.out.println("pets.removeLast(): " + pets.removeLast());
+
     }
 }
 
