@@ -73,9 +73,7 @@ public class A11_Callbacks {
         MyIncrement.f(c2);
         System.out.println("--------------");
         Caller caller1 = new Caller(c1);
-        Caller caller2 =
-                new Caller(c2.getCallbackReference());
-        System.out.println("--------------");
+        Caller caller2 = new Caller(c2.getCallbackReference());
         caller1.go();
         System.out.println("--------------");
         caller1.go();
