@@ -3,6 +3,10 @@ package chap08_reusing_classes;
 class Father {
     private String s;
     String j = "J is not private.";
+    private static int n1 = 1;
+    private int n2;
+    private static int n3;
+    private int n4 = 4;
 
     Father() {
         s = "Daddy.";
@@ -40,6 +44,9 @@ class Father {
 }
 
 class Son extends Father {
+    private static int k =1;
+    private static int k2;
+
     Son() {
         System.out.println("Son is ready!");
 //        super();
@@ -157,5 +164,12 @@ public class E02_Inheritance01 {
         System.out.println("----------------------------");
 
         baby.dispose();
+    }
+
+    static {
+        System.out.println("试验初始化--静态");
+    }
+    {
+        System.out.println("试验初始化--非静态块");
     }
 }

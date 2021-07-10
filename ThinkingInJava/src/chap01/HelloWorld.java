@@ -3,9 +3,12 @@ package chap01;
 
 import java.util.*;
 
-class Universe {
+class Universe  extends ArrayList<Planet>{
     private int time;
-    private Planet pl;
+
+    public void addAr(Planet... planets){
+        addAll(new ArrayList<>(Arrays.asList(planets)) );
+    }
 
     @Override
     public String toString() {
@@ -13,7 +16,7 @@ class Universe {
     }
 }
 
-class Planet {
+class Planet{
     private int size;
 
     @Override
@@ -40,11 +43,16 @@ public class HelloWorld {
         System.out.println("Hello, Java world, I'll conquer you!"
                 + new Date());
         assert 1 == 2;
+
+        // 操作符重载
         System.out.println(1+2+""+3+4);
 
         new Earth().whatIAm();
+
+        new Universe().addAr(new Earth(), new Earth());
         System.out.println("---------------------");
 
+        // 截断
         float d1 = 21474123418.1f;
         System.out.println(d1);
 
@@ -54,6 +62,17 @@ public class HelloWorld {
         int d2 = (int)d1;
         System.out.println(d2);
         System.out.println(Integer.toBinaryString(d2));
+
+        System.out.println("数组赋值---------------------");
+        Integer[] a = {
+                1, 2,
+                3, // Autoboxing
+        };
+        Integer[] b = new Integer[] {
+                1, 2,
+                3, // Autoboxing
+        };
+        b = a;
 
     }
 }

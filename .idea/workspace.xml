@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ad74665-bec8-49cd-a749-d0754b62935a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap06_housekepping/OverloadingVarargs2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap06_housekepping/StaticInitialization.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/AStoreCADState.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/AStoreCADState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/RecoverCADState.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/RecoverCADState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap01/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap01/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap08_reusing_classes/E02_Inheritance01.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap08_reusing_classes/E02_Inheritance01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/chap01/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ThinkingInJava/chap01/HelloWorld.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,83 +41,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/Blips.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="777">
-              <caret line="37" column="11" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/Blip3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/Logon.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/SerialCtl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/MyWorld.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="591">
-              <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/AStoreCADState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="133" column="49" lean-forward="true" selection-start-line="133" selection-start-column="49" selection-end-line="133" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/RecoverCADState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/APerson.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="54" column="27" lean-forward="true" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/People.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap01/HelloWorld.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+            <state relative-caret-position="171">
+              <caret line="51" column="55" selection-start-line="51" selection-start-column="55" selection-end-line="51" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap06_housekepping/OverloadingVarargs2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap08_reusing_classes/E02_Inheritance01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="640">
+              <caret line="171" column="5" lean-forward="true" selection-start-line="171" selection-start-column="5" selection-end-line="171" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap09_polymorphism/A05_Transmogrify.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="672">
+              <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap06_housekepping/StaticInitialization.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -149,10 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap29_references/A03_CopyConstructor.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap30_iostreams/TestEOF.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap30_iostreams/BasicFileOutput.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap30_iostreams/FileOutputShortcut.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap30_iostreams/StoringAndRecoveringData.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap30_iostreams/UsingRandomAccessFile.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/onjava/OSExecute.java" />
@@ -200,6 +163,10 @@
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/MyWorld.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/AStoreCADState.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/RecoverCADState.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap06_housekepping/StaticInitialization.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap01/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap06_housekepping/OverloadingVarargs2.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap08_reusing_classes/E02_Inheritance01.java" />
       </list>
     </option>
   </component>
@@ -210,10 +177,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="345" />
-    <option name="y" value="258" />
+    <option name="y" value="15" />
     <option name="width" value="607" />
-    <option name="height" value="519" />
+    <option name="height" value="531" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -224,6 +190,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -240,14 +208,37 @@
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap37_serialization" type="462c0819:PsiDirectoryNode" />
+              <item name="chap06_housekepping" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chap08_reusing_classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chap09_polymorphism" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chap09_polymorphism" type="462c0819:PsiDirectoryNode" />
+              <item name="A05_Transmogrify.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chap36_compression" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -312,13 +303,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RecoverCADState">
-    <configuration name="AStoreCADState" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap37_serialization.AStoreCADState" />
+  <component name="RunManager" selected="Application.E02_Inheritance01">
+    <configuration name="E02_Inheritance01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap08_reusing_classes.E02_Inheritance01" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap37_serialization.*" />
+          <option name="PATTERN" value="chap08_reusing_classes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -326,12 +317,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Blip3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap37_serialization.Blip3" />
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap01.HelloWorld" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap37_serialization.*" />
+          <option name="PATTERN" value="chap01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -339,25 +330,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Blips" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap37_serialization.Blips" />
+    <configuration name="OverloadingVarargs2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap06_housekepping.OverloadingVarargs2" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap37_serialization.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap37_serialization.MyWorld" />
-      <module name="ThinkingInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap37_serialization.*" />
+          <option name="PATTERN" value="chap06_housekepping.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -379,6 +357,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="chap37_serialization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaticInitialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap06_housekepping.StaticInitialization" />
+      <module name="ThinkingInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap06_housekepping.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -444,19 +435,19 @@
     <list>
       <item itemvalue="Application.PathWatcher" />
       <item itemvalue="Application.StreamInAndOut" />
-      <item itemvalue="Application.Blips" />
-      <item itemvalue="Application.Blip3" />
-      <item itemvalue="Application.MyWorld" />
-      <item itemvalue="Application.AStoreCADState" />
       <item itemvalue="Application.RecoverCADState" />
+      <item itemvalue="Application.HelloWorld" />
+      <item itemvalue="Application.StaticInitialization" />
+      <item itemvalue="Application.OverloadingVarargs2" />
+      <item itemvalue="Application.E02_Inheritance01" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.E02_Inheritance01" />
+        <item itemvalue="Application.OverloadingVarargs2" />
+        <item itemvalue="Application.HelloWorld" />
+        <item itemvalue="Application.StaticInitialization" />
         <item itemvalue="Application.RecoverCADState" />
-        <item itemvalue="Application.AStoreCADState" />
-        <item itemvalue="Application.MyWorld" />
-        <item itemvalue="Application.Blip3" />
-        <item itemvalue="Application.Blips" />
       </list>
     </recent_temporary>
   </component>
@@ -578,21 +569,8 @@
       <workItem from="1625616865642" duration="28456000" />
       <workItem from="1625703872516" duration="23402000" />
       <workItem from="1625752124945" duration="2540000" />
-      <workItem from="1625790227416" duration="15653000" />
-    </task>
-    <task id="LOCAL-00145" summary="code everyday, job on its way!">
-      <created>1624263778290</created>
-      <option name="number" value="00145" />
-      <option name="presentableId" value="LOCAL-00145" />
-      <option name="project" value="LOCAL" />
-      <updated>1624263778290</updated>
-    </task>
-    <task id="LOCAL-00146" summary="code everyday, job on its way!">
-      <created>1624287424269</created>
-      <option name="number" value="00146" />
-      <option name="presentableId" value="LOCAL-00146" />
-      <option name="project" value="LOCAL" />
-      <updated>1624287424269</updated>
+      <workItem from="1625790227416" duration="23189000" />
+      <workItem from="1625877555973" duration="10296000" />
     </task>
     <task id="LOCAL-00147" summary="code everyday, job on its way!">
       <created>1624341192059</created>
@@ -923,7 +901,21 @@
       <option name="project" value="LOCAL" />
       <updated>1625811661528</updated>
     </task>
-    <option name="localTasksCounter" value="194" />
+    <task id="LOCAL-00194" summary="code everyday, job on its way!">
+      <created>1625826921500</created>
+      <option name="number" value="00194" />
+      <option name="presentableId" value="LOCAL-00194" />
+      <option name="project" value="LOCAL" />
+      <updated>1625826921500</updated>
+    </task>
+    <task id="LOCAL-00195" summary="code everyday, job on its way!">
+      <created>1625841611309</created>
+      <option name="number" value="00195" />
+      <option name="presentableId" value="LOCAL-00195" />
+      <option name="project" value="LOCAL" />
+      <updated>1625841611309</updated>
+    </task>
+    <option name="localTasksCounter" value="196" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -959,7 +951,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1440533000" />
+    <option name="totallyTimeSpent" value="1458365000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -979,7 +971,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" weight="0.32945737" />
-      <window_info active="true" content_ui="combo" x="50" y="142" width="376" height="938" id="Project" order="5" sideWeight="0.49736688" visible="true" weight="0.18536325" />
+      <window_info active="true" content_ui="combo" x="50" y="142" width="376" height="938" id="Project" order="5" sideWeight="0.49736688" visible="true" weight="0.1875" />
       <window_info id="Structure" order="6" sideWeight="0.5026331" weight="0.1917735" />
       <window_info anchor="bottom" id="FundAssistant" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
@@ -1066,6 +1058,18 @@
     <MESSAGE value="code everyday, job on its way!" />
     <option name="LAST_COMMIT_MESSAGE" value="code everyday, job on its way!" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ThinkingInJava/src/chap08_reusing_classes/E02_Inheritance01.java</url>
+          <line>169</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
@@ -1085,55 +1089,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap35_lowlevel/A02_NaiveExceptionHandling.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap35_lowlevel/A02_CaptureUncaughtException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="903">
-          <caret line="43" column="24" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap35_lowlevel/A2_SettingDefaultHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap35_lowlevel/A03_IntGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap35_lowlevel/A03_EvenProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap35_lowlevel/A03_SynchronizedEvenProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap35_lowlevel/A04_ReOrdering.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap35_lowlevel/A03_EvenChecker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
@@ -1460,8 +1415,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/People.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        <state relative-caret-position="483">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap03_object/E09_Autoboxing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap04_operators/E10_BitwiseOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap06_housekepping/StaticInitialization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap06_housekepping/OverloadingVarargs2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap08_reusing_classes/E02_Inheritance01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="171" column="5" lean-forward="true" selection-start-line="171" selection-start-column="5" selection-end-line="171" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap09_polymorphism/A05_Transmogrify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap01/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="51" column="55" selection-start-line="51" selection-start-column="55" selection-end-line="51" selection-end-column="55" />
         </state>
       </provider>
     </entry>
