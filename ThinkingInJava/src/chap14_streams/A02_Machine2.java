@@ -12,7 +12,7 @@ public class A02_Machine2 {
                 () -> Operations.show("Pop")
         }).forEach(Operations::execute);
 
-        // 同样效果, 但runOps源码是对数组使用了显式的for each迭代. 且其功能只限于打印, 在用户端没有流那么灵活.
+        // 同样效果, 但runOps源码是对数组使用了显式的for each迭代.
         //noinspection RedundantArrayCreation
         Operations.runOps(new Operations[]{
                 () -> Operations.show("Bing"),

@@ -18,12 +18,14 @@ public class A02_FileToWordsRegexp {
     }
 
     public static void main(String[] args) throws Exception {
-        String s = Thread.currentThread().getContextClassLoader().getResource("").getPath();
+        String s = Thread.currentThread().getContextClassLoader()
+                .getResource("").getPath();
         System.out.println("classpath => " + s );
 
         A02_FileToWordsRegexp fw =
                 new A02_FileToWordsRegexp(
-                        "ThinkingInJava/src/chap14_streams/A02_Cheese.txt");
+                        "ThinkingInJava/src/" +
+                                "chap14_streams/A02_Cheese.txt");
         fw.stream()
                 .limit(7)
                 .map(w -> w + " ")

@@ -28,7 +28,8 @@ class O {
 }
 
 public class A05_TransformFunction {
-    // transform用来返回一个方法. 该方法在原apply执行之后的基础上进行了延伸.
+    // transform用来返回一个方法. 该方法是andThen()的返回值.
+    // 理解源码的关键在于返回值类型.
     static Function<I, O> transform(Function<I, XX> in) {
         return in.andThen(xx -> {
             System.out.println(xx);
@@ -42,7 +43,7 @@ public class A05_TransformFunction {
             return new XX();
         });
 
-        O o = f2.apply(new I());
+        O o = f2.apply(new I()); // 可以看到传给transform的in和andThen都执行了.
 
         // JAVA的这种通过lambda展示的高阶函数的写法, 比起Python和JS来还是晦涩,
         // 好在简化了很多函数的定义和对其赋值的过程. 可能是我对lambda还不熟悉吧.

@@ -6,7 +6,12 @@ import java.util.function.*;
 class Closure1 {
     static int i;
     IntSupplier makeFun(int x) {
-        return () -> x + i++;
+        i++;
+        int j =0;
+        j++;
+        return () -> x + i++
+//                + j // compile error - lambda应该是final或者effective final
+                ;
     }
 }
 
@@ -59,7 +64,8 @@ class Closure6 {
         int i = 0;
         i++;
         x++;
-//        return () -> x + i;  // 编译器报错: Variables in lambda expressions must be final or effectively final.
+        // 编译器报错: Variables in lambda expressions must be final or effectively final.
+//        return () -> x + i;
         final int iFinal = i;  // final关键字在这里很多余.
         final int xFinal = x;  // 因为这两个变量是 effectively final 的.
         return () -> xFinal + iFinal;
