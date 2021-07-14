@@ -22,7 +22,7 @@ class Pair {
         return i;
     }
 
-    static public Pair getPair(){
+    static public Pair getPair() {
         return new Pair('n', n++);
     }
 
@@ -35,24 +35,26 @@ class Pair {
 class RandomPair {
     Random rand = new Random(47);
     // An infinite iterator of random capital letters:
-    Iterator<Character> capChars = rand.ints(65, 91)
+    Iterator<Character> capChars = rand.ints(65,
+            91)
             .mapToObj(i -> (char) i)
             .iterator();
 
     public Stream<Pair> stream() {
         // 这个判断是没用的,因为capChars这个迭代器是从流生成的, 它永远都hasNext.
-        if (!capChars.hasNext()){
+        if (!capChars.hasNext()) {
             System.out.println("Letters run out !!!");
             return null;
         }
-        return rand.ints(100, 1000).distinct()
+        return rand.ints(100, 1000)
+                .distinct()
                 .mapToObj(i -> new Pair(capChars.next(), i));
     }
 }
 
 public class A05_MapCollector {
 
-    static Function<Pair,Integer> getIF(){
+    static Function<Pair, Integer> getIF() {
         return Pair::getI;
     }
 
@@ -79,8 +81,6 @@ public class A05_MapCollector {
         Stream<Pair> sp = Stream.generate(Pair::getPair);
 
         sp.limit(3).map(Pair::getI).forEach(System.out::println);
-
-
 
 
     }
