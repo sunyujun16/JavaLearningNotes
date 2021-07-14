@@ -8,9 +8,9 @@ class LoggingException extends Exception {
             Logger.getLogger("Logging...Exception");
 
     LoggingException() {
-        StringWriter trace = new StringWriter();
-        printStackTrace(new PrintWriter(trace));
-        logger.severe(trace.toString()); // printing job is done here, not the pre clause.
+        StringWriter trace = new StringWriter(); // 建立trace
+        printStackTrace(new PrintWriter(trace)); // 写入trace
+        logger.severe(trace.toString()); // 打印trace
         // severe /sɪˈvɪr/: 严重的.
     }
 }
@@ -20,10 +20,12 @@ public class A04_LoggingExceptions {
         try {
             throw new LoggingException();
         } catch (LoggingException e) {
+            System.out.println(Thread.currentThread().getName());
             System.err.println("Caught " + e);
         }
 
-        System.out.println("-------------------"); // 这行偶尔会在上一行之前输出, 说明发生了并行执行.
+        System.out.println("-------------------");
+        // 这行偶尔会在上一行之前输出, 说明发生了并行执行??? 然而并没有...
 
         try {
             throw new LoggingException();
