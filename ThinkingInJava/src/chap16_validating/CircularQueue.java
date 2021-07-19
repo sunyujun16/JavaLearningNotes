@@ -38,7 +38,8 @@ public class CircularQueue {
             in = 0;
             wrapped = true;
         }
-        // 按照只要in追上out则wrapped为true修改.书上的代码结果也正确,但总觉得不符合"wrapped"的语义.
+        // 按照只要"在put时,in追上out"则wrapped为true修改.书上的代码结果也正确,
+        // 但总觉得不符合"wrapped"的语义. // 瞎鸡巴改啥玩应...算了, 改就改吧.
         if (in == out) {
             wrapped = true;
         }

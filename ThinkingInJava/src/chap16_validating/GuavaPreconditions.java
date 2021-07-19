@@ -9,12 +9,12 @@ public class GuavaPreconditions {
         try {
             System.out.println(s);
             c.accept(s);
-            System.out.println("Success");
+            System.out.println("Success\n");
         } catch (Exception e) {
             String type = e.getClass().getSimpleName();
             String msg = e.getMessage();
             System.out.println(type +
-                    (msg == null ? "" : ": " + msg));
+                    (msg == null ? "" : ": " + msg) + "\n");
         }
     }
 

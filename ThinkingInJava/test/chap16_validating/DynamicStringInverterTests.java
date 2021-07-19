@@ -12,7 +12,8 @@ import static org.junit.jupiter.api.DynamicTest.*;
 class DynamicStringInverterTests {
     // Combine operations to prevent code duplication:
     Stream<DynamicTest> testVersions(String id,
-                                     Function<StringInverter, String> test) {
+                                     Function<StringInverter,
+                                             String> test) {
         List<StringInverter> versions = Arrays.asList(
                 new Inverter1(), new Inverter2(),
                 new Inverter3(), new Inverter4());

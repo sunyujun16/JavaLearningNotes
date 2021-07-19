@@ -5,8 +5,8 @@ package chap16_validating;
 // {ThrowsException}
 public class LoaderAssertions {
     public static void main(String[] args) {
-
-        ClassLoader.getSystemClassLoader().setDefaultAssertionStatus(true); // 可以这样启用断言.
+        // 可以这样启用断言.
+        ClassLoader.getSystemClassLoader().setDefaultAssertionStatus(true);
 
         /* 或者这样:
         static {
