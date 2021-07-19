@@ -14,12 +14,13 @@ public class PartsOfPaths {
         System.out.println("ends with '.java': " +
                 p.endsWith(".java"));
 
-        for (Path pp : p) {
+        for (Path pp : p) { // 遍历不包含根路径.
             System.out.print(pp + ": ");
             System.out.print(p.startsWith(pp) + " : ");
-            System.out.println(p.endsWith(pp));
+            System.out.println(p.endsWith(pp) + "\n");
         }
-        System.out.println("Starts with " + p.getRoot() +
+
+        System.out.println("\nStarts with " + p.getRoot() +
                 " " + p.startsWith(p.getRoot()));
     }
 }

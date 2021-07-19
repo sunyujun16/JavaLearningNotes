@@ -13,7 +13,8 @@ public class PathAnalysis {
     main(String[] args) throws IOException {
         System.out.println(System.getProperty("os.name"));
         Path p =
-                Paths.get("ThinkingInJava/src/chap17_files/PathAnalysis.java").toAbsolutePath();
+                Paths.get("ThinkingInJava/src/chap17_files/" +
+                        "PathAnalysis.java").toAbsolutePath();
         say("Exists", Files.exists(p));
         say("Directory", Files.isDirectory(p));
         say("Executable", Files.isExecutable(p));
@@ -23,7 +24,7 @@ public class PathAnalysis {
         say("notExists", Files.notExists(p));
         say("Hidden", Files.isHidden(p));
         say("size", Files.size(p));
-        say("FileStore", Files.getFileStore(p));
+        say("FileStore", Files.getFileStore(p)); //
         say("LastModified: ", Files.getLastModifiedTime(p));
         say("Owner", Files.getOwner(p));
         say("ContentType", Files.probeContentType(p));
