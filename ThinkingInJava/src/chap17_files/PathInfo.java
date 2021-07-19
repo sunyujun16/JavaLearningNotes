@@ -29,6 +29,7 @@ public class PathInfo {
         Path p =
                 Paths.get("ThinkingInJava/src/chap17_files/PathInfo.java");
         info(p);
+
         Path ap = p.toAbsolutePath();
         info(ap);
         info(ap.getParent());
@@ -37,10 +38,13 @@ public class PathInfo {
         } catch (IOException e) {
             System.out.println(e);
         }
+
         URI u = p.toUri();
         System.out.println("URI: " + u);
+
         Path puri = Paths.get(u);
         System.out.println(Files.exists(puri));
+
         File f = ap.toFile(); // Don't be fooled
     }
 }

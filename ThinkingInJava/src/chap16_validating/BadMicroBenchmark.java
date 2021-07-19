@@ -5,7 +5,7 @@ import java.util.*;
 import onjava.Timer;
 
 public class BadMicroBenchmark {
-    static final int SIZE = 250_000_000;
+    static final int SIZE = 25_000_000;
 
     public static void main(String[] args) {
         try { // For machines with insufficient memory
