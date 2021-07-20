@@ -4,11 +4,12 @@ import java.nio.file.*;
 
 public class Find {
     public static void main(String[] args) throws Exception {
-        Path test = Paths.get("test");
+        Path test = Paths.get("ThinkingInJava/src/" +
+                "chap17_files/test");
         Directories.refreshTestDir();
         Directories.populateTestDir();
 
-        // Creating a *directory*, not a file, 虽然这个目录命名方式很山炮.
+        // Creating a *directory*, not a file, 虽然看起来像是文件.
         Files.createDirectory(test.resolve("dir.tmp"));
         PathMatcher matcher = FileSystems.getDefault()
                 .getPathMatcher("glob:**/*.{tmp,txt}");

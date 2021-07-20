@@ -6,7 +6,8 @@ import java.nio.file.*;
 public class ListOfLines {
     public static void main(String[] args) throws Exception {
         Files.readAllLines(
-                Paths.get("../chap14_streams/A02_Cheese.dat"))
+                Paths.get("ThinkingInJava/src/chap14_streams/" +
+                        "A02_Cheese.dat"))
                 .stream()
                 .filter(line -> !line.startsWith("//"))  // 去掉注释行
                 .map(line ->

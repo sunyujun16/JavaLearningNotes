@@ -38,7 +38,7 @@ public class AddAndSubtractPaths {
 
         Path convoluted = p.getParent().getParent()
                 .resolve("strings")
-                .resolve("..")
+                .resolve("..") // 这一步和strings在relativize()时相互抵消了.
                 .resolve(p.getParent().getFileName());
         System.out.println("\n" + convoluted + "\n");
         show(2, convoluted);

@@ -8,7 +8,8 @@ import static java.nio.file.StandardWatchEventKinds.*;
 import java.util.concurrent.*;
 
 public class PathWatcher {
-    static Path test = Paths.get("test");
+    static Path test = Paths.get("ThinkingInJava/src/" +
+            "chap17_files/test");
 
     static void delTxtFiles() {
         try {
@@ -28,9 +29,7 @@ public class PathWatcher {
         }
     }
 
-    public static void main(String[] args)
-            throws Exception
-    {
+    public static void main(String[] args) throws Exception {
         Directories.refreshTestDir();
         Directories.populateTestDir();
         Files.createFile(test.resolve("Hello.txt"));

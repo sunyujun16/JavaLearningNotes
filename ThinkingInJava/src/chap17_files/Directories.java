@@ -5,7 +5,8 @@ import java.nio.file.*;
 import onjava.RmDir;
 
 public class Directories {
-    static Path test = Paths.get("test");
+    static Path test = Paths.get("ThinkingInJava/src/" +
+            "chap17_files/test");
     static String sep =
             FileSystems.getDefault().getSeparator();
     static List<String> parts =
@@ -13,7 +14,8 @@ public class Directories {
 
     static Path makeVariant() {
         Collections.rotate(parts, 1);  // 向右滚动循环列表
-        return Paths.get("test", String.join(sep, parts));
+        return Paths.get("ThinkingInJava/src/" +
+                "chap17_files/test", String.join(sep, parts));
     }
 
     static void refreshTestDir() throws Exception {
@@ -27,9 +29,9 @@ public class Directories {
      * this method creates a dir named test in your default relative path,
      * which is usually ./ .
      * then it make 4 dirs, for each one of which it generate a File.txt and
-     * one .tmp file within.
+     * a .tmp file within. 擦, 写中文不行吗, 装什么b呢搁这?
      *
-     * @return nothing
+     * @return void
      *
      * @throws Exception
      *      if something happens, I don't know...
@@ -40,7 +42,8 @@ public class Directories {
 
             if (!Files.exists(variant)) {
                 Files.createDirectories(variant);  // 路径中不存在的父目录将被创建,源码注释已说明.
-                Files.copy(Paths.get("Directories.java"),
+                Files.copy(Paths.get("ThinkingInJava/src/" +
+                                "chap17_files/Directories.java"),
                         variant.resolve("File.txt"));
                 Files.createTempFile(variant, null, null);
             }
@@ -55,7 +58,7 @@ public class Directories {
         // Throws exception (too many levels):
         try {
             System.out.println("variant: " + variant);  // variant: test/bag/foo/bar/baz
-            Files.createDirectory(variant);  // 这个方法只能创建父目录已经存在的目录,源码注释已说明.
+            Files.createDirectory(variant);  // 这个方法只能创建父目录已经存在的1层目录,源码注释已说明.
         } catch (Exception e) {
             System.out.println("Nope, that doesn't work.");
             System.out.println(e);  // java.nio.file.NoSuchFileException: test/bag/foo/bar/baz

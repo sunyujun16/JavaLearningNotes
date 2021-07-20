@@ -29,7 +29,6 @@ public class TreeWatcher {
                         }
                         System.out.println();
                         System.exit(0);
-                        System.out.println("exit之后........"); // 这行怎么都不会执行
                     }
                 } catch (InterruptedException e) {
                     System.out.println("Interrupted...");
@@ -41,11 +40,11 @@ public class TreeWatcher {
         }
     }
 
-    public static void
-    main(String[] args) throws Exception {
+    public static void main(String[] args) throws Exception {
         Directories.refreshTestDir();
         Directories.populateTestDir();
-        Files.walk(Paths.get("test"))
+        Files.walk(Paths.get("ThinkingInJava/src/" +
+                "chap17_files/test"))
                 .filter(Files::isDirectory)
                 .forEach(TreeWatcher::watchDir);
                 // 为什么检测不到Hello.txt, 因为根本就特么没生成...
