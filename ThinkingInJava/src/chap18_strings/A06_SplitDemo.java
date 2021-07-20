@@ -13,6 +13,6 @@ public class A06_SplitDemo {
 
         // Only do the first three:
         System.out.println(Arrays.toString(
-                Pattern.compile("!!").split(input, 2)));
+                Pattern.compile("!!").split(input, 3)));
     }
 }

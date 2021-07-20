@@ -17,6 +17,7 @@ public class A05_Turtle {
                 name, x, y);
     }
 
+    @SuppressWarnings("Duplicates")
     public static void main(String[] args) {
         PrintStream outAlias = System.out;
         A05_Turtle tommy = new A05_Turtle("Tommy",

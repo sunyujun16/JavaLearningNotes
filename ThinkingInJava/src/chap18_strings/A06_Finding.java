@@ -9,7 +9,9 @@ public class A06_Finding {
                         "Evening is full of the linnet's wings");
         while (m.find())
             System.out.print(m.group(0) + " ");
+
         System.out.println("\n--------------");
+
         int i = 0;
         while (m.find(i++)) {
             System.out.print(m.group() + " -- ");

@@ -21,7 +21,7 @@ public class A06_StartEnd {
 
         void display(String message) {
             if (!regexPrinted) {
-                System.out.println("regex: " + regex);
+
                 regexPrinted = true;
             }
             System.out.println(message);
@@ -32,6 +32,7 @@ public class A06_StartEnd {
         Display d = new Display(regex);
         Pattern p = Pattern.compile(regex);
         Matcher m = p.matcher(s);
+        System.out.println("regex: " + regex);
         while (m.find())
             d.display("find() '" + m.group() +
                     "' start = " + m.start() + " end = " + m.end());
@@ -41,7 +42,7 @@ public class A06_StartEnd {
         if (m.matches()) // No reset() necessary
             d.display("matches() start = "
                     + m.start() + " end = " + m.end());
-        System.out.println("---------------------------------");
+        System.out.println("...............");
     }
 
     public static void main(String[] args) {
@@ -55,8 +56,13 @@ public class A06_StartEnd {
                             "\\w*ere\\w*",
                             "\\w*ever",
                             "T\\w+",
+                            "Never.*!",
                             "Never.*?!"})  // 非贪婪
                 examine(in, regex);
+
+
+            System.out.println("---------------------------------");
+
         }
     }
 }
