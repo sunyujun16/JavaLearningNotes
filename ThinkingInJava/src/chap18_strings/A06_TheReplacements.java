@@ -13,7 +13,8 @@ extracted block. !*/
 public class A06_TheReplacements {
     public static void main(String[] args) throws Exception {
         String s = Files.lines(
-                Paths.get("A06_TheReplacements.java"))
+                Paths.get("ThinkingInJava/src/chap18_strings/" +
+                        "A06_TheReplacements.java"))
                 .collect(Collectors.joining("\n"));
 
         // Match specially commented block of text above:

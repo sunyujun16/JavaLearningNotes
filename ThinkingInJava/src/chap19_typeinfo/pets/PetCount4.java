@@ -2,7 +2,7 @@ package chap19_typeinfo.pets;
 
 import onjava.TypeCounter;
 
-// 看到这儿真是不得不赞叹作者的代码能力阿. 太厉害了.
+// 看到这儿真是不得不赞叹作者的代码之简洁. 太厉害了.
 public class PetCount4 {
     public static void main(String[] args) {
         TypeCounter counter = new TypeCounter(Pet.class);

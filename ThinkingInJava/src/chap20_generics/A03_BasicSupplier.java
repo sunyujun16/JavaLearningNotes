@@ -8,7 +8,7 @@ import java.lang.reflect.InvocationTargetException;
 class BasicSupplier<T> implements Supplier<T> {
     private Class<T> type;
 
-    public BasicSupplier(Class<T> type) {
+    private BasicSupplier(Class<T> type) {
         this.type = type;
     }
 

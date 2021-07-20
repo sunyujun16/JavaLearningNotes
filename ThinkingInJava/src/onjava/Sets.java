@@ -15,7 +15,7 @@ public class Sets {
 
     public static <T>
     Set<T> intersection(Set<T> a, Set<T> b) {
-        Set<T> result = new HashSet<>(a);
+        Set<T> result = new HashSet<>(a); // 创建副本.
         result.retainAll(b); // 交集
         return result;
     }

@@ -5,8 +5,8 @@ import java.util.*;
 public class A07_ReplacingStringTokenizer {
     public static void main(String[] args) {
         String input = "But I'm not dead yet! I feel happy!";
-        StringTokenizer stoke = new StringTokenizer(input);
 
+        StringTokenizer stoke = new StringTokenizer(input);
         while (stoke.hasMoreElements())
             System.out.print(stoke.nextToken() + " ");
         System.out.println();

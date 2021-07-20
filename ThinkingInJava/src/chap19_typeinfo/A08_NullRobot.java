@@ -46,6 +46,7 @@ public class A08_NullRobot {
                 A08_NullRobot.class.getClassLoader(),
                 new Class[]{Null.class, A08_Robot.class},
                 new NullRobotProxyHandler(type));  // 只是获取名字SimpleName用的
+                // 被调用的proxied并不是type.
     }
 
     public static void main(String[] args) {

@@ -24,7 +24,7 @@ class Person {
     }
 
     Person(String first, String last) {
-        // 好像第一次见这种写法, interesting...
+        // 好像第一次见这种写法, interesting...不是第一次了, sb
         this(first, last, null);
     }
 

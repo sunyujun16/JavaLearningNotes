@@ -15,23 +15,29 @@ class A06_ShowMethods {
                     "To show all methods in class or:\n" +
                     "ShowMethods qualified.class.name word\n" +
                     "To search for methods involving 'word'";
-    // 匹配带点单词(即包名)
-    private static Pattern p = Pattern.compile("\\w+\\.|final|native");
+    // 匹配带点单词(即包名), 删掉ff以去除结果中的包名
+    private static Pattern p = Pattern.compile("\\w+\\.");
 
     // 非public类的默认构造器不是public
-//    public A06_ShowMethods() {
-//    }
-//
-//    public A06_ShowMethods(int n) {
-//        System.out.println("FUCK.");
-//    }
+    public A06_ShowMethods() {
+    }
 
-    // 第一个参数: 类名; 第二个参数: 筛选关键字.
+    public A06_ShowMethods(int n) {
+        System.out.println("FUCK.");
+    }
+
+    // 第一个参数: 类名; 第二个参数: 用于筛选的关键字.
     public static void main(String[] args) {
+        args = new String[]{
+                "chap19_typeinfo.A06_ShowMethods"
+//                ,"void"
+        };
+
         if (args.length < 1) {
             System.out.println(usage);
             System.exit(0);
         }
+
         int lines = 0;
         try {
             Class<?> c = Class.forName(args[0]);
@@ -42,7 +48,7 @@ class A06_ShowMethods {
                 for (Method method : methods)
                     System.out.println(
                             p.matcher(method.toString())
-                                    .replaceAll("")
+                                    .replaceAll("-")
                     );
 //                    try{
 //                        Matcher m = p.matcher(method.toString());
