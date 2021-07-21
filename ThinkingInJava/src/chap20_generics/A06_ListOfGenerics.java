@@ -13,7 +13,8 @@ class ListOfGenerics<T> {
         return array.get(index);
     }
 }
-// 阿这...直接TM用ArrayList得了呗...
+// 阿这...直接TM用ArrayList得了呗...,
+// 复习补充: 不一样, 这种方式"缩小"了接口. 它只提供两个可用的方法.
 
 public class A06_ListOfGenerics {
 }

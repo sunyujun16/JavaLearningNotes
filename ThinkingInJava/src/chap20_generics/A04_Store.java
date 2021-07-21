@@ -22,8 +22,8 @@ class Product {
 
     @Override
     public String toString() {
-        return id + ": " + description +
-                ", price: $" + price + "  --  " + ++count;
+        return String.format("%-3d" + ": " + description +
+                ", price: $" + "%7.3f" + "  --  " + ++count, id, price);
     }
 
     public void priceChange(double change) {

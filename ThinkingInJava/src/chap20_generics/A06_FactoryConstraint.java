@@ -63,8 +63,10 @@ class FactoryConstraint {
     public static void main(String[] args) {
         System.out.println(
                 new Foo2<Integer>(new IntegerFactory()));
+
         System.out.println(
                 new Foo2<>(new Widget.Factory())); // diamond syntax
+
         System.out.println(
                 new Foo2<Fudge>(Fudge::new));
     }

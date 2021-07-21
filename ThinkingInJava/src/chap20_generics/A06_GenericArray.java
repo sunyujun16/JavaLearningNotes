@@ -27,16 +27,16 @@ class GenericArray<T> {
         for (int i = 0; i < 10; i++)
             gai.put(i, i);
         for (int i = 0; i < 10; i++)
-            System.out.print(gai.get(i) + " ");
+            System.out.print(gai.get(i) + " "); // 能打印, 对象毕竟还是存在.
         System.out.println("\n");
 
+        // 但是array其实是Object[]类型的, 你尝试用Integer接收, 不得行.
         try {
             Integer[] ia = gai.rep(); // type already lost
         } catch (ClassCastException e) {
             System.out.println(e.getMessage());
         }
-        // 因为自始至终, 就从来没存过Integer类型的对象.
-        // 其根源我猜啊, 在于数组层面上没有Integer的Class信息.
+        // 自始至终, 就从来没存过Integer类型的对象.
         System.out.println(gai.rep());
     }
 }

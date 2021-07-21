@@ -1,5 +1,7 @@
 package chap20_generics;
 
+
+
 class ArrayOfGeneric {
     static final int SIZE = 100;
     static Generic<Integer>[] gia;

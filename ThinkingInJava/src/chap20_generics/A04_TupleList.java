@@ -23,6 +23,7 @@ class TupleList<A, B, C, D> extends ArrayList<Tuple4<A, B, C, D>> {
 }
 
 // 存什么都行,不受控制了.泛型参数在这里毫无意义,存储类型变成了默认的Object.
+// 也可以看到调用方法时, 编译器都提醒类型是不受检查的.
 class TupleListMy<A, B, C, D> extends ArrayList {
     public static void main(String[] args) {
         TupleListMy<Vehicle, Amphibian, String, Integer> tl =
