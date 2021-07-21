@@ -4,7 +4,7 @@ package chap20_generics;
 class Wildcards {
     // Raw argument:
     static void rawArgs(Holder holder, Object arg) {
-    //- holder.set(arg);
+     holder.set(arg);
     // warning: [unchecked] unchecked call to set(T)
     // as a member of the raw type Holder
     // holder.set(arg);
@@ -19,8 +19,7 @@ class Wildcards {
     }
 
     // Like rawArgs(), but errors instead of warnings:
-    static void
-    unboundedArg(Holder<?> holder, Object arg) {
+    static void unboundedArg(Holder<?> holder, Object arg) {
     //- holder.set(arg);
     // error: method set in class Holder<T>
     // cannot be applied to given types;
@@ -50,8 +49,7 @@ class Wildcards {
         return holder.get();
     }
 
-    static <T>
-    T wildSubtype(Holder<? extends T> holder, T arg) {
+    static <T> T wildSubtype(Holder<? extends T> holder, T arg) {
         //- holder.set(arg);
         // error: method set in class Holder<T#2>
         // cannot be applied to given types;

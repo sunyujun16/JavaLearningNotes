@@ -10,7 +10,7 @@ class UnboundedWildcards1 {
     static void assign1(List list) {
         list1 = list;
         list2 = list;
-        //- list3 = list;
+        list3 = list;
         // warning: [unchecked] unchecked conversion
         // list3 = list;
         // ^

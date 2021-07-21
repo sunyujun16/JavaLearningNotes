@@ -42,7 +42,7 @@ class Holder<T> {
         try {
             Orange c = (Orange) fruit.get(); // No warning
         } catch (Exception e) {
-            System.out.println(e);
+            System.out.println(e.getMessage());
         }
         // fruit.set(new Apple()); // Cannot call set()
         // fruit.set(new Fruit()); // Cannot call set()

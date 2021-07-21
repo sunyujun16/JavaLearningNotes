@@ -14,6 +14,8 @@ class GenericsAndCovariance {
 
         flist.add(null); // Legal but uninteresting
 
+        // 啥都不行, 也就是说, flist根本没什么卵用......
+
         // We know it returns at least Fruit:
         Fruit f = flist.get(0);
     }
