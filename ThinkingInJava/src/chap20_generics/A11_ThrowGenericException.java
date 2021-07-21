@@ -42,7 +42,7 @@ class Failure2 extends Exception {
 }
 
 class Processor2 implements Processor<Integer, Failure2> {
-    static int count = 2;
+    static int count = 3;
 
     @Override
     public void process(List<Integer> resultCollector)

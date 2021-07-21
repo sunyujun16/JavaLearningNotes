@@ -33,6 +33,7 @@ class CaptureConversion {
         // T extends Object declared in
         // method <T>f1(Holder<T>)
         // 2 warnings
+
         f2(raw); // No warnings
         Holder rawBasic = new Holder();
         rawBasic.set(new Object());

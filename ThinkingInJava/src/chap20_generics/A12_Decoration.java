@@ -14,6 +14,7 @@ class Basic0 {
     }
 }
 
+// 这个还比较好理解, 就是相当于向父类的方法添加了新的操作.
 class Decorator0 extends Basic0 {
     protected Basic0 basic;
 
@@ -23,6 +24,7 @@ class Decorator0 extends Basic0 {
 
     @Override
     public void set(String val) {
+        System.out.println("Decorator0新的操作");
         basic.set(val);
     }
 
@@ -65,15 +67,17 @@ class Decoration {
                 new SerialNumbered0(new Basic0()));
 
         // 自己添加的代码.只有cast才能使用被装饰的对象,这太鸡肋了.
+        // sb, 哪里鸡肋了, 这不就是普普通通的向下转型吗?
         SerialNumbered0 t2t = (SerialNumbered0) t2.basic;
         System.out.println(t2t.getSerialNumber());
 
-        //- t2.getSerialNumber(); // Not available
+        // t2.getSerialNumber(); // Not available
         SerialNumbered0 s = new SerialNumbered0(new Basic0());
         SerialNumbered0 s2 = new SerialNumbered0(
                 new TimeStamped0(new Basic0()));
 
-        //- s2.getStamp(); // Not available
+//         s2.getStamp(); // Not available
+
         // 自己添加:
         TimeStamped0 tt = (TimeStamped0) s2.basic;
         System.out.println(tt.getStamp());

@@ -14,7 +14,7 @@ class GenericsAndReturnTypes {
         GenericGetter gg = g.get(); // Also the base type
     }
 
-    // 甚至这样也可以哦.
+    // 甚至这样也可以哦. // 啥叫甚至呢? 这不是挺正常的吗...
     void test2(GenericGetter<Getter> g) {
         Getter result = g.get();
         GenericGetter gg = g.get(); // Also the base type

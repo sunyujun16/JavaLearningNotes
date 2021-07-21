@@ -13,7 +13,7 @@ class ListOfInt {
                 .collect(Collectors.toList());
         System.out.println(li);
 
-        // Integer换成int,则编译不通过.这也太不方便了.
+        // Integer换成int,则编译不通过.因为数组不支持自动装箱.
         Integer[] aa = {1,2,0,4,5};
         li = new ArrayList<>( Arrays.asList(aa));
         System.out.println(li);

@@ -9,6 +9,7 @@ class NeedCasting {
         ObjectInputStream in = new ObjectInputStream(
                 new FileInputStream(args[0]));
         List<Widget> shapes = (List<Widget>) in.readObject();
+        // 序列化的东西, 这不看附录肯定懵逼.
     }
 }
 
