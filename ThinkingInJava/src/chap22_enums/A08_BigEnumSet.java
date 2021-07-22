@@ -20,5 +20,5 @@ class BigEnumSet {
     }
 }
 
-public class A8_BigEnumSet {
+public class A08_BigEnumSet {
 }

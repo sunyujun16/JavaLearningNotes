@@ -25,6 +25,7 @@ class EnumMaps {
             System.out.print(e.getKey() + ": ");
             e.getValue().action();
         }
+        System.out.println(em.get(UTILITY));
 
         try { // If there's no value for a particular key:
             em.get(UTILITY).action();

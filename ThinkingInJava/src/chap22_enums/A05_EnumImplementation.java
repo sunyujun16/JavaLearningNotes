@@ -25,7 +25,7 @@ class EnumImplementation {
 // Choose any instance:
         CartoonCharacter cc = CartoonCharacter.BOB;
         for (int i = 0; i < 10; i++)
-            printNext(cc);
+            printNext(cc); // 这里每次都是调用BOB的get方法.
     }
 }
 
