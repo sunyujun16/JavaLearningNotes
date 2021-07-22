@@ -29,6 +29,7 @@ class CollectionComparison {
                 ArrayList::new, BerylliumSphere::new, 5);
         System.out.println(sphereList);
         System.out.println(sphereList.get(4));
+
         int[] integers = {0, 1, 2, 3, 4, 5};
         show(integers);
         System.out.println(integers[4]);

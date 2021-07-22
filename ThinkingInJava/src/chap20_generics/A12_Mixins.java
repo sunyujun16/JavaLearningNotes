@@ -5,9 +5,9 @@ import java.util.*;
 interface TimeStamped {
     long getStamp();
 
-//    default String getName(){
-//        return "TimeStampedImp";
-//    }
+    default String getName(){
+        return "TimeStampedImp";
+    }
 }
 
 class TimeStampedImp implements TimeStamped {
@@ -25,10 +25,10 @@ class TimeStampedImp implements TimeStamped {
 
 interface SerialNumbered {
     long getSerialNumber();
-//
-//    default String getName(){
-//        return "SerialNumbered";
-//    }
+
+    default String getName(){
+        return "SerialNumbered";
+    }
 }
 
 class SerialNumberedImp implements SerialNumbered {
@@ -44,9 +44,9 @@ class SerialNumberedImp implements SerialNumbered {
 interface Basic {
     void set(String val);
 
-//    default String getName(){
-//        return "BasicImp";
-//    }
+    default String getName(){
+        return "BasicImp";
+    }
 
     String get();
 }
@@ -77,6 +77,11 @@ class Mixin extends BasicImp implements TimeStamped, SerialNumbered {
     @Override
     public long getSerialNumber() {
         return serialNumber.getSerialNumber();
+    }
+
+    @Override
+    public String getName() {
+        return null;
     }
 }
 

@@ -64,8 +64,9 @@ class DynamicProxyMixin {
 
 
         // 万一这几个类包含同样的方法名咋整?
-//        System.out.println(b.getName()+" "+t.getName()+" "+s.getName());
+        System.out.println(b.getName()+" "+t.getName()+" "+s.getName());
         // 结果: BasicImp BasicImp BasicImp 跟我想得一样.
+        // Map中键是唯一的, 所以对每个方法名称只能存储一种调用.
     }
 }
 

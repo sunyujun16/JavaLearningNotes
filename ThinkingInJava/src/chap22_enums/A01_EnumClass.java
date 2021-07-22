@@ -19,7 +19,8 @@ class EnumClass {
             System.out.println(s.name());
             System.out.println("********************");
         }
-// Produce an enum value from a String name:
+
+        // Produce an enum value from a String name:
         for (String s :
                 "HANGING CRAWLING GROUND".split(" ")) {
             Shrubbery shrub =

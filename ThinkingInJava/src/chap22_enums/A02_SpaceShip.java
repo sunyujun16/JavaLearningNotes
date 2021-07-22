@@ -9,7 +9,7 @@ enum SpaceShip {
     @Override
     public String toString() {
         String id = name();
-        String lower = id.substring(1).toLowerCase(); // 1:下标左边界
+        String lower = id.substring(1).toLowerCase(); // 1代表下标的左边界
         return id.charAt(0) + lower;
     }
 

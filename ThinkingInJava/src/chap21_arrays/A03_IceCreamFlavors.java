@@ -7,8 +7,7 @@ import java.util.*;
 import static onjava.ArrayShow.*;
 
 class IceCreamFlavors {
-    private static SplittableRandom rand =
-            new SplittableRandom(47);
+    private static SplittableRandom rand = new SplittableRandom(47);
     static final String[] FLAVORS = {
             "Chocolate", "Strawberry", "Vanilla Fudge Swirl",
             "Mint Chip", "Mocha Almond Fudge", "Rum Raisin",
