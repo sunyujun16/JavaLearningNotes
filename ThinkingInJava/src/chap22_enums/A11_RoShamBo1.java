@@ -4,7 +4,7 @@ import java.util.*;
 
 import static chap22_enums.Outcome.*;
 
-enum Outcome {WIN, LOSE, DRAW}
+enum Outcome {WIN, LOSE, DRAW} // 由于要直接使用实例的字面量, 所以import了一下.
 
 interface Item {
     Outcome compete(Item it);
@@ -30,6 +30,7 @@ class Paper implements Item {
     @Override
     public Outcome eval(Scissors s) {
         return WIN;  // 我草了...这种反人类的逻辑.
+        // 怎么改才不反人类呢? 应该把compete的逻辑改一下, return 反的结果;
     }
 
     @Override
@@ -120,7 +121,7 @@ class RoShamBo1 {
 
     public static void main(String[] args) {
         for (int i = 0; i < SIZE; i++)
-            match(newItem(), newItem());
+            match(newItem(), newItem()); // 两个Item类型均随机, 多路分发登场.
     }
 }
 

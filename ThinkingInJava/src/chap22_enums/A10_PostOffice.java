@@ -154,8 +154,7 @@ class PostOffice {
 
     static void handle(Mail m) {
         for (MailHandler handler : MailHandler.values())
-            if (handler.handle(m))
-                return;
+            if (handler.handle(m)) return; // 第一个true就return停止循环.
         System.out.println(m + " is a dead letter");
     }
 
@@ -163,7 +162,7 @@ class PostOffice {
         for (Mail mail : Mail.generator(10)) {
             System.out.println(mail.details());
             handle(mail);
-            System.out.println("*****");
+            System.out.println(" * * * * *");
         }
     }
 }

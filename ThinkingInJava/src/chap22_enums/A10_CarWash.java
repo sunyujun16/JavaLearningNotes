@@ -45,6 +45,11 @@ class CarWash {
             void action() {
                 System.out.println("Blowing dry");
             }
+
+            // 可以重载.
+            void action(String s) {
+                System.out.println("Blowing dry");
+            }
         };
 
         abstract void action();
