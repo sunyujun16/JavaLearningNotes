@@ -14,7 +14,7 @@ class ParallelPrime {
     static final int COUNT = 100_000;
 
     public static boolean isPrime(long n) {
-        return rangeClosed(2, (long) Math
+        return rangeClosed(2, (long) Math // 注意这个closed是必须的.
                 .sqrt(n)).noneMatch(i -> n % i == 0);
     }
 
@@ -32,7 +32,7 @@ class ParallelPrime {
         // 14506 ms for parallel. when COUNT is 1_000_000.
         // 40300 ms for non_parallel.
 
-        // 使用primes, 防止高级编译器因为觉得结果没啥用而停止计算.
+        // 使用一下primes, 防止高级编译器因为觉得结果没啥用而停止计算.
         Files.write(Paths.get("ThinkingInJava/src/" +
                         "chap24_concurrent/primes.txt"),
                 primes, StandardOpenOption.CREATE);

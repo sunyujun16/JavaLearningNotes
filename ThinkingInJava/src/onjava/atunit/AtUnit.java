@@ -22,13 +22,22 @@ public class AtUnit implements ProcessFiles.Strategy {
     static long failures = 0;
 
     public static void main(String[] args) throws Exception {
+        args = new String[]{
+                "ThinkingInJava/src/chap23_annotations/AtUnitExample1",
+                "ThinkingInJava/src/chap23_annotations/AUExternalTest",
+                "ThinkingInJava/src/chap23_annotations/AtUnitExample2",
+        };
+
         ClassLoader.getSystemClassLoader()
                 .setDefaultAssertionStatus(true); // Enable assert
         new ProcessFiles(new AtUnit(), "class").start(args);
+        // 在这一步, AtUnit对象作为一个strategy被传入ProcessFiles. 并在其start()
+        // 内部被调用strategy.process()方法. 这应该是一个设计模式...装饰器!!!
 
-        System.out.println("什么鬼????????????");
-        System.out.println("改完没JB编译, 什么什么鬼, 傻逼.....");
+//        System.out.println("什么鬼????????????");
+//        System.out.println("改完没JB编译, 什么什么鬼, 傻逼.....");
 
+        System.out.println("Final results 如下:");
         if (failures == 0)
             System.out.println("OK (" + testsRun + " tests)");
         else {
@@ -53,7 +62,7 @@ public class AtUnit implements ProcessFiles.Strategy {
             cName = cName.split(":")[1];
             if (!cName.contains("."))
                 return; // Ignore unpackaged classes
-            testClass = Class.forName(cName); // 获取要测试对象的Class对象
+            testClass = Class.forName(cName); // 终于获取要测试类的Class对象
         } catch (IOException | ClassNotFoundException e) {
             throw new RuntimeException(e);
         }
@@ -85,11 +94,11 @@ public class AtUnit implements ProcessFiles.Strategy {
                 }
             System.out.println(testClass.getName());
         }
-        // 现在生成对象的方法有了,测试方法也找到了. 下面开始调用要测试的方法
+        // 现在生成对象的方法有了, 测试方法也找到了. 下面开始调用要测试的方法
         for (Method m : testMethods) {
             System.out.print("  . " + m.getName() + " ");
             try {
-                // creator是null的情况被创建testObject在内部解决了.
+                // creator是null的情况被创建createTestObject在内部解决了.
 //                creator = null;
 //                System.out.println("现在使用creator...........");
                 Object testObject = createTestObject(creator);
@@ -135,6 +144,7 @@ public class AtUnit implements ProcessFiles.Strategy {
         }
     }
 
+    // 针对@TestObjectCreated注解, 使用该注解的方法应该用于创建对象.
     private static Method checkForCreatorMethod(Method m) {
         if (m.getAnnotation(TestObjectCreate.class) == null)
             return null;

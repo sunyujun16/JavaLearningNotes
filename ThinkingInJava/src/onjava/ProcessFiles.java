@@ -35,11 +35,13 @@ public class ProcessFiles {
                     else {
                         // Allow user to leave off extension:
                         if (!arg.endsWith("." + ext))
-                            arg += "." + ext;
+                            arg += "." + ext; // arg 发生变化咯.
                         System.out.println("Into start() else::::");
                         strategy.process(
                                 new File(arg).getCanonicalFile());
                     }
+                    System.out.println("\n---------------------------" +
+                            "------------------------------\n");
                 }
         } catch (IOException e) {
             throw new RuntimeException(e);
