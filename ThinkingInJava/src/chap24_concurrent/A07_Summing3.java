@@ -13,7 +13,7 @@ class Summing3 {
 
     // Approximate largest value of SZ before
     // running out of memory on my machine:
-    public static final int SZ = 10_000_000;
+    public static final int SZ = 20_000_000;
     public static final long CHECK =
             (long) SZ * ((long) SZ + 1) / 2;
 

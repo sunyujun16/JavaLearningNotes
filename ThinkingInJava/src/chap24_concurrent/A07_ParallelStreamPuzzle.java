@@ -1,5 +1,7 @@
 package chap24_concurrent;
 
+import onjava.Nap;
+
 import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.*;
@@ -10,14 +12,17 @@ class ParallelStreamPuzzle {
         private int current = 0;
 
         public Integer get() {
+            new Nap(0.01); // 使得资源读写更混乱.
             return current++;
         }
     }
 
+    // 自己加的
     static class SafeIntGenerator implements Supplier<Integer> {
         private AtomicInteger current = new AtomicInteger(0);
 
         public Integer get() {
+            new Nap(0.01); // Atomic并不能阻止混乱的发生.
             return current.getAndIncrement();
         }
     }

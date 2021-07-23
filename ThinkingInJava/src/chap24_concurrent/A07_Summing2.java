@@ -14,7 +14,7 @@ class Summing2 {
     // Approximate largest value of SZ before
     // running out of memory on mymachine:20_000_000
     // Not mine, 嗯哼
-    public static final int SZ = 10_000_000;
+    public static final int SZ = 50_000_000;
     public static final long CHECK = (long) SZ * ((long) SZ + 1) / 2;
 
     public static void main(String[] args) {
