@@ -1,5 +1,7 @@
 package chap24_concurrent;
 
+import onjava.Nap;
+
 import java.util.*;
 import java.util.concurrent.*;
 import java.util.stream.*;
@@ -13,6 +15,7 @@ class Futures {
         Future<Integer> f =
                 exec.submit(new CountingTask(99));
 
+//        new Nap(1);
         System.out.println(f.get()); // [1] it waits.
         exec.shutdown();
     }

@@ -41,9 +41,10 @@ class LambdasAndMethodReferences {
             System.out.println("Lambda2");
             return 1;
         });
-        Future f = exec.submit(new NotCallable()::get);
+        Future<Integer> f = exec.submit(new NotCallable()::get);
         exec.shutdown();
 
+        // 后面全部是自己添加
         try {
             System.out.println(f.get());
         } catch (ExecutionException e) {

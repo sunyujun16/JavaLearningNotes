@@ -13,10 +13,9 @@ class CountingTask implements Callable<Integer> {
 
     @Override
     public Integer call() {
-        Integer val = 0; // 局部变量似乎就安全了...吧
+        Integer val = 0; // 局部变量似乎就安全了吧...当然安全, 因为没有别人访问这个变量
         for (int i = 0; i < 100; i++)
             val++;
-        new Nap(1);
         System.out.println(id + " " +
                 Thread.currentThread().getName() + " " + val);
         return val;
