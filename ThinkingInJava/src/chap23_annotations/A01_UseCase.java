@@ -7,7 +7,7 @@ import java.lang.annotation.*;
 @interface UseCase {
     int id();
 
-    String description() default "no description";
+    String description() default "default no description";
 }
 
 public class A01_UseCase {

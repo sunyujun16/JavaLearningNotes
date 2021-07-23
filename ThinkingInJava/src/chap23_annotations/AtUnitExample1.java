@@ -4,7 +4,7 @@ import onjava.atunit.*;
 import onjava.*;
 
 
-// 必须public,因为主程序在onjava包内.
+// 必须public, 因为主程序在onjava包内, 需要获取这个类.
 public class AtUnitExample1 {
     public String methodOne() {
         return "This is methodOne";

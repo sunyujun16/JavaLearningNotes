@@ -8,7 +8,7 @@ public class Multiplier {
     public int multiply(int x, int y) {
         int total = 0;
         for (int i = 0; i < x; i++)
-            total = add(total, y);  // 孔明, 这是为何?
+            total = add(total, y);  // 孔明, 这是为何? // 云长, 我也不知道.
         return total;
     }
 

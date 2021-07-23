@@ -6,6 +6,8 @@ import javax.lang.model.element.*;
 import java.lang.annotation.Annotation;
 import java.util.*;
 
+//命令行: javac -processor chap23_annotations.simplest.SimpleProcessor chap23_annotations/simplest/SimpleTest.java
+
 @SupportedAnnotationTypes("chap23_annotations.simplest.Simple")
 @SupportedSourceVersion(SourceVersion.RELEASE_15)
 public class SimpleProcessor extends AbstractProcessor {

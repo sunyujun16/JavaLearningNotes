@@ -8,6 +8,7 @@ import java.util.*;
 import java.util.stream.*;
 import java.io.*;
 
+// javac -processor chap23_annotations.ifx.IfaceExtractorProcessor chap23_annotations/ifx/Multiplier.java
 // 提取公共方法, 并用这些公共方法生成一个接口.
 @SupportedAnnotationTypes(
         "chap23_annotations.ifx.ExtractInterface")
