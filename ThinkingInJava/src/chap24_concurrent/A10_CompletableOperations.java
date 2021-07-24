@@ -1,8 +1,11 @@
 package chap24_concurrent;
 
 import onjava.Nap;
+import org.hamcrest.core.IsAnything;
 
+import java.util.ArrayList;
 import java.util.concurrent.*;
+import java.util.stream.IntStream;
 
 import static chap24_concurrent.CompletableUtilities.*;
 //import static onjava.CompletableUtilities.*;
@@ -12,6 +15,9 @@ class CompletableOperations {
         return
                 CompletableFuture.completedFuture(
                         Integer.valueOf(i));
+    }
+
+    static class AnyThing{
     }
 
     public static void main(String[] args) {
@@ -34,12 +40,13 @@ class CompletableOperations {
         showr(cfi(5).thenApplyAsync(i -> i + 42)); // 47
         showr(cfi(6).thenComposeAsync(i -> cfi(i + 99))); // 105
 
-        // 没有join, 所以回调被主线程给干掉了. 不过TM的电脑风扇咋转得起劲呢???
+        // 没有join, 则回调被主线程给干掉. 不过TM的电脑风扇咋转得起劲呢???
         // 如果用showr()包装起来, 那么回调就只在showr()内部实现, 主线程仍要等待.
+        // 复习补充更合理的理解是: showr()本身是在主线程被调用的.
         cfi(100).thenApplyAsync(i -> {
             new Nap(1);
             System.out.println("* This never happens? .......嘿嘿");
-            return 666;
+            return new AnyThing(); // 返回值类型并不受限制, 如果不使用它的话.
         });
 
         CompletableFuture<Integer> c = cfi(7);
@@ -58,12 +65,13 @@ class CompletableOperations {
 
         c = new CompletableFuture<>();
 
-        // 这个被cancel()直接干掉了.
+        // 这个被cancel()直接干掉了.this will be fucked.#
         c.thenApplyAsync(i -> {
             new Nap(1);
             System.out.println("* And this happens? .......吼吼");
             return 888;
         });
+        // 但是后台的程序并不会凭空消失, 最后一行输出可以证明.
 
         c.cancel(true);
         System.out.println("cancelled: " + c.isCancelled());
@@ -82,10 +90,10 @@ class CompletableOperations {
         c = new CompletableFuture<>();
         System.out.println(c.getNow(777)); // 获取完成值, 否则777
 
-        c = new CompletableFuture<>();
+//        c = new CompletableFuture<>();
         c.thenApplyAsync(i -> i + 42)
                 .thenApplyAsync(i -> i * 12); // 这里只会生成1个dependent.
-        // 这时调用get()程序会永远硬直. 不知道内存会不会耗尽, 没试.
+        // 这时调用get()程序会永远硬直. 不知道内存会不会耗尽.
         System.out.println(c); // [Not completed, 1 dependents]
 
         System.out.println("dependents: " +
@@ -107,7 +115,9 @@ class CompletableOperations {
 //        showr(c);
 //        System.out.println("----☝----");
 
-        // 那TM咋用?
+        // 还是不行.
+        c.complete(1);
+        showr(c);
 
         System.out.println("到此一停, 等嘿嘿那个sb");
         new Nap(1); //等着前面那个嘿嘿的sb执行完.

@@ -13,6 +13,7 @@ class DualCompletableOperations {
         cfA = Workable.make("A", 0.15);
         cfB = Workable.make("B", 0.10); // Always wins
 //        new Nap(0.2);
+        // 注意, 由于返回值不依赖AB的结果, 所以尽管init在主线程运行, 但不会等待赋值完成.
     }
 
     static void join() {
@@ -27,17 +28,17 @@ class DualCompletableOperations {
 //        new Nap(0.5);
 //        System.out.println("?????????????????");
 
-        init(); // 内部延迟,所以下面那句直接先执行并等待着A或B的生成.
+        init(); // 内部代码在后台执行,所以下面那句直接先执行并等待着A或B的生成.
         voidr(cfA.runAfterEitherAsync(cfB, () ->
                 System.out.println("runAfterEither")));
-        join();
+        join(); // 卡住身位, 等待A和B完成.
 
         init();
         voidr(cfA.runAfterBothAsync(cfB, () ->
                 System.out.println("runAfterBoth")));
         join();
 
-        // 在show之前, A没有执行?
+        // 在show之前, A没有执行? // A只是还没执行完而已.
         init();
         showr(cfA.applyToEitherAsync(cfB, w -> {
             System.out.println("applyToEither: " + w);
@@ -75,10 +76,11 @@ class DualCompletableOperations {
         CompletableFuture.anyOf(cfA, cfB, cfC, cfD)
                 .thenRunAsync(() ->
                         System.out.println("anyOf"));
-        join();
+        join(); // D在B完成后才获得可用线程, 因为除了main, 我的可用线程只有三个.
 
 //        new Nap(1);
 
+        // AB在这获得两个线程, but上面的D还差0.03秒, 线程满了, so下面的CD得等着.
         init();
         cfC = Workable.make("C2", 0.08);
         cfD = Workable.make("D2", 0.09);
@@ -92,13 +94,14 @@ class DualCompletableOperations {
         // 至于C2为什么在B后面, 是因为D1霸占了一个线程刚好快要执行完毕但没有, 导致C2也
         // 发生0.02秒的等待, 加上程序执行的一点时间, 刚好和B的0.1秒前后脚.
         // 那么根据这个思路我们在-----------分隔行的下面添加一点代码.
-        join();
+        join(); // AB在此join,但是和allOf不发生关系.allOf不会像thenAccept一样等着.
 
-        // 给D2和allOf充分执行的时间, 才能看到他俩的结果.
-        new Nap(1);
+        // 所以要给allOf充分的执行的时间, 才能在------之前看到结果.
+        new Nap(0.1);
         System.out.println("-----------------------------");
 
-        // 把CD的时间大幅减少, 避免等待线程导致的时间交错, 这次应该能正常运行了.
+        // 把CD的时间大幅减少, 避免线程不足导致的时间交错, 让EF赶在join之前都抓紧
+        // 完成, 这次应该能正常运行了.
         init();
         CompletableFuture<Workable>
                 cfE = Workable.make("E1", 0.01);

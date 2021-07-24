@@ -21,7 +21,7 @@ class Workable {
     public static Workable work(Workable tt) {
         new Nap(tt.duration); // Seconds
         tt.id = tt.id + "W";
-        System.out.println(tt);
+        System.out.println(tt + " in work().");
         return tt;
     }
 
