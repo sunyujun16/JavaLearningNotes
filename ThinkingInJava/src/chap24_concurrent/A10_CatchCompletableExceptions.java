@@ -59,6 +59,7 @@ class CatchCompletableExceptions {
 
 
         // 尝试访问源码的result成员变量, 但没有权限, 应该是涉及安全问题...
+        // 算了, 放弃了...不要在这耽误时间了!!!!!!!!!!!!!!!!!!
 //        try {
 //            Field ob = CompletableExceptions
 //                    .test("whenCompl------te", failcount)
@@ -72,9 +73,6 @@ class CatchCompletableExceptions {
 //        } catch (Exception e) {
 //            e.printStackTrace();
 //        }
-
-
-//        new Nap(0.2); // 没并发, 你搁这等鸡毛呢?
     }
 
     private static <T> CompletableFuture<T> testNull(T s) {
