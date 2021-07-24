@@ -22,7 +22,7 @@ class Breakable {
     public static Breakable work(Breakable b) {
         if (--b.failcount == 0) {
             System.out.println(
-                    "Throwing Exception for " + b.id + " 的异常");
+                    "About to throw Exception for " + b.id + " 的异常");
             throw new RuntimeException(
                     "Breakable_" + b.id + " failed");
         }

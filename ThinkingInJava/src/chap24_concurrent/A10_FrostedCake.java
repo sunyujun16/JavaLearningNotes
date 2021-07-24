@@ -39,6 +39,7 @@ class FrostedCake {
         // 这里不关心线程资源的分配和等待问题, 因为执行顺序并不重要, 让系统按需分配线程
         // 就完了.
 
+        // ++
         Timer timer = new Timer();
         Baked.batch().forEach(b -> b.thenRunAsync(() ->
                 System.out.println(b))

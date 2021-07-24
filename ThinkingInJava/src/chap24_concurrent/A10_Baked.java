@@ -13,16 +13,17 @@ class Baked {
 
     static Pan pan(Batter b) {
         new Nap(0.1);
+        System.out.println("panning");
         return new Pan();
     }
 
     static Baked heat(Pan p) {
         new Nap(0.1);
+        System.out.println("heating");
         return new Baked();
     }
 
-    static CompletableFuture<Baked>
-    bake(CompletableFuture<Batter> cfb) {
+    static CompletableFuture<Baked> bake(CompletableFuture<Batter> cfb) {
         return cfb
                 .thenApplyAsync(Baked::pan)
                 .thenApplyAsync(Baked::heat);
@@ -33,8 +34,8 @@ class Baked {
         Timer timer = new Timer();
         CompletableFuture<Batter> batter = Batter.mix(); // 0.2s?
         System.out.println("-:-:- " + timer.duration()); // 竟然花费了0.4s
-        return Stream.of(bake(batter), bake(batter),
-                bake(batter), bake(batter));
+        return Stream.<CompletableFuture<Baked>>of(bake(batter),
+                bake(batter), bake(batter), bake(batter));
         // 每个bake花费0.2s,那么这句用了多少? 在FrostedCake里差不多也是0.2 说明还是并发的.
         // 但是并发发生在batch内部.因为return语句本身并不是Async的.
         // 又错了. mix花费0.4s,说明return根本没消耗时间.
@@ -49,28 +50,30 @@ class Baked {
         for (int i = 0; i < 20; i++) {
             Stream.of(bake(batter), bake(batter),
                     bake(batter), bake(batter))
-                    .forEach(b -> {});
+                    .forEach(b -> {
+                        // 注释掉之后, 发现根本就不执行bake(), 编译器的优化吧应该是.
+//                        try {
+//                            System.out.print(b.get());
+//                        } catch (Exception e) {
+//                            e.printStackTrace();
+//                        }
+                    });
+        }
+        System.out.println("\n"+timer.duration() + "---------------");
+
+        timer.resetTime();
+        for (int i = 0; i < 2; i++) {
+            System.out.println(bake(batter)); // Not Complete全是.
         }
         System.out.println(timer.duration());
 
-        timer.resetTime();
-        for (int i = 0; i < 1; i++) {
-            System.out.println(bake(batter));
-        }
-        System.out.println(timer.duration());
-
 
         timer.resetTime();
-        for (int i = 0; i < 20; i++) {
-            Stream.of(bake(batter), bake(batter),
-                    bake(batter), bake(batter).join())
+        for (int i = 0; i < 10; i++) {
+            Stream.of(bake(batter), bake(batter).join())
                     .forEach(b -> {
                     }); // 4个join是:21581 ms 我草...什么鬼?
-            // 为什么这里执行超级慢? 因为全部在主线程, 这里就计算出来了, 但是
-            // 完全是因为join影响的.
-            // 只加一个join是13.5s, 平均每个循环是0.7s左右, 但是肯定
-            // 受之前的几块没执行完的影响了, 所以这里不想继续研究了.没意义.
-            // 总之结论就是, 没有join的bake是立即返回的.剩下的就在线程里默默运行
+            // 总之结论就是, 没有join也没有被使用的bake是不执行的.
         }
         System.out.println(timer.duration());
 
