@@ -5,6 +5,8 @@ package chap25_patterns.state;
 
 import onjava.Nap;
 
+import java.util.concurrent.CompletableFuture;
+
 interface State {
     void run();
 }
@@ -17,6 +19,7 @@ abstract class StateMachine {
     // Template method:
     protected final void runAll() {
         while (changeState()) // Customizable,这个思维模式值得寻味,有高度.
+//            CompletableFuture.runAsync(currentState::run);
             currentState.run();
     }
 }

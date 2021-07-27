@@ -51,7 +51,7 @@ class SingletonPattern {
         try {
 
         // Can't do this: compile-time error.
-        // Singleton s3 = (Singleton)s2.clone();
+//         Singleton s3 = (Singleton)s2.clone();
         } catch (Exception e) {
             throw new RuntimeException(e);
         }

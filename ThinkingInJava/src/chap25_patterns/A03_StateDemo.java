@@ -92,11 +92,11 @@ class StateDemo {
     public static void main(String[] args) {
         StateBase b =
                 new State(new Implementation1());
-        test(b);
+        test(b); // 在内部调用对象
 
-        b.changeImp(new Implementation2());
+        b.changeImp(new Implementation2()); // 切换内部对象.
 
-        test(b);
+        test(b); // 再次在内部调用对象
     }
 }
 

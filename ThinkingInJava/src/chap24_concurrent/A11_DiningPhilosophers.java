@@ -29,7 +29,7 @@ class DiningPhilosophers {
 
     public static void main(String[] args) {
         // Returns right away:
-        new DiningPhilosophers(5); // [4] 改成2个比较容易上锁, 俩人抢得欢.
+        new DiningPhilosophers(2); // [4] 改成2个比较容易上锁, 俩人抢得欢.
 
         // Keeps main() from exiting:
         new Nap(3, "Shutdown");

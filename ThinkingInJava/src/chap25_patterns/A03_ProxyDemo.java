@@ -1,7 +1,7 @@
 package chap25_patterns;
 
 // Simple demonstration of the Proxy pattern
-interface ProxyBase {
+interface ProxyBase { // 这个名字叫AnyBase更好.
     void f();
 
     void g();

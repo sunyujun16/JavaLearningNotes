@@ -41,22 +41,20 @@ class NastyWeapon implements Obstacle {
 }
 
 // The Abstract Factory:
-class GameElementFactory {
+abstract class GameElementFactory {
     Supplier<Player> player;
     Supplier<Obstacle> obstacle;
 }
 
 // Concrete factories:
-class KittiesAndPuzzles
-        extends GameElementFactory {
+class KittiesAndPuzzles extends GameElementFactory {
     KittiesAndPuzzles() {
         player = Kitty::new;
         obstacle = Puzzle::new;
     }
 }
 
-class KillAndDismember
-        extends GameElementFactory {
+class KillAndDismember extends GameElementFactory {
     KillAndDismember() {
         player = KungFuGuy::new;
         obstacle = NastyWeapon::new;

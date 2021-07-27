@@ -3,11 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="7ad74665-bec8-49cd-a749-d0754b62935a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A10_Baked.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A10_Baked.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A10_Breakable.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A10_Breakable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A10_CatchCompletableExceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A10_CatchCompletableExceptions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A10_CompletableExceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A10_CompletableExceptions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A10_FrostedCake.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A10_FrostedCake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A11_DiningPhilosophers.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A11_DiningPhilosophers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/A01_SingletonPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/A01_SingletonPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/A03_ProxyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/A03_ProxyDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/A03_StateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/A03_StateDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/abstractfactory/GameEnvironment.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/abstractfactory/GameEnvironment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/shapes/FactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/shapes/FactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/state/StateMachineDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/state/StateMachineDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,28 +44,98 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A10_Breakable.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/A03_ProxyDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="150">
+              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A10_CompletableExceptions.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/A03_StateDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            <state relative-caret-position="402">
+              <caret line="88" column="14" lean-forward="true" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
+              <folding>
+                <element signature="class#Implementation1#0" />
+                <element signature="class#Implementation2#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/state/StateMachineDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-378">
+              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/shapes/FactoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/shapes/ShapeFactory1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/shapes/ShapeFactory2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="24" column="61" lean-forward="true" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/shapes/ShapeFactory3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="469">
+              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/abstractfactory/GameEnvironment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="61" column="1" lean-forward="true" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/A05_CommandPattern.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A10_CatchCompletableExceptions.java">
+        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/strategy/StrategyPattern.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="528">
+              <caret line="50" column="53" lean-forward="true" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -98,16 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap22_enums/A01_EnumClass.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap22_enums/A01_SpicinessEnum.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap22_enums/A02_SpaceShip.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap22_enums/A03_TrafficLight.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap22_enums/A04_Reflection.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap22_enums/A04_UpcastEnum.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap22_enums/A05_EnumImplementation.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap22_enums/A8_BigEnumSet.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap22_enums/A09_EnumMaps.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap22_enums/A10_PostOffice.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap22_enums/A10_VendingMachine.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap22_enums/A11_RoShamBo1.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap22_enums/A10_CarWash.java" />
@@ -145,10 +207,20 @@
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A10_Batter.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A10_Baked.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A10_FrostedCake.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A10_CatchCompletableE.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A10_CatchCompletableExceptions.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A10_CompletableExceptions.java" />
         <option value="$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A10_Breakable.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A10_CatchCompletableExceptions.java" />
-        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A10_CatchCompletableE.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A11_DiningPhilosophers.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/A01_SingletonPattern.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/A02_TemplateMethod.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/A03_ProxyDemo.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/A03_StateDemo.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/state/StateMachineDemo.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/shapes/FactoryTest.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/shapes/ShapeFactory3.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/abstractfactory/GameEnvironment.java" />
+        <option value="$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/A05_CommandPattern.java" />
       </list>
     </option>
   </component>
@@ -172,7 +244,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -190,285 +261,92 @@
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap24_concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="chap25_patterns" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap24_concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="A07_CollectionIntoStream.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="chap25_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="abstractfactory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap24_concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="A07_ParallelPrime.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="chap25_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="shapes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap24_concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="A07_ParallelStreamPuzzle.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="chap25_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="shapes" type="462c0819:PsiDirectoryNode" />
+              <item name="ShapeFactory3.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap24_concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="A07_ParallelStreamPuzzle2.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="chap25_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="state" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap24_concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="A07_ParallelStreamPuzzle3.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="chap25_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap24_concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="A07_Summing.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="chap25_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy" type="462c0819:PsiDirectoryNode" />
+              <item name="StrategyPattern.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap24_concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="A07_Summing2.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="chap25_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="A01_SingletonPattern.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap24_concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="A07_Summing3.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="chap25_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="A02_TemplateMethod.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap24_concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="A07_Summing4.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="chap25_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="A03_ProxyDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap24_concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="A08_CachedThreadPool.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="chap25_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="A03_StateDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap24_concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="A08_CachedThreadPool2.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap24_concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="A08_CachedThreadPool3.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap24_concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="A08_CountingStream.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap24_concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="A08_CountingTask.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap24_concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="A08_Futures.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap24_concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="A08_InterferingTask.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap24_concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="A08_LambdasAndMethodReferences.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap24_concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="A08_MoreTasksAfterShutdown.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap24_concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="A08_NapTask.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap24_concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="A08_SingleThreadExecutor.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap24_concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="A08_SingleThreadExecutor2.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap24_concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="A08_SingleThreadExecutor3.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap24_concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="A09_QuittableTask.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap24_concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="A09_QuittingTasks.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap24_concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="A10_Batter.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap24_concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="A10_Breakable.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap24_concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="A10_CatchCompletableExceptions.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap24_concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="A10_CompletableApply.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap24_concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="A10_CompletableApplyAsync.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap24_concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="A10_CompletableApplyChained.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap24_concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="A10_CompletableExceptions.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap24_concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="A10_CompletableOperations.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap24_concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="A10_CompletableUtilities.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap24_concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="A10_CompletedMachina.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap24_concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="A10_DualCompletableOperations.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap24_concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="A10_FrostedCake.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap24_concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="A10_Machina.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap24_concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="A10_QuittingCompletable.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="JavaLearningNotes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chap24_concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="A10_Workable.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="chap25_patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="A05_CommandPattern.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -533,65 +411,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CatchCompletableExceptions">
-    <configuration name="Baked" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap24_concurrent.Baked" />
+  <component name="RunManager" selected="Application.StrategyPattern">
+    <configuration name="CommandPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap25_patterns.CommandPattern" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap24_concurrent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Batter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap24_concurrent.Batter" />
-      <module name="ThinkingInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap24_concurrent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CatchCompletableExceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap24_concurrent.CatchCompletableExceptions" />
-      <module name="ThinkingInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap24_concurrent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CompletableExceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap24_concurrent.CompletableExceptions" />
-      <module name="ThinkingInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap24_concurrent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FrostedCake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap24_concurrent.FrostedCake" />
-      <module name="ThinkingInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap24_concurrent.*" />
+          <option name="PATTERN" value="chap25_patterns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -602,6 +428,58 @@
     <configuration name="PathWatcher" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="chap17_files.PathWatcher" />
       <module name="ThinkingInJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SharedConstructorArgument" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap24_concurrent.SharedConstructorArgument" />
+      <module name="ThinkingInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap24_concurrent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap25_patterns.StateDemo" />
+      <module name="ThinkingInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap25_patterns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StateMachineDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap25_patterns.state.StateMachineDemo" />
+      <module name="ThinkingInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap25_patterns.state.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StrategyPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap25_patterns.strategy.StrategyPattern" />
+      <module name="ThinkingInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap25_patterns.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -664,19 +542,19 @@
     <list>
       <item itemvalue="Application.PathWatcher" />
       <item itemvalue="Application.StreamInAndOut" />
-      <item itemvalue="Application.Batter" />
-      <item itemvalue="Application.Baked" />
-      <item itemvalue="Application.FrostedCake" />
-      <item itemvalue="Application.CompletableExceptions" />
-      <item itemvalue="Application.CatchCompletableExceptions" />
+      <item itemvalue="Application.SharedConstructorArgument" />
+      <item itemvalue="Application.StateDemo" />
+      <item itemvalue="Application.StateMachineDemo" />
+      <item itemvalue="Application.CommandPattern" />
+      <item itemvalue="Application.StrategyPattern" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CatchCompletableExceptions" />
-        <item itemvalue="Application.CompletableExceptions" />
-        <item itemvalue="Application.FrostedCake" />
-        <item itemvalue="Application.Baked" />
-        <item itemvalue="Application.Batter" />
+        <item itemvalue="Application.StrategyPattern" />
+        <item itemvalue="Application.CommandPattern" />
+        <item itemvalue="Application.StateMachineDemo" />
+        <item itemvalue="Application.StateDemo" />
+        <item itemvalue="Application.SharedConstructorArgument" />
       </list>
     </recent_temporary>
   </component>
@@ -808,21 +686,8 @@
       <workItem from="1626913817471" duration="28022000" />
       <workItem from="1627000328545" duration="22003000" />
       <workItem from="1627050468586" duration="957000" />
-      <workItem from="1627102795464" duration="17560000" />
-    </task>
-    <task id="LOCAL-00171" summary="code everyday, job on its way!">
-      <created>1625102556215</created>
-      <option name="number" value="00171" />
-      <option name="presentableId" value="LOCAL-00171" />
-      <option name="project" value="LOCAL" />
-      <updated>1625102556216</updated>
-    </task>
-    <task id="LOCAL-00172" summary="code everyday, job on its way!">
-      <created>1625126218231</created>
-      <option name="number" value="00172" />
-      <option name="presentableId" value="LOCAL-00172" />
-      <option name="project" value="LOCAL" />
-      <updated>1625126218231</updated>
+      <workItem from="1627102795464" duration="21243000" />
+      <workItem from="1627353548836" duration="11976000" />
     </task>
     <task id="LOCAL-00173" summary="code everyday, job on its way!">
       <created>1625145886563</created>
@@ -1153,7 +1018,21 @@
       <option name="project" value="LOCAL" />
       <updated>1627113323965</updated>
     </task>
-    <option name="localTasksCounter" value="220" />
+    <task id="LOCAL-00220" summary="code everyday, job on its way!">
+      <created>1627128191951</created>
+      <option name="number" value="00220" />
+      <option name="presentableId" value="LOCAL-00220" />
+      <option name="project" value="LOCAL" />
+      <updated>1627128191952</updated>
+    </task>
+    <task id="LOCAL-00221" summary="code everyday, job on its way!">
+      <created>1627135474230</created>
+      <option name="number" value="00221" />
+      <option name="presentableId" value="LOCAL-00221" />
+      <option name="project" value="LOCAL" />
+      <updated>1627135474230</updated>
+    </task>
+    <option name="localTasksCounter" value="222" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1189,7 +1068,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1629274000" />
+    <option name="totallyTimeSpent" value="1644933000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1209,7 +1088,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" weight="0.32945737" />
-      <window_info active="true" content_ui="combo" x="50" y="142" width="376" height="938" id="Project" order="5" sideWeight="0.49736688" visible="true" weight="0.1917735" />
+      <window_info active="true" content_ui="combo" x="50" y="142" width="376" height="938" id="Project" order="5" sideWeight="0.49736688" visible="true" weight="0.19391026" />
       <window_info id="Structure" order="6" sideWeight="0.5026331" weight="0.1917735" />
       <window_info anchor="bottom" id="FundAssistant" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
@@ -1234,7 +1113,7 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Coverage" order="9" sideWeight="0.5032751" side_tool="true" weight="0.3472222" />
-      <window_info anchor="right" x="1323" y="131" width="572" height="907" id="Debug" order="10" sideWeight="0.4967249" visible="true" weight="0.37339744" />
+      <window_info anchor="right" x="1323" y="131" width="572" height="907" id="Debug" order="10" sideWeight="0.4967249" visible="true" weight="0.35576922" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1330,161 +1209,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/onjava/ProcessFiles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="36" column="53" lean-forward="true" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A07_ParallelPrime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A07_Summing3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="31" column="56" lean-forward="true" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A07_CollectionIntoStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A07_ParallelStreamPuzzle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="692">
-          <caret line="41" column="54" lean-forward="true" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/PSP2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="111" column="31" selection-start-line="111" selection-start-column="31" selection-end-line="111" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A07_ParallelStreamPuzzle2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="28" column="46" lean-forward="true" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A07_Summing2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A07_Summing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="43" column="31" lean-forward="true" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A07_ParallelStreamPuzzle3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="173" column="34" selection-start-line="173" selection-start-column="34" selection-end-line="173" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A08_SingleThreadExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A08_MoreTasksAfterShutdown.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A08_NapTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A08_CachedThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/concurrent/Executor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="721">
-          <caret line="135" column="9" selection-start-line="135" selection-start-column="9" selection-end-line="135" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A08_InterferingTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="62" lean-forward="true" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A08_Futures.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/concurrent/Callable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="64" column="30" lean-forward="true" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A08_CountingTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A07_Summing4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -1651,24 +1375,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A10_Breakable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/lang/ref/Reference.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="230" column="31" selection-start-line="230" selection-start-column="31" selection-end-line="230" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A10_CompletableExceptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -1693,20 +1403,185 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A10_CatchCompletableE.java" />
     <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/concurrent/CompletableFuture.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="869" column="36" lean-forward="true" selection-start-line="869" selection-start-column="36" selection-end-line="869" selection-end-column="36" />
+        <state relative-caret-position="338">
+          <caret line="2329" column="31" lean-forward="true" selection-start-line="2329" selection-start-column="31" selection-end-line="2329" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A10_CatchCompletableE.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A10_CompletableExceptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A10_Breakable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="26" column="53" lean-forward="true" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A10_CatchCompletableExceptions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="388">
+          <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A10_StreamExceptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A11_StickHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A11_Philosopher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A11_DiningPhilosophers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A12_SharedConstructorArgument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap24_concurrent/A12_IDChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="32" column="50" lean-forward="true" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/A01_SingletonPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="53" column="30" lean-forward="true" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/A02_TemplateMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/A03_ProxyDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/A03_StateDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="88" column="14" lean-forward="true" selection-start-line="88" selection-start-column="14" selection-end-line="88" selection-end-column="14" />
+          <folding>
+            <element signature="class#Implementation1#0" />
+            <element signature="class#Implementation2#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/state/StateMachineDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/shapes/FactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/shapes/ShapeFactory1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="995" column="24" lean-forward="true" selection-start-line="995" selection-start-column="24" selection-end-line="995" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/shapes/ShapeFactory2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="24" column="61" lean-forward="true" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/shapes/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/shapes/ShapeFactory3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/abstractfactory/GameEnvironment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="61" column="1" lean-forward="true" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/A05_CommandPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap25_patterns/strategy/StrategyPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="50" column="53" lean-forward="true" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
         </state>
       </provider>
     </entry>

@@ -9,7 +9,7 @@ class FindMinima2 {
 
     FindMinima2() {
         leastSquares();
-    } // default
+    } // set default
 
     // The various strategies:
     void leastSquares() {
