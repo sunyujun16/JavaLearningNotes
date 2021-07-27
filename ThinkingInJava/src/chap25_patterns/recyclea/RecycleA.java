@@ -33,7 +33,7 @@ abstract class Trash {
 }
 
 class Aluminum extends Trash {
-    static double val = 1.67f;
+    static double val = 1.67f; // 这个命名是好, 还是不好呢? 我觉得不好.
 
     Aluminum(double wt) {
         super(wt);
@@ -93,7 +93,7 @@ class TrashFactory {
 
     public static Trash newTrash() {
         return ttypes
-                .get(rand.nextInt(SZ))
+                .get(rand.nextInt(SZ)) // random weight.
                 .apply(rand.nextDouble());
     }
 }
