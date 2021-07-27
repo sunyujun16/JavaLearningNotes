@@ -1,5 +1,7 @@
 package chap25_patterns.adapt;
 
+import java.beans.*;
+
 class WhatIHave {
     public void g() {
     }

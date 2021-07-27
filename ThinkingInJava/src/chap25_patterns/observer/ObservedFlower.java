@@ -58,6 +58,7 @@ class Bee {
 
     // Observe openings:
     public Observer openObserver() {
+        // 覆写的是update()方法.
         return (ob, a) -> System.out.println(
                 "Bee " + name + "'s breakfast time!");
     }
@@ -98,7 +99,7 @@ public class ObservedFlower {
                 ha = new Hummingbird("A"),
                 hb = new Hummingbird("B");
 
-        // 通过addObserver, 建立了观察和被观察者的联系.
+        // 通过addObserver, 建立了观察和被观察者的联系. 他们是一一对应的.
         f.opening.addObserver(ha.openObserver());
         f.opening.addObserver(hb.openObserver());
         f.opening.addObserver(ba.openObserver());

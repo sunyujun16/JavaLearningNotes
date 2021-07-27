@@ -111,7 +111,7 @@ class ItemFactory {
     private static SplittableRandom rand =
             new SplittableRandom(47);
 
-    public static Item newItem() {
+    private static Item newItem() {
         return items.get(rand.nextInt(SZ)).get();
     }
 
