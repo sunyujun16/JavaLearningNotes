@@ -28,8 +28,7 @@ class TypeMap<T> {
     }
 }
 
-// Adapter class for callbacks
-// from ParseTrash.fillBin():
+// Adapter class for callbacks from ParseTrash.fillBin():
 class TypeMapAdapter implements Fillable {
     TypeMap<Trash> map;
 

@@ -45,7 +45,7 @@ class TrashBinSet {
     @SuppressWarnings("unchecked")
     public void sortIntoBins(List bin) {
         bin.forEach(aBin -> {
-            TypedBinMember t = (TypedBinMember) aBin;
+            TypedBinMember t = (TypedBinMember) aBin; // 接口使代码更通用
             if (!t.addToBin(binSet))
                 System.err.println("Couldn't add " + t);
         });
