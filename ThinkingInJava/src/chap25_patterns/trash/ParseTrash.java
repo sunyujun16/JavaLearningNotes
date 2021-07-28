@@ -35,11 +35,12 @@ public class ParseTrash {
         }
     }
 
-    // Special case to handle List:
+    // Special overload case to handle List directly:
     public static <T extends Trash> void
     fillBin(String pckg, List<T> bin) {
         fillBin(pckg, new FillableList<>(bin));
-        // bin引用经历了传递和赋值, 但操纵的始终是原来的List.
+        // 注意, 是适配器模式, 使得List的add方法适配到addTrash方法
+        // 注: bin引用经历了传递和赋值, 但操纵的始终是原来的List.
     }
 
     // Basic test:

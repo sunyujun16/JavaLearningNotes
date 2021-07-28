@@ -8,8 +8,10 @@ public class RecycleB {
     /** @noinspection Duplicates*/
     public static void main(String[] args) {
         List<Trash> bin = new ArrayList<>();
+
         // Fill up the Trash bin:
         ParseTrash.fillBin("trash", bin);
+
         List<Glass> glassBin = new ArrayList<>();
         List<Paper> paperBin = new ArrayList<>();
         List<Aluminum> alBin = new ArrayList<>();
@@ -30,6 +32,7 @@ public class RecycleB {
         Trash.sumValue(alBin);
         Trash.sumValue(paperBin);
         Trash.sumValue(glassBin);
+
         Trash.sumValue(bin);
     }
 }
