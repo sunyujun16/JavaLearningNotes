@@ -74,7 +74,7 @@ public abstract class Trash {
     private static List<Class> trashTypes =
             new ArrayList<>();
 
-    @SuppressWarnings("unchecked") // 这段的算法可以用Map, 像前面的案例一样.
+    @SuppressWarnings("unchecked") // 这段的算法可以用mapObj.computeIfAbsent, 像前面的案例一样.
     public static <T extends Trash> T factory(Info info) {
         for (Class trashType : trashTypes) {
             // Determine the type and create one:
@@ -102,6 +102,6 @@ public abstract class Trash {
         }
         // Loaded successfully. Recursive call
         // should work this time:
-        return factory(info);
+        return factory(info); // 递归以复用上面代码.
     }
 }
