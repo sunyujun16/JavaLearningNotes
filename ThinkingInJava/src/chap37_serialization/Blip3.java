@@ -71,6 +71,7 @@ public class Blip3 implements Externalizable {
         } catch (IOException | ClassNotFoundException e) {
             throw new RuntimeException(e);
         }
+        System.out.println();
         System.out.println(b3);
     }
 }
