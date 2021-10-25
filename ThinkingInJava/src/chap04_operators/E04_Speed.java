@@ -1,6 +1,6 @@
 package chap04_operators;
 
-import static net.mindview.util.Print.*;
+//import static net.mindview.util.Print.*;
 
 /** The code below sucks.
  *  But I ain't gonna fix it.
@@ -27,7 +27,7 @@ public class E04_Speed {
 
 
     public static void main(String[] args) {
-        print("\n");
+//        print("\n");
         E04_Speed e = new E04_Speed();
         System.out.println(e.speed());
         System.out.println(e.dblspeed());

@@ -6,10 +6,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TableCreator {
-    public static void
-    main(String[] args) throws Exception {
-        args = new String[]{"chap23_annotations." +
-                "database.Member"};
+    public static void main(String[] args) throws Exception {
+        args = new String[]{"chap23_annotations.database.Member"};
 
         if (args.length < 1) {
             System.out.println(
@@ -64,7 +62,7 @@ public class TableCreator {
                 for (String columnDef : columnDefs)
                     createCommand.append(
                             "\n " + columnDef + ",");
-                // Remove trailing comma
+                // Remove trailing comma 除掉最后一个逗号，并添加括号回。
                 String tableCreate = createCommand.substring(
                         0, createCommand.length() - 1) + ");";
                 System.out.println("Table Creation SQL for " +

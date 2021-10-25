@@ -6,14 +6,15 @@ import javax.lang.model.element.*;
 import java.lang.annotation.Annotation;
 import java.util.*;
 
-//命令行: javac -processor chap23_annotations.simplest.SimpleProcessor chap23_annotations/simplest/SimpleTest.java
+//cmd0: cd ThinkingInJava/src
+//cmd1: javac chap23_annotations/simplest/SimpleProcessor.java
+//cmd2: javac -processor chap23_annotations.simplest.SimpleProcessor chap23_annotations/simplest/SimpleTest.java
 
 @SupportedAnnotationTypes("chap23_annotations.simplest.Simple")
-@SupportedSourceVersion(SourceVersion.RELEASE_15)
+@SupportedSourceVersion(SourceVersion.RELEASE_8)
 public class SimpleProcessor extends AbstractProcessor {
     @Override
-    public boolean process(Set<? extends TypeElement> annotations,
-                           RoundEnvironment env) {
+    public boolean process(Set<? extends TypeElement> annotations, RoundEnvironment env) {
         for (TypeElement t : annotations)
             System.out.println(t);
         System.out.println("--------------finished.-----------------");

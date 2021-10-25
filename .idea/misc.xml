@@ -4,6 +4,13 @@
     <file url="file://$PROJECT_DIR$/ThinkingInJava/src/chap20_generics/A06_InstantiateGenericType.java" />
     <file url="file://$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/toys/ToyTest.java" />
   </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/ThinkingInJava/pom.xml" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="15" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>

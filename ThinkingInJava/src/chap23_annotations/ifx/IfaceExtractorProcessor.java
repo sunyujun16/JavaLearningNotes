@@ -14,8 +14,7 @@ import java.io.*;
         "chap23_annotations.ifx.ExtractInterface")
 @SupportedSourceVersion(SourceVersion.RELEASE_15)
 public class IfaceExtractorProcessor extends AbstractProcessor {
-    private ArrayList<Element>
-            interfaceMethods = new ArrayList<>();
+    private ArrayList<Element> interfaceMethods = new ArrayList<>();
     Elements elementUtils;
     private ProcessingEnvironment processingEnv;
 

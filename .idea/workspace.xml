@@ -1,12 +1,180 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ad74665-bec8-49cd-a749-d0754b62935a" name="Default Changelist" comment="">
+    <list default="true" id="7ad74665-bec8-49cd-a749-d0754b62935a" name="Default Changelist" comment="code everyday, job on its way!">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/libs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/libs/guava-23.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/libs/junit-jupiter-5.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/libs/junit-jupiter-api-5.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/libs/junit-jupiter-engine-5.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/libs/junit-jupiter-migrationsupport-5.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/libs/junit-jupiter-params-5.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/libs/junit-platform-commons-1.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/libs/junit-platform-console-1.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/libs/junit-platform-console-standalone-1.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/libs/junit-platform-engine-1.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/libs/junit-platform-jfr-1.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/libs/junit-platform-launcher-1.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/libs/junit-platform-reporting-1.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/libs/junit-platform-runner-1.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/libs/junit-platform-suite-api-1.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/libs/junit-platform-testkit-1.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/libs/junit-vintage-engine-5.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/libs/logback-access-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/libs/logback-classic-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/libs/logback-core-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/libs/mindview.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/libs/slf4j-api-1.7.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/libs/xom-1.3.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThinkingInJava/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/Blip3.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/Blip3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/ThinkingInJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/ThinkingInJava.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap04_operators/E04_Speed.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap04_operators/E04_Speed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap23_annotations/A02_UseCaseTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap23_annotations/A02_UseCaseTracker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap23_annotations/database/TableCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap23_annotations/database/TableCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap23_annotations/ifx/IfaceExtractorProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap23_annotations/ifx/IfaceExtractorProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/chap23_annotations/simplest/SimpleProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/chap23_annotations/simplest/SimpleProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/ArrayShow.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/ArrayShow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/BasicSupplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/BasicSupplier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/CollectionMethodDifferences.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/CollectionMethodDifferences.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/CollectionMethodDifferences.out" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/CollectionMethodDifferences.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/ConvertTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/ConvertTo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/Count.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/Count.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/CountMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/CountMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/CountMap.out" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/CountMap.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/CountingIntegerList.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/CountingIntegerList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/CountingIntegerList.out" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/CountingIntegerList.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/Countries.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/Countries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/Countries.out" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/Countries.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/Enums.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/Enums.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/FillMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/FillMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/HTMLColors.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/HTMLColors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/MouseClick.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/MouseClick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/Nap.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/Nap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/Null.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/Null.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/OSExecute.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/OSExecute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/OSExecuteException.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/OSExecuteException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/Operations.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/Operations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/Pair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/ProcessFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/ProcessFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/Rand.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/Rand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/Range.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/Range.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/Repeat.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/Repeat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/RmDir.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/RmDir.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/Sets.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/Sets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/Suppliers.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/Suppliers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/TestRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/TestRange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/TestRange.out" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/TestRange.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/TimedAbort.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/TimedAbort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/Timer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/Timer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/Tuple.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/Tuple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/Tuple2.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/Tuple2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/Tuple3.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/Tuple3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/Tuple4.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/Tuple4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/Tuple5.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/Tuple5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/TypeCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/TypeCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/atunit/AtUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/atunit/AtUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/atunit/ClassNameFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/atunit/ClassNameFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/atunit/ClassNameFinder.out" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/atunit/ClassNameFinder.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/atunit/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/atunit/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/atunit/TestObjectCleanup.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/atunit/TestObjectCleanup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/atunit/TestObjectCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/atunit/TestObjectCreate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/atunit/TestProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/atunit/TestProperty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/TestRange.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/TestRange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/ArrayShow.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/ArrayShow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/BasicSupplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/BasicSupplier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/CollectionMethodDifferences.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/CollectionMethodDifferences.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/ConvertTo.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/ConvertTo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Count$Boolean.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Count$Boolean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Count$Byte.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Count$Byte.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Count$Character.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Count$Character.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Count$Double.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Count$Double.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Count$Float.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Count$Float.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Count$Integer.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Count$Integer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Count$Long.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Count$Long.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Count$Pboolean.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Count$Pboolean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Count$Pbyte.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Count$Pbyte.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Count$Pchar.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Count$Pchar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Count$Pdouble.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Count$Pdouble.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Count$Pfloat.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Count$Pfloat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Count$Pint.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Count$Pint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Count$Plong.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Count$Plong.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Count$Pshort.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Count$Pshort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Count$Short.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Count$Short.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Count.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Count.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/CountMap$Entry.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/CountMap$Entry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/CountMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/CountMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/CountingIntegerList.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/CountingIntegerList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Countries$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Countries$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Countries$FlyweightMap$Entry.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Countries$FlyweightMap$Entry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Countries$FlyweightMap$EntrySet$Iter.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Countries$FlyweightMap$EntrySet$Iter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Countries$FlyweightMap$EntrySet.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Countries$FlyweightMap$EntrySet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Countries$FlyweightMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Countries$FlyweightMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Countries.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Countries.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Enums.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Enums.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/FillMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/FillMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/HTMLColors.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/HTMLColors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/MouseClick.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/MouseClick.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Nap.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Nap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Null.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Null.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/OSExecute.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/OSExecute.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/OSExecuteException.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/OSExecuteException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Operations.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Operations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Pair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/ProcessFiles$Strategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/ProcessFiles$Strategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/ProcessFiles.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/ProcessFiles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Rand$Boolean.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Rand$Boolean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Rand$Byte.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Rand$Byte.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Rand$Character.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Rand$Character.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Rand$Double.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Rand$Double.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Rand$Float.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Rand$Float.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Rand$Integer.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Rand$Integer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Rand$Long.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Rand$Long.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Rand$Pboolean.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Rand$Pboolean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Rand$Pbyte.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Rand$Pbyte.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Rand$Pchar.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Rand$Pchar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Rand$Pdouble.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Rand$Pdouble.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Rand$Pfloat.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Rand$Pfloat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Rand$Pint.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Rand$Pint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Rand$Plong.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Rand$Plong.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Rand$Pshort.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Rand$Pshort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Rand$Short.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Rand$Short.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Rand$String.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Rand$String.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Rand.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Rand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Range.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Range.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Repeat.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Repeat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/RmDir$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/RmDir$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/RmDir.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/RmDir.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Sets.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Sets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Suppliers.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Suppliers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/TimedAbort.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/TimedAbort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Timer.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Timer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Tuple.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Tuple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Tuple2.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Tuple2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Tuple3.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Tuple3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Tuple4.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Tuple4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Tuple5.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/Tuple5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/TypeCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/TypeCounter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/atunit/AtUnit$TestMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/atunit/AtUnit$TestMethods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/atunit/AtUnit.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/atunit/AtUnit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/atunit/ClassNameFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/atunit/ClassNameFinder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/atunit/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/atunit/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/atunit/TestObjectCleanup.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/atunit/TestObjectCleanup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/atunit/TestObjectCreate.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/atunit/TestObjectCreate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/atunit/TestProperty.class" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/classes/java/main/onjava/atunit/TestProperty.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/libs/onjava.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/libs/onjava.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/ThinkingInJava/src/onjava/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/META-INF/ThinkingInJava.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ThinkingInJava/chap01/HelloWorld.class" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,76 +203,6 @@
   <component name="FavoritesManager">
     <favorites_list name="JavaLearningNotes" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap32_newio/LargeMappedFiles.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap32_newio/MappedIO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/AStoreCADState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1536">
-              <caret line="133" column="32" lean-forward="true" selection-start-line="133" selection-start-column="32" selection-end-line="133" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/RecoverCADState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/SerialCtl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1155">
-              <caret line="55" column="42" lean-forward="true" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/Blips.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ThinkingInJava/src/chap37_serialization/Blip3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -129,6 +227,14 @@
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -198,6 +304,7 @@
     <option name="width" value="607" />
     <option name="height" value="531" />
   </component>
+  <component name="ProjectId" id="1yu8txJJwLtY3dWzcgHSYptDrpY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -247,6 +354,9 @@
       </pane>
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -259,9 +369,10 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/java_work/DownloadLibs/xom-1.3.7.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ThinkingInJava/libs" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -269,26 +380,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="chap29_references" />
-      <recent name="chap16_validating" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="chap16_validating" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\myProgramming\JAVA\projects\JavaLearningNotes\ThinkingInJava\libs" />
       <recent name="$PROJECT_DIR$/ThinkingInJava/src/chap20_generics" />
       <recent name="$PROJECT_DIR$/ThinkingInJava/src/chap19_typeinfo/pets" />
       <recent name="$PROJECT_DIR$/ThinkingInJava/src/generics/coffee" />
       <recent name="$PROJECT_DIR$/ThinkingInJava/src/generics" />
-      <recent name="$PROJECT_DIR$/ThinkingInJava/src" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="chap38_staticchecking" />
-      <recent name="chap18_strings" />
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ThinkingInJava/src/chap23_annotations/ifx" />
@@ -296,33 +396,20 @@
       <recent name="$PROJECT_DIR$/ThinkingInJava" />
       <recent name="$PROJECT_DIR$/" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="chap16_validating" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="chap29_references" />
+      <recent name="chap16_validating" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="chap38_staticchecking" />
+      <recent name="chap18_strings" />
+    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Blip3">
-    <configuration name="AStoreCADState" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap37_serialization.AStoreCADState" />
-      <module name="ThinkingInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap37_serialization.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.UseCaseTracker">
     <configuration name="Blip3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap37_serialization.Blip3" />
       <module name="ThinkingInJava" />
@@ -336,12 +423,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DynaTrash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap25_patterns.dynatrash.DynaTrash" />
+    <configuration name="ChangeAllPackageNames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testmain.ChangeAllPackageNames" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap25_patterns.dynatrash.*" />
+          <option name="PATTERN" value="testmain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -349,12 +436,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LargeMappedFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap32_newio.LargeMappedFiles" />
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap01.HelloWorld" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap32_newio.*" />
+          <option name="PATTERN" value="chap01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -369,12 +456,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecoverCADState" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap37_serialization.RecoverCADState" />
+    <configuration name="SimpleDynamicProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap19_typeinfo.SimpleDynamicProxy" />
       <module name="ThinkingInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap37_serialization.*" />
+          <option name="PATTERN" value="chap19_typeinfo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -390,7 +477,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+    <configuration name="UseCaseTracker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap23_annotations.UseCaseTracker" />
+      <module name="ThinkingInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap23_annotations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
       <module name="JavaLearningNotes1" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -403,7 +514,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="JavaLearningNotes1" />
       <option name="filePath" />
       <option name="vmParameters" />
@@ -440,22 +551,23 @@
     <list>
       <item itemvalue="Application.PathWatcher" />
       <item itemvalue="Application.StreamInAndOut" />
-      <item itemvalue="Application.DynaTrash" />
-      <item itemvalue="Application.LargeMappedFiles" />
-      <item itemvalue="Application.AStoreCADState" />
-      <item itemvalue="Application.RecoverCADState" />
       <item itemvalue="Application.Blip3" />
+      <item itemvalue="Application.SimpleDynamicProxy" />
+      <item itemvalue="Application.ChangeAllPackageNames" />
+      <item itemvalue="Application.HelloWorld" />
+      <item itemvalue="Application.UseCaseTracker" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UseCaseTracker" />
+        <item itemvalue="Application.SimpleDynamicProxy" />
+        <item itemvalue="Application.HelloWorld" />
+        <item itemvalue="Application.ChangeAllPackageNames" />
         <item itemvalue="Application.Blip3" />
-        <item itemvalue="Application.RecoverCADState" />
-        <item itemvalue="Application.AStoreCADState" />
-        <item itemvalue="Application.LargeMappedFiles" />
-        <item itemvalue="Application.DynaTrash" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="StructureViewFactory">
     <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
   </component>
@@ -588,6 +700,10 @@
       <workItem from="1627353548836" duration="19281000" />
       <workItem from="1627452895882" duration="14364000" />
       <workItem from="1627519064288" duration="3991000" />
+      <workItem from="1633090332379" duration="5284000" />
+      <workItem from="1633608284179" duration="779000" />
+      <workItem from="1633648083159" duration="57000" />
+      <workItem from="1635133461079" duration="14515000" />
     </task>
     <task id="LOCAL-00179" summary="code everyday, job on its way!">
       <created>1625316807968</created>
@@ -1017,7 +1133,7 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.go" />
@@ -1028,22 +1144,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -1062,6 +1163,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2021/3/12 first commit by sunyujun." />
@@ -1081,7 +1183,6 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/ThinkingInJava/src/chap08_reusing_classes/E02_Inheritance01.java</url>
           <line>169</line>
-          <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
@@ -1092,17 +1193,17 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/JavaLearningNotes$SLF4JLevels.ic" NAME="SLF4JLevels Coverage Results" MODIFIED="1622105487469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>chap16_validating.*</FILTER>
+    <SUITE FILE_PATH="coverage/JavaLearningNotes$SingleThreadExecutor.ic" NAME="SingleThreadExecutor Coverage Results" MODIFIED="1624005705778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>chap24_concurrent.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/JavaLearningNotes$AtomicSerialNumbers.ic" NAME="AtomicSerialNumbers Coverage Results" MODIFIED="1625233497836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>chap35_lowlevel.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/JavaLearningNotes$SingleThreadExecutor.ic" NAME="SingleThreadExecutor Coverage Results" MODIFIED="1624005705778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>chap24_concurrent.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/JavaLearningNotes$PizzaStreams.ic" NAME="PizzaStreams Coverage Results" MODIFIED="1624373248100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>chap24_concurrent.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JavaLearningNotes$SLF4JLevels.ic" NAME="SLF4JLevels Coverage Results" MODIFIED="1622105487469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>chap16_validating.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/JavaLearningNotes$QuittingCompletable.ic" NAME="QuittingCompletable Coverage Results" MODIFIED="1627048964488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>chap24_concurrent.*</FILTER>
@@ -1116,7 +1217,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/Map.java">
+    <entry file="jar://$PROJECT_DIR$/../../jdk-15.0.2/lib/src.zip!/java.base/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="995" column="24" lean-forward="true" selection-start-line="995" selection-start-column="24" selection-end-line="995" selection-end-column="24" />
@@ -1189,14 +1290,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/Observable.java">
+    <entry file="jar://$PROJECT_DIR$/../../jdk-15.0.2/lib/src.zip!/java.base/java/util/Observable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="186" column="32" selection-start-line="186" selection-start-column="32" selection-end-line="186" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/Observer.java">
+    <entry file="jar://$PROJECT_DIR$/../../jdk-15.0.2/lib/src.zip!/java.base/java/util/Observer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
           <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
@@ -1285,7 +1386,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/ArrayList.java">
+    <entry file="jar://$PROJECT_DIR$/../../jdk-15.0.2/lib/src.zip!/java.base/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="1504" column="16" selection-start-line="1504" selection-start-column="16" selection-end-line="1504" selection-end-column="16" />
@@ -1337,14 +1438,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/stream/ReferencePipeline.java">
+    <entry file="jar://$PROJECT_DIR$/../../jdk-15.0.2/lib/src.zip!/java.base/java/util/stream/ReferencePipeline.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="495" column="20" selection-start-line="495" selection-start-column="20" selection-end-line="495" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/stream/Stream.java">
+    <entry file="jar://$PROJECT_DIR$/../../jdk-15.0.2/lib/src.zip!/java.base/java/util/stream/Stream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="646" column="13" lean-forward="true" selection-start-line="646" selection-start-column="13" selection-end-line="646" selection-end-column="13" />
@@ -1365,7 +1466,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../java/jdk-15.0.2/lib/src.zip!/java.base/java/util/stream/IntStream.java">
+    <entry file="jar://$PROJECT_DIR$/../../jdk-15.0.2/lib/src.zip!/java.base/java/util/stream/IntStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20643">
           <caret line="1025" column="28" selection-start-line="1025" selection-start-column="27" selection-end-line="1025" selection-end-column="28" />
