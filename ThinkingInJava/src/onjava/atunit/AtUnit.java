@@ -69,15 +69,17 @@ public class AtUnit implements ProcessFiles.Strategy {
         TestMethods testMethods = new TestMethods();
         Method creator = null;
         Method cleanup = null;
+        // 对方法进行遍历和分类。
         for (Method m : testClass.getDeclaredMethods()) {
-            testMethods.addIfTestMethod(m); // 把需要测试的方法找出来保存好.
-            // 先根据创建注解和清理注解的存在与否调用两个方法, 找到并调用之后
-            // 把方法存入这两个变量, 并且在之后的循环就不需要再调用了.
+            // 把需要测试的方法找出来保存好.
+            testMethods.addIfTestMethod(m);
+            // 找到两种类型的方法，存入这两个变量, 这里显然两种方法都只有一个.
             if (creator == null)
                 creator = checkForCreatorMethod(m);
             if (cleanup == null)
                 cleanup = checkForCleanupMethod(m);
         }
+        // 在没有creator时，判断构造器是否是public.
         if (testMethods.size() > 0) {
             if (creator == null)
                 try {
@@ -178,6 +180,7 @@ public class AtUnit implements ProcessFiles.Strategy {
     }
 
     private static Object createTestObject(Method creator) {
+        // 如果定义了creator，就使用creator.
         if (creator != null) {
             try {
                 return creator.invoke(testClass);
@@ -187,7 +190,9 @@ public class AtUnit implements ProcessFiles.Strategy {
                 throw new RuntimeException("Couldn't run " +
                         "@TestObject (creator) method.");
             }
-        } else { // Use the zero-argument constructor:
+        }
+        // 如果没有定义creator，就使用无参构造器
+        else { // Use the zero-argument constructor:
             try {
                 return testClass
                         .getConstructor().newInstance();
