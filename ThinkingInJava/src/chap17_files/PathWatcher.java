@@ -1,6 +1,7 @@
 package chap17_files;
 
 import java.io.IOException;
+import java.lang.reflect.Array;
 import java.nio.file.*;
 
 import static java.nio.file.StandardWatchEventKinds.*;
@@ -29,6 +30,7 @@ public class PathWatcher {
         }
     }
 
+
     public static void main(String[] args) throws Exception {
         Directories.refreshTestDir();
         Directories.populateTestDir();
@@ -50,5 +52,8 @@ public class PathWatcher {
                             "\nevt.kind(): " + evt.kind());
             System.exit(0);
         }
+
+        int[] ints = new int[3];
+
     }
 }

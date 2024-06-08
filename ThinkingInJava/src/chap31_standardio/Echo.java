@@ -7,9 +7,8 @@ import onjava.TimedAbort;
 
 public class Echo {
     public static void main(String[] args) {
-        TimedAbort abort = new TimedAbort(2);
-        new BufferedReader(
-                new InputStreamReader(System.in))
+        TimedAbort abort = new TimedAbort(5);
+        new BufferedReader(new InputStreamReader(System.in))
                 .lines()
                 .peek(ln -> abort.restart())
                 .forEach(System.out::println);

@@ -4,7 +4,9 @@ package chap12_collections;
 
 import java.util.*;
 
+@SuppressWarnings("rawtypes")
 public class A13_MultiIterableClass extends A13_IterableClass {
+
     public Iterable<String> reversed() {
         return () -> new Iterator<>() {
             int current = words.length - 1;

@@ -1,0 +1,10 @@
+
+public class a11_streamsareautocloseable {
+    public static void main(string[] args) throws ioexception {
+        try (
+                stream<string> in = files.lines(
+                        paths.get("thinkinginjava/src/chap15_exceptions/" +
+                                "a11_streamsareautocloseable.java"));
+                printwriter outfile = new printwriter("thinkinginjava/src/chap15_exceptions/" +
+                        "results.txt"); // [1]
+        ) {
